@@ -1,8 +1,17 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1585055906108">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1587667261761">
   <folder name="css">
-    <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="4119902455" ref="index"/>
-    <file name="nomq_index.css" crc="193075828" ref="index"/>
+    <file name="site_global.css" crc="495688248"/>
+    <file name="master_c-master.css" crc="3787236848" ref="index"/>
+    <file name="nomq_preview_master_c-master.css" crc="4002692249" ref="index"/>
+    <file name="index.css" crc="91386192" ref="index"/>
+    <file name="nomq_index.css" crc="4249754634" ref="index"/>
+    <file name="iefonts_index.css" crc="3824530138" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="anchor-scroll.mulib" crc="195413691" seo="true" mt="1587491518000"/>
+    <file name="responsive_musepen_video_widget.mulib" crc="4221558049" seo="true" mt="1587492261000"/>
+    <file name="loop-02.mp4" crc="136694196" seo="true" mt="1587659357000"/>
+    <file name="loop-02-poster.png" crc="4034191347" seo="true" mt="1587660841000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -14,15 +23,62 @@
     <file name="require.js" crc="4157109226" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="icons8-instagram-50.png" crc="514632175" seo="true" ref="index">
+    <file name="desmond-bros---creative-video-agency--video-production-in-cork,-ireland-favicon.ico" crc="167952240" ref="index"/>
+    <file name="video-camera.png" crc="3898116041" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="icons8-twitter-squared-50.png" crc="4082588798" seo="true" ref="index">
+    <file name="music.png" crc="335127834" seo="true" ref="index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="photo-camera.png" crc="498943334" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="clapperboard.png" crc="439181162" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="electric_picnic_web_06-crop-u1446.jpg" crc="320699834" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="alone_web_still_03.jpg" crc="254193033" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="twisted alchemist (4)-crop-u701.jpg" crc="42820585" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="cian-headshot-01.jpg" crc="285797873" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="jack_headshot_jack_toibin_2 new.jpg" crc="4012362968" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mail.png" crc="4137060485" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u1299.png" crc="3850889130" ref="index"/>
+    <file name="u1299-r.png" crc="527619220" ref="index"/>
+    <file name="u1301.png" crc="165699426" ref="index"/>
+    <file name="u1301-r.png" crc="354836706" ref="index"/>
+    <file name="u1322.png" crc="373023493" ref="index"/>
+    <file name="u1322-r.png" crc="271815778" ref="index"/>
+    <file name="u1410.png" crc="323050084" ref="index"/>
+    <file name="u1410-r.png" crc="349127203" ref="index"/>
+    <file name="electric_picnic_web_06-crop-u14462.jpg" crc="3771030415" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="alone_web_still_03355x152.jpg" crc="97633916" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="twisted alchemist (4)-crop-u7012.jpg" crc="4036560141" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="92891317" seo="true" mt="1585054353089" redirect="true"/>
+  <file name="index.html" crc="4180139750" seo="true" mt="1587666811924" redirect="true"/>
 </manifest>
