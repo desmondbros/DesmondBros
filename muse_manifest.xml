@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1587672201385">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1587673452273">
   <folder name="css">
-    <file name="site_global.css" crc="495688248"/>
-    <file name="master_c-master.css" crc="4052347802" ref="index"/>
+    <file name="site_global.css" crc="3882564819"/>
+    <file name="master_c-master.css" crc="523983665" ref="index"/>
     <file name="nomq_preview_master_c-master.css" crc="96190760" ref="index"/>
-    <file name="index.css" crc="348075546" ref="index"/>
-    <file name="nomq_index.css" crc="526933288" ref="index"/>
+    <file name="index.css" crc="4006064945" ref="index"/>
+    <file name="nomq_index.css" crc="4178188596" ref="index"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
   </folder>
   <folder name="assets">
@@ -82,5 +82,5 @@
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="3996761278" seo="true" mt="1587672170843" redirect="true"/>
+  <file name="index.html" crc="95267935" seo="true" mt="1587673355515" redirect="true"/>
 </manifest>
