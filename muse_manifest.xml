@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1587667261761">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1587672201385">
   <folder name="css">
     <file name="site_global.css" crc="495688248"/>
-    <file name="master_c-master.css" crc="3787236848" ref="index"/>
-    <file name="nomq_preview_master_c-master.css" crc="4002692249" ref="index"/>
-    <file name="index.css" crc="91386192" ref="index"/>
-    <file name="nomq_index.css" crc="4249754634" ref="index"/>
+    <file name="master_c-master.css" crc="4052347802" ref="index"/>
+    <file name="nomq_preview_master_c-master.css" crc="96190760" ref="index"/>
+    <file name="index.css" crc="348075546" ref="index"/>
+    <file name="nomq_index.css" crc="526933288" ref="index"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
   </folder>
   <folder name="assets">
@@ -69,6 +69,8 @@
     <file name="u1322-r.png" crc="271815778" ref="index"/>
     <file name="u1410.png" crc="323050084" ref="index"/>
     <file name="u1410-r.png" crc="349127203" ref="index"/>
+    <file name="u1541.png" crc="4246032318" ref="index"/>
+    <file name="u1541-r.png" crc="27593628" ref="index"/>
     <file name="electric_picnic_web_06-crop-u14462.jpg" crc="3771030415" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -80,5 +82,5 @@
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="4180139750" seo="true" mt="1587666811924" redirect="true"/>
+  <file name="index.html" crc="3996761278" seo="true" mt="1587672170843" redirect="true"/>
 </manifest>
