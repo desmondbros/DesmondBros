@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1587752287222">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1587755595896">
   <folder name="css">
-    <file name="site_global.css" crc="117730598"/>
-    <file name="master_c-master.css" crc="339940772" ref="index"/>
+    <file name="site_global.css" crc="3882564819"/>
+    <file name="master_c-master.css" crc="226920618" ref="index"/>
     <file name="nomq_preview_master_c-master.css" crc="312747784" ref="index"/>
-    <file name="index.css" crc="496897542" ref="index"/>
-    <file name="nomq_index.css" crc="440953505" ref="index"/>
+    <file name="index.css" crc="4036308523" ref="index"/>
+    <file name="nomq_index.css" crc="4162117254" ref="index"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
   </folder>
   <folder name="assets">
@@ -12,6 +12,7 @@
     <file name="responsive_musepen_video_widget.mulib" crc="4221558049" seo="true" mt="1587492261000"/>
     <file name="loop-02.mp4" crc="136694196" seo="true" mt="1587659357000"/>
     <file name="loop-02-poster.png" crc="4034191347" seo="true" mt="1587660841000"/>
+    <file name="samplegif.gif" crc="137610747" seo="true" mt="1587754905000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -82,5 +83,5 @@
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="4233441987" seo="true" mt="1587752231031" redirect="true"/>
+  <file name="index.html" crc="4171328325" seo="true" mt="1587755565498" redirect="true"/>
 </manifest>

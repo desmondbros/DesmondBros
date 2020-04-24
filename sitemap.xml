@@ -60,19 +60,25 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://desmondbros.ie/assets/loop-02.mp4</loc>
+    <lastmod>2020-04-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://desmondbros.ie/assets/anchor-scroll.mulib</loc>
     <lastmod>2020-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://desmondbros.ie/assets/loop-02-poster.png</loc>
-    <lastmod>2020-04-23</lastmod>
+    <loc>http://desmondbros.ie/assets/samplegif.gif</loc>
+    <lastmod>2020-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://desmondbros.ie/assets/loop-02.mp4</loc>
+    <loc>http://desmondbros.ie/assets/loop-02-poster.png</loc>
     <lastmod>2020-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
