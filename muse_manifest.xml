@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1587717104145">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1587725231568">
   <folder name="css">
-    <file name="site_global.css" crc="55976634"/>
-    <file name="master_c-master.css" crc="3799137246" ref="index"/>
+    <file name="site_global.css" crc="3882564819"/>
+    <file name="master_c-master.css" crc="4157039501" ref="index"/>
     <file name="nomq_preview_master_c-master.css" crc="96190760" ref="index"/>
-    <file name="index.css" crc="123151215" ref="index"/>
-    <file name="nomq_index.css" crc="264502007" ref="index"/>
+    <file name="index.css" crc="4011847225" ref="index"/>
+    <file name="nomq_index.css" crc="398748263" ref="index"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
   </folder>
   <folder name="assets">
@@ -50,12 +50,12 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="cian-headshot-01.jpg" crc="285797873" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Cian Desmond, video edito.Video production Cork."/>
+      <caption webpage="index" alt="Cian Desmond, video edito.Video production Cork."/>
     </file>
     <file name="jack_headshot_jack_toibin_2 new.jpg" crc="4012362968" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Jack Desmond, cinematographer. Video production Cork."/>
+      <caption webpage="index" alt="Jack Desmond, cinematographer. Video production Cork."/>
     </file>
     <file name="mail.png" crc="4137060485" seo="true" ref="index">
       <caption webpage="index" alt=""/>
@@ -82,5 +82,5 @@
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="286745315" seo="true" mt="1587717010043" redirect="true"/>
+  <file name="index.html" crc="4285438269" seo="true" mt="1587725150010" redirect="true"/>
 </manifest>

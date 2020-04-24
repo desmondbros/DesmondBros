@@ -28,9 +28,11 @@
     </image:image>
     <image:image>
       <image:loc>http://desmondbros.ie/images/cian-headshot-01.jpg</image:loc>
+      <image:caption>Cian Desmond, video edito.Video production Cork.</image:caption>
     </image:image>
     <image:image>
       <image:loc>http://desmondbros.ie/images/jack_headshot_jack_toibin_2%20new.jpg</image:loc>
+      <image:caption>Jack Desmond, cinematographer. Video production Cork.</image:caption>
     </image:image>
     <image:image>
       <image:loc>http://desmondbros.ie/images/mail.png</image:loc>
