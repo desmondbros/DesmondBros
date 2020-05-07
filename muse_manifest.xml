@@ -1,9 +1,9 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1588858270734">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1588858848992">
   <folder name="css">
     <file name="site_global.css" crc="501483129"/>
     <file name="master_a-master.css" crc="3924625706" ref="how-video-production-content-can-help-your-company:contact:blog:index"/>
     <file name="nomq_preview_master_a-master.css" crc="319997556" ref="how-video-production-content-can-help-your-company:contact:blog:index"/>
-    <file name="master_b-master.css" crc="220794721" ref="how-video-production-content-can-help-your-company:contact:blog"/>
+    <file name="master_b-master.css" crc="199519306" ref="how-video-production-content-can-help-your-company:contact:blog"/>
     <file name="nomq_preview_master_b-master.css" crc="3786684838" ref="how-video-production-content-can-help-your-company:contact:blog"/>
     <file name="how-video-production-content-can-help-your-company.css" crc="3778662907" ref="how-video-production-content-can-help-your-company"/>
     <file name="nomq_how-video-production-content-can-help-your-company.css" crc="4135306045" ref="how-video-production-content-can-help-your-company"/>
@@ -94,10 +94,12 @@
       <caption webpage="index" alt="Music video production Cork."/>
     </file>
     <file name="blank.gif" crc="4208392903" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
-    <file name="a-master-favicon.ico" crc="167952240" ref="blog"/>
-    <file name="arrowmenudown.png" crc="262559161" ref="blog">
+    <file name="a-master-favicon.ico" crc="167952240" ref="blog:how-video-production-content-can-help-your-company"/>
+    <file name="arrowmenudown.png" crc="262559161" ref="blog:how-video-production-content-can-help-your-company">
       <caption webpage="blog" alt=""/>
       <caption webpage="blog" alt=""/>
+      <caption webpage="how-video-production-content-can-help-your-company" alt=""/>
+      <caption webpage="how-video-production-content-can-help-your-company" alt=""/>
     </file>
     <file name="video-production-gear-crop-u1985.jpg" crc="469240582" seo="true" ref="blog">
       <caption webpage="blog" alt=""/>
@@ -138,6 +140,6 @@
   </folder>
   <file name="index.html" crc="4089809864" seo="true" mt="1588857965690" redirect="true"/>
   <file name="blog.html" crc="4224578724" seo="true" mt="1588857995167" redirect="true"/>
-  <file name="how-video-production-content-can-help-your-company.html" crc="308690923" seo="true" mt="1588858018315" redirect="true"/>
+  <file name="how-video-production-content-can-help-your-company.html" crc="416949816" seo="true" mt="1588858805049" redirect="true"/>
   <file name="contact.html" crc="3838459241" seo="true" mt="1588857979199" redirect="true"/>
 </manifest>
