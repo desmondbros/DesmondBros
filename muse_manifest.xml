@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1588856552200">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1588858270734">
   <folder name="css">
     <file name="site_global.css" crc="501483129"/>
     <file name="master_a-master.css" crc="3924625706" ref="how-video-production-content-can-help-your-company:contact:blog:index"/>
@@ -136,8 +136,8 @@
       <caption webpage="how-video-production-content-can-help-your-company" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="433242034" seo="true" mt="1588856389758" redirect="true"/>
-  <file name="blog.html" crc="32097412" seo="true" mt="1588856501160" redirect="true"/>
-  <file name="how-video-production-content-can-help-your-company.html" crc="3918639758" seo="true" mt="1588856501160" redirect="true"/>
-  <file name="contact.html" crc="4085126356" seo="true" mt="1588856501160" redirect="true"/>
+  <file name="index.html" crc="4089809864" seo="true" mt="1588857965690" redirect="true"/>
+  <file name="blog.html" crc="4224578724" seo="true" mt="1588857995167" redirect="true"/>
+  <file name="how-video-production-content-can-help-your-company.html" crc="308690923" seo="true" mt="1588858018315" redirect="true"/>
+  <file name="contact.html" crc="3838459241" seo="true" mt="1588857979199" redirect="true"/>
 </manifest>
