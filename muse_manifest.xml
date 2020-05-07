@@ -1,22 +1,22 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1588854040291">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1588856552200">
   <folder name="css">
-    <file name="site_global.css" crc="457264892"/>
-    <file name="master_b-master.css" crc="121474725" ref="how-video-production-content-can-help-your-company:blog:contact"/>
-    <file name="nomq_preview_master_b-master.css" crc="3786684838" ref="how-video-production-content-can-help-your-company:blog:contact"/>
-    <file name="master_a-master.css" crc="12074683" ref="index:how-video-production-content-can-help-your-company:blog:contact"/>
-    <file name="nomq_preview_master_a-master.css" crc="319997556" ref="index:how-video-production-content-can-help-your-company:blog:contact"/>
-    <file name="index.css" crc="4063774133" ref="index"/>
-    <file name="nomq_index.css" crc="92744423" ref="index"/>
-    <file name="iefonts_index.css" crc="3899479668" ref="index"/>
-    <file name="how-video-production-content-can-help-your-company.css" crc="190633199" ref="how-video-production-content-can-help-your-company"/>
-    <file name="nomq_how-video-production-content-can-help-your-company.css" crc="3842261852" ref="how-video-production-content-can-help-your-company"/>
+    <file name="site_global.css" crc="501483129"/>
+    <file name="master_a-master.css" crc="3924625706" ref="how-video-production-content-can-help-your-company:contact:blog:index"/>
+    <file name="nomq_preview_master_a-master.css" crc="319997556" ref="how-video-production-content-can-help-your-company:contact:blog:index"/>
+    <file name="master_b-master.css" crc="220794721" ref="how-video-production-content-can-help-your-company:contact:blog"/>
+    <file name="nomq_preview_master_b-master.css" crc="3786684838" ref="how-video-production-content-can-help-your-company:contact:blog"/>
+    <file name="how-video-production-content-can-help-your-company.css" crc="3778662907" ref="how-video-production-content-can-help-your-company"/>
+    <file name="nomq_how-video-production-content-can-help-your-company.css" crc="4135306045" ref="how-video-production-content-can-help-your-company"/>
     <file name="iefonts_how-video-production-content-can-help-your-company.css" crc="3899479668" ref="how-video-production-content-can-help-your-company"/>
-    <file name="blog.css" crc="50143080" ref="blog"/>
-    <file name="nomq_blog.css" crc="4174090586" ref="blog"/>
-    <file name="iefonts_blog.css" crc="3899479668" ref="blog"/>
-    <file name="contact.css" crc="3823654481" ref="contact"/>
-    <file name="nomq_contact.css" crc="3936703959" ref="contact"/>
+    <file name="contact.css" crc="5239929" ref="contact"/>
+    <file name="nomq_contact.css" crc="180895752" ref="contact"/>
     <file name="iefonts_contact.css" crc="3899479668" ref="contact"/>
+    <file name="blog.css" crc="4064275104" ref="blog"/>
+    <file name="nomq_blog.css" crc="490182850" ref="blog"/>
+    <file name="iefonts_blog.css" crc="3899479668" ref="blog"/>
+    <file name="index.css" crc="4129789874" ref="index"/>
+    <file name="nomq_index.css" crc="196480143" ref="index"/>
+    <file name="iefonts_index.css" crc="3899479668" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="anchor-scroll.mulib" crc="195413691" seo="true" mt="1587491518000"/>
@@ -53,8 +53,8 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="corporate-photography-cork-crop-u1446.jpg" crc="487769261" seo="true" ref="index">
-      <caption webpage="index" alt="Commercial and corporate video production Cork, photography"/>
+    <file name="corporate-photography-cork-crop-u2930.jpg" crc="225720517" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
     </file>
     <file name="cork-video-production-commercial.jpg" crc="254193033" seo="true" ref="index">
       <caption webpage="index" alt="Commercial video production Cork."/>
@@ -84,8 +84,8 @@
     <file name="u1322-r.png" crc="4004628114" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
     <file name="u1410.png" crc="64321047" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
     <file name="u1410-r.png" crc="4101330512" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
-    <file name="corporate-photography-cork-crop-u14462.jpg" crc="3771030415" seo="true" ref="index">
-      <caption webpage="index" alt="Commercial and corporate video production Cork, photography"/>
+    <file name="corporate-photography-cork400x226.jpg" crc="357504270" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
     </file>
     <file name="cork-video-production-commercial355x152.jpg" crc="97633916" seo="true" ref="index">
       <caption webpage="index" alt="Commercial video production Cork."/>
@@ -136,8 +136,8 @@
       <caption webpage="how-video-production-content-can-help-your-company" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="3948485654" seo="true" mt="1588853476671" redirect="true"/>
-  <file name="blog.html" crc="325659221" seo="true" mt="1588854000633" redirect="true"/>
-  <file name="how-video-production-content-can-help-your-company.html" crc="13306729" seo="true" mt="1588854000633" redirect="true"/>
-  <file name="contact.html" crc="3783582972" seo="true" mt="1588854000633" redirect="true"/>
+  <file name="index.html" crc="433242034" seo="true" mt="1588856389758" redirect="true"/>
+  <file name="blog.html" crc="32097412" seo="true" mt="1588856501160" redirect="true"/>
+  <file name="how-video-production-content-can-help-your-company.html" crc="3918639758" seo="true" mt="1588856501160" redirect="true"/>
+  <file name="contact.html" crc="4085126356" seo="true" mt="1588856501160" redirect="true"/>
 </manifest>
