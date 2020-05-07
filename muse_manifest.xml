@@ -1,30 +1,42 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1587755595896">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1588854040291">
   <folder name="css">
-    <file name="site_global.css" crc="3882564819"/>
-    <file name="master_c-master.css" crc="226920618" ref="index"/>
-    <file name="nomq_preview_master_c-master.css" crc="312747784" ref="index"/>
-    <file name="index.css" crc="4036308523" ref="index"/>
-    <file name="nomq_index.css" crc="4162117254" ref="index"/>
-    <file name="iefonts_index.css" crc="3824530138" ref="index"/>
+    <file name="site_global.css" crc="457264892"/>
+    <file name="master_b-master.css" crc="121474725" ref="how-video-production-content-can-help-your-company:blog:contact"/>
+    <file name="nomq_preview_master_b-master.css" crc="3786684838" ref="how-video-production-content-can-help-your-company:blog:contact"/>
+    <file name="master_a-master.css" crc="12074683" ref="index:how-video-production-content-can-help-your-company:blog:contact"/>
+    <file name="nomq_preview_master_a-master.css" crc="319997556" ref="index:how-video-production-content-can-help-your-company:blog:contact"/>
+    <file name="index.css" crc="4063774133" ref="index"/>
+    <file name="nomq_index.css" crc="92744423" ref="index"/>
+    <file name="iefonts_index.css" crc="3899479668" ref="index"/>
+    <file name="how-video-production-content-can-help-your-company.css" crc="190633199" ref="how-video-production-content-can-help-your-company"/>
+    <file name="nomq_how-video-production-content-can-help-your-company.css" crc="3842261852" ref="how-video-production-content-can-help-your-company"/>
+    <file name="iefonts_how-video-production-content-can-help-your-company.css" crc="3899479668" ref="how-video-production-content-can-help-your-company"/>
+    <file name="blog.css" crc="50143080" ref="blog"/>
+    <file name="nomq_blog.css" crc="4174090586" ref="blog"/>
+    <file name="iefonts_blog.css" crc="3899479668" ref="blog"/>
+    <file name="contact.css" crc="3823654481" ref="contact"/>
+    <file name="nomq_contact.css" crc="3936703959" ref="contact"/>
+    <file name="iefonts_contact.css" crc="3899479668" ref="contact"/>
   </folder>
   <folder name="assets">
     <file name="anchor-scroll.mulib" crc="195413691" seo="true" mt="1587491518000"/>
     <file name="responsive_musepen_video_widget.mulib" crc="4221558049" seo="true" mt="1587492261000"/>
     <file name="loop-02.mp4" crc="136694196" seo="true" mt="1587659357000"/>
     <file name="loop-02-poster.png" crc="4034191347" seo="true" mt="1587660841000"/>
-    <file name="samplegif.gif" crc="137610747" seo="true" mt="1587754905000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="3803043152" ref="index"/>
-    <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="380897831" ref="index"/>
-    <file name="jquery.watch.js" crc="99325471" ref="index"/>
-    <file name="jquery.museresponsive.js" crc="3955820958" ref="index"/>
-    <file name="require.js" crc="4157109226" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
+    <file name="museutils.js" crc="3803043152" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
+    <file name="whatinput.js" crc="86476730" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
+    <file name="museconfig.js" crc="380897831" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
+    <file name="jquery.musemenu.js" crc="3784699396" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
+    <file name="jquery.museresponsive.js" crc="3955820958" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
+    <file name="require.js" crc="4157109226" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
   </folder>
   <folder name="images">
-    <file name="desmond-bros---creative-video-agency--video-production-in-cork,-ireland-favicon.ico" crc="167952240" ref="index"/>
+    <file name="home-favicon.ico" crc="167952240" ref="index"/>
     <file name="video-camera.png" crc="3898116041" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -41,7 +53,7 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="corporate-photography-cork-crop-u1446.jpg" crc="320699834" seo="true" ref="index">
+    <file name="corporate-photography-cork-crop-u1446.jpg" crc="487769261" seo="true" ref="index">
       <caption webpage="index" alt="Commercial and corporate video production Cork, photography"/>
     </file>
     <file name="cork-video-production-commercial.jpg" crc="254193033" seo="true" ref="index">
@@ -50,28 +62,28 @@
     <file name="cork-music-video-production-crop-u701.jpg" crc="4169543389" seo="true" ref="index">
       <caption webpage="index" alt="Music video production Cork."/>
     </file>
-    <file name="cian-desmond-video-production-cork.jpg" crc="285797873" seo="true" ref="index">
+    <file name="cian-desmond-video-production-cork.jpg" crc="105475444" seo="true" ref="index">
       <caption webpage="index" alt="Cian Desmond, video edito.Video production Cork."/>
       <caption webpage="index" alt="Cian Desmond, video edito.Video production Cork."/>
     </file>
-    <file name="jack-desmond-video-production-cinematographer-cork.jpg" crc="4012362968" seo="true" ref="index">
+    <file name="jack-desmond-video-production-cinematographer-cork.jpg" crc="3854610378" seo="true" ref="index">
       <caption webpage="index" alt="Jack Desmond, cinematographer. Video production Cork."/>
       <caption webpage="index" alt="Jack Desmond, cinematographer. Video production Cork."/>
     </file>
-    <file name="mail.png" crc="4137060485" seo="true" ref="index">
+    <file name="mail.png" crc="4137060485" seo="true" ref="index:contact">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
     </file>
-    <file name="u1299.png" crc="206665641" ref="index"/>
-    <file name="u1299-r.png" crc="189899845" ref="index"/>
-    <file name="u1301.png" crc="4270868635" ref="index"/>
-    <file name="u1301-r.png" crc="4165070308" ref="index"/>
-    <file name="u1322.png" crc="4063795719" ref="index"/>
-    <file name="u1322-r.png" crc="3960803256" ref="index"/>
-    <file name="u1410.png" crc="465601591" ref="index"/>
-    <file name="u1410-r.png" crc="3852456215" ref="index"/>
-    <file name="u1541.png" crc="4246032318" ref="index"/>
-    <file name="u1541-r.png" crc="27593628" ref="index"/>
+    <file name="u1299.png" crc="385703429" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
+    <file name="u1299-r.png" crc="480144741" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
+    <file name="u1301.png" crc="3852873405" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
+    <file name="u1301-r.png" crc="4024973256" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
+    <file name="u1322.png" crc="525265426" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
+    <file name="u1322-r.png" crc="4004628114" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
+    <file name="u1410.png" crc="64321047" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
+    <file name="u1410-r.png" crc="4101330512" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
     <file name="corporate-photography-cork-crop-u14462.jpg" crc="3771030415" seo="true" ref="index">
       <caption webpage="index" alt="Commercial and corporate video production Cork, photography"/>
     </file>
@@ -81,7 +93,51 @@
     <file name="cork-music-video-production-crop-u7012.jpg" crc="4022852842" seo="true" ref="index">
       <caption webpage="index" alt="Music video production Cork."/>
     </file>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
+    <file name="a-master-favicon.ico" crc="167952240" ref="blog"/>
+    <file name="arrowmenudown.png" crc="262559161" ref="blog">
+      <caption webpage="blog" alt=""/>
+      <caption webpage="blog" alt=""/>
+    </file>
+    <file name="video-production-gear-crop-u1985.jpg" crc="469240582" seo="true" ref="blog">
+      <caption webpage="blog" alt=""/>
+    </file>
+    <file name="video-production-gear-crop-u19852.jpg" crc="518950221" seo="true" ref="blog">
+      <caption webpage="blog" alt=""/>
+    </file>
+    <file name="video-production-gear.jpg" crc="3935681396" seo="true" ref="how-video-production-content-can-help-your-company">
+      <caption webpage="how-video-production-content-can-help-your-company" alt="how video production can help your company"/>
+    </file>
+    <file name="video-production-app-website-social-media-crop-u2889.jpg" crc="4291301425" seo="true" ref="how-video-production-content-can-help-your-company">
+      <caption webpage="how-video-production-content-can-help-your-company" alt="Video production content is needed for laptop, phone, tablet, and every kind of social media platform and profile for a company"/>
+    </file>
+    <file name="video-content-demand-graph.png" crc="147182254" seo="true" ref="how-video-production-content-can-help-your-company">
+      <caption webpage="how-video-production-content-can-help-your-company" alt="Graph showing the type of content consumers prefer to see from brands and companies, and why video is so important for a corporate brand"/>
+    </file>
+    <file name="video-content-investment-graph.png" crc="48237886" seo="true" ref="how-video-production-content-can-help-your-company">
+      <caption webpage="how-video-production-content-can-help-your-company" alt="A graph showing how companies invest in video production and what kind of corporate videos they invest in"/>
+    </file>
+    <file name="cian-desmond-video-production-cork-crop-u1944.jpg" crc="167233066" seo="true" ref="how-video-production-content-can-help-your-company">
+      <caption webpage="how-video-production-content-can-help-your-company" alt=""/>
+    </file>
+    <file name="video-production-gear362x204.jpg" crc="68214703" seo="true" ref="how-video-production-content-can-help-your-company">
+      <caption webpage="how-video-production-content-can-help-your-company" alt="how video production can help your company"/>
+    </file>
+    <file name="video-production-app-website-social-media-crop-u28892.jpg" crc="128814181" seo="true" ref="how-video-production-content-can-help-your-company">
+      <caption webpage="how-video-production-content-can-help-your-company" alt="Video production content is needed for laptop, phone, tablet, and every kind of social media platform and profile for a company"/>
+    </file>
+    <file name="video-content-demand-graph360x203.png" crc="4072900885" seo="true" ref="how-video-production-content-can-help-your-company">
+      <caption webpage="how-video-production-content-can-help-your-company" alt="Graph showing the type of content consumers prefer to see from brands and companies, and why video is so important for a corporate brand"/>
+    </file>
+    <file name="video-content-investment-graph360x203.png" crc="4172522153" seo="true" ref="how-video-production-content-can-help-your-company">
+      <caption webpage="how-video-production-content-can-help-your-company" alt="A graph showing how companies invest in video production and what kind of corporate videos they invest in"/>
+    </file>
+    <file name="cian-desmond-video-production-cork-crop-u19442.jpg" crc="4121512345" seo="true" ref="how-video-production-content-can-help-your-company">
+      <caption webpage="how-video-production-content-can-help-your-company" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="4171328325" seo="true" mt="1587755565498" redirect="true"/>
+  <file name="index.html" crc="3948485654" seo="true" mt="1588853476671" redirect="true"/>
+  <file name="blog.html" crc="325659221" seo="true" mt="1588854000633" redirect="true"/>
+  <file name="how-video-production-content-can-help-your-company.html" crc="13306729" seo="true" mt="1588854000633" redirect="true"/>
+  <file name="contact.html" crc="3783582972" seo="true" mt="1588854000633" redirect="true"/>
 </manifest>
