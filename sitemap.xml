@@ -1,143 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://desmondbros.ie/index.html</loc>
-    <lastmod>2020-05-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/video-camera.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/music.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/photo-camera.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/clapperboard.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/corporate-photography-cork-crop-u2930.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/cork-video-production-commercial.jpg</image:loc>
-      <image:caption>Commercial video production Cork.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/cork-music-video-production-crop-u701.jpg</image:loc>
-      <image:caption>Music video production Cork.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/cian-desmond-video-production-cork.jpg</image:loc>
-      <image:caption>Cian Desmond, video edito.Video production Cork.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/jack-desmond-video-production-cinematographer-cork.jpg</image:loc>
-      <image:caption>Jack Desmond, cinematographer. Video production Cork.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/mail.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/corporate-photography-cork400x226.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/cork-video-production-commercial355x152.jpg</image:loc>
-      <image:caption>Commercial video production Cork.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/cork-music-video-production-crop-u7012.jpg</image:loc>
-      <image:caption>Music video production Cork.</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://desmondbros.ie/how-video-production-content-can-help-your-company.html</loc>
-    <lastmod>2020-05-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/video-production-gear.jpg</image:loc>
-      <image:caption>how video production can help your company</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/video-production-app-website-social-media-crop-u2889.jpg</image:loc>
-      <image:caption>Video production content is needed for laptop, phone, tablet, and every kind of social media platform and profile for a company</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/video-content-demand-graph.png</image:loc>
-      <image:caption>Graph showing the type of content consumers prefer to see from brands and companies, and why video is so important for a corporate brand</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/video-content-investment-graph.png</image:loc>
-      <image:caption>A graph showing how companies invest in video production and what kind of corporate videos they invest in</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/cian-desmond-video-production-cork-crop-u1944.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/video-production-gear362x204.jpg</image:loc>
-      <image:caption>how video production can help your company</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/video-production-app-website-social-media-crop-u28892.jpg</image:loc>
-      <image:caption>Video production content is needed for laptop, phone, tablet, and every kind of social media platform and profile for a company</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/video-content-demand-graph360x203.png</image:loc>
-      <image:caption>Graph showing the type of content consumers prefer to see from brands and companies, and why video is so important for a corporate brand</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/video-content-investment-graph360x203.png</image:loc>
-      <image:caption>A graph showing how companies invest in video production and what kind of corporate videos they invest in</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/cian-desmond-video-production-cork-crop-u19442.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://desmondbros.ie/blog.html</loc>
-    <lastmod>2020-05-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/video-production-gear-crop-u1985.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/video-production-gear-crop-u19852.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://desmondbros.ie/contact.html</loc>
-    <lastmod>2020-05-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/mail.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://desmondbros.ie/assets/loop-02.mp4</loc>
-    <lastmod>2020-04-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://desmondbros.ie/assets/loop-02-poster.png</loc>
-    <lastmod>2020-04-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://desmondbros.ie/assets/responsive_musepen_video_widget.mulib</loc>
-    <lastmod>2020-04-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://desmondbros.ie/assets/anchor-scroll.mulib</loc>
-    <lastmod>2020-04-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://desmondbros.ie/</loc>
+  <lastmod>2020-05-07T13:44:07+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://desmondbros.ie/index.html</loc>
+  <lastmod>2020-05-07T13:44:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://desmondbros.ie/blog.html</loc>
+  <lastmod>2020-05-07T13:44:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://desmondbros.ie/contact.html</loc>
+  <lastmod>2020-05-07T13:44:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://desmondbros.ie/how-video-production-content-can-help-your-company.html</loc>
+  <lastmod>2020-05-07T13:44:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
