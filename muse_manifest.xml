@@ -1,25 +1,25 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1589381250072">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1589384693824">
   <folder name="css">
     <file name="site_global.css" crc="4279699207"/>
-    <file name="master_b-master.css" crc="77005340" ref="contact:lockdown-creativity-commercial-at-home:how-video-production-content-can-help-your-company:blog"/>
-    <file name="nomq_preview_master_b-master.css" crc="3824530138" ref="contact:lockdown-creativity-commercial-at-home:how-video-production-content-can-help-your-company:blog"/>
-    <file name="master_a-master.css" crc="4165273951" ref="contact:lockdown-creativity-commercial-at-home:how-video-production-content-can-help-your-company:index:blog"/>
-    <file name="nomq_preview_master_a-master.css" crc="319997556" ref="contact:lockdown-creativity-commercial-at-home:how-video-production-content-can-help-your-company:index:blog"/>
-    <file name="contact.css" crc="4012018570" ref="contact"/>
-    <file name="nomq_contact.css" crc="333237356" ref="contact"/>
-    <file name="iefonts_contact.css" crc="3899479668" ref="contact"/>
-    <file name="lockdown-creativity-commercial-at-home.css" crc="46504289" ref="lockdown-creativity-commercial-at-home"/>
+    <file name="master_a-master.css" crc="208286955" ref="lockdown-creativity-commercial-at-home:index:blog:how-video-production-content-can-help-your-company:contact"/>
+    <file name="nomq_preview_master_a-master.css" crc="63878804" ref="lockdown-creativity-commercial-at-home:index:blog:how-video-production-content-can-help-your-company:contact"/>
+    <file name="master_b-master.css" crc="307003144" ref="lockdown-creativity-commercial-at-home:blog:how-video-production-content-can-help-your-company:contact"/>
+    <file name="nomq_preview_master_b-master.css" crc="3824530138" ref="lockdown-creativity-commercial-at-home:blog:how-video-production-content-can-help-your-company:contact"/>
+    <file name="lockdown-creativity-commercial-at-home.css" crc="219448518" ref="lockdown-creativity-commercial-at-home"/>
     <file name="nomq_lockdown-creativity-commercial-at-home.css" crc="3929863772" ref="lockdown-creativity-commercial-at-home"/>
     <file name="iefonts_lockdown-creativity-commercial-at-home.css" crc="3899479668" ref="lockdown-creativity-commercial-at-home"/>
-    <file name="how-video-production-content-can-help-your-company.css" crc="4112274054" ref="how-video-production-content-can-help-your-company"/>
+    <file name="index.css" crc="4243810356" ref="index"/>
+    <file name="nomq_index.css" crc="4177846404" ref="index"/>
+    <file name="iefonts_index.css" crc="3899479668" ref="index"/>
+    <file name="blog.css" crc="4236845976" ref="blog"/>
+    <file name="nomq_blog.css" crc="95915840" ref="blog"/>
+    <file name="iefonts_blog.css" crc="3899479668" ref="blog"/>
+    <file name="how-video-production-content-can-help-your-company.css" crc="486811527" ref="how-video-production-content-can-help-your-company"/>
     <file name="nomq_how-video-production-content-can-help-your-company.css" crc="68803282" ref="how-video-production-content-can-help-your-company"/>
     <file name="iefonts_how-video-production-content-can-help-your-company.css" crc="3899479668" ref="how-video-production-content-can-help-your-company"/>
-    <file name="index.css" crc="4076036995" ref="index"/>
-    <file name="nomq_index.css" crc="4114255610" ref="index"/>
-    <file name="iefonts_index.css" crc="3899479668" ref="index"/>
-    <file name="blog.css" crc="4068370729" ref="blog"/>
-    <file name="nomq_blog.css" crc="4102310407" ref="blog"/>
-    <file name="iefonts_blog.css" crc="3899479668" ref="blog"/>
+    <file name="contact.css" crc="3881863062" ref="contact"/>
+    <file name="nomq_contact.css" crc="282597776" ref="contact"/>
+    <file name="iefonts_contact.css" crc="3899479668" ref="contact"/>
   </folder>
   <folder name="assets">
     <file name="anchor-scroll.mulib" crc="195413691" seo="true" mt="1587491518000"/>
@@ -115,7 +115,7 @@
     <file name="video-production-gear-crop-u1985.jpg" crc="469240582" seo="true" ref="blog">
       <caption webpage="blog" alt="video production, article, blog, how, how can, marketing, help, strategy, company, firm, video, corporate, cork, ireland, desmond, desmond bros,"/>
     </file>
-    <file name="video_production_quarantine_lock_down_video_at_home338x190.png" crc="275684353" seo="true" ref="blog">
+    <file name="video_production_quarantine_lock_down_video_at_home339x191.png" crc="4072174320" seo="true" ref="blog">
       <caption webpage="blog" alt="video production, article, blog, how, how can, marketing, help, strategy, company, firm, video, corporate, coronavirus, quarantine, lockdown, lo"/>
     </file>
     <file name="video-production-gear-crop-u19852.jpg" crc="518950221" seo="true" ref="blog">
@@ -127,7 +127,7 @@
     <file name="video-production-gear.jpg" crc="3935681396" seo="true" ref="how-video-production-content-can-help-your-company">
       <caption webpage="how-video-production-content-can-help-your-company" alt="how video production can help your Cork company"/>
     </file>
-    <file name="video-production-app-website-social-media-crop-u2889.jpg" crc="3934792172" seo="true" ref="how-video-production-content-can-help-your-company">
+    <file name="video-production-app-website-social-media-crop-u2889.jpg" crc="4291301425" seo="true" ref="how-video-production-content-can-help-your-company">
       <caption webpage="how-video-production-content-can-help-your-company" alt="Video production content is needed for laptop, phone, tablet, and every kind of social media platform and profile for a company in Cork"/>
     </file>
     <file name="video-content-demand-graph.png" crc="147182254" seo="true" ref="how-video-production-content-can-help-your-company">
@@ -142,7 +142,7 @@
     <file name="video-production-gear362x204.jpg" crc="68214703" seo="true" ref="how-video-production-content-can-help-your-company">
       <caption webpage="how-video-production-content-can-help-your-company" alt="how video production can help your Cork company"/>
     </file>
-    <file name="video-production-app-website-social-media-crop-u28892.jpg" crc="159578991" seo="true" ref="how-video-production-content-can-help-your-company">
+    <file name="video-production-app-website-social-media-crop-u28892.jpg" crc="128814181" seo="true" ref="how-video-production-content-can-help-your-company">
       <caption webpage="how-video-production-content-can-help-your-company" alt="Video production content is needed for laptop, phone, tablet, and every kind of social media platform and profile for a company in Cork"/>
     </file>
     <file name="video-content-demand-graph360x203.png" crc="4072900885" seo="true" ref="how-video-production-content-can-help-your-company">
@@ -179,9 +179,9 @@
       <caption webpage="lockdown-creativity-commercial-at-home" alt="Jack Desmond, videographer, filmmaker, video production in Cork"/>
     </file>
   </folder>
-  <file name="index.html" crc="4252820276" seo="true" mt="1589381148843" redirect="true"/>
-  <file name="blog.html" crc="3793702779" seo="true" mt="1589381002404" redirect="true"/>
-  <file name="how-video-production-content-can-help-your-company.html" crc="69165828" seo="true" mt="1589381002404" redirect="true"/>
-  <file name="contact.html" crc="409760592" seo="true" mt="1589381002404" redirect="true"/>
-  <file name="lockdown-creativity-commercial-at-home.html" crc="200010261" seo="true" mt="1589381002404" redirect="true"/>
+  <file name="index.html" crc="4034843265" seo="true" mt="1589384054022" redirect="true"/>
+  <file name="blog.html" crc="475986276" seo="true" mt="1589383997754" redirect="true"/>
+  <file name="how-video-production-content-can-help-your-company.html" crc="288867644" seo="true" mt="1589383686397" redirect="true"/>
+  <file name="contact.html" crc="513987335" seo="true" mt="1589384624870" redirect="true"/>
+  <file name="lockdown-creativity-commercial-at-home.html" crc="368960184" seo="true" mt="1589383686397" redirect="true"/>
 </manifest>
