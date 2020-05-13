@@ -1,22 +1,25 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1588858848992">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1589381250072">
   <folder name="css">
-    <file name="site_global.css" crc="501483129"/>
-    <file name="master_a-master.css" crc="3924625706" ref="how-video-production-content-can-help-your-company:contact:blog:index"/>
-    <file name="nomq_preview_master_a-master.css" crc="319997556" ref="how-video-production-content-can-help-your-company:contact:blog:index"/>
-    <file name="master_b-master.css" crc="199519306" ref="how-video-production-content-can-help-your-company:contact:blog"/>
-    <file name="nomq_preview_master_b-master.css" crc="3786684838" ref="how-video-production-content-can-help-your-company:contact:blog"/>
-    <file name="how-video-production-content-can-help-your-company.css" crc="3778662907" ref="how-video-production-content-can-help-your-company"/>
-    <file name="nomq_how-video-production-content-can-help-your-company.css" crc="4135306045" ref="how-video-production-content-can-help-your-company"/>
-    <file name="iefonts_how-video-production-content-can-help-your-company.css" crc="3899479668" ref="how-video-production-content-can-help-your-company"/>
-    <file name="contact.css" crc="5239929" ref="contact"/>
-    <file name="nomq_contact.css" crc="180895752" ref="contact"/>
+    <file name="site_global.css" crc="4279699207"/>
+    <file name="master_b-master.css" crc="77005340" ref="contact:lockdown-creativity-commercial-at-home:how-video-production-content-can-help-your-company:blog"/>
+    <file name="nomq_preview_master_b-master.css" crc="3824530138" ref="contact:lockdown-creativity-commercial-at-home:how-video-production-content-can-help-your-company:blog"/>
+    <file name="master_a-master.css" crc="4165273951" ref="contact:lockdown-creativity-commercial-at-home:how-video-production-content-can-help-your-company:index:blog"/>
+    <file name="nomq_preview_master_a-master.css" crc="319997556" ref="contact:lockdown-creativity-commercial-at-home:how-video-production-content-can-help-your-company:index:blog"/>
+    <file name="contact.css" crc="4012018570" ref="contact"/>
+    <file name="nomq_contact.css" crc="333237356" ref="contact"/>
     <file name="iefonts_contact.css" crc="3899479668" ref="contact"/>
-    <file name="blog.css" crc="4064275104" ref="blog"/>
-    <file name="nomq_blog.css" crc="490182850" ref="blog"/>
-    <file name="iefonts_blog.css" crc="3899479668" ref="blog"/>
-    <file name="index.css" crc="4129789874" ref="index"/>
-    <file name="nomq_index.css" crc="196480143" ref="index"/>
+    <file name="lockdown-creativity-commercial-at-home.css" crc="46504289" ref="lockdown-creativity-commercial-at-home"/>
+    <file name="nomq_lockdown-creativity-commercial-at-home.css" crc="3929863772" ref="lockdown-creativity-commercial-at-home"/>
+    <file name="iefonts_lockdown-creativity-commercial-at-home.css" crc="3899479668" ref="lockdown-creativity-commercial-at-home"/>
+    <file name="how-video-production-content-can-help-your-company.css" crc="4112274054" ref="how-video-production-content-can-help-your-company"/>
+    <file name="nomq_how-video-production-content-can-help-your-company.css" crc="68803282" ref="how-video-production-content-can-help-your-company"/>
+    <file name="iefonts_how-video-production-content-can-help-your-company.css" crc="3899479668" ref="how-video-production-content-can-help-your-company"/>
+    <file name="index.css" crc="4076036995" ref="index"/>
+    <file name="nomq_index.css" crc="4114255610" ref="index"/>
     <file name="iefonts_index.css" crc="3899479668" ref="index"/>
+    <file name="blog.css" crc="4068370729" ref="blog"/>
+    <file name="nomq_blog.css" crc="4102310407" ref="blog"/>
+    <file name="iefonts_blog.css" crc="3899479668" ref="blog"/>
   </folder>
   <folder name="assets">
     <file name="anchor-scroll.mulib" crc="195413691" seo="true" mt="1587491518000"/>
@@ -25,31 +28,42 @@
     <file name="loop-02-poster.png" crc="4034191347" seo="true" mt="1587660841000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
-    <file name="museutils.js" crc="3803043152" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
-    <file name="whatinput.js" crc="86476730" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
-    <file name="museconfig.js" crc="380897831" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
-    <file name="jquery.watch.js" crc="99325471" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
-    <file name="jquery.musemenu.js" crc="3784699396" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
-    <file name="jquery.museresponsive.js" crc="3955820958" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
-    <file name="require.js" crc="4157109226" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home"/>
+    <file name="museutils.js" crc="3803043152" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home"/>
+    <file name="whatinput.js" crc="86476730" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home"/>
+    <file name="museconfig.js" crc="380897831" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home"/>
+    <file name="jquery.musemenu.js" crc="3784699396" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home"/>
+    <file name="jquery.museresponsive.js" crc="3955820958" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home"/>
+    <file name="require.js" crc="4157109226" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home"/>
   </folder>
   <folder name="images">
     <file name="home-favicon.ico" crc="167952240" ref="index"/>
-    <file name="video-camera.png" crc="3898116041" seo="true" ref="index">
+    <file name="desmond-bros-creative-video-agency-white.png" crc="99011698" seo="true" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home">
+      <caption webpage="index" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
+      <caption webpage="index" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
+      <caption webpage="how-video-production-content-can-help-your-company" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
+      <caption webpage="how-video-production-content-can-help-your-company" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
+      <caption webpage="contact" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
+      <caption webpage="contact" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
+      <caption webpage="blog" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
+      <caption webpage="blog" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
+      <caption webpage="lockdown-creativity-commercial-at-home" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
+      <caption webpage="lockdown-creativity-commercial-at-home" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
+    </file>
+    <file name="video-camera-crop-u503.png" crc="438355274" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="music.png" crc="4163509458" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="music.png" crc="335127834" seo="true" ref="index">
+    <file name="photo-camera.png" crc="4149630965" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="photo-camera.png" crc="498943334" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="clapperboard.png" crc="439181162" seo="true" ref="index">
+    <file name="clapperboard.png" crc="3828344811" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
@@ -76,14 +90,17 @@
       <caption webpage="contact" alt=""/>
       <caption webpage="contact" alt=""/>
     </file>
-    <file name="u1299.png" crc="385703429" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
-    <file name="u1299-r.png" crc="480144741" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
-    <file name="u1301.png" crc="3852873405" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
-    <file name="u1301-r.png" crc="4024973256" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
-    <file name="u1322.png" crc="525265426" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
-    <file name="u1322-r.png" crc="4004628114" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
-    <file name="u1410.png" crc="64321047" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
-    <file name="u1410-r.png" crc="4101330512" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
+    <file name="u1299.png" crc="385703429" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home"/>
+    <file name="u1299-r.png" crc="480144741" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home"/>
+    <file name="u1301.png" crc="3852873405" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home"/>
+    <file name="u1301-r.png" crc="4024973256" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home"/>
+    <file name="u1322.png" crc="525265426" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home"/>
+    <file name="u1322-r.png" crc="4004628114" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home"/>
+    <file name="u1410.png" crc="64321047" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home"/>
+    <file name="u1410-r.png" crc="4101330512" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home"/>
+    <file name="video-camera.png" crc="424019538" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
     <file name="corporate-photography-cork400x226.jpg" crc="357504270" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -93,53 +110,78 @@
     <file name="cork-music-video-production-crop-u7012.jpg" crc="4022852842" seo="true" ref="index">
       <caption webpage="index" alt="Music video production Cork."/>
     </file>
-    <file name="blank.gif" crc="4208392903" ref="index:blog:how-video-production-content-can-help-your-company:contact"/>
-    <file name="a-master-favicon.ico" crc="167952240" ref="blog:how-video-production-content-can-help-your-company"/>
-    <file name="arrowmenudown.png" crc="262559161" ref="blog:how-video-production-content-can-help-your-company">
-      <caption webpage="blog" alt=""/>
-      <caption webpage="blog" alt=""/>
-      <caption webpage="how-video-production-content-can-help-your-company" alt=""/>
-      <caption webpage="how-video-production-content-can-help-your-company" alt=""/>
-    </file>
+    <file name="blank.gif" crc="4208392903" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home"/>
+    <file name="a-master-favicon.ico" crc="167952240" ref="blog"/>
     <file name="video-production-gear-crop-u1985.jpg" crc="469240582" seo="true" ref="blog">
-      <caption webpage="blog" alt=""/>
+      <caption webpage="blog" alt="video production, article, blog, how, how can, marketing, help, strategy, company, firm, video, corporate, cork, ireland, desmond, desmond bros,"/>
+    </file>
+    <file name="video_production_quarantine_lock_down_video_at_home338x190.png" crc="275684353" seo="true" ref="blog">
+      <caption webpage="blog" alt="video production, article, blog, how, how can, marketing, help, strategy, company, firm, video, corporate, coronavirus, quarantine, lockdown, lo"/>
     </file>
     <file name="video-production-gear-crop-u19852.jpg" crc="518950221" seo="true" ref="blog">
-      <caption webpage="blog" alt=""/>
+      <caption webpage="blog" alt="video production, article, blog, how, how can, marketing, help, strategy, company, firm, video, corporate, cork, ireland, desmond, desmond bros,"/>
+    </file>
+    <file name="video_production_quarantine_lock_down_video_at_home359x202.png" crc="3833040801" seo="true" ref="blog">
+      <caption webpage="blog" alt="video production, article, blog, how, how can, marketing, help, strategy, company, firm, video, corporate, coronavirus, quarantine, lockdown, lo"/>
     </file>
     <file name="video-production-gear.jpg" crc="3935681396" seo="true" ref="how-video-production-content-can-help-your-company">
-      <caption webpage="how-video-production-content-can-help-your-company" alt="how video production can help your company"/>
+      <caption webpage="how-video-production-content-can-help-your-company" alt="how video production can help your Cork company"/>
     </file>
-    <file name="video-production-app-website-social-media-crop-u2889.jpg" crc="4291301425" seo="true" ref="how-video-production-content-can-help-your-company">
-      <caption webpage="how-video-production-content-can-help-your-company" alt="Video production content is needed for laptop, phone, tablet, and every kind of social media platform and profile for a company"/>
+    <file name="video-production-app-website-social-media-crop-u2889.jpg" crc="3934792172" seo="true" ref="how-video-production-content-can-help-your-company">
+      <caption webpage="how-video-production-content-can-help-your-company" alt="Video production content is needed for laptop, phone, tablet, and every kind of social media platform and profile for a company in Cork"/>
     </file>
     <file name="video-content-demand-graph.png" crc="147182254" seo="true" ref="how-video-production-content-can-help-your-company">
-      <caption webpage="how-video-production-content-can-help-your-company" alt="Graph showing the type of content consumers prefer to see from brands and companies, and why video is so important for a corporate brand"/>
+      <caption webpage="how-video-production-content-can-help-your-company" alt="Graph showing the type of content consumers prefer to see from brands and companies, and why video is so important for a Cork corporate brand"/>
     </file>
     <file name="video-content-investment-graph.png" crc="48237886" seo="true" ref="how-video-production-content-can-help-your-company">
-      <caption webpage="how-video-production-content-can-help-your-company" alt="A graph showing how companies invest in video production and what kind of corporate videos they invest in"/>
+      <caption webpage="how-video-production-content-can-help-your-company" alt="A graph showing how companies invest in video production and what kind of corporate videos they invest in, including Cork"/>
     </file>
     <file name="cian-desmond-video-production-cork-crop-u1944.jpg" crc="167233066" seo="true" ref="how-video-production-content-can-help-your-company">
-      <caption webpage="how-video-production-content-can-help-your-company" alt=""/>
+      <caption webpage="how-video-production-content-can-help-your-company" alt="Cian Desmond, Cork based videographer, filmmaker, video production"/>
     </file>
     <file name="video-production-gear362x204.jpg" crc="68214703" seo="true" ref="how-video-production-content-can-help-your-company">
-      <caption webpage="how-video-production-content-can-help-your-company" alt="how video production can help your company"/>
+      <caption webpage="how-video-production-content-can-help-your-company" alt="how video production can help your Cork company"/>
     </file>
-    <file name="video-production-app-website-social-media-crop-u28892.jpg" crc="128814181" seo="true" ref="how-video-production-content-can-help-your-company">
-      <caption webpage="how-video-production-content-can-help-your-company" alt="Video production content is needed for laptop, phone, tablet, and every kind of social media platform and profile for a company"/>
+    <file name="video-production-app-website-social-media-crop-u28892.jpg" crc="159578991" seo="true" ref="how-video-production-content-can-help-your-company">
+      <caption webpage="how-video-production-content-can-help-your-company" alt="Video production content is needed for laptop, phone, tablet, and every kind of social media platform and profile for a company in Cork"/>
     </file>
     <file name="video-content-demand-graph360x203.png" crc="4072900885" seo="true" ref="how-video-production-content-can-help-your-company">
-      <caption webpage="how-video-production-content-can-help-your-company" alt="Graph showing the type of content consumers prefer to see from brands and companies, and why video is so important for a corporate brand"/>
+      <caption webpage="how-video-production-content-can-help-your-company" alt="Graph showing the type of content consumers prefer to see from brands and companies, and why video is so important for a Cork corporate brand"/>
     </file>
     <file name="video-content-investment-graph360x203.png" crc="4172522153" seo="true" ref="how-video-production-content-can-help-your-company">
-      <caption webpage="how-video-production-content-can-help-your-company" alt="A graph showing how companies invest in video production and what kind of corporate videos they invest in"/>
+      <caption webpage="how-video-production-content-can-help-your-company" alt="A graph showing how companies invest in video production and what kind of corporate videos they invest in, including Cork"/>
     </file>
     <file name="cian-desmond-video-production-cork-crop-u19442.jpg" crc="4121512345" seo="true" ref="how-video-production-content-can-help-your-company">
-      <caption webpage="how-video-production-content-can-help-your-company" alt=""/>
+      <caption webpage="how-video-production-content-can-help-your-company" alt="Cian Desmond, Cork based videographer, filmmaker, video production"/>
+    </file>
+    <file name="video_production_quarantine_lock_down_video_at_home.png" crc="471277296" seo="true" ref="lockdown-creativity-commercial-at-home">
+      <caption webpage="lockdown-creativity-commercial-at-home" alt="Commercial video production for new tech, apps and start up companies. Based in Cork, Munster, Ireland."/>
+    </file>
+    <file name="production_design_commercial_video_shoot.jpg" crc="420452274" seo="true" ref="lockdown-creativity-commercial-at-home">
+      <caption webpage="lockdown-creativity-commercial-at-home" alt="The set of Desmond Bros lock down video shoot challenge, for an app commercial in Cork"/>
+    </file>
+    <file name="desmond_bros_video_production_cinema_camera_package_4k.jpg" crc="4130262455" seo="true" ref="lockdown-creativity-commercial-at-home">
+      <caption webpage="lockdown-creativity-commercial-at-home" alt="Video production in Cork"/>
+    </file>
+    <file name="jack-desmond-video-production-cinematographer-cork-crop-u2724.jpg" crc="181822135" seo="true" ref="lockdown-creativity-commercial-at-home">
+      <caption webpage="lockdown-creativity-commercial-at-home" alt="Jack Desmond, videographer, filmmaker, video production in Cork"/>
+    </file>
+    <file name="video_production_quarantine_lock_down_video_at_home360x203.png" crc="3956968694" seo="true" ref="lockdown-creativity-commercial-at-home">
+      <caption webpage="lockdown-creativity-commercial-at-home" alt="Commercial video production for new tech, apps and start up companies. Based in Cork, Munster, Ireland."/>
+    </file>
+    <file name="production_design_commercial_video_shoot360x241.jpg" crc="164290901" seo="true" ref="lockdown-creativity-commercial-at-home">
+      <caption webpage="lockdown-creativity-commercial-at-home" alt="The set of Desmond Bros lock down video shoot challenge, for an app commercial in Cork"/>
+    </file>
+    <file name="desmond_bros_video_production_cinema_camera_package_4k360x241.jpg" crc="472307026" seo="true" ref="lockdown-creativity-commercial-at-home">
+      <caption webpage="lockdown-creativity-commercial-at-home" alt="Video production in Cork"/>
+    </file>
+    <file name="jack-desmond-video-production-cinematographer-cork-crop-u27242.jpg" crc="534463978" seo="true" ref="lockdown-creativity-commercial-at-home">
+      <caption webpage="lockdown-creativity-commercial-at-home" alt="Jack Desmond, videographer, filmmaker, video production in Cork"/>
     </file>
   </folder>
-  <file name="index.html" crc="4089809864" seo="true" mt="1588857965690" redirect="true"/>
-  <file name="blog.html" crc="4224578724" seo="true" mt="1588857995167" redirect="true"/>
-  <file name="how-video-production-content-can-help-your-company.html" crc="416949816" seo="true" mt="1588858805049" redirect="true"/>
-  <file name="contact.html" crc="3838459241" seo="true" mt="1588857979199" redirect="true"/>
+  <file name="index.html" crc="4252820276" seo="true" mt="1589381148843" redirect="true"/>
+  <file name="blog.html" crc="3793702779" seo="true" mt="1589381002404" redirect="true"/>
+  <file name="how-video-production-content-can-help-your-company.html" crc="69165828" seo="true" mt="1589381002404" redirect="true"/>
+  <file name="contact.html" crc="409760592" seo="true" mt="1589381002404" redirect="true"/>
+  <file name="lockdown-creativity-commercial-at-home.html" crc="200010261" seo="true" mt="1589381002404" redirect="true"/>
 </manifest>
