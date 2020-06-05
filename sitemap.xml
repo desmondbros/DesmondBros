@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://desmondbros.ie/index.html</loc>
-    <lastmod>2020-05-13</lastmod>
+    <lastmod>2020-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -25,7 +25,7 @@
       <image:loc>http://desmondbros.ie/images/corporate-photography-cork-crop-u2930.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://desmondbros.ie/images/cork-video-production-commercial.jpg</image:loc>
+      <image:loc>http://desmondbros.ie/images/cork-video-production-commercial658x281.jpg</image:loc>
       <image:caption>Commercial video production Cork.</image:caption>
     </image:image>
     <image:image>
@@ -44,6 +44,16 @@
       <image:loc>http://desmondbros.ie/images/mail.png</image:loc>
     </image:image>
     <image:image>
+      <image:loc>http://desmondbros.ie/images/desmond-bros-creative-video-agency-black.png</image:loc>
+      <image:caption>Desmond Bros creative video agency, video production in Cork, Ireland</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/desmond-bros-creative-video-agency-black.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/hamburger.png</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>http://desmondbros.ie/images/video-camera.png</image:loc>
     </image:image>
     <image:image>
@@ -60,51 +70,44 @@
   </url>
   <url>
     <loc>http://desmondbros.ie/blog.html</loc>
-    <lastmod>2020-05-13</lastmod>
+    <lastmod>2020-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://desmondbros.ie/images/desmond-bros-creative-video-agency-white.png</image:loc>
+      <image:loc>http://desmondbros.ie/images/desmond-bros-creative-video-agency-black.png</image:loc>
       <image:caption>Desmond Bros creative video agency, video production in Cork, Ireland</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/hamburger.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/blog-tile-heineken.jpg</image:loc>
+      <image:caption>video production, article, blog, how, how can, marketing, help, strategy, company, firm, video, corporate, coronavirus, quarantine, lockdown, lo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/video_production_quarantine_lock_down_video_at_home.jpg</image:loc>
+      <image:caption>video production, article, blog, how, how can, marketing, help, strategy, company, firm, video, corporate, coronavirus, quarantine, lockdown, lo</image:caption>
     </image:image>
     <image:image>
       <image:loc>http://desmondbros.ie/images/video-production-gear-crop-u1985.jpg</image:loc>
       <image:caption>video production, article, blog, how, how can, marketing, help, strategy, company, firm, video, corporate, cork, ireland, desmond, desmond bros,</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://desmondbros.ie/images/video_production_quarantine_lock_down_video_at_home339x191.png</image:loc>
-      <image:caption>video production, article, blog, how, how can, marketing, help, strategy, company, firm, video, corporate, coronavirus, quarantine, lockdown, lo</image:caption>
-    </image:image>
-    <image:image>
       <image:loc>http://desmondbros.ie/images/video-production-gear-crop-u19852.jpg</image:loc>
       <image:caption>video production, article, blog, how, how can, marketing, help, strategy, company, firm, video, corporate, cork, ireland, desmond, desmond bros,</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/video_production_quarantine_lock_down_video_at_home359x202.png</image:loc>
-      <image:caption>video production, article, blog, how, how can, marketing, help, strategy, company, firm, video, corporate, coronavirus, quarantine, lockdown, lo</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://desmondbros.ie/contact.html</loc>
-    <lastmod>2020-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/desmond-bros-creative-video-agency-white.png</image:loc>
-      <image:caption>Desmond Bros creative video agency, video production in Cork, Ireland</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://desmondbros.ie/images/mail.png</image:loc>
     </image:image>
   </url>
   <url>
     <loc>http://desmondbros.ie/how-video-production-content-can-help-your-company.html</loc>
-    <lastmod>2020-05-13</lastmod>
+    <lastmod>2020-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://desmondbros.ie/images/desmond-bros-creative-video-agency-white.png</image:loc>
+      <image:loc>http://desmondbros.ie/images/desmond-bros-creative-video-agency-black.png</image:loc>
       <image:caption>Desmond Bros creative video agency, video production in Cork, Ireland</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/hamburger.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://desmondbros.ie/images/video-production-gear.jpg</image:loc>
@@ -125,6 +128,9 @@
     <image:image>
       <image:loc>http://desmondbros.ie/images/cian-desmond-video-production-cork-crop-u1944.jpg</image:loc>
       <image:caption>Cian Desmond, Cork based videographer, filmmaker, video production</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/elearning.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://desmondbros.ie/images/video-production-gear362x204.jpg</image:loc>
@@ -148,20 +154,94 @@
     </image:image>
   </url>
   <url>
-    <loc>http://desmondbros.ie/lockdown-creativity-commercial-at-home.html</loc>
-    <lastmod>2020-05-13</lastmod>
+    <loc>http://desmondbros.ie/contact.html</loc>
+    <lastmod>2020-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://desmondbros.ie/images/desmond-bros-creative-video-agency-white.png</image:loc>
+      <image:loc>http://desmondbros.ie/images/mail.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/desmond-bros-creative-video-agency-black.png</image:loc>
       <image:caption>Desmond Bros creative video agency, video production in Cork, Ireland</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/hamburger.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://desmondbros.ie/cork-video-production.html</loc>
+    <lastmod>2020-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/desmond-bros-creative-video-agency-black.png</image:loc>
+      <image:caption>Desmond Bros creative video agency, video production in Cork, Ireland</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/hamburger.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/cork-video-production-commercial-crop-u5616.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/clapperboard2.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/video-camera2.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/facebook.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/twins-crop-u5100.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/music2.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/production_design_commercial_video_shoot-crop-u5070.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/cork-video-production-app-crop-u5600.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/cork-video-production-commercial-crop-u56162.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/twins.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/video-camera-crop-u5136.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/production_design_commercial_video_shoot402x268.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/cork-video-production-app-crop-u56002.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://desmondbros.ie/lockdown-creativity-commercial-at-home.html</loc>
+    <lastmod>2020-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/desmond-bros-creative-video-agency-black.png</image:loc>
+      <image:caption>Desmond Bros creative video agency, video production in Cork, Ireland</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/hamburger.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/elearning.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://desmondbros.ie/images/video_production_quarantine_lock_down_video_at_home.png</image:loc>
       <image:caption>Commercial video production for new tech, apps and start up companies. Based in Cork, Munster, Ireland.</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://desmondbros.ie/images/production_design_commercial_video_shoot.jpg</image:loc>
+      <image:loc>http://desmondbros.ie/images/production_design_commercial_video_shoot693x462.jpg</image:loc>
       <image:caption>The set of Desmond Bros lock down video shoot challenge, for an app commercial in Cork</image:caption>
     </image:image>
     <image:image>
@@ -190,10 +270,46 @@
     </image:image>
   </url>
   <url>
-    <loc>http://desmondbros.ie/assets/loop-02-poster.png</loc>
-    <lastmod>2020-04-23</lastmod>
+    <loc>http://desmondbros.ie/heineken-brand-film-spec-ad.html</loc>
+    <lastmod>2020-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/desmond-bros-creative-video-agency-black.png</image:loc>
+      <image:caption>Desmond Bros creative video agency, video production in Cork, Ireland</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/hamburger.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/elearning.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/brand-film-heineken-commercial.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/heineken_fb_02750x432.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/brand-film-heineken-commercia-spec.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/jack-desmond-video-production-cinematographer-cork-crop-u5386.jpg</image:loc>
+      <image:caption>Jack Desmond, videographer, filmmaker, video production in Cork</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/brand-film-heineken-commercial400x171.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/heineken_fb_02400x231.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/brand-film-heineken-commercia-spec400x171.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://desmondbros.ie/images/jack-desmond-video-production-cinematographer-cork-crop-u53862.jpg</image:loc>
+      <image:caption>Jack Desmond, videographer, filmmaker, video production in Cork</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>http://desmondbros.ie/assets/anchor-scroll.mulib</loc>
@@ -210,6 +326,12 @@
   <url>
     <loc>http://desmondbros.ie/assets/responsive_musepen_video_widget.mulib</loc>
     <lastmod>2020-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://desmondbros.ie/assets/loop-02-poster.png</loc>
+    <lastmod>2020-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
