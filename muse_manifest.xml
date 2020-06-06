@@ -1,31 +1,31 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1591392221002">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1591452510008">
   <folder name="css">
     <file name="site_global.css" crc="408077140"/>
-    <file name="master_b-master.css" crc="85672196" ref="contact:lockdown-creativity-commercial-at-home:blog:heineken-brand-film-spec-ad:cork-video-production:how-video-production-content-can-help-your-company"/>
-    <file name="nomq_preview_master_b-master.css" crc="3824530138" ref="contact:lockdown-creativity-commercial-at-home:blog:heineken-brand-film-spec-ad:cork-video-production:how-video-production-content-can-help-your-company"/>
-    <file name="master_a-master.css" crc="3917180842" ref="contact:lockdown-creativity-commercial-at-home:blog:heineken-brand-film-spec-ad:cork-video-production:how-video-production-content-can-help-your-company:index"/>
-    <file name="nomq_preview_master_a-master.css" crc="63878804" ref="contact:lockdown-creativity-commercial-at-home:blog:heineken-brand-film-spec-ad:cork-video-production:how-video-production-content-can-help-your-company:index"/>
-    <file name="contact.css" crc="4064652924" ref="contact"/>
-    <file name="nomq_contact.css" crc="4179687107" ref="contact"/>
-    <file name="iefonts_contact.css" crc="3899479668" ref="contact"/>
-    <file name="lockdown-creativity-commercial-at-home.css" crc="40988028" ref="lockdown-creativity-commercial-at-home"/>
-    <file name="nomq_lockdown-creativity-commercial-at-home.css" crc="277070781" ref="lockdown-creativity-commercial-at-home"/>
-    <file name="iefonts_lockdown-creativity-commercial-at-home.css" crc="3899479668" ref="lockdown-creativity-commercial-at-home"/>
-    <file name="blog.css" crc="4158667569" ref="blog"/>
-    <file name="nomq_blog.css" crc="418731429" ref="blog"/>
-    <file name="iefonts_blog.css" crc="3899479668" ref="blog"/>
-    <file name="heineken-brand-film-spec-ad.css" crc="3883640255" ref="heineken-brand-film-spec-ad"/>
-    <file name="nomq_heineken-brand-film-spec-ad.css" crc="4249635854" ref="heineken-brand-film-spec-ad"/>
-    <file name="iefonts_heineken-brand-film-spec-ad.css" crc="3899479668" ref="heineken-brand-film-spec-ad"/>
-    <file name="cork-video-production.css" crc="500045539" ref="cork-video-production"/>
-    <file name="nomq_cork-video-production.css" crc="17181852" ref="cork-video-production"/>
-    <file name="iefonts_cork-video-production.css" crc="3899479668" ref="cork-video-production"/>
-    <file name="how-video-production-content-can-help-your-company.css" crc="4205685744" ref="how-video-production-content-can-help-your-company"/>
-    <file name="nomq_how-video-production-content-can-help-your-company.css" crc="3941775127" ref="how-video-production-content-can-help-your-company"/>
-    <file name="iefonts_how-video-production-content-can-help-your-company.css" crc="3899479668" ref="how-video-production-content-can-help-your-company"/>
-    <file name="index.css" crc="530930818" ref="index"/>
-    <file name="nomq_index.css" crc="3856316731" ref="index"/>
+    <file name="master_b-master.css" crc="149612512" ref="heineken-brand-film-spec-ad:lockdown-creativity-commercial-at-home:blog:contact:cork-video-production:how-video-production-content-can-help-your-company"/>
+    <file name="nomq_preview_master_b-master.css" crc="3824530138" ref="heineken-brand-film-spec-ad:lockdown-creativity-commercial-at-home:blog:contact:cork-video-production:how-video-production-content-can-help-your-company"/>
+    <file name="master_a-master.css" crc="4291550029" ref="index:heineken-brand-film-spec-ad:lockdown-creativity-commercial-at-home:blog:contact:cork-video-production:how-video-production-content-can-help-your-company"/>
+    <file name="nomq_preview_master_a-master.css" crc="63878804" ref="index:heineken-brand-film-spec-ad:lockdown-creativity-commercial-at-home:blog:contact:cork-video-production:how-video-production-content-can-help-your-company"/>
+    <file name="index.css" crc="83224620" ref="index"/>
+    <file name="nomq_index.css" crc="3791847316" ref="index"/>
     <file name="iefonts_index.css" crc="3899479668" ref="index"/>
+    <file name="heineken-brand-film-spec-ad.css" crc="318138950" ref="heineken-brand-film-spec-ad"/>
+    <file name="nomq_heineken-brand-film-spec-ad.css" crc="4248419687" ref="heineken-brand-film-spec-ad"/>
+    <file name="iefonts_heineken-brand-film-spec-ad.css" crc="3899479668" ref="heineken-brand-film-spec-ad"/>
+    <file name="lockdown-creativity-commercial-at-home.css" crc="334141845" ref="lockdown-creativity-commercial-at-home"/>
+    <file name="nomq_lockdown-creativity-commercial-at-home.css" crc="4231170113" ref="lockdown-creativity-commercial-at-home"/>
+    <file name="iefonts_lockdown-creativity-commercial-at-home.css" crc="3899479668" ref="lockdown-creativity-commercial-at-home"/>
+    <file name="blog.css" crc="212376523" ref="blog"/>
+    <file name="nomq_blog.css" crc="4234984913" ref="blog"/>
+    <file name="iefonts_blog.css" crc="3899479668" ref="blog"/>
+    <file name="contact.css" crc="3833920770" ref="contact"/>
+    <file name="nomq_contact.css" crc="3909163881" ref="contact"/>
+    <file name="iefonts_contact.css" crc="3899479668" ref="contact"/>
+    <file name="cork-video-production.css" crc="396219742" ref="cork-video-production"/>
+    <file name="nomq_cork-video-production.css" crc="179010048" ref="cork-video-production"/>
+    <file name="iefonts_cork-video-production.css" crc="3899479668" ref="cork-video-production"/>
+    <file name="how-video-production-content-can-help-your-company.css" crc="264797359" ref="how-video-production-content-can-help-your-company"/>
+    <file name="nomq_how-video-production-content-can-help-your-company.css" crc="4233344949" ref="how-video-production-content-can-help-your-company"/>
+    <file name="iefonts_how-video-production-content-can-help-your-company.css" crc="3899479668" ref="how-video-production-content-can-help-your-company"/>
   </folder>
   <folder name="assets">
     <file name="anchor-scroll.mulib" crc="195413691" seo="true" mt="1587491518000"/>
@@ -53,22 +53,23 @@
     <file name="desmond-bros-creative-video-agency-white.png" crc="99011698" seo="true" ref="index">
       <caption webpage="index" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
     </file>
-    <file name="video-camera-crop-u503.png" crc="438355274" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="music.png" crc="4163509458" seo="true" ref="index">
+    <file name="video-camera.png" crc="3955558509" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="photo-camera.png" crc="4149630965" seo="true" ref="index">
+    <file name="music.png" crc="151027016" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="clapperboard.png" crc="3828344811" seo="true" ref="index">
+    <file name="photo-camera.png" crc="54014740" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="corporate-photography-cork-crop-u2930.jpg" crc="225720517" seo="true" ref="index">
+    <file name="clapperboard.png" crc="110179720" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="corporate-photography-cork-crop-u2930.jpg" crc="3837671372" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="cork-video-production-commercial658x281.jpg" crc="3764894695" seo="true" ref="index">
@@ -92,37 +93,23 @@
       <caption webpage="contact" alt=""/>
     </file>
     <file name="desmond-bros-creative-video-agency-black.png" crc="300976922" seo="true" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home:cork-video-production:heineken-brand-film-spec-ad">
-      <caption webpage="contact" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
-      <caption webpage="contact" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
+      <caption webpage="lockdown-creativity-commercial-at-home" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
+      <caption webpage="lockdown-creativity-commercial-at-home" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
+      <caption webpage="heineken-brand-film-spec-ad" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
+      <caption webpage="heineken-brand-film-spec-ad" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
       <caption webpage="blog" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
       <caption webpage="blog" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
       <caption webpage="cork-video-production" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
       <caption webpage="cork-video-production" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
-      <caption webpage="heineken-brand-film-spec-ad" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
-      <caption webpage="heineken-brand-film-spec-ad" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
-      <caption webpage="lockdown-creativity-commercial-at-home" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
-      <caption webpage="lockdown-creativity-commercial-at-home" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
       <caption webpage="index" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
+      <caption webpage="contact" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
+      <caption webpage="contact" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
       <caption webpage="how-video-production-content-can-help-your-company" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
       <caption webpage="how-video-production-content-can-help-your-company" alt="Desmond Bros creative video agency, video production in Cork, Ireland"/>
     </file>
-    <file name="hamburger.png" crc="3920920823" seo="true" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home:cork-video-production:heineken-brand-film-spec-ad">
-      <caption webpage="contact" alt=""/>
-      <caption webpage="contact" alt=""/>
-      <caption webpage="blog" alt=""/>
-      <caption webpage="blog" alt=""/>
-      <caption webpage="cork-video-production" alt=""/>
-      <caption webpage="cork-video-production" alt=""/>
-      <caption webpage="heineken-brand-film-spec-ad" alt=""/>
-      <caption webpage="heineken-brand-film-spec-ad" alt=""/>
-      <caption webpage="lockdown-creativity-commercial-at-home" alt=""/>
-      <caption webpage="lockdown-creativity-commercial-at-home" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="how-video-production-content-can-help-your-company" alt=""/>
-      <caption webpage="how-video-production-content-can-help-your-company" alt=""/>
-    </file>
+    <file name="hamburger-u3771.png" crc="202195505" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home:cork-video-production:heineken-brand-film-spec-ad"/>
     <file name="u1299.png" crc="385703429" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home:cork-video-production:heineken-brand-film-spec-ad"/>
     <file name="u1299-r.png" crc="480144741" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home:cork-video-production:heineken-brand-film-spec-ad"/>
     <file name="u1301.png" crc="3852873405" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home:cork-video-production:heineken-brand-film-spec-ad"/>
@@ -131,9 +118,6 @@
     <file name="u1322-r.png" crc="395444007" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home:cork-video-production:heineken-brand-film-spec-ad"/>
     <file name="u1410.png" crc="64321047" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home:cork-video-production:heineken-brand-film-spec-ad"/>
     <file name="u1410-r.png" crc="4101330512" ref="index:blog:how-video-production-content-can-help-your-company:contact:lockdown-creativity-commercial-at-home:cork-video-production:heineken-brand-film-spec-ad"/>
-    <file name="video-camera.png" crc="424019538" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="corporate-photography-cork400x226.jpg" crc="357504270" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -145,8 +129,8 @@
     </file>
     <file name="a-master-favicon.ico" crc="167952240" ref="blog"/>
     <file name="blog-tile-heineken.jpg" crc="3844561815" seo="true" ref="blog">
-      <caption webpage="blog" alt="video production, article, blog, how, how can, marketing, help, strategy, company, firm, video, corporate, coronavirus, quarantine, lockdown, lo"/>
-      <caption webpage="blog" alt="video production, article, blog, how, how can, marketing, help, strategy, company, firm, video, corporate, coronavirus, quarantine, lockdown, lo"/>
+      <caption webpage="blog" alt="Heineken, brand, spec, video production, article, blog, how, how can, marketing, help, strategy, company, firm, video, corporate"/>
+      <caption webpage="blog" alt="Heineken, brand, spec, video production, article, blog, how, how can, marketing, help, strategy, company, firm, video, corporate"/>
     </file>
     <file name="video_production_quarantine_lock_down_video_at_home.jpg" crc="3839587979" seo="true" ref="blog">
       <caption webpage="blog" alt="video production, article, blog, how, how can, marketing, help, strategy, company, firm, video, corporate, coronavirus, quarantine, lockdown, lo"/>
@@ -174,12 +158,12 @@
       <caption webpage="how-video-production-content-can-help-your-company" alt="Cian Desmond, Cork based videographer, filmmaker, video production"/>
     </file>
     <file name="elearning.png" crc="3973717673" seo="true" ref="how-video-production-content-can-help-your-company:lockdown-creativity-commercial-at-home:heineken-brand-film-spec-ad">
-      <caption webpage="heineken-brand-film-spec-ad" alt=""/>
-      <caption webpage="heineken-brand-film-spec-ad" alt=""/>
       <caption webpage="how-video-production-content-can-help-your-company" alt=""/>
       <caption webpage="how-video-production-content-can-help-your-company" alt=""/>
       <caption webpage="lockdown-creativity-commercial-at-home" alt=""/>
       <caption webpage="lockdown-creativity-commercial-at-home" alt=""/>
+      <caption webpage="heineken-brand-film-spec-ad" alt="Marketing blog video production articles"/>
+      <caption webpage="heineken-brand-film-spec-ad" alt="Marketing blog video production articles"/>
     </file>
     <file name="video-production-gear362x204.jpg" crc="68214703" seo="true" ref="how-video-production-content-can-help-your-company">
       <caption webpage="how-video-production-content-can-help-your-company" alt="how video production can help your Cork company"/>
@@ -221,13 +205,14 @@
       <caption webpage="lockdown-creativity-commercial-at-home" alt="Jack Desmond, videographer, filmmaker, video production in Cork"/>
     </file>
     <file name="cork-video-production-commercial-crop-u5616.jpg" crc="4045444320" seo="true" ref="cork-video-production">
-      <caption webpage="cork-video-production" alt=""/>
+      <caption webpage="cork-video-production" alt="Professional video production in Cork."/>
     </file>
     <file name="clapperboard2.png" crc="3924058832" seo="true" ref="cork-video-production">
       <caption webpage="cork-video-production" alt=""/>
       <caption webpage="cork-video-production" alt=""/>
     </file>
     <file name="video-camera2.png" crc="273217303" seo="true" ref="cork-video-production">
+      <caption webpage="cork-video-production" alt=""/>
       <caption webpage="cork-video-production" alt=""/>
       <caption webpage="cork-video-production" alt=""/>
       <caption webpage="cork-video-production" alt=""/>
@@ -247,57 +232,54 @@
       <caption webpage="cork-video-production" alt=""/>
     </file>
     <file name="production_design_commercial_video_shoot-crop-u5070.jpg" crc="3879566481" seo="true" ref="cork-video-production">
-      <caption webpage="cork-video-production" alt=""/>
+      <caption webpage="cork-video-production" alt="Cork video production, professional standard."/>
     </file>
     <file name="cork-video-production-app-crop-u5600.jpg" crc="29546731" seo="true" ref="cork-video-production">
-      <caption webpage="cork-video-production" alt=""/>
+      <caption webpage="cork-video-production" alt="Producing video content, produce creative Cork"/>
     </file>
     <file name="cork-video-production-commercial-crop-u56162.jpg" crc="516679181" seo="true" ref="cork-video-production">
-      <caption webpage="cork-video-production" alt=""/>
+      <caption webpage="cork-video-production" alt="Professional video production in Cork."/>
     </file>
     <file name="twins.png" crc="3854938289" seo="true" ref="cork-video-production">
       <caption webpage="cork-video-production" alt=""/>
     </file>
-    <file name="video-camera-crop-u5136.png" crc="4219263532" seo="true" ref="cork-video-production">
-      <caption webpage="cork-video-production" alt=""/>
-    </file>
     <file name="heineken_fb_02-u4500-fr.jpg" crc="4188605301" ref="cork-video-production"/>
     <file name="production_design_commercial_video_shoot402x268.jpg" crc="531190682" seo="true" ref="cork-video-production">
-      <caption webpage="cork-video-production" alt=""/>
+      <caption webpage="cork-video-production" alt="Cork video production, professional standard."/>
     </file>
     <file name="cork-video-production-app-crop-u56002.jpg" crc="3934305120" seo="true" ref="cork-video-production">
-      <caption webpage="cork-video-production" alt=""/>
+      <caption webpage="cork-video-production" alt="Producing video content, produce creative Cork"/>
     </file>
     <file name="brand-film-heineken-commercial.jpg" crc="330352054" seo="true" ref="heineken-brand-film-spec-ad">
-      <caption webpage="heineken-brand-film-spec-ad" alt=""/>
+      <caption webpage="heineken-brand-film-spec-ad" alt="Heineken brand film spec ad commercial shoot."/>
     </file>
     <file name="heineken_fb_02750x432.jpg" crc="3802677143" seo="true" ref="heineken-brand-film-spec-ad">
-      <caption webpage="heineken-brand-film-spec-ad" alt=""/>
+      <caption webpage="heineken-brand-film-spec-ad" alt="Heineken spec commercial video production"/>
     </file>
     <file name="brand-film-heineken-commercia-spec.jpg" crc="67813151" seo="true" ref="heineken-brand-film-spec-ad">
-      <caption webpage="heineken-brand-film-spec-ad" alt=""/>
+      <caption webpage="heineken-brand-film-spec-ad" alt="Heinken spec ad video shoot commercials director"/>
     </file>
     <file name="jack-desmond-video-production-cinematographer-cork-crop-u5386.jpg" crc="181822135" seo="true" ref="heineken-brand-film-spec-ad">
       <caption webpage="heineken-brand-film-spec-ad" alt="Jack Desmond, videographer, filmmaker, video production in Cork"/>
     </file>
     <file name="brand-film-heineken-commercial400x171.jpg" crc="236971239" seo="true" ref="heineken-brand-film-spec-ad">
-      <caption webpage="heineken-brand-film-spec-ad" alt=""/>
+      <caption webpage="heineken-brand-film-spec-ad" alt="Heineken brand film spec ad commercial shoot."/>
     </file>
     <file name="heineken_fb_02400x231.jpg" crc="364145519" seo="true" ref="heineken-brand-film-spec-ad">
-      <caption webpage="heineken-brand-film-spec-ad" alt=""/>
+      <caption webpage="heineken-brand-film-spec-ad" alt="Heineken spec commercial video production"/>
     </file>
     <file name="brand-film-heineken-commercia-spec400x171.jpg" crc="277692440" seo="true" ref="heineken-brand-film-spec-ad">
-      <caption webpage="heineken-brand-film-spec-ad" alt=""/>
+      <caption webpage="heineken-brand-film-spec-ad" alt="Heinken spec ad video shoot commercials director"/>
     </file>
     <file name="jack-desmond-video-production-cinematographer-cork-crop-u53862.jpg" crc="534463978" seo="true" ref="heineken-brand-film-spec-ad">
       <caption webpage="heineken-brand-film-spec-ad" alt="Jack Desmond, videographer, filmmaker, video production in Cork"/>
     </file>
   </folder>
-  <file name="index.html" crc="3801516704" seo="true" mt="1591392064336" redirect="true"/>
-  <file name="blog.html" crc="3807460416" seo="true" mt="1591392064336" redirect="true"/>
-  <file name="how-video-production-content-can-help-your-company.html" crc="439053511" seo="true" mt="1591392064336" redirect="true"/>
-  <file name="contact.html" crc="13708859" seo="true" mt="1591392064336" redirect="true"/>
-  <file name="lockdown-creativity-commercial-at-home.html" crc="475663827" seo="true" mt="1591392064336" redirect="true"/>
-  <file name="cork-video-production.html" crc="3842121518" seo="true" mt="1591392064336" redirect="true"/>
-  <file name="heineken-brand-film-spec-ad.html" crc="3992314997" seo="true" mt="1591392064336" redirect="true"/>
+  <file name="index.html" crc="4146314751" seo="true" mt="1591452086874" redirect="true"/>
+  <file name="blog.html" crc="3836813962" seo="true" mt="1591451418212" redirect="true"/>
+  <file name="how-video-production-content-can-help-your-company.html" crc="438545655" seo="true" mt="1591451091769" redirect="true"/>
+  <file name="contact.html" crc="92218928" seo="true" mt="1591448392170" redirect="true"/>
+  <file name="lockdown-creativity-commercial-at-home.html" crc="4110657750" seo="true" mt="1591451097451" redirect="true"/>
+  <file name="cork-video-production.html" crc="109170133" seo="true" mt="1591452460110" redirect="true"/>
+  <file name="heineken-brand-film-spec-ad.html" crc="71886597" seo="true" mt="1591451360506" redirect="true"/>
 </manifest>
