@@ -1,30 +1,30 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1591452510008">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="desmondbros.ie" resolutions="1x" timestamp="1591454657776">
   <folder name="css">
     <file name="site_global.css" crc="408077140"/>
     <file name="master_b-master.css" crc="149612512" ref="heineken-brand-film-spec-ad:lockdown-creativity-commercial-at-home:blog:contact:cork-video-production:how-video-production-content-can-help-your-company"/>
     <file name="nomq_preview_master_b-master.css" crc="3824530138" ref="heineken-brand-film-spec-ad:lockdown-creativity-commercial-at-home:blog:contact:cork-video-production:how-video-production-content-can-help-your-company"/>
     <file name="master_a-master.css" crc="4291550029" ref="index:heineken-brand-film-spec-ad:lockdown-creativity-commercial-at-home:blog:contact:cork-video-production:how-video-production-content-can-help-your-company"/>
     <file name="nomq_preview_master_a-master.css" crc="63878804" ref="index:heineken-brand-film-spec-ad:lockdown-creativity-commercial-at-home:blog:contact:cork-video-production:how-video-production-content-can-help-your-company"/>
-    <file name="index.css" crc="83224620" ref="index"/>
-    <file name="nomq_index.css" crc="3791847316" ref="index"/>
+    <file name="index.css" crc="4189794307" ref="index"/>
+    <file name="nomq_index.css" crc="4262082611" ref="index"/>
     <file name="iefonts_index.css" crc="3899479668" ref="index"/>
-    <file name="heineken-brand-film-spec-ad.css" crc="318138950" ref="heineken-brand-film-spec-ad"/>
-    <file name="nomq_heineken-brand-film-spec-ad.css" crc="4248419687" ref="heineken-brand-film-spec-ad"/>
+    <file name="heineken-brand-film-spec-ad.css" crc="3761561086" ref="heineken-brand-film-spec-ad"/>
+    <file name="nomq_heineken-brand-film-spec-ad.css" crc="4169581105" ref="heineken-brand-film-spec-ad"/>
     <file name="iefonts_heineken-brand-film-spec-ad.css" crc="3899479668" ref="heineken-brand-film-spec-ad"/>
-    <file name="lockdown-creativity-commercial-at-home.css" crc="334141845" ref="lockdown-creativity-commercial-at-home"/>
-    <file name="nomq_lockdown-creativity-commercial-at-home.css" crc="4231170113" ref="lockdown-creativity-commercial-at-home"/>
+    <file name="lockdown-creativity-commercial-at-home.css" crc="369491528" ref="lockdown-creativity-commercial-at-home"/>
+    <file name="nomq_lockdown-creativity-commercial-at-home.css" crc="4186830615" ref="lockdown-creativity-commercial-at-home"/>
     <file name="iefonts_lockdown-creativity-commercial-at-home.css" crc="3899479668" ref="lockdown-creativity-commercial-at-home"/>
-    <file name="blog.css" crc="212376523" ref="blog"/>
-    <file name="nomq_blog.css" crc="4234984913" ref="blog"/>
+    <file name="blog.css" crc="4264005291" ref="blog"/>
+    <file name="nomq_blog.css" crc="442627695" ref="blog"/>
     <file name="iefonts_blog.css" crc="3899479668" ref="blog"/>
-    <file name="contact.css" crc="3833920770" ref="contact"/>
-    <file name="nomq_contact.css" crc="3909163881" ref="contact"/>
+    <file name="contact.css" crc="4104389415" ref="contact"/>
+    <file name="nomq_contact.css" crc="3822499649" ref="contact"/>
     <file name="iefonts_contact.css" crc="3899479668" ref="contact"/>
-    <file name="cork-video-production.css" crc="396219742" ref="cork-video-production"/>
-    <file name="nomq_cork-video-production.css" crc="179010048" ref="cork-video-production"/>
+    <file name="cork-video-production.css" crc="4280306180" ref="cork-video-production"/>
+    <file name="nomq_cork-video-production.css" crc="3970314686" ref="cork-video-production"/>
     <file name="iefonts_cork-video-production.css" crc="3899479668" ref="cork-video-production"/>
-    <file name="how-video-production-content-can-help-your-company.css" crc="264797359" ref="how-video-production-content-can-help-your-company"/>
-    <file name="nomq_how-video-production-content-can-help-your-company.css" crc="4233344949" ref="how-video-production-content-can-help-your-company"/>
+    <file name="how-video-production-content-can-help-your-company.css" crc="369858915" ref="how-video-production-content-can-help-your-company"/>
+    <file name="nomq_how-video-production-content-can-help-your-company.css" crc="4193044707" ref="how-video-production-content-can-help-your-company"/>
     <file name="iefonts_how-video-production-content-can-help-your-company.css" crc="3899479668" ref="how-video-production-content-can-help-your-company"/>
   </folder>
   <folder name="assets">
@@ -275,11 +275,11 @@
       <caption webpage="heineken-brand-film-spec-ad" alt="Jack Desmond, videographer, filmmaker, video production in Cork"/>
     </file>
   </folder>
-  <file name="index.html" crc="4146314751" seo="true" mt="1591452086874" redirect="true"/>
-  <file name="blog.html" crc="3836813962" seo="true" mt="1591451418212" redirect="true"/>
-  <file name="how-video-production-content-can-help-your-company.html" crc="438545655" seo="true" mt="1591451091769" redirect="true"/>
-  <file name="contact.html" crc="92218928" seo="true" mt="1591448392170" redirect="true"/>
-  <file name="lockdown-creativity-commercial-at-home.html" crc="4110657750" seo="true" mt="1591451097451" redirect="true"/>
-  <file name="cork-video-production.html" crc="109170133" seo="true" mt="1591452460110" redirect="true"/>
-  <file name="heineken-brand-film-spec-ad.html" crc="71886597" seo="true" mt="1591451360506" redirect="true"/>
+  <file name="index.html" crc="283369196" seo="true" mt="1591454582801" redirect="true"/>
+  <file name="blog.html" crc="415295820" seo="true" mt="1591454582801" redirect="true"/>
+  <file name="how-video-production-content-can-help-your-company.html" crc="84409030" seo="true" mt="1591454582801" redirect="true"/>
+  <file name="contact.html" crc="350709362" seo="true" mt="1591454582801" redirect="true"/>
+  <file name="lockdown-creativity-commercial-at-home.html" crc="351525595" seo="true" mt="1591454582801" redirect="true"/>
+  <file name="cork-video-production.html" crc="4188392192" seo="true" mt="1591454582801" redirect="true"/>
+  <file name="heineken-brand-film-spec-ad.html" crc="4108674860" seo="true" mt="1591454582801" redirect="true"/>
 </manifest>
