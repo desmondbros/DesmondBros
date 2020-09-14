@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | Desmond Bros Creative Video Agency</title>
-    <link rel="icon" type="image/svg+xml" href="/images/db-favicon.svg">
-    <link rel="alternate icon" href="/images/db-favicon.png">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/form.css">
-    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" /> 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <meta property="og:site_name" content="Desmond Bros">
-    <meta property="og:title" content="Desmond Bros">
-    <meta property="og:description" content="Creative Video Agency in Cork">
-    <meta property="og:image" itemprop="image" content="http://desmondbros.ie/images/desmond-bros-tile.jpg">
-    <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image:width" content="300">
-    <meta property="og:image:height" content="300">
-    <meta property="og:url" content="http://desmondbros.ie/contact">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact | Desmond Bros Creative Video Agency</title>
+        <link rel="icon" type="image/svg+xml" href="/images/db-favicon.svg">
+        <link rel="alternate icon" href="/images/db-favicon.png">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/form.css">
+        <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" /> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <meta property="og:site_name" content="Desmond Bros">
+        <meta property="og:title" content="Desmond Bros">
+        <meta property="og:description" content="Creative Video Agency in Cork">
+        <meta property="og:image" itemprop="image" content="http://desmondbros.ie/images/desmond-bros-tile.jpg">
+        <meta property="og:image:type" content="image/jpeg">
+        <meta property="og:image:width" content="300">
+        <meta property="og:image:height" content="300">
+        <meta property="og:url" content="http://desmondbros.ie/contact-success">
+    </head>
 <body>
     <div>
         <header class="sticky">
@@ -45,7 +45,16 @@
     
     <div class="header-img">
         <h1 style="color: #FAFAFA; padding-top:2em;"> Contact Us. </h1>
-        <img class="mountain" src="/images/tree-01.jpg" alt="">
+        <img class="mountain" src="/images/laptop-desk.jpg" alt="">
+    </div>
+
+    <div class="container">
+        <section class="block-white" style="text-align: center;">
+            <h2>Thanks for your message!</h2>
+            <p>We'll be in touch with you about your project very soon. <br>
+                If you want to send another message, please fill out the form again.</p>
+        </section>
+
     </div>
 
 
@@ -60,10 +69,10 @@
             
             <!--Update the URL for thank you page on form submit -->
             <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
-            onload="if(submitted) {open='http://desmondbros.ie/contact-success.html'}"></iframe> 
+            onload="if(submitted) {window.location='#';}"></iframe> 
         
             <!-- Update the Google forms URL in action-->
-            <form action="https://docs.google.com/forms/u/4/d/e/1FAIpQLSdi9s66xnaH0C4Nx-xyajZqhO06b_FncVOi_WWYgJLJPRp2-w/formResponse" method="post" target="hidden_iframe" id="google_form";>
+            <form action="https://docs.google.com/forms/u/4/d/e/1FAIpQLSdi9s66xnaH0C4Nx-xyajZqhO06b_FncVOi_WWYgJLJPRp2-w/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
                 <div>
                     <label class="form-row">Name</label>
                     <input class="input-field" type="text" placeholder="Name (required)" id="name" required name="entry.1609969548">
@@ -82,18 +91,60 @@
                 </div>
         
                 <div>
-                    <button class="btn btn-submit" id="submit" type="submit" onclick="myFunction()">Send</button>
-                    <p id="response_message" style="padding-bottom: 2em;"></p>
+                    <button class="btn" type="submit">Send</button>
                 </div>
             </form>
         </div>
         </div>
-
-        <script>
-            function myFunction() {
-              document.getElementById("response_message").innerHTML = "Sent! Thank you for your message. We will be in contact soon.";
-            }
-        </script>
+            <script type="text/javascript">
+            function validateName() {
+                    var name = document.getElementById('name').value;
+                    if(name.length == 0) {
+                        alert("Name can't be blank") ;
+                        return false;
+        
+                    }
+                    if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
+                        alert("Please enter your correct name") ;//Validation Message
+                        return false;
+                    }
+                    return true;
+                    }
+        
+        
+        
+                function validateEmail () {
+        
+                    var email = document.getElementById('email').value;
+                    if(email.length == 0) {
+                    alert("Email can't be blank") ;//Validation Message
+                    return false;
+        
+                    }
+        
+                    if(!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+                    alert("Please enter a correct email address") ;//Validation Message
+                    return false;
+        
+                    }
+        
+                    return true;
+        
+                }
+        
+        
+                function validateForm() {
+                    if (!validateName() || !validatePhone() || !validateEmail()) {
+        
+                    alert("Form not submitted");//Validation Message
+                    return false;
+                    }
+                    else {
+                    submitted=true;
+                    return true;
+                    }
+                }
+                </script>
   
   <!-- End Contact Section -->
 
