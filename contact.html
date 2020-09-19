@@ -56,11 +56,13 @@
             <div class="" style="max-width:600px">
             <h2>Drop us a line.</h2>
         
-            <script type="text/javascript">var submitted=false;</script>
-            
+            <script>var submitted=false;</script>
+
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+            onload="if(submitted) {window.location='http://desmondbros.ie/contact-success.html';}"></iframe> 
         
             <!-- Update the Google forms URL in action-->
-            <form action="https://docs.google.com/forms/u/4/d/e/1FAIpQLSdi9s66xnaH0C4Nx-xyajZqhO06b_FncVOi_WWYgJLJPRp2-w/formResponse" method="post" target="hidden_iframe" id="google_form">
+            <form action="https://docs.google.com/forms/u/4/d/e/1FAIpQLSdi9s66xnaH0C4Nx-xyajZqhO06b_FncVOi_WWYgJLJPRp2-w/formResponse" method="post" id="google_form" target="hidden_iframe" onsubmit="return validateForm()">
                 <div>
                     <label class="form-row">Name</label>
                     <input class="input-field" type="text" placeholder="Name (required)" id="name" required name="entry.1609969548">
@@ -87,13 +89,53 @@
         </div>
 
         <script>
-            document
-            .getElementById("google_form")
-            .addEventListener("submit", function(e) {
-            e.preventDefault();
-            window.location.href = "http://desmondbros.ie/contact-success.html";
-            });
-        </script>
+            function validateName() {
+                    var name = document.getElementById('name').value;
+                    if(name.length == 0) {
+                      alert("Name can't be blank") ;
+                      return false;
+        
+                    }
+                    if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
+                      alert("Please enter your correct name") ;//Validation Message
+                      return false;
+                    }
+                    return true;
+                  }
+        
+        
+                 function validateEmail () {
+        
+                  var email = document.getElementById('email').value;
+                  if(email.length == 0) {
+                    alert("Email can't be blank") ;//Validation Message
+                    return false;
+        
+                  }
+        
+                  if(!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+                    alert("Please enter a correct email address") ;//Validation Message
+                    return false;
+        
+                  }
+        
+                  return true;
+        
+                }
+        
+        
+                function validateForm() {
+                  if (!validateName() || !validateEmail()) {
+        
+                    alert("Form not submitted");//Validation Message
+                    return false;
+                  }
+                  else {
+                    submitted=true;
+                    return true;
+                  }
+                }
+                </script>
   
   <!-- End Contact Section -->
 
@@ -189,32 +231,5 @@
 
     </script>
 
-    <script>
-        $(function () {
-
-var submitClicked;
-
-//catch the click to buttons
-$('#submit').click(function () {
-    submityesClicked = true;
-});
-
-$('#webform').submit(function (e) {
-    e.preventDefault();//prevent the default action
-
-    $.ajax({
-        type: "POST",
-        /*url: "process.php", //process to mail
-         data: $('form.contact').serialize(),*/
-        success: function (msg) {
-            window.location.replace(submitClicked ? "/contact-success.html");
-        },
-        error: function () {
-            alert("error");
-        }
-    });
-});
-});
-    </script>
 </body>
 </html>
