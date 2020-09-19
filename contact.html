@@ -60,7 +60,7 @@
             
         
             <!-- Update the Google forms URL in action-->
-            <form action="https://docs.google.com/forms/u/4/d/e/1FAIpQLSdi9s66xnaH0C4Nx-xyajZqhO06b_FncVOi_WWYgJLJPRp2-w/formResponse" method="post" target="hidden_iframe" id="google_form"; onsubmit="myFunction()">
+            <form action="https://docs.google.com/forms/u/4/d/e/1FAIpQLSdi9s66xnaH0C4Nx-xyajZqhO06b_FncVOi_WWYgJLJPRp2-w/formResponse" method="post" target="hidden_iframe" id="google_form">
                 <div>
                     <label class="form-row">Name</label>
                     <input class="input-field" type="text" placeholder="Name (required)" id="name" required name="entry.1609969548">
@@ -87,9 +87,12 @@
         </div>
 
         <script>
-            function myFunction() {
-                window.location.href = "http://desmondbros.ie/contact-success.html";
-            }
+            document
+            .getElementById("google_form")
+            .addEventListener("submit", function(e) {
+            e.preventDefault();
+            window.location.href = "http://desmondbros.ie/contact-success.html";
+            });
         </script>
   
   <!-- End Contact Section -->
