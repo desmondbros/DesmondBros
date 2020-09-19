@@ -52,107 +52,11 @@
         <section class="block-white" style="text-align: center;">
             <h2>Thanks for your message!</h2>
             <p>We'll be in touch with you about your project very soon. <br>
-                If you want to send another message, please fill out the form again.</p>
+                If you want to send another message, please <a href="/contact.html">fill out the form</a> again.</p>
         </section>
 
     </div>
 
-
-    <div class="container">
-        <section class="block-white">
-            <!-- Start Contact Section -->
-        <div class="form-container">
-            <div class="" style="max-width:600px">
-            <h2>Drop us a line.</h2>
-        
-            <script type="text/javascript">var submitted=false;</script>
-            
-            <!--Update the URL for thank you page on form submit -->
-            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
-            onload="if(submitted) {window.location='#';}"></iframe> 
-        
-            <!-- Update the Google forms URL in action-->
-            <form action="https://docs.google.com/forms/u/4/d/e/1FAIpQLSdi9s66xnaH0C4Nx-xyajZqhO06b_FncVOi_WWYgJLJPRp2-w/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
-                <div>
-                    <label class="form-row">Name</label>
-                    <input class="input-field" type="text" placeholder="Name (required)" id="name" required name="entry.1609969548">
-                </div>
-                <div>
-                    <label class="form-row">Email</label>
-                    <input class="input-field" type="text" placeholder="Email (required)" id="email" required name="entry.1309418801">
-                </div>
-                <div>
-                    <label class="form-row">Phone</label>
-                    <input class="input-field" type="text" placeholder="Phone number" id="phone" name="entry.1837634944">
-                </div>
-                <div>
-                    <label class="form-row">How can we help?</label>
-                    <textarea class="input-field project" rows="1" cols="26" placeholder="Describe your project. (required)" id="project" required name="entry.2004190544" style="font-family: 'Source Sans Pro', sans-serif;"></textarea>
-                </div>
-        
-                <div>
-                    <button class="btn" type="submit">Send</button>
-                </div>
-            </form>
-        </div>
-        </div>
-            <script type="text/javascript">
-            function validateName() {
-                    var name = document.getElementById('name').value;
-                    if(name.length == 0) {
-                        alert("Name can't be blank") ;
-                        return false;
-        
-                    }
-                    if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
-                        alert("Please enter your correct name") ;//Validation Message
-                        return false;
-                    }
-                    return true;
-                    }
-        
-        
-        
-                function validateEmail () {
-        
-                    var email = document.getElementById('email').value;
-                    if(email.length == 0) {
-                    alert("Email can't be blank") ;//Validation Message
-                    return false;
-        
-                    }
-        
-                    if(!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
-                    alert("Please enter a correct email address") ;//Validation Message
-                    return false;
-        
-                    }
-        
-                    return true;
-        
-                }
-        
-        
-                function validateForm() {
-                    if (!validateName() || !validatePhone() || !validateEmail()) {
-        
-                    alert("Form not submitted");//Validation Message
-                    return false;
-                    }
-                    else {
-                    submitted=true;
-                    return true;
-                    }
-                }
-                </script>
-  
-  <!-- End Contact Section -->
-
-
-        </section>
-
-
-    </div>
 
 
 

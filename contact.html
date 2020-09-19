@@ -58,12 +58,9 @@
         
             <script type="text/javascript">var submitted=false;</script>
             
-            <!--Update the URL for thank you page on form submit -->
-            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
-            onload="if(submitted) {open='http://desmondbros.ie/contact-success.html'}"></iframe> 
         
             <!-- Update the Google forms URL in action-->
-            <form action="https://docs.google.com/forms/u/4/d/e/1FAIpQLSdi9s66xnaH0C4Nx-xyajZqhO06b_FncVOi_WWYgJLJPRp2-w/formResponse" method="post" target="hidden_iframe" id="google_form";>
+            <form action="https://docs.google.com/forms/u/4/d/e/1FAIpQLSdi9s66xnaH0C4Nx-xyajZqhO06b_FncVOi_WWYgJLJPRp2-w/formResponse" method="post" target="hidden_iframe" id="google_form"; onsubmit="myFunction()">
                 <div>
                     <label class="form-row">Name</label>
                     <input class="input-field" type="text" placeholder="Name (required)" id="name" required name="entry.1609969548">
@@ -82,7 +79,7 @@
                 </div>
         
                 <div>
-                    <button class="btn btn-submit" id="submit" type="submit" onclick="myFunction()">Send</button>
+                    <button class="btn btn-submit" id="submit" type="submit" value="Submit">Send</button>
                     <p id="response_message" style="padding-bottom: 2em;"></p>
                 </div>
             </form>
@@ -91,7 +88,7 @@
 
         <script>
             function myFunction() {
-              document.getElementById("response_message").innerHTML = "Sent! Thank you for your message. We will be in contact soon.";
+                window.location.href = "http://desmondbros.ie/contact-success.html";
             }
         </script>
   
@@ -187,6 +184,34 @@
 
 
 
+    </script>
+
+    <script>
+        $(function () {
+
+var submitClicked;
+
+//catch the click to buttons
+$('#submit').click(function () {
+    submityesClicked = true;
+});
+
+$('#webform').submit(function (e) {
+    e.preventDefault();//prevent the default action
+
+    $.ajax({
+        type: "POST",
+        /*url: "process.php", //process to mail
+         data: $('form.contact').serialize(),*/
+        success: function (msg) {
+            window.location.replace(submitClicked ? "/contact-success.html");
+        },
+        error: function () {
+            alert("error");
+        }
+    });
+});
+});
     </script>
 </body>
 </html>
