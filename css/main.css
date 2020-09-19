@@ -440,7 +440,7 @@ li .img-right {
 .block-photo5 {
     background-size: cover;
     background-image: url(../images/in-need-of-repair-02.jpg);
-    background-position: center;
+    background-position: left;
     margin-top: 2em;
     margin-bottom: 2em;
     padding-bottom: 2em;
@@ -516,6 +516,10 @@ li .img-right {
     opacity: 1;
 }
 
+.block-white .row .column p2 {
+    text-align: right;
+}
+
 
 .headshot {
     background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
@@ -561,12 +565,6 @@ li .img-right {
     z-index:1;
 }
 
-#home-top-video:before {
-    content: '';
-    position: absolute;
-
-    background: rgba(255,0,255,0.2); //Change as per your requirement
-}
 
 #home-top-video {
   left: 0%;
@@ -577,6 +575,15 @@ li .img-right {
   overflow: hidden;
   position: absolute;
   z-index: -1;
+  text-align: center;
+  display: block;
+}
+
+#video-loop {
+    height: 50%;
+    width: auto;
+    text-align: center;
+  display: block;
 }
 
 .hero-text {
@@ -601,6 +608,12 @@ li .img-right {
     
 
 @media only screen and (min-width: 650px) { 
+    #video-loop {
+        width: 100%;
+        height: auto;
+    }
+
+
     h1 {
         font-size:4em;
         margin-top:2em;
@@ -756,6 +769,8 @@ li .img-right {
         padding-right: 5em;
     }
 
+    
+
 
 
     
@@ -811,9 +826,13 @@ li .img-right {
     }
 
     
+
+    
 }
 
 @media only screen and (min-width: 900px) {
+    
+
     h1 {
         font-size:4em;
         margin-top:2em;
