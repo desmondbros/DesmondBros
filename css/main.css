@@ -11,16 +11,15 @@ body  {
 p, blockquote {
     font-size: 1em;
     line-height: 1.6em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
 p2 {
     font-size: .9em;
     line-height: 1.6em;
-    padding-right: 1em;
     text-indent: 0;
-    padding-left: 1em;
+    
 }
 
 h1 {
@@ -307,14 +306,23 @@ li .img-right {
     
 }
 
+.banner-column h2 {
+    margin-top: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.4em;
+    margin-bottom: 0;
+}
+
 .banner-container {
     background:  #1F4D7A;
     width: 20em;
-    height: 7em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    height: 5em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    margin-top: 0;
     margin-right: 0em;
     margin-bottom: 1em;
+    vertical-align: middle;
 
 }
 
@@ -439,8 +447,8 @@ li .img-right {
 
 .block-photo5 {
     background-size: cover;
-    background-image: url(../images/in-need-of-repair-02.jpg);
-    background-position: left;
+    background-image: url(../images/looking-for-02.png);
+    background-position: center;
     margin-top: 2em;
     margin-bottom: 2em;
     padding-bottom: 2em;
@@ -488,6 +496,8 @@ li .img-right {
     width: 50%;
 }
 
+
+
 .icon-row .column {
     flex: 100%;
     width: 100%;
@@ -495,6 +505,15 @@ li .img-right {
     padding-right: 5em;
     padding-bottom: 3em;
     margin-bottom: 0em;
+}
+
+.icon-row .column p2 {
+    
+    text-align: left;
+    display: block;
+    margin-right: 5%;
+    margin-left: 5%;
+
 }
 
 .column .profile {
@@ -516,9 +535,6 @@ li .img-right {
     opacity: 1;
 }
 
-.block-white .row .column p2 {
-    text-align: right;
-}
 
 
 .headshot {
@@ -580,7 +596,7 @@ li .img-right {
 }
 
 #video-loop {
-    height: 50%;
+    height: 45%;
     width: auto;
     text-align: center;
   display: block;
@@ -758,6 +774,15 @@ li .img-right {
         padding:0
     }
 
+    .icon-row .column p2 {
+    
+        text-align: left;
+        display: block;
+        margin-right: 25%;
+        margin-left: 25%;
+    
+    }
+
     .column-video iframe {
         margin-top: 8px;
         vertical-align: middle;
@@ -791,6 +816,13 @@ li .img-right {
         text-align: right;
         vertical-align: right;
     
+    }
+
+    .banner-column h2 {
+        margin-top: 0;
+        padding-top: 0.5em;
+        padding-bottom: .8em;
+        margin-bottom: 0;
     }
 
     .banner-row {
@@ -900,7 +932,16 @@ li .img-right {
     
     .column-video:hover .gallery-description {
         opacity: 1;
-      }
+    }
+
+    .icon-row .column p2 {
+    
+        text-align: left;
+        display: block;
+        margin-right: 25%;
+        margin-left: 25%;
+    
+    }
 }
 
 
