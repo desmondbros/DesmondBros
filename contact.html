@@ -20,27 +20,31 @@
     <meta property="og:url" content="http://desmondbros.ie/contact">
 </head>
 <body>
-    <div>
-        <header class="sticky">
-            <a href="/index.html">
-                <img src="images/desmondb-bros-logo.svg" class="logo" alt="Logo">
-            </a>
-         <nav>
-                <a href="#" class="hide-desktop">
-                <img src="images/hamburger-2.svg" alt="toggle menu" class="menu" id="menu">
-                </a>
+    <header class="sticky">
+        <a href="/index.html">
+            <img src="images/desmondb-bros-logo.svg" class="logo" alt="Logo">
+        </a>
+        <nav>
+            
+
+            <div id="menuToggle">
+                <input type="checkbox" class="toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+                
 
                 <ul class="show-desktop hide-mobile" id="nav">
-                    <li id="exit" class="exit-btn hide-desktop"><img src="images/x-mark-white.svg" alt="exit menu"></li>
-                    <li><a href="/index.html">home</a></li>
-                    <li><a href="/film.html">film</a></li>
+                    <img src="images/desmondb-bros-logo-white.svg" class="logo hide-desktop" alt="Logo">
                     <li><a href="/cork-video-production.html">video</a></li>
-                    <li><a href="/index.html#about">about</a></li>
+                    <li><a href="/film.html">film</a></li>
+                    <li><a href="/work.html">gallery</a></li>
+                    <li><a href="/index.html#about" >about</a></li>
                     <li><a href="/contact.html">contact</a></li>
                 </ul>
-            </nav>
-        </header>
-    </div>
+            </div>
+        </nav>
+    </header>
     
     
     <div class="header-img">
@@ -148,7 +152,7 @@
     <div class="container">
         <section class="block-white" style="text-align: center; margin-top: 0;">
             <h2>You can also email us directly.</h2>
-            <a href = "mailto: desmondbrosmedia@gmail.com"> <h2 style="color: black; font-weight: 200;">desmondbrosmedia@gmail.com</h2> </a>
+            <a href = "mailto: desmondbrosmedia@gmail.com" style="text-decoration: none;"> <h2 style="color: black; font-weight: 200;">desmondbrosmedia@gmail.com</h2> </a>
         </section>
     </div>
 
@@ -185,13 +189,11 @@
                     <ul>
                         <li><a href="/index.html#about"><h2>About Us</h2></a></li>
                         <li><a href="/index.html#about">Team</a></li>
-                        <li><a href="#">Press</a></li>
                     </ul>
             </div>
             <div class="col">
                     <ul>
                         <li><a href="/contact.html"><h2>Contact</h2></a></li>
-                        <li><a href="#">Legal</a></li>
                     </ul>
             </div>
                 
@@ -199,7 +201,7 @@
                     
                 </div>
         </div>
-        <div class="contain copyright social">
+        <div class="contain social">
             <ul>
                 <li><a href="http://instagram.com/desmondbros" target="_blank"><img src="/images/instagram-white.svg"></a></li>
                 <li><a href="http://youtube.com/desmondbros" target="_blank"><img src="/images/youtube-white.svg"></a></li>
@@ -208,12 +210,13 @@
             </ul>
     </div>
         <div class="contain copyright">
-            <p style="color: white; font-size: small; font-weight: 300;">Website design by Desmond Bros. &copy;2020 all rights reserved.</p>
+            <p style="color: white; font-size: small; font-weight: 300;">&copy;2020 Desmond Bros Media Limited.</p>
+            <p style="color: white; font-size: small; font-weight: 300;">Website design by Desmond Bros.</p>
         </div>
     </div>
 
     <script>
-        var menu = document.getElementById('menu');
+        var menu = document.getElementById('menuBoggle');
         var nav = document.getElementById('nav');
         var exit = document.getElementById('exit');
 
@@ -226,10 +229,52 @@
             nav.classList.add('hide-mobile');
             e.preventDefault();
         });
-
-
-
     </script>
+    
+<script>
+$(document).ready(function() {
+    $('#videos a').each(function() {
+       var data = $(this).attr('data');
+       $(this).append('<img src="http://img.youtube.com/vi/'+data+'/maxresdefault.jpg" />');
+    });
+ 
+    $('#videos a').click(function() {
+       var data = $(this).attr('data');
+       $('#loader').append('<iframe src="https://www.youtube.com/embed/'+data+'" frameborder="0" allowfullscreen></iframe>');
+       $('#overlay').fadeIn(250);
+    });
+ 
+    $('#close').click(function() {
+       $('#overlay').fadeOut(250,function() {
+          $('#loader').html('');
+       });
+    });
+ });
+</script>
+
+<script>
+        Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
+    get: function () {
+        return !!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2);
+    }});
+
+    $('body').on('click touchstart', function () {
+        const videoElement = document.getElementById('video-loop');
+        if (videoElement.playing) {
+            // video is already playing so do nothing
+        }
+        else {
+            // video is not playing
+            // so play video now
+            videoElement.play();
+        }
+});
+</script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/magnific-popup.js"></script>
+    <script src="js/init.js"></script>
+
 
 </body>
 </html>

@@ -17,34 +17,51 @@
     <meta property="og:image:width" content="300">
     <meta property="og:image:height" content="300">
     <meta property="og:url" content="http://desmondbros.ie">
+
+    <link rel="stylesheet" href="css/portfolio.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
 </head>
+
+<script src="https://cdn.plyr.io/3.5.6/plyr.js"></script>
+ <script>
+      document.addEventListener('DOMContentLoaded', () => {
+          const player = Plyr.setup('.js-player');
+      });
+  </script>
+
 <body>
-    <div>
-        <header class="sticky">
-            <a href="/index.html">
-                <img src="images/desmondb-bros-logo.svg" class="logo" alt="Logo">
-            </a>
-         <nav>
-                <a href="#" class="show-mobile hide-desktop">
-                <img src="images/hamburger-2.svg" alt="toggle menu" class="menu" id="menu">
-                </a> 
+
+    <header class="sticky">
+        <a href="/index.html">
+            <img src="images/desmondb-bros-logo.svg" class="logo" alt="Logo">
+        </a>
+        <nav>
+            
+
+            <div id="menuToggle">
+                <input type="checkbox" class="toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+                
 
                 <ul class="show-desktop hide-mobile" id="nav">
-                    <li id="exit" class="exit-btn hide-desktop"><img src="images/x-mark-white.svg" alt="exit menu" ></li>
-                    <li><a href="/index.html">home</a></li>
-                    <li><a href="/film.html">film</a></li>
+                    <a href="/index.html"><img src="images/desmondb-bros-logo-white.svg" class="logo hide-desktop" alt="Logo"></a>
                     <li><a href="/cork-video-production.html">video</a></li>
-                    <li><a href="/index.html#about">about</a></li>
+                    <li><a href="/film.html">film</a></li>
+                    <li><a href="/work.html">gallery</a></li>
+                    <li><a href="/index.html#about" >about</a></li>
                     <li><a href="/contact.html">contact</a></li>
                 </ul>
-            </nav>
-        </header>
-    </div>
+            </div>
+        </nav>
+    </header>
+ 
 
     <div class="header-img">
-        <section>
+        <section class="hero-image">
             <div id="home-top-video">
-                <video  id="video-loop" poster="/assets/loop-02-poster.png" autoplay loop muted playsInline><source src="/assets/loop-02.mp4" type="video/mp4"></video>
+                <video  id="video-loop" poster="/assets/loop-03-poster.png" autoplay loop muted playsInline><source src="/assets/loop-03.mp4" type="video/mp4"></video>
             </div>
             <div id="home-text">
                 <h1 style="color: #FAFAFA;"> Bring your video <br> to life. </h1>
@@ -76,7 +93,10 @@
                     <p>festivals</p>
                 </div>
             </div>
+           
         </div>
+        <div class="showreel-btn"><a href="#showreel" class="button-showreel smoothscroll">Watch our showreel  </a></div>
+        
 
     </div>
 
@@ -99,22 +119,174 @@
         </section>
     </div>
 
+    <section class="showreel" id="showreel">
+
+        <h2>Watch our showreel.</h2>
+
+        <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="9bCxtmFO6ZM"></div>
+
+    
+    </section>
+
     <div>
         <section class="block-blue">
             <h3>Our work speaks for itself.</h3>
-            <div class="row-video">
-                 <div class="column-video" id="videos"><a data="yanlPgJZHuQ"></a></div>
-                 <div class="column-video" id="videos"><a data="nrsNZPvBTBw"></a></div>
-                 <div class="column-video" id="videos"><a data="ztehkVzUJW8"></a></div>
-                 <div class="column-video" id="videos"><a data="ryejKHMc22U"></a></div>
-            </div>
-                 
-            <div id="overlay">
-                    <div class="modal">
-                       <div id="close"><img src="/images/x-mark.svg" alt="X"></div>
-                       <div id="loader"></div>
+            <section id="portfolio">
+                <div class="row-port">
+        
+                <div class="twelve columns collapsed">
+        
+                    <!-- portfolio-wrapper -->
+                    <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+        
+                        <div class="columns portfolio-item">
+                            <div class="item-wrap">
+        
+                            <a href="#modal-01" title="">
+                                <img alt="" src="images/port-repak.png">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Repak Recycling Quiz</h5>
+                                        <p>Educational social media video.</p>
+                                        <img class="icon-plus" src="images/plus-white.svg">
+                                    </div>
+                                </div>
+                            </a>
+        
+                            </div>
+                            </div> <!-- item end -->
+        
+                        <div class="columns portfolio-item">
+                            <div class="item-wrap">
+        
+                            <a href="#modal-02" title="">
+                                <img alt="" src="images/port-speak-to-her.png">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                            <h5>"Speak to Her"</h5>
+                                        <p>Award-winning short film.</p>
+                                        <img class="icon-plus" src="images/plus-white.svg">
+                                        </div>
+                                </div>
+                            </a>
+        
+                            </div>
+                            </div> <!-- item end -->
+        
+                        <div class="columns portfolio-item">
+                            <div class="item-wrap">
+        
+                            <a href="#modal-03" title="">
+                                <img alt="" src="images/foodybite-01.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                            <h5>Foodybite</h5>
+                                        <p>Restaurant app commercial.</p>
+                                        <img class="icon-plus" src="images/plus-white.svg">
+                                        </div>
+                                </div>
+                            </a>
+        
+                            </div>
+                            </div> <!-- item end -->
+        
+                        <div class="columns portfolio-item">
+                            <div class="item-wrap">
+        
+                            <a href="#modal-04" title="">
+                                <img alt="" src="images/port-gemini.png">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                            <h5>Lost Boys - "Gemini"</h5>
+                                        <p>Music Video.</p>
+                                        <img class="icon-plus" src="images/plus-white.svg">
+                                        </div>
+                                </div>
+                            </a>
+        
+                            </div>
+                            </div> <!-- item end -->
+        
+                        <div class="columns portfolio-item">  <!-- item end -->
+        
+                    </div> <!-- portfolio-wrapper end -->
+        
+                </div> <!-- twelve columns end -->
+        
+        
+                <!-- Modal Popup
+                    --------------------------------------------------------------- -->
+        
+                <div id="modal-01" class="popup-modal mfp-hide">
+        
+                        <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="GknRQeZxKJo"></div>
+        
+                        <div class="description-box">
+                            <h4>Repak Recycling  Quiz</h4>
+                            <p>Educational social media video. Commissioned by theJournal.ie for Repak Ireland.</p>
+                        <span class="categories"><img src="images/tag-black.svg" alt="">Social Media, Educational, Motion Graphics</span>
+                        </div>
+        
+                    <div class="link-box">
+                        <a href="https://www.thejournal.ie/which-bin-for-pizza-boxes-see-if-you-can-beat-this-recycling-video-quiz-5218549-Sep2020/" target="_blank">Journal.ie Article</a>
+                        <a class="popup-modal-dismiss">Close</a>
                     </div>
-            </div>
+        
+                    </div><!-- modal-01 End -->
+        
+                <div id="modal-02" class="popup-modal mfp-hide">
+        
+                    <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="nrsNZPvBTBw"></div>
+        
+                        <div class="description-box">
+                            <h4>"Speak to Her" | Short Film</h4>
+                            <p>Winner Best Short Form, Best Writing, Royal Television Society awards 2020. Written & dir by Jack Desmond. Edited by Cian Desmond.</p>
+                        <span class="categories"><img src="images/tag-black.svg" alt="">Short film</span>
+                        </div>
+        
+                    <div class="link-box">
+                        <a href="https://iadt.ie/news/award-winning-iadt-short-film-speak-to-her-released-online/" target="_blank">Details</a>
+                        <a class="popup-modal-dismiss">Close</a>
+                    </div>
+        
+                    </div><!-- modal-02 End -->
+        
+                <div id="modal-03" class="popup-modal mfp-hide">
+                        <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="ztehkVzUJW8"></div>
+        
+                        <div class="description-box">
+                            <h4>Foodybite</h4>
+                            <p>Restaurant app commercial</p>
+                        <span class="categories"><img src="images/tag-black.svg" alt="">App, Commercial, Online, Corporate</span>
+                        </div>
+        
+                    <div class="link-box">
+                        <a class="popup-modal-dismiss">Close</a>
+                    </div>
+        
+                    </div><!-- modal-03 End -->
+        
+                <div id="modal-04" class="popup-modal mfp-hide">
+        
+                        <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="ryejKHMc22U"></div>
+        
+                        <div class="description-box">
+                            <h4>Lost Boys - "Gemini"</h4>
+                            <p>Dir. & cinematography by Jack Desmond. Edited by Cian Desmond.</p>
+                        <span class="categories"><img src="images/tag-black.svg" alt="">Music Video</span>
+                        </div>
+        
+                    <div class="link-box">
+                        <a href="http://www.jackdesmond.com/gemini-lost-boys-music-video.html" target="_blank">Read more</a>
+                        <a class="popup-modal-dismiss">Close</a>
+                    </div>
+        
+                    </div><!-- modal-04 End -->
+        
+        
+                </div> <!-- row End -->
+
+            </section>
             <a href="/work.html" class="button-large-white">More of our work.</a>
             <p style="text-align: center; font-size: small; padding-top: 7em; margin-bottom: -15em;">VIDEO PRODUCTION | MUSIC VIDEO PRODUCTION | CORPORATE | COMMERCIAL | FILM | PHOTOGRAPHY | CORK | MUNSTER</p>
 
@@ -124,34 +296,48 @@
     <div class="container">
         <section class="block-white">
             <h3>We've worked with great clients.</h3>
-            <div class="row">
+            <div class="row" style="margin-top: 2em;">
                 <div class="column">
-                  <img src="images/client-cruinniu-blue.png" alt="Cruinniu" style="width: 4em">
+                  <img src="images/client-repak-blue.png" alt="Repak Ireland" style="width: 10em">
                 </div>
                 <div class="column">
-                  <img src="images/client-wunder-blue.png" alt="Wunder" style="width: 10em">
+                    <img src="images/client-rte-blue.svg" alt="RTE" style="width: 7em">
+                </div>
+                <div class="column">
+                  <img src="images/client-journal-blue.svg" alt="The Journal.ie" style="width: 10em">
+                </div>
+                
+                
+            </div>
+            <div class="row">
+                
+                <div class="column">
+                    <img src="images/client-nwc-blue.png" alt="National Women's Council" style="width: 10em">
+                </div>
+                <div class="column">
+                    <img src="images/client-wunder-blue-01.png" alt="Wunder" style="width: 11em">
                 </div>
                 <div class="column">
                   <img src="images/client-one-productions-blue.png" alt="One Productions" style="width: 5em">
                 </div>
-              </div>
-              <div class="row">
+            </div>
+            <div class="row" style="margin-bottom: 2em;">
                 <div class="column">
                   <img src="images/client-spicy-dog-blue.png" alt="Spicy Dog Media" style="width: 10em">
                 </div>
                 <div class="column">
-                  <img src="images/client-nwc-blue.png" alt="National Women's Council" style="width: 10em">
+                  <img src="images/client-iadt-blue.png" alt="IADT" style="width: 7em">
                 </div>
                 <div class="column">
-                  <img src="images/client-iadt-blue.png" alt="IADT" style="width: 5em">
-                </div>
-              </div>
+                    <img src="images/client-cruinniu-blue.png" alt="Cruinniu" style="width: 4em">
+                  </div>
+            </div>
         </section>
     </div>
 
     <div>
         <a name="about"></a>
-            <section class="block-blue" style="margin-bottom: -14em;">
+            <section class="block-blue" style="margin-bottom: -6em;">
                 <div class="container">
                     <div class="row"></div>
                     <div class="row">
@@ -215,13 +401,11 @@
                     <ul>
                         <li><a href="/index.html#about"><h2>About Us</h2></a></li>
                         <li><a href="/index.html#about">Team</a></li>
-                        <li><a href="#">Press</a></li>
                     </ul>
             </div>
             <div class="col">
                     <ul>
                         <li><a href="/contact.html"><h2>Contact</h2></a></li>
-                        <li><a href="#">Legal</a></li>
                     </ul>
             </div>
                 
@@ -229,7 +413,7 @@
                     
                 </div>
         </div>
-        <div class="contain copyright social">
+        <div class="contain social">
             <ul>
                 <li><a href="http://instagram.com/desmondbros" target="_blank"><img src="/images/instagram-white.svg"></a></li>
                 <li><a href="http://youtube.com/desmondbros" target="_blank"><img src="/images/youtube-white.svg"></a></li>
@@ -238,12 +422,13 @@
             </ul>
     </div>
         <div class="contain copyright">
-            <p style="color: white; font-size: small; font-weight: 300;">Website design by Desmond Bros. &copy;2020 all rights reserved.</p>
+            <p style="color: white; font-size: small; font-weight: 300;">&copy;2020 Desmond Bros Media Limited.</p>
+            <p style="color: white; font-size: small; font-weight: 300;">Website design by Desmond Bros.</p>
         </div>
     </div>
 
     <script>
-        var menu = document.getElementById('menu');
+        var menu = document.getElementById('menuBoggle');
         var nav = document.getElementById('nav');
         var exit = document.getElementById('exit');
 
@@ -297,6 +482,10 @@ $(document).ready(function() {
         }
 });
 </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/magnific-popup.js"></script>
+    <script src="js/init.js"></script>
 
 </body>
 </html>

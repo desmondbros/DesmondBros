@@ -17,62 +17,346 @@
         <meta property="og:image:width" content="300">
         <meta property="og:image:height" content="300">
         <meta property="og:url" content="http://desmondbros.ie/work">
+
+
+        <link rel="stylesheet" href="css/portfolio.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
     </head>
+
+    <script src="https://cdn.plyr.io/3.5.6/plyr.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+          const player = Plyr.setup('.js-player');
+      });
+     </script>
 <body>
-    <div>
-        <header class="sticky">
-            <a href="/index.html">
-                <img src="images/desmondb-bros-logo.svg" class="logo" alt="Logo">
-            </a>
-         <nav>
-                <a href="#" class="show-mobile hide-desktop">
-                <img src="images/hamburger-2.svg" alt="toggle menu" class="menu" id="menu">
-                </a> 
+    <header class="sticky">
+        <a href="/index.html">
+            <img src="images/desmondb-bros-logo.svg" class="logo" alt="Logo">
+        </a>
+        <nav>
+            
+
+            <div id="menuToggle">
+                <input type="checkbox" class="toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+                
 
                 <ul class="show-desktop hide-mobile" id="nav">
-                    <li id="exit" class="exit-btn hide-desktop"><img src="images/x-mark-white.svg" alt="exit menu" ></li>
-                    <li><a href="/index.html">home</a></li>
-                    <li><a href="/film.html">film</a></li>
+                    <img src="images/desmondb-bros-logo-white.svg" class="logo hide-desktop" alt="Logo">
                     <li><a href="/cork-video-production.html">video</a></li>
-                    <li><a href="/index.html#about">about</a></li>
+                    <li><a href="/film.html">film</a></li>
+                    <li><a href="/work copy.html">gallery</a></li>
+                    <li><a href="/index.html#about" >about</a></li>
                     <li><a href="/contact.html">contact</a></li>
                 </ul>
-            </nav>
-        </header>
-    </div>
+            </div>
+        </nav>
+    </header>
 
     <div>
-        <section class="block-blue">
-            <h1 style="margin-bottom: 0; padding-bottom: 0; text-shadow: none;">Gallery</h1>
+        <section class="block-blue" style="margin-bottom: 5px; padding-bottom: 0;">
+            <h1 style=" margin-top: 75px; margin-bottom: 0; padding-bottom: 0; text-shadow: none;">Gallery</h1>
             <h3 style="color: #fafafa; margin-top: 0; padding-top: 0; font-weight: 100;">of selected work.</h2>
-                <div class="row-video">
-                    <div class="column-video" id="videos"><a data="Oodm57M45Nc"></a></div>
-                    <div class="column-video" id="videos"><a data="BRCUS37Y4Ho"></a></div>
-               </div>
 
-            <div class="row-video">
-                 <div class="column-video" id="videos"><a data="yanlPgJZHuQ"></a></div>
-                 <div class="column-video" id="videos"><a data="nrsNZPvBTBw"></a></div>
-                 <div class="column-video" id="videos"><a data="ztehkVzUJW8"></a></div>
-                 <div class="column-video" id="videos"><a data="ryejKHMc22U"></a></div>
-            </div>
-           
-                 
-            <div id="overlay">
-                    <div class="modal">
-                       <div id="close"><img src="/images/x-mark.svg" alt="X"></div>
-                       <div id="loader"></div>
-                    </div>
-            </div>
+                <section id="portfolio">
+                    <div class="row-port">
+            
+                        <div class="twelve columns collapsed">
+                
+                            <!-- portfolio-wrapper -->
+                            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+                
+                                <div class="columns portfolio-item">
+                                    <div class="item-wrap">
+                
+                                    <a href="#modal-01" title="">
+                                        <img alt="" src="images/port-repak.png">
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta">
+                                                <h5>Repak Recycling Quiz</h5>
+                                                <p>Educational social media video.</p>
+                                                <img class="icon-plus" src="images/plus-white.svg">
+                                            </div>
+                                        </div>
+                                    </a>
+                
+                                    </div>
+                                    </div> <!-- item end -->
+                
+                                <div class="columns portfolio-item">
+                                    <div class="item-wrap">
+                
+                                    <a href="#modal-02" title="">
+                                        <img alt="" src="images/port-speak-to-her.png">
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta">
+                                                    <h5>"Speak to Her"</h5>
+                                                <p>Award-winning short film.</p>
+                                                <img class="icon-plus" src="images/plus-white.svg">
+                                                </div>
+                                        </div>
+                                    </a>
+                
+                                    </div>
+                                    </div> <!-- item end -->
+                
+                                <div class="columns portfolio-item">
+                                    <div class="item-wrap">
+                
+                                    <a href="#modal-03" title="">
+                                        <img alt="" src="images/foodybite-01.jpg">
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta">
+                                                    <h5>Foodybite</h5>
+                                                <p>Restaurant app commercial.</p>
+                                                <img class="icon-plus" src="images/plus-white.svg">
+                                                </div>
+                                        </div>
+                                    </a>
+                
+                                    </div>
+                                    </div> <!-- item end -->
+                
+                                <div class="columns portfolio-item">
+                                    <div class="item-wrap">
+                
+                                    <a href="#modal-04" title="">
+                                        <img alt="" src="images/port-gemini.png">
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta">
+                                                    <h5>Lost Boys - "Gemini"</h5>
+                                                <p>Music Video.</p>
+                                                <img class="icon-plus" src="images/plus-white.svg">
+                                                </div>
+                                        </div>
+                                    </a>
+                
+                                    </div>
+                                    </div> <!-- item end -->
+                
+                                    <div class="columns portfolio-item">
+                                        <div class="item-wrap">
+                    
+                                        <a href="#modal-05" title="">
+                                            <img alt="" src="images/port-looking-for.png">
+                                            <div class="overlay">
+                                                <div class="portfolio-item-meta">
+                                                    <h5>Looking For | Short Film</h5>
+                                                    <p>Award-winning short film.</p>
+                                                    <img class="icon-plus" src="images/plus-white.svg">
+                                                </div>
+                                            </div>
+                                        </a>
+                    
+                                        </div>
+                                        </div> <!-- item end -->
+                    
+                                    <div class="columns portfolio-item">
+                                        <div class="item-wrap">
+                    
+                                        <a href="#modal-06" title="">
+                                            <img alt="" src="images/motion-graphics-01.png">
+                                            <div class="overlay">
+                                                <div class="portfolio-item-meta">
+                                                        <h5>Motion Graphics Reel</h5>
+                                                    <p>Animation and motion graphics for corporate videos.</p>
+                                                    <img class="icon-plus" src="images/plus-white.svg">
+                                                    </div>
+                                            </div>
+                                        </a>
+                    
+                                        </div>
+                                        </div> <!-- item end -->
+                    
+                                    <div class="columns portfolio-item">
+                                        <div class="item-wrap">
+                    
+                                        <a href="#modal-07" title="">
+                                            <img alt="" src="images/heineken-02.png">
+                                            <div class="overlay">
+                                                <div class="portfolio-item-meta">
+                                                        <h5>Heinenken - Earn It | Spec Ad</h5>
+                                                    <p>Narrative spec commercial.</p>
+                                                    <img class="icon-plus" src="images/plus-white.svg">
+                                                    </div>
+                                            </div>
+                                        </a>
+                    
+                                        </div>
+                                        </div> <!-- item end -->
+                    
+                                    <div class="columns portfolio-item">
+                                        <div class="item-wrap">
+                    
+                                        <a href="#modal-08" title="">
+                                            <img alt="" src="images/simon-01.jpg">
+                                            <div class="overlay">
+                                                <div class="portfolio-item-meta">
+                                                        <h5>Simon Baker - Documentary</h5>
+                                                    <p>Teaser for documentary project.</p>
+                                                    <img class="icon-plus" src="images/plus-white.svg">
+                                                    </div>
+                                            </div>
+                                        </a>
+                    
+                                        </div>
+                                        </div> <!-- item end -->
+                            </div> <!-- portfolio-wrapper end -->
+            
+                    </div> <!-- twelve columns end -->
 
             
+            
+                    <!-- Modal Popup
+                        --------------------------------------------------------------- -->
+            
+                    <div id="modal-01" class="popup-modal mfp-hide">
+            
+                            <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="GknRQeZxKJo"></div>
+            
+                            <div class="description-box">
+                                <h4>Repak Recycling  Quiz</h4>
+                                <p>Educational social media video. Commissioned by theJournal.ie for Repak Ireland.</p>
+                            <span class="categories"><img src="images/tag-black.svg" alt="">Social Media, Educational, Motion Graphics</span>
+                            </div>
+            
+                        <div class="link-box">
+                            <a href="https://www.thejournal.ie/which-bin-for-pizza-boxes-see-if-you-can-beat-this-recycling-video-quiz-5218549-Sep2020/" target="_blank">Journal.ie Article</a>
+                            <a class="popup-modal-dismiss">Close</a>
+                        </div>
+            
+                        </div><!-- modal-01 End -->
+            
+                    <div id="modal-02" class="popup-modal mfp-hide">
+            
+                        <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="nrsNZPvBTBw"></div>
+            
+                            <div class="description-box">
+                                <h4>"Speak to Her" | Short Film</h4>
+                                <p>Winner Best Short Form, Best Writing, Royal Television Society awards 2019. Written & dir by Jack Desmond. Edited by Cian Desmond.</p>
+                            <span class="categories"><img src="images/tag-black.svg" alt="">Short film</span>
+                            </div>
+            
+                        <div class="link-box">
+                            <a href="https://iadt.ie/news/award-winning-iadt-short-film-speak-to-her-released-online/" target="_blank">Details</a>
+                            <a class="popup-modal-dismiss">Close</a>
+                        </div>
+            
+                        </div><!-- modal-02 End -->
+            
+                    <div id="modal-03" class="popup-modal mfp-hide">
+                            <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="ztehkVzUJW8"></div>
+            
+                            <div class="description-box">
+                                <h4>Foodybite</h4>
+                                <p>Restaurant app commercial</p>
+                            <span class="categories"><img src="images/tag-black.svg" alt="">App, Commercial, Online, Corporate</span>
+                            </div>
+            
+                        <div class="link-box">
+                            <a class="popup-modal-dismiss">Close</a>
+                        </div>
+            
+                        </div><!-- modal-03 End -->
+            
+                    <div id="modal-04" class="popup-modal mfp-hide">
+            
+                            <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="ryejKHMc22U"></div>
+            
+                            <div class="description-box">
+                                <h4>Lost Boys - "Gemini"</h4>
+                                <p>Dir. & cinematography by Jack Desmond. Edited by Cian Desmond.</p>
+                            <span class="categories"><img src="images/tag-black.svg" alt="">Music Video</span>
+                            </div>
+            
+                        <div class="link-box">
+                            <a href="http://www.jackdesmond.com/gemini-lost-boys-music-video.html" target="_blank">Read more</a>
+                            <a class="popup-modal-dismiss">Close</a>
+                        </div>
+            
+                        </div><!-- modal-04 End -->
+
+                        <div id="modal-05" class="popup-modal mfp-hide">
+            
+                            <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="Oodm57M45Nc"></div>
+            
+                            <div class="description-box">
+                                <h4>Looking For | Short Film.</h4>
+                                <p>Winner, Best Short Form, Best Cinematography - Royal Television Society awards 2020. Directed by Cian Desmond, cinematography by Jack Desmond.</p>
+                            <span class="categories"><img src="images/tag-black.svg" alt="">Film, Short Film</span>
+                            </div>
+            
+                        <div class="link-box">
+                            <a href="https://www.southernstar.ie/news/timoleague-twins-win-film-award-4202191" target="_blank">Southern Star Article</a>
+                            <a class="popup-modal-dismiss">Close</a>
+                        </div>
+            
+                        </div><!-- modal-01 End -->
+            
+                    <div id="modal-06" class="popup-modal mfp-hide">
+            
+                        <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="BRCUS37Y4Ho"></div>
+            
+                            <div class="description-box">
+                                <h4>Motion Graphics Reel</h4>
+                                <p>Animation, motion graphics, animated explainer videos. Highlights from videos we created for our clients.</p>
+                            <span class="categories"><img src="images/tag-black.svg" alt="">Motion graphics, animation, explainer videos, corporate</span>
+                            </div>
+                            <div class="link-box">
+                                <a class="popup-modal-dismiss">Close</a>
+                            </div>
+                
+            
+            
+                        </div><!-- modal-02 End -->
+            
+                    <div id="modal-07" class="popup-modal mfp-hide">
+                            <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="yanlPgJZHuQ"></div>
+            
+                            <div class="description-box">
+                                <h4>"Earn It" | Heinken Spec Commercial</h4>
+                                <p>Spec commercial.</p>
+                            <span class="categories"><img src="images/tag-black.svg" alt="">Commercial, Online, Corporate</span>
+                            </div>
+            
+                        <div class="link-box">
+                            <a class="popup-modal-dismiss">Close</a>
+                        </div>
+            
+                        </div><!-- modal-03 End -->
+            
+                    <div id="modal-08" class="popup-modal mfp-hide">
+            
+                            <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="mNvyrQLM3mM"></div>
+            
+                            <div class="description-box">
+                                <h4>Simon Baker - Documentary Project</h4>
+                                <p>Teaser for documentary project. Shot for Continue Films, Palestine.</p>
+                            <span class="categories"><img src="images/tag-black.svg" alt="">Documentary, Television</span>
+                            </div>
+            
+                        <div class="link-box">
+                            <a class="popup-modal-dismiss">Close</a>
+                        </div>
+            
+                        </div><!-- modal-04 End -->
+            
+            
+                    </div> <!-- row End -->
+    
+                </section>
+                
+           
 
 
         </section>
     </div>
 
     <div class="container">
-        <section class="block-white">
+        <section class="block-white" style="padding-bottom: 2.5em;">
             <h3>Want to work with us?</h3>
             <p style="text-align: center;">Contact us today to get started on your next video project.</p>
             <a href="/contact.html" class="button-large">Get in touch.</a>
@@ -113,13 +397,11 @@
                     <ul>
                         <li><a href="/index.html#about"><h2>About Us</h2></a></li>
                         <li><a href="/index.html#about">Team</a></li>
-                        <li><a href="#">Press</a></li>
                     </ul>
             </div>
             <div class="col">
                     <ul>
                         <li><a href="/contact.html"><h2>Contact</h2></a></li>
-                        <li><a href="#">Legal</a></li>
                     </ul>
             </div>
                 
@@ -127,7 +409,7 @@
                     
                 </div>
         </div>
-        <div class="contain copyright social">
+        <div class="contain social">
             <ul>
                 <li><a href="http://instagram.com/desmondbros" target="_blank"><img src="/images/instagram-white.svg"></a></li>
                 <li><a href="http://youtube.com/desmondbros" target="_blank"><img src="/images/youtube-white.svg"></a></li>
@@ -136,12 +418,13 @@
             </ul>
     </div>
         <div class="contain copyright">
-            <p style="color: white; font-size: small; font-weight: 300;">Website design by Desmond Bros. &copy;2020 all rights reserved.</p>
+            <p style="color: white; font-size: small; font-weight: 300;">&copy;2020 Desmond Bros Media Limited.</p>
+            <p style="color: white; font-size: small; font-weight: 300;">Website design by Desmond Bros.</p>
         </div>
     </div>
 
     <script>
-        var menu = document.getElementById('menu');
+        var menu = document.getElementById('menuBoggle');
         var nav = document.getElementById('nav');
         var exit = document.getElementById('exit');
 
@@ -178,25 +461,28 @@ $(document).ready(function() {
 </script>
 
 <script>
-    $(document).ready(function() {
-        $('#videos-vimeo a').each(function() {
-           var data = $(this).attr('data');
-           $(this).append('<img src=">');
-        });
-     
-        $('#videos-vimeo a').click(function() {
-           var data = $(this).attr('data');
-           $('#loader').append('<iframe src="http://player.vimeo.com/video/'+data+'" frameborder="0" allowfullscreen></iframe>');
-           $('#overlay').fadeIn(250);
-        });
-     
-        $('#close').click(function() {
-           $('#overlay').fadeOut(250,function() {
-              $('#loader').html('');
-           });
-        });
-     });
-    </script>
+        Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
+    get: function () {
+        return !!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2);
+    }});
+
+    $('body').on('click touchstart', function () {
+        const videoElement = document.getElementById('video-loop');
+        if (videoElement.playing) {
+            // video is already playing so do nothing
+        }
+        else {
+            // video is not playing
+            // so play video now
+            videoElement.play();
+        }
+});
+</script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/magnific-popup.js"></script>
+    <script src="js/init.js"></script>
+
 
 
 
