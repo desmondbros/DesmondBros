@@ -556,6 +556,7 @@ li .img-right {
     background-image: url(http://desmondbros.ie/images/heineken_fb_02.jpg);
     padding-bottom: 2em;
     padding-top: 2em;
+    padding-left: 2em;
     margin-top: 2em;
     margin-bottom: 1em;
     height: 500px;
@@ -578,6 +579,7 @@ li .img-right {
     background-position: center;
     padding-bottom: 2em;
     padding-top: 2em;
+    padding-left: 2em;
     margin-top: 2em;
     margin-bottom: 2em;
     height: 500px;
@@ -587,6 +589,8 @@ li .img-right {
 .block-photo2 ul {
     margin-top: 15em;
     padding-right: 2em;
+
+   
     text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
 }
 
@@ -609,6 +613,8 @@ li .img-right {
     margin-top: 15em;
     padding-right: 2em;
     text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+
+    padding-left: 2em;
 }
 
 .block-photo3 ul li h2 {
@@ -701,7 +707,7 @@ li .img-right {
 
 .column {
     flex: 50%;
-    width: 50%;
+    width: 100%;
 }
 
 
@@ -724,18 +730,26 @@ li .img-right {
 
 }
 
-.column .profile {
-    margin-top: 0px;
-    padding-top: 20px;
+.profile {
+    margin-top: 20px;
+    padding-top: 0px;
     vertical-align: middle;
-    width: 100%;
     filter: brightness(120%) grayscale(80%);
     padding-left: none;
     padding-right: none;
     margin-left: none;
     margin-right: none;
-    flex: 100%;
+    flex: 50%;
+    width: 100%;
     
+}
+
+.profile-row {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    margin-bottom: -10.5em;
 }
 
 .column .profile:hover {
@@ -789,12 +803,15 @@ li .img-right {
 
 #home-text {
     position: absolute;
-    left: 15%;
+    text-align: center;
+    left: 10%;
     top: 20%;
+    right: 10%;
     padding-top: 5em;
     color: #fff;
     z-index:1;
 }
+
 
 
 #home-top-video {
@@ -981,6 +998,7 @@ li .img-right {
 
     .block-photo2 {
         background-position: right;
+        
     }
 
     .block-photo3 ul {
