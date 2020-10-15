@@ -67,7 +67,11 @@ ul {
 .hide-mobile {
     opacity: 0;
     transition: opacity 300ms linear;
-    height: 0;
+    height: 0%;
+}
+
+.hide-mobile li {
+    display: none;
 }
 
 header {
@@ -186,13 +190,19 @@ header {
   #menuToggle input:checked ~ .hide-mobile
   {
     opacity: 1;
-    transition: 300ms; 
+    transition: 500ms; 
     height: 100%;
+  }
+
+  #menuToggle input:checked ~ .hide-mobile li
+  {
+    display: contents;
   }
   
 #nav {
     top: 0;
     margin-top: 0;
+    
 }
 
 nav ul {
