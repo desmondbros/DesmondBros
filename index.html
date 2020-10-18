@@ -58,19 +58,17 @@
     </header>
  
 
-    <div class="header-img">
-        <section class="hero-image">
+    <div class="hero-image">
             <div id="home-top-video">
                 <video  id="video-loop" poster="/assets/loop-03-poster.png" autoplay loop muted playsInline><source src="/assets/loop-03.mp4" type="video/mp4"></video>
             </div>
-            <div id="home-text">
+            <div class="home-text">
                 <h1 style="color: #FAFAFA;"> Bring your video <br> to life. </h1>
+                <div class="showreel-btn"><a href="#showreel" class="button-showreel smoothscroll">Watch our showreel  </a></div>
             </div>
-        </section>
     </div>
 
-    <div class="header-img">
-        <div class="banner-container">
+    <div class="banner-container" id="home-banner">
             <div class="banner-row">
                 <div class="banner-column">
                     <h2 style="color: #FAFAFA;">20+</h2>
@@ -94,11 +92,10 @@
                 </div>
             </div>
            
-        </div>
-        <div class="showreel-btn"><a href="#showreel" class="button-showreel smoothscroll">Watch our showreel  </a></div>
+    </div>
+       
         
 
-    </div>
 
     <div class="container">
         <section class="block-photo4">
@@ -443,49 +440,50 @@
         });
     </script>
     
-<script>
-$(document).ready(function() {
-    $('#videos a').each(function() {
-       var data = $(this).attr('data');
-       $(this).append('<img src="http://img.youtube.com/vi/'+data+'/maxresdefault.jpg" />');
+    <script>
+    $(document).ready(function() {
+        $('#videos a').each(function() {
+        var data = $(this).attr('data');
+        $(this).append('<img src="http://img.youtube.com/vi/'+data+'/maxresdefault.jpg" />');
+        });
+    
+        $('#videos a').click(function() {
+        var data = $(this).attr('data');
+        $('#loader').append('<iframe src="https://www.youtube.com/embed/'+data+'" frameborder="0" allowfullscreen></iframe>');
+        $('#overlay').fadeIn(250);
+        });
+    
+        $('#close').click(function() {
+        $('#overlay').fadeOut(250,function() {
+            $('#loader').html('');
+        });
+        });
     });
- 
-    $('#videos a').click(function() {
-       var data = $(this).attr('data');
-       $('#loader').append('<iframe src="https://www.youtube.com/embed/'+data+'" frameborder="0" allowfullscreen></iframe>');
-       $('#overlay').fadeIn(250);
-    });
- 
-    $('#close').click(function() {
-       $('#overlay').fadeOut(250,function() {
-          $('#loader').html('');
-       });
-    });
- });
-</script>
+    </script>
 
-<script>
-        Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
-    get: function () {
-        return !!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2);
-    }});
+    <script>
+            Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
+        get: function () {
+            return !!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2);
+        }});
 
-    $('body').on('click touchstart', function () {
-        const videoElement = document.getElementById('video-loop');
-        if (videoElement.playing) {
-            // video is already playing so do nothing
-        }
-        else {
-            // video is not playing
-            // so play video now
-            videoElement.play();
-        }
-});
-</script>
+        $('body').on('click touchstart', function () {
+            const videoElement = document.getElementById('video-loop');
+            if (videoElement.playing) {
+                // video is already playing so do nothing
+            }
+            else {
+                // video is not playing
+                // so play video now
+                videoElement.play();
+            }
+    });
+    </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/magnific-popup.js"></script>
     <script src="js/init.js"></script>
+   
 
 </body>
 </html>
