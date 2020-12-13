@@ -398,3 +398,14 @@ img {
     opacity: 0;
  }
  
+
+.portfolio-item:hover .item-wrap img {
+
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.item-wrap img {
+   -webkit-transition: 0.4s ease;
+   transition: 0.4s ease;
+}
