@@ -763,6 +763,8 @@ li .img-right {
 .column {
     flex: 100%;
     width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 #clients .column {
@@ -932,6 +934,46 @@ li .img-right {
     display: block;
     background-size: cover;
     background-image: url(../images/animated-explainer-2.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+    text-align: center;
+}
+
+.hero-image4 {
+    display: block;
+    background-size: cover;
+    background-image: url(../images/port-work-life.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+    text-align: center;
+}
+
+.hero-image5 {
+    display: block;
+    background-size: cover;
+    background-image: url(../images/gemini-still-02.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+    text-align: center;
+}
+
+.hero-image-social {
+    display: block;
+    background-size: cover;
+    background-image: url(../images/port-repak.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+    text-align: center;
+}
+
+.hero-image-event {
+    display: block;
+    background-size: cover;
+    background-image: url(../images/event-video-2.png);
     background-repeat: no-repeat;
     height: 600px;
     background-position: center;
