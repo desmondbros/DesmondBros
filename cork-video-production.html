@@ -35,7 +35,17 @@
 
                 <ul class="show-desktop hide-mobile" id="nav">
                     <a href="/index.html"><img src="images/desmondb-bros-logo-white.svg" class="logo hide-desktop" alt="Logo"></a>
-                    <li><a href="/cork-video-production.html">video</a></li>
+                    <li>
+                        <div class="dropdown"><a href="/cork-video-production.html">video<img class="show-desktop" src="/images/down-caret-outline.svg" alt=""> </a>
+                            <div class="dropdown-content">
+                                <a href="/cork-video-production.html">Corporate Video</a>
+                                <a href="/animated-explainers.html">Animated Explainers</a>
+                                <a href="/motion-graphics.html">Motion Graphics</a>
+                                <a href="/music-videos.html">Music Videos</a>
+                                <a href="/event-videos.html">Event Videos</a>
+                            </div>
+                        </div>
+                    </li>
                     <li><a href="/film.html">film</a></li>
                     <li><a href="/work.html">gallery</a></li>
                     <li><a href="/index.html#about" >about</a></li>
@@ -95,45 +105,69 @@
     </div>
     
    
-        <section class="block-white" style="margin-top: -7em;">
+        <section class="block-white" style="margin-top: -7em;" id="video-types">
             <div class="row icon-row">
                 <div class="column">
-                    <img class="icon" src="/images/clapperboard-blue.svg" alt="Brand Film">
-                    <h4>Brand Film</h4>
-                    <p2>Tell the story of your company, with a cinematic brand film. Effective messaging delivered beautifully.</p2>
+                    <a href="/music-videos.html" class="card-link">
+                        <div class="card">
+                            <img class="icon" src="/images/music-blue.svg" alt="Music Video">
+                            <h4>Music Video</h4>
+                            <p2>Tell the story of your song, with a cinematic music video, from Irish filmmakers.</p2>
+                        </div>
+                    </a>
                 </div>
                 <div class="column">
-                    <img class="icon" src="/images/video-camera-blue.svg" alt="Commercial Video">
-                    <h4>Commercial Video</h4>
-                    <p2>Need an advert for your company or product? Go for broadcast quality and creativity, with our professional advertising.</p2>
+                    <a href="#commercial" class="card-link smoothscroll">
+                        <div class="card">
+                            <img class="icon" src="/images/video-camera-blue.svg" alt="Commercial Video">
+                            <h4>Commercial Video</h4>
+                            <p2>Need an advert for your company or product? Go for broadcast quality and creativity, with our professional advertising.</p2>
+                        </div>
+                    </a>
                 </div>
                 <div class="column">
-                    <img class="icon" src="/images/facebook-blue.svg" alt="Social Media">
-                    <h4>Social Media</h4>
-                    <p2>We specialise in web content that works, with optimised content for each social media channel: Instagram, YouTube, LinkedIn, Facebook, Snapchat, Twitter and more. Based in Cork, aimed at the world.</p2>
+                    <a href="/social-media-videos.html" class="card-link">
+                        <div class="card">
+                            <img class="icon" src="/images/facebook-blue.svg" alt="Social Media">
+                            <h4>Social Media</h4>
+                            <p2>We specialise in web content that works, with optimised content for each social media channel: Instagram, YouTube, LinkedIn, Facebook, Snapchat, Twitter and more. Based in Cork, aimed at the world.</p2>
+                        </div>
+                    </a>
                 </div>
-              </div>
+            </div>
               <div class="row  icon-row">
                 <div class="column">
-                    <img class="icon" src="/images/pencil-blue.svg" alt="Animated Explainer Video">
-                    <h4>Animated Explainer Videos</h4>
-                    <p2>Explainer videos for businesses are ideal for explaining a product or service, without any need for hectic shoots. We can handle it all, from start to finish!</p2>
+                    <a href="/animated-explainers.html" class="card-link">
+                        <div class="card">
+                            <img class="icon" src="/images/pencil-blue.svg" alt="Animated Explainer Video">
+                            <h4>Animated Explainer Videos</h4>
+                            <p2>Explainer videos for businesses are ideal for explaining a product or service, without any need for hectic shoots. We can handle it all, from start to finish!</p2>
+                        </div>
+                    </a>
                 </div>
                 <div class="column">
-                    <img class="icon" src="/images/video-camera-blue.svg" alt="Corporate Video Production">
-                    <h4>Corporate Video Production</h4>
-                    <p2>All the videos your company or business could ever need - internal videos for HR & employee branding, presentations, board meeting videos, a company history video - we can do it all.</p2>
+                    <a href="#corporate" class="card-link smoothscroll">
+                        <div class="card">
+                            <img class="icon" src="/images/video-camera-blue.svg" alt="Corporate Video Production">
+                            <h4>Corporate Video Production</h4>
+                            <p2>All the videos your company or business could ever need - internal videos for HR & employee branding, presentations, board meeting videos, a company history video - we can do it all.</p2>
+                        </div>
+                    </a>
                 </div>
                 <div class="column">
-                    <img class="icon" src="/images/music-blue.svg" alt="Event Videography">
-                    <h4>Event Videography</h4>
-                    <p2>Music, conference, live events, team projects. <br> A professional and unobtrusive service, with quality results. Available in Cork, Munster and beyond.</p2>
+                    <a href="/event-videos.html" class="card-link">
+                        <div class="card">
+                            <img class="icon" src="/images/music-blue.svg" alt="Event Videography">
+                            <h4>Event Videography</h4>
+                            <p2>Music, conference, live events, team projects. <br> A professional and unobtrusive service, with quality results. Available in Cork, Munster and beyond.</p2>
+                        </div>
+                    </a>
                 </div>
               </div>
         </section>
 
     <div class="block-blue">
-            <section class="block-photo3">
+            <div class="block-photo3">
                 <ul>
                     <li><h2 style="color: #FAFAFA;">Quality video, created in Cork.</h2>
                         <p>We offer full-service video production for our clients.</p>
@@ -144,7 +178,7 @@
     </div>
 
     <div class="container-full">
-        <section class="block-photo1">
+        <section class="block-photo1" id="commercial">
             <ul style="float: right;">
                 <li></li>
                 <li><h2>Your Project, Our Creativity.</h2>
@@ -156,7 +190,7 @@
     </div>
 
     <div class="container-full">
-        <section class="block-photo2">
+        <section class="block-photo2" id="corporate">
             <ul>
                 <li></li>
                 <li><h2>Unique content for your company.</h2>
@@ -214,10 +248,10 @@
             <div class="col">
                     <ul>
                         <li><a href="/cork-video-production.html"><h2>Video</h2></a></li>
-                        <li><a href="/cork-video-production.html">Corporate</a></li>
+                        <li><a href="/animated-explainers.html">Animated Explainers</a></li>
                         <li><a href="/work.html">Work Gallery</a></li>
-                        <li><a href="/cork-video-production.html">Music Video</a></li>
-                        <li><a href="/cork-video-production.html">Events</a></li>
+                        <li><a href="/music-videos.html">Music Video</a></li>
+                        <li><a href="/event-videos.html">Event Videos</a></li>
                         <li><a href="/cork-video-production.html">Cork Videography</a></li>
                     </ul>
             </div>
@@ -233,12 +267,16 @@
                     <ul>
                         <li><a href="/index.html#about"><h2>About Us</h2></a></li>
                         <li><a href="/index.html#about">Team</a></li>
+                        <li><a href="/blog.html">Blog</a></li>
                     </ul>
             </div>
             <div class="col">
                     <ul>
                         <li><a href="/contact.html"><h2>Contact</h2></a></li>
                     </ul>
+            </div>
+            <div class="col">
+                <p>Desmond Bros Media is a video production company based in Cork, Ireland. A video company with creative flair, it has extensive experience producing video content for companies and organisations, including commercial, product advertising, social media videos, music videos, animated explainer videos and more.</p>
             </div>
                 
                 <div class="clearfix">
@@ -247,10 +285,10 @@
         </div>
         <div class="contain social">
             <ul>
-                <li><a href="http://instagram.com/desmondbros" target="_blank"><img src="/images/instagram-white.svg"></a></li>
-                <li><a href="http://youtube.com/desmondbros" target="_blank"><img src="/images/youtube-white.svg"></a></li>
-                <li><a href="http://twitter.com/desmondbros" target="_blank"><img src="/images/twitter-white.svg"></a></li>
-                <li><a href="http://facebook.com/desmondbros" target="_blank"><img src="/images/facebook-white.svg"></a></li>
+                <li><a href="http://instagram.com/desmondbros" target="_blank"><img src="/images/instagram-white.svg" alt="Instagram Desmond Bros"></a></li>
+                <li><a href="http://youtube.com/desmondbros" target="_blank"><img src="/images/youtube-white.svg" alt="Instagram Desmond Bros"></a></li>
+                <li><a href="http://twitter.com/desmondbros" target="_blank"><img src="/images/twitter-white.svg" alt="Twitter Desmond Bros"></a></li>
+                <li><a href="http://facebook.com/desmondbros" target="_blank"><img src="/images/facebook-white.svg" alt="Facebook Desmond Bros"></a></li>
             </ul>
     </div>
         <div class="contain copyright">
@@ -259,61 +297,7 @@
         </div>
     </div>
 
-    <script>
-        var menu = document.getElementById('menuBoggle');
-        var nav = document.getElementById('nav');
-        var exit = document.getElementById('exit');
 
-        menu.addEventListener('click', function(e){
-            nav.classList.toggle('hide-mobile');
-            e.preventDefault();
-        });
-
-        exit.addEventListener('click', function(e){
-            nav.classList.add('hide-mobile');
-            e.preventDefault();
-        });
-    </script>
-    
-<script>
-$(document).ready(function() {
-    $('#videos a').each(function() {
-       var data = $(this).attr('data');
-       $(this).append('<img src="http://img.youtube.com/vi/'+data+'/maxresdefault.jpg" />');
-    });
- 
-    $('#videos a').click(function() {
-       var data = $(this).attr('data');
-       $('#loader').append('<iframe src="https://www.youtube.com/embed/'+data+'" frameborder="0" allowfullscreen></iframe>');
-       $('#overlay').fadeIn(250);
-    });
- 
-    $('#close').click(function() {
-       $('#overlay').fadeOut(250,function() {
-          $('#loader').html('');
-       });
-    });
- });
-</script>
-
-<script>
-        Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
-    get: function () {
-        return !!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2);
-    }});
-
-    $('body').on('click touchstart', function () {
-        const videoElement = document.getElementById('video-loop');
-        if (videoElement.playing) {
-            // video is already playing so do nothing
-        }
-        else {
-            // video is not playing
-            // so play video now
-            videoElement.play();
-        }
-});
-</script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/magnific-popup.js"></script>
