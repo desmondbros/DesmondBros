@@ -53,9 +53,27 @@ ul {
 }
 
 .container {
-    padding: .8em 1.2em;
+    padding: 0.8em 1.2em;
     margin-right: 0.2em;
     margin-left: 0.2em;
+    
+}
+
+#about .container {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
+}
+#about .container img {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
+}
+
+.container-full {
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .logo {
@@ -286,6 +304,15 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
+#intro p span {
+    font-weight: 200;
+    text-align: center;
+}
+
+#intro p {
+    text-align: center;
+}
+
 
 
 
@@ -487,8 +514,6 @@ li .img-right {
     padding-bottom: 10em;
     text-align: left;
     padding-top:1em;
-    
-
 }
 
 .block-white h3{
@@ -582,6 +607,11 @@ li .img-right {
     background-size: 100%;
   
 
+}
+
+.block-blue#about {
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 
@@ -781,8 +811,8 @@ li .img-right {
 .icon-row .column {
     flex: 100%;
     width: 100%;
-    padding-left: 5em;
-    padding-right: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
     padding-bottom: 3em;
     margin-bottom: 0em;
 }
@@ -797,14 +827,10 @@ li .img-right {
 }
 
 .profile {
-    margin-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
     padding-top: 0px;
-    vertical-align: middle;
     filter: brightness(120%) grayscale(80%);
-    padding-left: none;
-    padding-right: none;
-    margin-left: none;
-    margin-right: none;
     flex: 50%;
     width: 100%;
     
@@ -815,8 +841,10 @@ li .img-right {
     flex-wrap: wrap;
     text-align: center;
     width: 100%;
-    margin-bottom: -10.5em;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
+
 
 .column .profile:hover {
     filter: brightness(100%) grayscale(0%);
@@ -911,7 +939,7 @@ li .img-right {
 .hero-image {
     display: block;
     background-size: cover;
-    background-image: url(../images/gemini-still-02.png);
+    background-image: url(../images/video-production-leaf.jpg);
     background-repeat: no-repeat;
     height: 600px;
     background-position: center;
@@ -974,6 +1002,16 @@ li .img-right {
     display: block;
     background-size: cover;
     background-image: url(../images/event-video-2.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+    text-align: center;
+}
+
+.hero-image-film {
+    display: block;
+    background-size: cover;
+    background-image: url(../images/speak-to-her-01.jpg);
     background-repeat: no-repeat;
     height: 600px;
     background-position: center;
@@ -1136,6 +1174,11 @@ a.card-link:hover .card {
     
     }
 
+    .block-blue#about {
+        padding-bottom: inherit;
+        margin-bottom: inherit;
+    }
+
     .block-photo1 ul {
         margin-top: 7em;
     }
@@ -1152,6 +1195,7 @@ a.card-link:hover .card {
     .block-photo3 ul {
         margin-top: 9em;
     }
+
 
     .block-photo5 ul {
         float: center;
@@ -1195,6 +1239,11 @@ a.card-link:hover .card {
     #subhero-2 {
         position: static;
         width: 600px;
+    }
+
+    #clients .column {
+        flex: 33.33%;
+        width: 100%;
     }
 
    
