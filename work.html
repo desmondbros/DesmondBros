@@ -7,6 +7,7 @@
         <link rel="icon" type="image/svg+xml" href="/images/db-favicon.svg">
         <link rel="icon" sizes="72x72" href="/images/db-favicon.png">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/blog.css">
         <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <meta property="og:site_name" content="Desmond Bros">
@@ -46,7 +47,17 @@
 
                 <ul class="show-desktop hide-mobile" id="nav">
                     <a href="/index.html"><img src="images/desmondb-bros-logo-white.svg" class="logo hide-desktop" alt="Logo"></a>
-                    <li><a href="/cork-video-production.html">video</a></li>
+                    <li>
+                        <div class="dropdown"><a href="/cork-video-production.html">video<img class="show-desktop" src="/images/down-caret-outline.svg" alt=""> </a>
+                            <div class="dropdown-content">
+                                <a href="/cork-video-production.html">Corporate Video</a>
+                                <a href="/animated-explainers.html">Animated Explainers</a>
+                                <a href="/motion-graphics.html">Motion Graphics</a>
+                                <a href="/music-videos.html">Music Videos</a>
+                                <a href="/event-videos.html">Event Videos</a>
+                            </div>
+                        </div>
+                    </li>
                     <li><a href="/film.html">film</a></li>
                     <li><a href="/work copy.html">gallery</a></li>
                     <li><a href="/index.html#about" >about</a></li>
@@ -61,7 +72,17 @@
             <h1 style=" margin-top: 75px; margin-bottom: 0; padding-bottom: 0; text-shadow: none;">Gallery</h1>
             <h3 style="color: #fafafa; margin-top: 0; padding-top: 0; font-weight: 100;">of selected work.</h2>
 
+                
+
                 <section id="portfolio">
+                    <div class="blog-button-list" id="myBtnContainer">
+                        <button class="blog-btn active" onclick="filterSelection('all')"> Show all</button>
+                        <button class="blog-btn" onclick="filterSelection('commercial')">Commercial</button>
+                        <button class="blog-btn" onclick="filterSelection('animation')">Animation</button>
+                        <button class="blog-btn" onclick="filterSelection('events')">Events</button>
+                        <button class="blog-btn" onclick="filterSelection('musicVideo')">Music Video</button>
+                        <button class="blog-btn" onclick="filterSelection('film')">Film</button>
+                    </div>
                     <div class="row-port">
             
                         <div class="twelve columns collapsed">
@@ -69,7 +90,7 @@
                             <!-- portfolio-wrapper -->
                             <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
                 
-                                <div class="columns portfolio-item">
+                                <div class="columns portfolio-item blog-column commercial">
                                     <div class="item-wrap">
                 
                                     <a href="#modal-01" title="">
@@ -86,7 +107,7 @@
                                     </div>
                                     </div> <!-- item end -->
                 
-                                <div class="columns portfolio-item">
+                                <div class="columns portfolio-item blog-column film">
                                     <div class="item-wrap">
                 
                                     <a href="#modal-02" title="">
@@ -103,7 +124,7 @@
                                     </div>
                                     </div> <!-- item end -->
                 
-                                <div class="columns portfolio-item">
+                                <div class="columns portfolio-item blog-column commercial">
                                     <div class="item-wrap">
                 
                                     <a href="#modal-03" title="">
@@ -120,7 +141,7 @@
                                     </div>
                                     </div> <!-- item end -->
                 
-                                <div class="columns portfolio-item">
+                                <div class="columns portfolio-item blog-column musicVideo">
                                     <div class="item-wrap">
                 
                                     <a href="#modal-04" title="">
@@ -137,7 +158,7 @@
                                     </div>
                                     </div> <!-- item end -->
                 
-                                    <div class="columns portfolio-item">
+                                    <div class="columns portfolio-item blog-column film">
                                         <div class="item-wrap">
                     
                                         <a href="#modal-05" title="">
@@ -154,7 +175,7 @@
                                         </div>
                                         </div> <!-- item end -->
                     
-                                    <div class="columns portfolio-item">
+                                    <div class="columns portfolio-item blog-column animation">
                                         <div class="item-wrap">
                     
                                         <a href="#modal-06" title="">
@@ -171,7 +192,7 @@
                                         </div>
                                         </div> <!-- item end -->
                     
-                                    <div class="columns portfolio-item">
+                                    <div class="columns portfolio-item blog-column commercial">
                                         <div class="item-wrap">
                     
                                         <a href="#modal-07" title="">
@@ -188,7 +209,7 @@
                                         </div>
                                         </div> <!-- item end -->
                     
-                                    <div class="columns portfolio-item">
+                                    <div class="columns portfolio-item blog-column film">
                                         <div class="item-wrap">
                     
                                         <a href="#modal-08" title="">
@@ -197,6 +218,59 @@
                                                 <div class="portfolio-item-meta">
                                                         <h5>Simon Baker - Documentary</h5>
                                                     <p>Teaser for documentary project.</p>
+                                                    <img class="icon-plus" src="images/plus-white.svg">
+                                                    </div>
+                                            </div>
+                                        </a>
+                    
+                                        </div>
+                                    </div> <!-- item end -->
+
+                                    
+
+                                    <div class="columns portfolio-item blog-column animation">
+                                        <div class="item-wrap">
+                    
+                                        <a href="#animation-02" title="">
+                                            <img alt="" src="images/animated-explainer-1.jpg">
+                                            <div class="overlay">
+                                                <div class="portfolio-item-meta">
+                                                    <h5>Animated Explainer Reel</h5>
+                                                    <p>Selection of animated styles.</p>
+                                                    <img class="icon-plus" src="images/plus-white.svg">
+                                                </div>
+                                            </div>
+                                        </a>
+                    
+                                        </div>
+                                        </div> <!-- item end -->
+
+                                    <div class="columns portfolio-item blog-column events">
+                                        <div class="item-wrap">
+                    
+                                        <a href="#event-01" title="">
+                                            <img alt="" src="images/event-wms.png">
+                                            <div class="overlay">
+                                                <div class="portfolio-item-meta">
+                                                    <h5>Conference Event Aftermovie</h5>
+                                                    <p>Aftermovie for major industry conference, featuring interviews with attendees.</p>
+                                                    <img class="icon-plus" src="images/plus-white.svg">
+                                                </div>
+                                            </div>
+                                        </a>
+                    
+                                        </div>
+                                    </div> <!-- item end -->
+                    
+                                    <div class="columns portfolio-item blog-column events">
+                                        <div class="item-wrap">
+                    
+                                        <a href="#event-02" title="">
+                                            <img alt="" src="images/event-frankfurt.jpg">
+                                            <div class="overlay">
+                                                <div class="portfolio-item-meta">
+                                                        <h5>Corporate Event Recap Video</h5>
+                                                    <p>Recap video for conference event.</p>
                                                     <img class="icon-plus" src="images/plus-white.svg">
                                                     </div>
                                             </div>
@@ -343,6 +417,54 @@
                         </div>
             
                         </div><!-- modal-04 End -->
+                    
+                    <div id="animation-02" class="popup-modal mfp-hide">
+        
+                            <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="bHG4cITfoac"></div>
+            
+                            <div class="description-box">
+                                <h4>Animated Explainers Reel</h4>
+                                <p>Selection of animated styles.</p>
+                            <span class="categories"><img src="images/tag-black.svg" alt="">Animation, Social Media, Educational, Motion Graphics</span>
+                            </div>
+            
+                        <div class="link-box">
+                            <a class="popup-modal-dismiss">Close</a>
+                        </div>
+            
+                    </div><!-- animation-02 End -->
+
+                    <div id="event-01" class="popup-modal mfp-hide">
+        
+                            <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="3bTXkX-L1-U"></div>
+            
+                            <div class="description-box">
+                                <h4>Conference Event Aftermovie</h4>
+                                <p>Aftermovie for major industry conference, featuring interviews with attendees.</p>
+                                <span class="categories"><img src="images/tag-black.svg" alt="">Event, Conference</span>
+                            </div>
+            
+                        <div class="link-box">
+                            <a class="popup-modal-dismiss">Close</a>
+                        </div>
+            
+                        </div><!-- event-01 End -->
+            
+                    <div id="event-02" class="popup-modal mfp-hide">
+            
+                        <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="tqKOTq7_hrw"></div>
+            
+                            <div class="description-box">
+                                <h4>Corporate Event Recap Video</h4>
+                                <p>Recap video for conference event.</p>
+                            <span class="categories"><img src="images/tag-black.svg" alt="">Event, Conference, Recap</span>
+                            </div>
+            
+                        <div class="link-box">
+                            <a class="popup-modal-dismiss">Close</a>
+                        </div>
+            
+                        </div><!-- event-02 End -->
             
             
                     </div> <!-- row End -->
@@ -378,10 +500,10 @@
             <div class="col">
                     <ul>
                         <li><a href="/cork-video-production.html"><h2>Video</h2></a></li>
-                        <li><a href="/cork-video-production.html">Corporate</a></li>
+                        <li><a href="/animated-explainers.html">Animated Explainers</a></li>
                         <li><a href="/work.html">Work Gallery</a></li>
-                        <li><a href="/cork-video-production.html">Music Video</a></li>
-                        <li><a href="/cork-video-production.html">Events</a></li>
+                        <li><a href="/music-videos.html">Music Video</a></li>
+                        <li><a href="/event-videos.html">Event Videos</a></li>
                         <li><a href="/cork-video-production.html">Cork Videography</a></li>
                     </ul>
             </div>
@@ -397,12 +519,17 @@
                     <ul>
                         <li><a href="/index.html#about"><h2>About Us</h2></a></li>
                         <li><a href="/index.html#about">Team</a></li>
+                        <li><a href="/blog.html">Blog</a></li>
                     </ul>
             </div>
             <div class="col">
                     <ul>
                         <li><a href="/contact.html"><h2>Contact</h2></a></li>
                     </ul>
+            </div>
+
+            <div class="col">
+                <p>Desmond Bros Media is a video production company based in Cork, Ireland. A video company with creative flair, it has extensive experience producing video content for companies and organisations, including commercial, product advertising, social media videos, music videos, animated explainer videos and more.</p>
             </div>
                 
                 <div class="clearfix">
@@ -424,59 +551,53 @@
     </div>
 
     <script>
-        var menu = document.getElementById('menuBoggle');
-        var nav = document.getElementById('nav');
-        var exit = document.getElementById('exit');
+        filterSelection("all") // Execute the function and show all columns
+function filterSelection(c) {
+var x, i;
+x = document.getElementsByClassName("blog-column");
+if (c == "all") c = "";
+// Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "blog-show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "blog-show");
+}
+}
 
-        menu.addEventListener('click', function(e){
-            nav.classList.toggle('hide-mobile');
-            e.preventDefault();
-        });
+// Show filtered elements
+function w3AddClass(element, name) {
+var i, arr1, arr2;
+arr1 = element.className.split(" ");
+arr2 = name.split(" ");
+for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+    element.className += " " + arr2[i];
+    }
+}
+}
 
-        exit.addEventListener('click', function(e){
-            nav.classList.add('hide-mobile');
-            e.preventDefault();
-        });
-    </script>
-    
-<script>
-$(document).ready(function() {
-    $('#videos a').each(function() {
-       var data = $(this).attr('data');
-       $(this).append('<img src="http://img.youtube.com/vi/'+data+'/maxresdefault.jpg" />');
-    });
- 
-    $('#videos a').click(function() {
-       var data = $(this).attr('data');
-       $('#loader').append('<iframe src="https://www.youtube.com/embed/'+data+'" frameborder="0" allowfullscreen></iframe>');
-       $('#overlay').fadeIn(250);
-    });
- 
-    $('#close').click(function() {
-       $('#overlay').fadeOut(250,function() {
-          $('#loader').html('');
-       });
-    });
- });
-</script>
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+var i, arr1, arr2;
+arr1 = element.className.split(" ");
+arr2 = name.split(" ");
+for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+    arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+}
+element.className = arr1.join(" ");
+}
 
-<script>
-        Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
-    get: function () {
-        return !!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2);
-    }});
-
-    $('body').on('click touchstart', function () {
-        const videoElement = document.getElementById('video-loop');
-        if (videoElement.playing) {
-            // video is already playing so do nothing
-        }
-        else {
-            // video is not playing
-            // so play video now
-            videoElement.play();
-        }
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("blog-btn");
+for (var i = 0; i < btns.length; i++) {
+btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
 });
+}
 </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

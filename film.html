@@ -35,7 +35,17 @@
 
                 <ul class="show-desktop hide-mobile" id="nav">
                     <a href="/index.html"><img src="images/desmondb-bros-logo-white.svg" class="logo hide-desktop" alt="Logo"></a>
-                    <li><a href="/cork-video-production.html">video</a></li>
+                    <li>
+                        <div class="dropdown"><a href="/cork-video-production.html">video<img class="show-desktop" src="/images/down-caret-outline.svg" alt=""> </a>
+                            <div class="dropdown-content">
+                                <a href="/cork-video-production.html">Corporate Video</a>
+                                <a href="/animated-explainers.html">Animated Explainers</a>
+                                <a href="/motion-graphics.html">Motion Graphics</a>
+                                <a href="/music-videos.html">Music Videos</a>
+                                <a href="/event-videos.html">Event Videos</a>
+                            </div>
+                        </div>
+                    </li>
                     <li><a href="/film.html">film</a></li>
                     <li><a href="/work.html">gallery</a></li>
                     <li><a href="/index.html#about" >about</a></li>
@@ -46,13 +56,14 @@
     </header>
 
     <div class="header-img">
-        <h1 style="color: #FAFAFA; padding-top:2em;"> Films. </h1>
-        <img class="mountain" src="/images/speak-to-her-01.jpg" alt="Speak to Her Short Film">
+        <section class="hero-image-film">
+            <h1 class="home-text"> Films. </h1>
+         </section>
     </div>
 
-    <div class="block-blue"  style="margin-top: 5em; margin-bottom: -15em;">
+    <div class="block-blue"  style= "margin-bottom: -15em;">
         <div class="container">
-            <section>
+            <div id="clients">
                 <div class="row">
                     <div class="column">
                     <img src="/images/laurel-richardharris-editing.png" alt="Cinemagic" style="width: 120px">
@@ -86,7 +97,7 @@
                         <img src="/images/laurel-disappear-here.png" alt="Cinemagic" style="width: 120px">
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
     </div>
 
@@ -140,10 +151,10 @@
             <div class="col">
                     <ul>
                         <li><a href="/cork-video-production.html"><h2>Video</h2></a></li>
-                        <li><a href="/cork-video-production.html">Corporate</a></li>
+                        <li><a href="/animated-explainers.html">Animated Explainers</a></li>
                         <li><a href="/work.html">Work Gallery</a></li>
-                        <li><a href="/cork-video-production.html">Music Video</a></li>
-                        <li><a href="/cork-video-production.html">Events</a></li>
+                        <li><a href="/music-videos.html">Music Video</a></li>
+                        <li><a href="/event-videos.html">Event Video</a></li>
                         <li><a href="/cork-video-production.html">Cork Videography</a></li>
                     </ul>
             </div>
@@ -159,12 +170,16 @@
                     <ul>
                         <li><a href="/index.html#about"><h2>About Us</h2></a></li>
                         <li><a href="/index.html#about">Team</a></li>
+                        <li><a href="/blog.html">Blog</a></li>
                     </ul>
             </div>
             <div class="col">
                     <ul>
                         <li><a href="/contact.html"><h2>Contact</h2></a></li>
                     </ul>
+            </div>
+            <div class="col" id="footer-description">
+                <p>Desmond Bros Media is a video production company based in Cork, Ireland. A video company with creative flair, it has extensive experience producing video content for companies and organisations, including commercial, product advertising, social media videos, music videos, animated explainer videos and more.</p>
             </div>
                 
                 <div class="clearfix">
@@ -173,10 +188,10 @@
         </div>
         <div class="contain social">
             <ul>
-                <li><a href="http://instagram.com/desmondbros" target="_blank"><img src="/images/instagram-white.svg"></a></li>
-                <li><a href="http://youtube.com/desmondbros" target="_blank"><img src="/images/youtube-white.svg"></a></li>
-                <li><a href="http://twitter.com/desmondbros" target="_blank"><img src="/images/twitter-white.svg"></a></li>
-                <li><a href="http://facebook.com/desmondbros" target="_blank"><img src="/images/facebook-white.svg"></a></li>
+                <li><a href="http://instagram.com/desmondbros" target="_blank"><img src="/images/instagram-white.svg" alt="Instagram Desmond Bros"></a></li>
+                <li><a href="http://youtube.com/desmondbros" target="_blank"><img src="/images/youtube-white.svg" alt="Instagram Desmond Bros"></a></li>
+                <li><a href="http://twitter.com/desmondbros" target="_blank"><img src="/images/twitter-white.svg" alt="Twitter Desmond Bros"></a></li>
+                <li><a href="http://facebook.com/desmondbros" target="_blank"><img src="/images/facebook-white.svg" alt="Facebook Desmond Bros"></a></li>
             </ul>
     </div>
         <div class="contain copyright">
@@ -185,61 +200,7 @@
         </div>
     </div>
 
-    <script>
-        var menu = document.getElementById('menuBoggle');
-        var nav = document.getElementById('nav');
-        var exit = document.getElementById('exit');
-
-        menu.addEventListener('click', function(e){
-            nav.classList.toggle('hide-mobile');
-            e.preventDefault();
-        });
-
-        exit.addEventListener('click', function(e){
-            nav.classList.add('hide-mobile');
-            e.preventDefault();
-        });
-    </script>
     
-<script>
-$(document).ready(function() {
-    $('#videos a').each(function() {
-       var data = $(this).attr('data');
-       $(this).append('<img src="http://img.youtube.com/vi/'+data+'/maxresdefault.jpg" />');
-    });
- 
-    $('#videos a').click(function() {
-       var data = $(this).attr('data');
-       $('#loader').append('<iframe src="https://www.youtube.com/embed/'+data+'" frameborder="0" allowfullscreen></iframe>');
-       $('#overlay').fadeIn(250);
-    });
- 
-    $('#close').click(function() {
-       $('#overlay').fadeOut(250,function() {
-          $('#loader').html('');
-       });
-    });
- });
-</script>
-
-<script>
-        Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
-    get: function () {
-        return !!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2);
-    }});
-
-    $('body').on('click touchstart', function () {
-        const videoElement = document.getElementById('video-loop');
-        if (videoElement.playing) {
-            // video is already playing so do nothing
-        }
-        else {
-            // video is not playing
-            // so play video now
-            videoElement.play();
-        }
-});
-</script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/magnific-popup.js"></script>

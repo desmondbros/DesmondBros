@@ -54,7 +54,7 @@
                                 <a href="/animated-explainers.html">Animated Explainers</a>
                                 <a href="/motion-graphics.html">Motion Graphics</a>
                                 <a href="/music-videos.html">Music Videos</a>
-                                <a href="/event-videos.html">Events</a>
+                                <a href="/event-videos.html">Event Videos</a>
                             </div>
                         </div>
                     </li>
@@ -103,6 +103,10 @@
             </div>
            
     </div>
+
+    <section id="intro" class="container"> 
+        <p> <span>Desmond Bros is a creative video company based in Cork, Ireland. Together, we have years of experience in expert video production for companies and organisations, including commercials, music videos and films, in Cork and throughout Ireland.</span> </p>
+    </section>
        
         
 
@@ -305,28 +309,27 @@
             <h3>We've worked with great clients.</h3>
             <div class="row" style="margin-top: 2em;">
                 <div class="column">
-                  <img src="images/client-repak-blue.png" alt="Repak Ireland" style="width: 10em">
+                    <img src="images/client-ptsb-blue.svg" alt="Permanent TSB" style="width: 11em">
                 </div>
+                
                 <div class="column">
-                    <img src="images/client-rte-blue.svg" alt="RTE" style="width: 7em">
+                    <img src="images/client-rte-blue.svg" alt="RTE" style="width: 5em">
                 </div>
                 <div class="column">
                   <img src="images/client-journal-blue.svg" alt="The Journal.ie" style="width: 10em">
                 </div>
-                
-                
             </div>
             <div class="row">
-                
+                <div class="column">
+                    <img src="images/client-repak-blue.png" alt="Repak Ireland" style="width: 10em">
+                  </div>
                 <div class="column">
                     <img src="images/client-nwc-blue.png" alt="National Women's Council" style="width: 10em">
                 </div>
                 <div class="column">
                     <img src="images/client-wunder-blue.png" alt="Wunder" style="width: 11em">
                 </div>
-                <div class="column">
-                  <img src="images/client-one-productions-blue.png" alt="One Productions" style="width: 5em">
-                </div>
+                
             </div>
             <div class="row" style="margin-bottom: 2em;">
                 <div class="column">
@@ -336,18 +339,17 @@
                   <img src="images/client-iadt-blue.png" alt="IADT" style="width: 7em">
                 </div>
                 <div class="column">
-                    <img src="images/client-cruinniu-blue.png" alt="Cruinniu" style="width: 4em">
+                    <img src="images/client-one-productions-blue.png" alt="One Productions" style="width: 5em">
                   </div>
+                
             </div>
         </section>
     </div>
 
-    <div>
-        <a name="about" id="about"></a>
-            <section class="block-blue" style="margin-bottom: -6em;">
-                <div class="container">
-                    <div class="row">
-                        <div class="column" style="text-align: left; margin-left: 1em; margin-right: 1em;">
+    
+            <section class="block-blue" id="about">
+                    <div class="row container">
+                        <div class="column" style="text-align: left;">
                             <h3 style="text-align: left; padding-left: 0.25em;">We're passionate.</h3>
                             <p2>Cian and Jack Desmond are twin filmmakers from Cork, Ireland. Together, their films have been selected for film festivals across Europe and North America. They have won awards for their work, including Best Short Form and Best Camerawork at the Royal Television Society awards (2020).
                                 <br> <br> Their Cork based creative video agency offers high-end video production throughout Ireland - for narrative, music video, commercial, and corporate.</p2>
@@ -362,9 +364,7 @@
                     </div>
                         
             </section>
-        </a>
 
-    </div>
 
     <div class="container">
         <section class="block-white">
@@ -392,7 +392,7 @@
                         <li><a href="/animated-explainers.html">Animated Explainers</a></li>
                         <li><a href="/work.html">Work Gallery</a></li>
                         <li><a href="/music-videos.html">Music Video</a></li>
-                        <li><a href="/event-videos.html">Events</a></li>
+                        <li><a href="/event-videos.html">Event Videos</a></li>
                         <li><a href="/cork-video-production.html">Cork Videography</a></li>
                     </ul>
             </div>
@@ -438,61 +438,8 @@
         </div>
     </div>
 
-    <script>
-        var menu = document.getElementById('menuBoggle');
-        var nav = document.getElementById('nav');
-        var exit = document.getElementById('exit');
-
-        menu.addEventListener('click', function(e){
-            nav.classList.toggle('hide-mobile');
-            e.preventDefault();
-        });
-
-        exit.addEventListener('click', function(e){
-            nav.classList.add('hide-mobile');
-            e.preventDefault();
-        });
-    </script>
     
-    <script>
-    $(document).ready(function() {
-        $('#videos a').each(function() {
-        var data = $(this).attr('data');
-        $(this).append('<img src="http://img.youtube.com/vi/'+data+'/maxresdefault.jpg" />');
-        });
-    
-        $('#videos a').click(function() {
-        var data = $(this).attr('data');
-        $('#loader').append('<iframe src="https://www.youtube.com/embed/'+data+'" frameborder="0" allowfullscreen></iframe>');
-        $('#overlay').fadeIn(250);
-        });
-    
-        $('#close').click(function() {
-        $('#overlay').fadeOut(250,function() {
-            $('#loader').html('');
-        });
-        });
-    });
-    </script>
 
-    <script>
-            Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
-        get: function () {
-            return !!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2);
-        }});
-
-        $('body').on('click touchstart', function () {
-            const videoElement = document.getElementById('video-loop');
-            if (videoElement.playing) {
-                // video is already playing so do nothing
-            }
-            else {
-                // video is not playing
-                // so play video now
-                videoElement.play();
-            }
-    });
-    </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/magnific-popup.js"></script>
