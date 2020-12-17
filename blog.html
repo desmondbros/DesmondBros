@@ -48,7 +48,17 @@
 
                 <ul class="show-desktop hide-mobile" id="nav">
                     <a href="/index.html"><img src="images/desmondb-bros-logo-white.svg" class="logo hide-desktop" alt="Logo"></a>
-                    <li><a href="/cork-video-production.html">video</a></li>
+                    <li>
+                        <div class="dropdown"><a href="/cork-video-production.html">video<img class="show-desktop" src="/images/down-caret-outline.svg" alt=""> </a>
+                            <div class="dropdown-content">
+                                <a href="/cork-video-production.html">Corporate Video</a>
+                                <a href="/animated-explainers.html">Animated Explainers</a>
+                                <a href="/motion-graphics.html">Motion Graphics</a>
+                                <a href="/music-videos.html">Music Videos</a>
+                                <a href="/event-videos.html">Event Videos</a>
+                            </div>
+                        </div>
+                    </li>
                     <li><a href="/film.html">film</a></li>
                     <li><a href="/work.html">gallery</a></li>
                     <li><a href="#about" class="smoothscroll">about</a></li>
@@ -65,27 +75,41 @@
 
     <div class="blog-button-list" id="myBtnContainer">
       <button class="blog-btn active" onclick="filterSelection('all')"> Show all</button>
-      <button class="blog-btn" onclick="filterSelection('nature')">Marketing</button>
-      <button class="blog-btn" onclick="filterSelection('cars')"> Education</button>
-      <button class="blog-btn" onclick="filterSelection('people')"> News</button>
+      <button class="blog-btn" onclick="filterSelection('marketing')">Marketing</button>
+      <button class="blog-btn" onclick="filterSelection('education')"> Education</button>
+      <button class="blog-btn" onclick="filterSelection('news')"> News</button>
   </div>
 
     <div class="blog-container">
         <!-- Portfolio Gallery Grid -->
        
-            <div class="blog-column people">
-              <a href="#" class="blog-card-link">
+            <div class="blog-column marketing news">
+              <a href="/blog/heineken-brand-spec-ad.html" class="blog-card-link">
                 <div class="card blog-content">
                   <div class="image-card">
-                    <div class="blog-img"><img src="/images/motion-graphics-01.png"></div>
+                    <div class="blog-img"><img src="/images/brand-film-heineken-commercia-spec.jpg"></div>
                   </div>
                   <div class="blog-card-text">
-                  <p class="blog-label-small"><img src="images/tag-black.svg" alt="">News</p>
-                  <h4>Blog Coming Soon!</h4>
-                  <p>How-to articles, insights and more. All coming soon.</p></div>
+                  <p class="blog-label-small"><img src="images/tag-black.svg" alt="">News, Marketing</p>
+                  <h4>Brand Storytelling Case Study: Heineken</h4>
+                  <p>Behind the scenes on how we made a brand film commercial.</p></div>
                 </div>
               </a>
             </div>
+
+            <div class="blog-column marketing">
+                <a href="/blog/how-video-production-content-can-help-your-company.html" class="blog-card-link">
+                  <div class="card blog-content">
+                    <div class="image-card">
+                      <div class="blog-img"><img src="/images/video-production-app-website-social-media.jpg"></div>
+                    </div>
+                    <div class="blog-card-text">
+                    <p class="blog-label-small"><img src="images/tag-black.svg" alt="">Marketing</p>
+                    <h4>How Video Production Content Can Help Your Company</h4>
+                    <p>Professional video production can help any company. Here's how.</p></div>
+                  </div>
+                </a>
+              </div>
         
           <!-- END GRID -->
     </div>
@@ -118,7 +142,7 @@
                     <li><a href="/animated-explainers.html">Animated Explainers</a></li>
                     <li><a href="/work.html">Work Gallery</a></li>
                     <li><a href="/music-videos.html">Music Video</a></li>
-                    <li><a href="/event-videos.html">Events</a></li>
+                    <li><a href="/event-videos.html">Event Videos</a></li>
                     <li><a href="/cork-video-production.html">Cork Videography</a></li>
                     <li><a href="/motion-graphics.html">Motion Graphics</a></li>
                 </ul>
