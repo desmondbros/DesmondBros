@@ -65,8 +65,17 @@
 <url>
   <loc>http://desmondbros.ie/social-media-videos.html</loc>
   <lastmod>2020-12-15T14:27:58+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
-
+<url>
+  <loc>http://desmondbros.ie/blog/heineken-brand-spec-ad.html</loc>
+  <lastmod>2020-12-15T14:27:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://desmondbros.ie/blog/how-video-production-content-can-help-your-company.html</loc>
+  <lastmod>2020-12-15T14:27:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
 </urlset>
