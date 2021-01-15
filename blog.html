@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desmond Bros | Creative Video Agency</title>
+    <title>Blog | Desmond Bros - Creative Video Agency</title>
     <link rel="icon" type="image/svg+xml" href="/images/db-favicon.svg">
     <link rel="icon" sizes="72x72" href="/images/db-favicon.png">
     <link rel="stylesheet" href="css/main.css">
@@ -12,12 +12,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta property="og:site_name" content="Desmond Bros">
     <meta property="og:title" content="Desmond Bros">
-    <meta property="og:description" content="Creative Video Agency in Cork">
-    <meta property="og:image" itemprop="image" content="http://desmondbros.ie/images/desmond-bros-tile.jpg">
+    <meta property="og:description" content="Blog articles with insights on video production, content marketing and more.">
+    <meta property="og:image" itemprop="image" content="https://desmondbros.ie/images/desmond-bros-tile.jpg">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="300">
     <meta property="og:image:height" content="300">
-    <meta property="og:url" content="http://desmondbros.ie/blog">
+    <meta property="og:url" content="https://desmondbros.ie/blog">
 
     <link rel="stylesheet" href="css/portfolio.css">
         <link rel="stylesheet" href="css/magnific-popup.css">
@@ -69,9 +69,13 @@
     </header>
  
 
-    <div>
-      <div class="blog-title"><h1 > Blog</h1></div>
-    </div>
+    <section>
+        <div class="blog-title">
+            <h1 >Desmond Bros Blog</h1>
+            <p>Articles and how-to guides for video, marketing and film.</p>
+    
+        </div>
+    </section>
 
     <div class="blog-button-list" id="myBtnContainer">
       <button class="blog-btn active" onclick="filterSelection('all')"> Show all</button>
@@ -90,9 +94,10 @@
                     <div class="blog-img"><img src="/images/brand-film-heineken-commercia-spec.jpg"></div>
                   </div>
                   <div class="blog-card-text">
-                  <p class="blog-label-small"><img src="images/tag-black.svg" alt="">News, Marketing</p>
-                  <h4>Brand Storytelling Case Study: Heineken</h4>
-                  <p>Behind the scenes on how we made a brand film commercial.</p></div>
+                    <p class="blog-label-small"><img src="images/tag-black.svg" alt="">News, Marketing</p>
+                    <h4>Brand Storytelling Case Study: Heineken</h4>
+                    <p>Behind the scenes on how we made a brand film commercial.</p>
+                    </div>
                 </div>
               </a>
             </div>
@@ -104,9 +109,10 @@
                       <div class="blog-img"><img src="/images/video-production-app-website-social-media.jpg"></div>
                     </div>
                     <div class="blog-card-text">
-                    <p class="blog-label-small"><img src="images/tag-black.svg" alt="">Marketing</p>
-                    <h4>How Video Production Content Can Help Your Company</h4>
-                    <p>Professional video production can help any company. Here's how.</p></div>
+                        <p class="blog-label-small"><img src="images/tag-black.svg" alt="">Marketing</p>
+                        <h4>How Video Production Content Can Help Your Company</h4>
+                        <p>Professional video production can help any company. Here's how.</p>
+                    </div>
                   </div>
                 </a>
               </div>
@@ -118,7 +124,7 @@
       <section style="padding-bottom: 5em; padding-top: 2em;">
               <h3 style="color: #1F4D7A">Have any questions?</h3>
               <p style="text-align: center;">Let us know, and we can help you with any topic.</p>
-              <a href="/contact.html" class="button-large">Ask us anything.</a>
+              <div class="button-holder"><a href="/contact.html" class="button-large">Ask us anything.</a></div>
       </section>        
   </div>
 
@@ -128,11 +134,11 @@
     
     
 
-  <div class="footer">
+    <div class="footer">
     <div class="contain">
         <div class="col">
             <a class="logo-footer" href="/index.html">
-                <img src="images/desmondb-bros-logo-white.svg" class="logo-footer" alt="Logo">
+                <img src="/images/desmondb-bros-logo-white.svg" class="logo-footer" alt="Logo">
             </a>
         </div>
        
@@ -144,7 +150,7 @@
                     <li><a href="/music-videos.html">Music Video</a></li>
                     <li><a href="/event-videos.html">Event Videos</a></li>
                     <li><a href="/cork-video-production.html">Cork Videography</a></li>
-                    <li><a href="/motion-graphics.html">Motion Graphics</a></li>
+                    <li><a href="/social-media-videos.html">Social Media Videos</a></li>
                 </ul>
         </div>
         <div class="col">
@@ -157,17 +163,18 @@
         </div>
         <div class="col">
                 <ul>
-                    <li><a href="/index.html#about"><h2>About Us</h2></a></li>
-                    <li><a href="/index.html#about">Team</a></li>
-                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/blog.html"><h2>Blog</h2></a></li>
+                    <li><a href="/blog/how-video-production-content-can-help-your-company.html">"How Video Production Content Can Help Your Company"</a></li>
+                    <li><a href="/blog/heineken-brand-spec-ad.html">"Brand Storytelling Case Study"</a></li>
                 </ul>
         </div>
         <div class="col">
                 <ul>
                     <li><a href="/contact.html"><h2>Contact</h2></a></li>
+                    <li><a href="/index.html#about" class="smoothscroll">About Us</a></li>
                 </ul>
         </div>
-        <div class="col" id="footer-description">
+        <div class="col">
             <p>Desmond Bros Media is a video production company based in Cork, Ireland. A video company with creative flair, it has extensive experience producing video content for companies and organisations, including commercial, product advertising, social media videos, music videos, animated explainer videos and more.</p>
         </div>
             
@@ -175,19 +182,24 @@
                 
             </div>
     </div>
-    <div class="contain social">
+    <div class="social">
         <ul>
-            <li><a href="http://instagram.com/desmondbros" target="_blank"><img src="/images/instagram-white.svg" alt="Instagram Desmond Bros"></a></li>
-            <li><a href="http://youtube.com/desmondbros" target="_blank"><img src="/images/youtube-white.svg" alt="Instagram Desmond Bros"></a></li>
-            <li><a href="http://twitter.com/desmondbros" target="_blank"><img src="/images/twitter-white.svg" alt="Twitter Desmond Bros"></a></li>
-            <li><a href="http://facebook.com/desmondbros" target="_blank"><img src="/images/facebook-white.svg" alt="Facebook Desmond Bros"></a></li>
+            <li><a href="http://instagram.com/desmondbros" target="_blank"><img src="/images/instagram-white.svg"></a></li>
+            <li><a href="http://youtube.com/desmondbros" target="_blank"><img src="/images/youtube-white.svg"></a></li>
+            <li><a href="http://twitter.com/desmondbros" target="_blank"><img src="/images/twitter-white.svg"></a></li>
+            <li><a href="http://facebook.com/desmondbros" target="_blank"><img src="/images/facebook-white.svg"></a></li>
         </ul>
-</div>
-    <div class="contain copyright">
-        <p style="color: white; font-size: small; font-weight: 300;">&copy;2020 Desmond Bros Media Limited.</p>
-        <p style="color: white; font-size: small; font-weight: 300;">Website design by Desmond Bros.</p>
     </div>
-</div>
+    <div class="social">
+        <p><a href = "mailto: info@desmondbros.ie" style="text-decoration: none;">info@desmondbros.ie</a></p>
+    </div>
+
+    <div class="copyright">
+        <p>&copy;2020 Desmond Bros Media Limited.</p>
+        <p>Desmond Bros Media Limited is a company registered in Ireland. CRO No: 678205</p>
+        <p>Website design by Desmond Bros.</p>
+    </div>
+    </div>
 
     <script>
                 filterSelection("all") // Execute the function and show all columns
