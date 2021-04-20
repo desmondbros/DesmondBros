@@ -28,8 +28,8 @@ h1 {
 }
 
 h2 {
-    padding-left: 0.2em;
     color: #1F4D7A;
+    font-size: 2em;
 }
 
 h3 {
@@ -1035,6 +1035,16 @@ li .img-right {
     background-image: url(../images/speak-to-her-01.jpg);
     background-repeat: no-repeat;
     height: 600px;
+    background-position: center;
+    text-align: center;
+}
+
+.hero-image-contact {
+    display: block;
+    background-size: cover;
+    background-image: url(../images/tree-01.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
     background-position: center;
     text-align: center;
 }

@@ -6,50 +6,57 @@ body  {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.placeholder{
-  font-family: 'Source Sans Pro', sans-serif;
-  margin-top: 2em;
 
-
-}
 
 .form-container {
-  width: 70%;
+  width: 100%;
+  max-width: 700px;
 	margin-left: auto;
   margin-right: auto;
   margin-top: 3em;
-  margin-bottom: 1em;
+  margin-bottom: 5em;
+  padding-top: 1em;
 	/*margin-top:90px;
   margin-bottom: 30px;*/
-	background-color: #fafafa;
-	position: relative;
-	    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 20px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
-  position: relative;
+	box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 20px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
   font-family: 'Source Sans Pro', sans-serif;
-  
-  
+  z-index: 500;
 
 }
+
+.form-full {
+  margin: 0 auto 0 auto;
+  padding: 0;
+}
+
+
 
 .form-row {
   font-family: 'Source Sans Pro', sans-serif;
-  padding-bottom: 10em;
-  margin-bottom: 10em;
+  margin-right: 5em;
+  padding-right: 0.5em;
   padding-left: 2em;
-  padding-right: 2em;
+  margin-bottom: 0.5em;
 }
 
+
+
 .input-field {
-  margin-left: 5em;
+  
   margin-bottom: 3em;
-  vertical-align: top;
   border-style: solid;
   border-color: #ced4da;
   border-radius: .25rem;
   border-width: 1px;
-  padding-left: 0.5em;
+  
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+  margin-left: 2em;
+
+}
+
+.place {
+  padding-left: 10px;
 
 }
 
@@ -58,13 +65,12 @@ body  {
   height: 300px;
   vertical-align: top;
   max-width: 100%;
-  margin-left: 2em;
-  margin-top: 2em;
+  font-size: 18px;
 }
 
 
-.button {
-  margin-left: 2em;
+button {
+  border: none;
 }
 
 .form-container .btn {
@@ -72,16 +78,22 @@ body  {
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
     cursor: pointer;
-    padding-left: 5em;
-    padding-right: 5em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    font-size: .9em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: .75em;
+    padding-bottom: .75em;
+    font-size: 1.2em;
     border-radius: 32px;
     margin-left: 2em;
     margin-bottom: 3em;
-
 }
+
+.form-container .btn:hover {
+  background-color: #3e80c2;
+  
+}
+
+
 .submitbtn {
 	line-height: 48px;
 	display: block;
@@ -91,29 +103,11 @@ body  {
 }
 .form-container h2 {
     margin: 0;
-    font-weight: 700;
     padding-left: 2em;
     padding-top: 1em;
     padding-bottom: 1em;
 }
-@media  all and (max-width: 640px) {
-	.form-container {
-		position: static;
-		-webkit-transform: translate(0, 0);
-		-ms-transform: translate(0, 0);
-		-o-transform: translate(0, 0);
-		transform: translate(0, 0);
-		width: 100%;
-		margin-top: 0em;
-    margin-bottom: 10px;
-    font-family: 'Source Sans Pro', sans-serif;
-	}
-  
 
-  .project {
-    margin-top: 2em;
-  }
-}
 
 :root{
   font-family: 'Source Sans Pro', sans-serif;
@@ -121,6 +115,7 @@ body  {
 
 #message {
   font-family: 'Source Sans Pro', sans-serif;
+  
 }
 .Email {
   font-family: 'Source Sans Pro', sans-serif;
@@ -129,3 +124,20 @@ body  {
 .input-field col s12 {
   font-family: 'Source Sans Pro', sans-serif;
 }
+
+label {
+  display: inline-block;
+  font-size: 18px;
+}
+
+input[type="text"]
+{
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+
+
+
