@@ -136,6 +136,10 @@ input[type="text"]
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.humans {
+  display: none;
+}
+
 
 
 

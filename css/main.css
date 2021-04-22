@@ -720,7 +720,7 @@ li .img-right {
 }
 
 .block-photo4 ul {
-    margin-top: 9em;
+    margin-top: 4em;
 
    padding-left: 1em;
 }
@@ -752,7 +752,7 @@ li .img-right {
     float: right;
     padding-right: 1em;
     padding-left: 1em;
-    margin-top: 9em;
+    margin-top: 6em;
     
 }
 
@@ -1599,6 +1599,7 @@ a.card-link:hover .card {
         height: 200px;
         border-radius: 20px;
         
+        
     }
 
     .block-photo5 ul li p {
@@ -1924,6 +1925,10 @@ a.card-link:hover .card {
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .block-photo5 ul {
+        margin-top: 9em; 
     }
 
 
