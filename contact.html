@@ -103,6 +103,10 @@
                         <label class="form-row">How can we help?</label>
                         <textarea class="input-field project place" rows="1" cols="26" placeholder="Describe your project. (required)" id="project" required name="entry.2004190544" style="font-family: 'Source Sans Pro', sans-serif;"></textarea>
                     </div>
+                    <div>
+                        <label for="humans" class="humans">Human check: Leave this field empty</label>
+                        <input type="text" name="humans" id="humans" class="humans" />
+                    </div>
             
                     <div>
                         <button class="btn btn-submit" id="submit" type="submit" value="Submit">Send Message</button>
@@ -159,7 +163,16 @@
                     return true;
                   }
                 }
-                </script>
+
+                function validateHuman() {
+                    var humans = document.getElementById('humans').value;
+                    if(humans.length == 0) {
+                      return true;
+        
+                    }
+                    return false;
+                  }
+        </script>
   
   <!-- End Contact Section -->
 
