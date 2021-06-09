@@ -9,12 +9,13 @@ section.visible {
 }
 
 
-
-#hero-poop {
+/*I put this  in made css to apply universally
+.heroFade {
     animation: fadein 2s;
   }
   @keyframes fadein {
     from { opacity: 0}
     to   { opacity: 1}
   }
+*/
 

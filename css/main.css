@@ -71,6 +71,15 @@ ul {
     margin: 0 auto 0 auto;
 }
 
+#process-steps.container {
+    max-width: 800px;
+    background-color: #FAFAFA; 
+    color: black; 
+    margin: 0 auto 0 auto;
+    padding-bottom: 3em; 
+    border-radius: 30px;
+}
+
 .container-full {
     padding: 0;
     margin-right: 0;
@@ -84,15 +93,29 @@ ul {
     padding-left: 20px;
 }
 
-.hide-mobile {
-    opacity: 0;
-    transition: opacity 300ms linear;
-    height: 0%;
+.logo-box {
+    z-index: 7;
 }
 
-.hide-mobile li {
-    display: none;
+svg#logo-main {
+    fill: black;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 5px;
+    padding-left: 20px;
+    cursor: pointer;
 }
+
+
+.hide-mobile {
+    transition: 300ms linear;
+    transform: translate(110%);
+    height: 100%;
+}
+
+/* .hide-mobile li {
+    display: none;
+} */
 
 .show-desktop .dropdown img {
     display: none;
@@ -119,6 +142,8 @@ header {
     margin-bottom: 0;
     padding-bottom: 0;
 }
+
+
 
 .navbar {
     height: 20px;
@@ -214,31 +239,33 @@ header {
   #menuToggle input:checked ~ .hide-mobile
   {
     opacity: 1;
-    transition: 500ms; 
+    transition: 500ms;
+    transition-timing-function: ease-in-out; 
+    transform: translate(0);
     height: 100%;
   }
 
-  #menuToggle input:checked ~ .hide-mobile li
+ /* #menuToggle input:checked ~ .hide-mobile li
   {
     display: contents;
-  }
+  } */
+
   
-#nav {
-    top: 0;
-    margin-top: 0;
-    height: 30px;
-    
-}
+  
+
 
 nav ul {
     position: fixed;
-    width: 100%;
-    top: 0;
+    width: 60%;
     right: 0;
+    top: 0;
+    bottom: 0;
     background: #1F4D7A;
-    height: 100%;
     z-index: 7;
     text-align: left;
+    padding-top: 100px;
+    height: 100%;
+    
 
 }
 
@@ -642,7 +669,7 @@ li .img-right {
     background-size: cover;
     background-image: url(http://desmondbros.ie/images/heineken_fb_02.jpg);
     padding-bottom: 2em;
-    padding-top: 2em;
+    padding-top: 1em;
     padding-left: 2em;
     margin: 2em auto 1em auto;
     max-width: 1000px;
@@ -651,7 +678,7 @@ li .img-right {
 }
 
 .block-photo1 ul {
-    margin-top: 15em;
+    margin-top: 7em;
     padding-right: 2em;
     text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
 }
@@ -674,7 +701,7 @@ li .img-right {
 }
 
 .block-photo2 ul {
-    margin-top: 15em;
+    margin-top: 7em;
     padding-right: 2em;
 
    
@@ -699,7 +726,7 @@ li .img-right {
 }
 
 .block-photo3 ul {
-    margin-top: 15em;
+    margin-top: 7em;
     padding-right: 2em;
     text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
 }
@@ -999,6 +1026,12 @@ li .img-right {
     text-align: center;
 }
 
+.home-text h2  {
+    color: #FAFAFA; 
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    font-weight: 400;
+}
+
 .hero-image5 {
     display: block;
     background-size: cover;
@@ -1108,6 +1141,16 @@ a.card-link:hover .card {
   transition: 0.4s ease;
 }
 
+#video-types p {
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+#process-steps p {
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
 .testimonial {
     max-width: 600px;
     margin: 3em auto;
@@ -1139,6 +1182,59 @@ a.card-link:hover .card {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: .2em;
+}
+
+.heroFade {
+    animation: fadein 2s;
+  }
+  @keyframes fadein {
+    from { opacity: 0}
+    to   { opacity: 1}
+}
+
+.cookie-banner {
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+    width: 30%;
+    min-width: 400px;
+    max-width: 500px;
+    padding: 5px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+    font-size: 12px;
+    z-index: 20;
+  }
+
+  .cookie-banner a {
+      margin-left: 10px;
+      color: grey;
+
+  }
+
+  .cookie-close {
+      display: block;
+      background-color: none;
+      color: black;
+      border-style: solid;
+      border-width: 1px;
+      border-color: black;
+      border-radius: 5px;
+      padding: .2em 1em;
+      cursor: pointer;
+      align-items: center;
+      transition: 0.5s;
+      margin-left: 50px;
+      font-weight: 700;
+  }
+
+  .cookie-close:hover {
+    background-color: lightgrey;
+    
 }
 
 
@@ -1242,7 +1338,7 @@ a.card-link:hover .card {
 
   .social ul li {
     display: inline-block;
-    margin-inline: 15px;
+    margin: 15px;
     width: 40px;
   }
 
@@ -1255,7 +1351,7 @@ a.card-link:hover .card {
 
 .col .logo-footer  {
     margin-top: 2.5em;
-    width: 12em;
+    width: 100%;
     padding-right: 1em;
   }
   
@@ -1278,8 +1374,6 @@ a.card-link:hover .card {
 
   
   
-
- // gallery
  
     div.gallery {
     border: 1px solid #ccc;
@@ -1387,17 +1481,7 @@ a.card-link:hover .card {
     outline: 0;
  }
 
- #videos-vimeo a {
-    display: inline-block;
-    width: 100%;
-    margin-bottom: 0px;
-    box-sizing: border-box;
-    padding: 0;
-    float: left;
-    cursor: pointer;
-    text-decoration: none;
-    outline: 0;
- }
+ 
  
  #videos a:hover {
     opacity: 0.7;
@@ -1589,14 +1673,10 @@ a.card-link:hover .card {
 
 
     .block-photo5 ul {
-        float: center;
-        padding-right: 2em;
-        padding-left: 2em;
+        padding-left: 1em;
         padding-top: 1em;
         padding-bottom: 5em;
-        margin-left: 50%;
         text-align: left;
-        height: 200px;
         border-radius: 20px;
         
         
@@ -1758,6 +1838,8 @@ a.card-link:hover .card {
     .show-desktop {
         display: block;
         opacity: 1;
+
+        transform: translate(0);
     }
 
     .show-desktop .dropdown img {
@@ -1880,10 +1962,10 @@ a.card-link:hover .card {
         display: none;
     }
 
-    #menuToggle input ~ .hide-mobile li
+   /* #menuToggle input ~ .hide-mobile li
     {
       display: contents;
-    }
+    } */
 
     .showreel {
         background: #fff;
@@ -1915,7 +1997,7 @@ a.card-link:hover .card {
 
     .contain .col {
         max-width: 16.667%;
-        flex: 0 0 16.6666666667%
+        flex: 0 0 16.6666666667%;
         width: 16.667%;
         
     }
@@ -1929,6 +2011,11 @@ a.card-link:hover .card {
 
     .block-photo5 ul {
         margin-top: 9em; 
+        margin-left: 50%;
+    }
+
+    .block-photo4 ul {
+        margin-right: 50%;
     }
 
 
