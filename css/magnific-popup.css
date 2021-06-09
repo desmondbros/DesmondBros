@@ -9,7 +9,9 @@
   position: fixed;
   background: #000;
   opacity: 0.8;
-  filter: alpha(opacity=80); }
+  filter: alpha(opacity=80);
+  backdrop-filter: blur(6px);
+}
 
 .mfp-wrap {
   top: 0;

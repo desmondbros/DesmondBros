@@ -272,13 +272,16 @@ nav ul {
 nav ul img {
     margin-bottom: 40px;
 }
-
+nav ul li {
+    width: 100%;
+    margin-left: 20px;
+}
 nav ul li a {
     color: white;
     text-decoration: none;
     display: block;
     width: 100%;
-    padding: 1em 2em;
+    padding: 1em 10px;
     text-align: left;
     text-transform: lowercase;
     font-weight: 600;
@@ -287,7 +290,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #3e80c2;
+    color: #3e80c2;
 
 }
 
@@ -384,6 +387,22 @@ a.button {
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
    
+}
+
+.button-menu {
+    border: #1C2F4b;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    color: #1F4D7A;
+    border-radius: 5px;
+    max-width: 60%;
+    padding: 10px;
+}
+
+.button-menu:hover {
+    background-color: #3e80c2;
+    color: white;
 }
 
 a.button-large {
@@ -1045,7 +1064,7 @@ li .img-right {
 .hero-image-social {
     display: block;
     background-size: cover;
-    background-image: url(../images/port-repak.png);
+    background-image: url(../images/bathbomb-01.png);
     background-repeat: no-repeat;
     height: 600px;
     background-position: center;
@@ -1195,9 +1214,8 @@ a.card-link:hover .card {
 .cookie-banner {
     position: fixed;
     bottom: 40px;
-    left: 40px;
-    width: 30%;
-    min-width: 400px;
+    left: 10px;
+    width: 95%;
     max-width: 500px;
     padding: 5px 14px;
     display: flex;
@@ -1709,7 +1727,7 @@ a.card-link:hover .card {
     }
 
     #subhero-2 {
-        position: static;
+        position: relative;
         width: 600px;
     }
 
@@ -1811,6 +1829,16 @@ a.card-link:hover .card {
         min-height: 340px;
     }
 
+    .cookie-banner {
+        position: fixed;
+        bottom: 40px;
+        left: 40px;
+        width: 95%;
+        max-width: 500px;
+      }
+
+    
+
     
       
 
@@ -1866,21 +1894,26 @@ a.card-link:hover .card {
     }
 
     nav ul li {
-        float: left;
+        text-align: center;
+
+        padding-right: 50px;
+        padding-left: 50px;
+        display: inline;
     }
+
+    
 
     nav ul li a {
         color: black;
         background-color: inherit;
-        text-align: left;
-        padding-right: 5em;
-        margin-right: 0em;
+        text-align: center;
         width: 1em;
         padding-bottom: 10px;
         margin-bottom: 0;
         text-transform: none;
         font-weight: 300;
         font-size: 1em; 
+        padding-top: 1em;
     }
 
     nav ul li a:hover {
@@ -2016,6 +2049,20 @@ a.card-link:hover .card {
 
     .block-photo4 ul {
         margin-right: 50%;
+    }
+
+    .button-menu {
+        border: #1C2F4b;
+        border-style: solid;
+        border-width: 1px;
+        background-color: #1F4D7A;
+        color: white;
+        border-radius: 5px;
+        padding: 10px 25px 10px 25px;
+        margin: 0 35px 0 20px;
+        text-align: center;
+        width: 100%;
+
     }
 
 

@@ -318,6 +318,7 @@ img {
      -moz-opacity: 1;
      filter:alpha(opacity=100);
      background-color: rgba(0, 0, 0, 0.5);
+     
  }
  .portfolio-item:hover .link-icon {
     opacity: 1;
@@ -365,6 +366,7 @@ img {
     padding: 18px 36px;
     background: #111;
     text-align: left;
+    
  }
  .popup-modal .link-box a {
     color: #fff;
