@@ -1204,6 +1204,18 @@ a.card-link:hover .card {
 #video-types p {
     font-size: 1em;
     line-height: 1.6em;
+    color: rgba(0, 0, 0, 0.7);
+    padding-top: none;
+    margin-top: none;
+}
+
+#video-types h2 {
+    font-size: 1.7em;
+    line-height: 1.2em;
+    font-weight: 400;
+    color: rgba(0, 0, 0);
+    padding-bottom: none;
+    margin-bottom: none;
 }
 
 #process-steps p {
@@ -1465,7 +1477,19 @@ details[open] summary ~ * {
     clear: both;
   }
 
-  
+  .lang-select {
+      color: white;
+      text-align: center;
+      font-weight: 300;
+  }
+
+  .lang-select a:hover {
+      text-decoration: underline;
+  }
+
+  .lang-select a:active  {
+      color: red;
+  }
   
  
     div.gallery {
@@ -2145,4 +2169,22 @@ details[open] summary ~ * {
 
 
 }
+
+.done {
+    position: absolute;
+
+    text-align: center;
+    opacity: 0;
+    transform: translateY(-1em);
+    color: #000;
+    transition: all .500s;
+  }
+  .copied .done {
+    opacity: 1;
+    transform: translateY(-2em);
+  }
+
+  .button {
+      position: relative;
+  }
 

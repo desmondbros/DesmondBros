@@ -137,8 +137,10 @@ input[type="text"]
 }
 
 .humans {
-  display: none;
+  color: white;
+  opacity: 0;
 }
+
 
 
 
