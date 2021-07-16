@@ -542,6 +542,7 @@ a.button-white {
 .img-left {
     display: block;
     width: 95%;
+    
 }
 
 .poster-left {
@@ -660,6 +661,10 @@ li .img-right {
 
 }
 
+img#subhero-1 {
+    border-radius: 10px;
+
+}
 
 #subhero-2 {
     position: absolute;
@@ -725,6 +730,8 @@ li .img-right {
     max-width: 1000px;
     height: 500px;
     color: #fafafa;
+    border-radius: 10px;
+    width: 90%;
 }
 
 .block-photo1 ul {
@@ -739,7 +746,7 @@ li .img-right {
 
 .block-photo2 {
     background-size: cover;
-    background-image: url(../images/foodybite-01.jpg);
+    background-image: url(../images/pure-cork-03-500h.png);
     background-position: center;
     padding-bottom: 2em;
     padding-top: 2em;
@@ -748,6 +755,8 @@ li .img-right {
     max-width: 1000px;
     height: 500px;
     color: #fafafa;
+    border-radius: 10px;
+    width: 90%;
 }
 
 .block-photo2 ul {
@@ -764,15 +773,17 @@ li .img-right {
 
 .block-photo3 {
     background-size: cover;
-    background-image: url(../images/video-production-set-01.jpg);
+    background-image: url(../images/whiddy-island-01-1920w.png);
     background-position: center;
     padding-bottom: 2em;
     padding-top: 2em;
     padding-left: 2em;
     margin: 2em auto 2em auto;
     max-width: 1000px;
+    width: 90%;
     height: 500px;
     color: #fafafa;
+    border-radius: 10px;
 }
 
 .block-photo3 ul {
@@ -789,17 +800,17 @@ li .img-right {
     background-size: cover;
     background-image: url(../images/tree-01.jpg);
     background-position: center;
-    padding-top: 8em;
     margin: 8em auto 1em auto;
     max-width: 1000px;
     height: 500px;
     color: #fafafa;
+    border-radius: 10px;
 }
 
 .block-photo4 ul {
-    margin-top: 4em;
 
-   padding-left: 1em;
+    padding-top: 15%;
+   padding-left: 2em;
 }
 
 
@@ -823,12 +834,13 @@ li .img-right {
     height: 500px;
     color: #fafafa;
     padding: 0;
+    border-radius: 10px;
 }
 
 .block-photo5 ul {
     float: right;
     padding-right: 1em;
-    padding-left: 1em;
+    padding-left: 2em;
     margin-top: 6em;
     
 }
@@ -893,6 +905,35 @@ li .img-right {
     max-width: 800px;
     margin: 0 auto;
     
+}
+
+.logoClients {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.logoGridContainer {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.logoGrid {
+    display: grid;
+    gap: 50px;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-width: 64em;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.logoGridlogo {
+    width: 100%;
+    max-width: 6.5em;
+    max-height: 4.5em;
+    margin: auto;
 }
 
 
@@ -1223,7 +1264,7 @@ a.card-link:hover .card {
     line-height: 1.6em;
 }
 
-.testimonial {
+.sftestimonial {
     max-width: 600px;
     margin: 3em auto;
     padding: .75em 2em .75em 2em;
@@ -1231,15 +1272,26 @@ a.card-link:hover .card {
     border-radius: 5px;
 }
 
+.testimonialSection {
+    margin-top: 10em;
+    margin-bottom: 5em;
+}
+
+.testimonialSection h2 {
+    font-size: 1em;
+    text-align: center;
+    line-height: .75em;
+    margin-bottom: -30px;
+}
+
 .testimonial p {
-    font-style: italic;
-    font-size: 1.2em;
+    font-size: 1em;
+    font-weight: 300;
     line-height: 1.3em;
 }
 
 .testimonial h4 {
-    font-size: 1.3em;
-    padding-left: .5em;
+    font-size: 1.2em;
 }
 
 .testimonial h4 span {
@@ -1255,6 +1307,36 @@ a.card-link:hover .card {
     font-weight: 400;
     letter-spacing: .2em;
 }
+  
+  .carousel-cell {
+    width: 70%;
+    margin: 20px 10px 20px 20px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 0px;
+    box-shadow: 3px 4px 8px 3px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+   
+  }  
+
+.carousel-image {
+    
+    flex: 100%;
+    width: 100%;
+}
+
+.carousel-image img {
+    height: 100%;
+    width: 100%;
+}    
+
+.carousel-text {
+    flex: 100%%;
+    padding: 3em 1em 1em 1em;
+}
+
 
 .heroFade {
     animation: fadein 2s;
@@ -1828,6 +1910,7 @@ details[open] summary ~ * {
     #subhero-1 {
         position: relative;
         width: 600px;
+        
     
     }
 
@@ -2166,6 +2249,25 @@ details[open] summary ~ * {
         width: 100%;
 
     }
+
+    .carousel-text {
+        flex: 60%;
+    }
+
+    .carousel-image {
+    
+        flex: 40%;
+        clip-path: polygon(0px 0px, 100% 0px, 60% 100%, 0px 100%);
+        min-height: 400px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    .carousel-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }  
 
 
 }
