@@ -1183,6 +1183,16 @@ img#subhero-1 {
     text-align: center;
 }
 
+.hero-image-live-stream {
+    display: block;
+    background-size: cover;
+    background-image: url(../images/live-stream-Cork-1-blur.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+    text-align: center;
+}
+
 .show-mobile {
     display: block;
     z-index: 9999;
@@ -1333,7 +1343,7 @@ a.card-link:hover .card {
 }    
 
 .carousel-text {
-    flex: 100%%;
+    flex: 100%;
     padding: 3em 1em 1em 1em;
 }
 
