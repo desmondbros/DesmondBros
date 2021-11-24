@@ -85,7 +85,7 @@ button {
     font-size: 1.2em;
     border-radius: 32px;
     margin-left: 2em;
-    margin-bottom: 3em;
+    margin-bottom: 0em;
 }
 
 .form-container .btn:hover {
@@ -139,6 +139,13 @@ input[type="text"]
 .humans {
   color: white;
   opacity: 0;
+}
+
+.mike {
+  display: block;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  margin-top: -5px;
 }
 
 

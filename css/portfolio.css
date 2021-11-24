@@ -39,7 +39,7 @@ img {
  
  .column, .columns {
     position: relative;
-    padding: 0 0px;
+    padding: 0 10px;
     min-height: 1px;
     float: left;
  }
@@ -239,6 +239,7 @@ img {
      -o-transition: all 0.3s ease-in-out;
      -ms-transition: all 0.3s ease-in-out;
      transition: all 0.3s ease-in-out;
+     border-radius: 10px;
  }
  .portfolio-item .item-wrap a {
     display: block;
@@ -298,9 +299,14 @@ img {
    
 }
 
+.icon-plus::before {
+   content: url("/images/play-button-fill-white.svg");
+}
+
  .portfolio-item .item-wrap img {
     vertical-align: bottom;
  }
+
  .portfolio-item .portfolio-item-meta { padding: 18px }
  .portfolio-item .portfolio-item-meta h5 {
     font: 18px 'opensans-bold', sans-serif;
@@ -405,17 +411,22 @@ img {
 
   -webkit-transform: scale(1.08);
   transform: scale(1.08);
+
+  filter: blur(2px);
+
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
 }
+
+.portfolio-item:hover .item-wrap .icon-plus {
+ 
+   filter: blur(0px);
+ }
 
 .item-wrap img {
    -webkit-transition: 0.4s ease;
    transition: 0.4s ease;
 }
 
-@media screen and (min-width: 900px) {
-   #music-videos .item-wrap {
-      height: 300px;
-   }  
-}
 
 

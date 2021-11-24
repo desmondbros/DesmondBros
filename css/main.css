@@ -600,10 +600,8 @@ li .img-right {
 
 
 .block-white .block-poster {
-    padding-top: 5em;
-    padding-bottom: 0em;
-    margin-bottom: 0;
-    margin-top: 0;
+    margin: 0 auto 0 auto;
+    max-width: 1200px;
 }
 
 .block-poster .laurel {
@@ -972,6 +970,7 @@ img#subhero-1 {
     filter: brightness(120%) grayscale(80%);
     flex: 50%;
     width: 100%;
+    max-width: 300px;
     
 }
 
@@ -1832,12 +1831,6 @@ details[open] summary ~ * {
         
     }
 
-    .block-white .block-poster {
-        padding-top: 0em;
-        padding-bottom: 0em;
-        margin-bottom: 0;
-        margin-top: 0;
-    }
 
     
 
@@ -1963,8 +1956,8 @@ details[open] summary ~ * {
     }
 
     .poster-left {
-        margin-left: 10em;
-        padding-right: 3em;
+        margin: 0 auto 0 auto;
+        padding-right: 50px;
     }
 
     .banner-container {
