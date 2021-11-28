@@ -139,7 +139,9 @@
 
                     <div class="mike">
                         <div class="g-recaptcha" data-sitekey="6Lc4w1cdAAAAAA_hM8WGxBGLQMTk-YvcAWGwD1nE"></div>
+                        <span id="captcha" style="color:red" /></span> <!-- this will show captcha errors -->
                     </div>
+                    
                     
             
                     <div>
@@ -187,10 +189,23 @@
                   return true;
         
                 }
-        
+
+                function validateCaptcha(form) {
+                    var v = grecaptcha.getResponse();
+                    if(v.length == 0)
+                    {
+                        document.getElementById('captcha').innerHTML="You can't leave Captcha Code empty";
+                        return false;
+                     }
+                    else
+                    {
+                     document.getElementById('captcha').innerHTML="Captcha completed";
+                    return true; 
+                    }
+                }
         
                 function validateForm() {
-                  if (!validateName() || !validateEmail()) {
+                  if (!validateName() || !validateEmail() || !validateCaptcha()) {
         
                     alert("Form not submitted");//Validation Message
                     return false;
