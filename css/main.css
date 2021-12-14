@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,900italic,900,700italic,700,600italic,600,400italic,300italic,300,200italic');
+@import url('https://fonts.googleapis.com/css?family=Outfit:400,200,900italic,900,700italic,700,600italic,600,400italic,300italic,300,200italic');
 
 
 
 body  {
     margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Outfit', 'Source Sans Pro', sans-serif;
     background: white;
 }
 
@@ -102,13 +103,34 @@ ul {
     z-index: 7;
 }
 
+.logo-box::before {
+     content: url(/images/desmondb-bros-logo.svg);
+    display: block;
+    width: 180px;
+    margin-top: 30px;
+    margin-left: 5px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
 svg#logo-main {
-    fill: black;
+    fill: blue;
     width: 200px;
     margin-top: 30px;
     margin-left: 5px;
     padding-left: 20px;
     cursor: pointer;
+}
+
+svg#logo-new {
+    z-index: 1000;
+    fill: red;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 5px;
+    padding-left: 20px;
+    cursor: pointer;
+    display: block;
 }
 
 
@@ -437,10 +459,9 @@ a.button-showreel {
     font-weight: 600;
     margin-right: 5%;
     padding-right: 0;
-    padding-left: 0;
+    padding-left: 10px;
     background-image: url(../images/play-button-white.svg);
     background-repeat:no-repeat;
-    background-position: left;
     width: 220px;
     height: 50px;
     line-height: 2.5;
@@ -718,6 +739,53 @@ img#subhero-1 {
 
 }
 
+/* styling photo section text */
+.block-photo {
+    padding-bottom: 2em;
+    padding-top: 125px;
+    padding-left: 2em;
+    margin: 2em auto 2em auto;
+    max-width: 1000px;
+    width: 90%;
+    height: 500px;
+    color: #fafafa;
+    border-radius: 10px;
+}
+
+.block-photo ul {
+    padding-right: 2em;
+    text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+}
+
+.block-photo ul li h2 {
+    color: #fafafa;
+}
+
+/* right-indented photo block text */
+.block-photo-right {
+    padding-bottom: 2em;
+    padding-top: 125px;
+    padding-left: 2em;
+    margin: 2em auto 1em auto;
+    max-width: 1000px;
+    height: 500px;
+    color: #fafafa;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.block-photo-right ul {
+    margin-right: 2em;
+    text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+    color: #fafafa;
+    max-width: 500px;
+    float: right;
+}
+
+.block-photo-right ul li h2 {
+    color: #fafafa;
+}
+
 .block-photo1 {
     background-size: cover;
     background-image: url(http://desmondbros.ie/images/heineken_fb_02.jpg);
@@ -853,6 +921,24 @@ img#subhero-1 {
 .block-photo5 ul li p {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     margin-right: 1em;
+}
+
+.block-photo-kerry1 {
+    background-size: cover;
+    background-image: url(../images/video-production-set-02.jpg);
+    background-position: center;
+}
+
+.block-photo-kerry2 {
+    background-size: cover;
+    background-image: url(../images/pure-cork-02-1920w.png);
+    background-position: center;
+}
+
+.block-photo-kerry3 {
+    background-size: cover;
+    background-image: url(../images/organico-1.png);
+    background-position: center;
 }
 
 .block-video {
@@ -1042,6 +1128,9 @@ img#subhero-1 {
     margin-bottom: 0;
 }
 
+.home-text-long {
+    top: 20%;
+}
 
 
 #home-top-video {
@@ -1177,15 +1266,36 @@ img#subhero-1 {
     background-size: cover;
     background-image: url(../images/csr-video-Ireland-02.png);
     background-repeat: no-repeat;
-    height: 600px;
+    height: 700px;
     background-position: center;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .hero-image-live-stream {
     display: block;
     background-size: cover;
     background-image: url(../images/live-stream-Cork-1-blur.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+    text-align: center;
+}
+
+.hero-image-charity {
+    display: block;
+    background-size: cover;
+    background-image: url(../images/focus-ireland-charity-non-profit-video-01-500px.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+    text-align: center;
+}
+
+.hero-image-Kerry {
+    display: block;
+    background-size: cover;
+    background-image: url(../images/video-production-leaf.jpg);
     background-repeat: no-repeat;
     height: 600px;
     background-position: center;
@@ -1421,7 +1531,7 @@ summary:before {
 
   details[open] summary:before {
     content: "-";
-  }
+}
 
 
 details[open] summary ~ * {
@@ -1448,13 +1558,13 @@ details[open] summary ~ * {
     display: inline-block;
     justify-content: space-between;
     
-  }
+}
 
-  .contain {
+.contain {
     margin: 0 5px 0 5px;
     display: flex;
     flex-wrap: wrap;
-  }
+}
 
   .contain .col {
     width: 50%;
@@ -1549,14 +1659,14 @@ details[open] summary ~ * {
     margin-top: 2.5em;
     width: 100%;
     padding-right: 1em;
-  }
+}
   
-  .footer .col ul li:hover {
+.footer .col ul li:hover {
     color: #ffffff;
     transition: .1s;
     -webkit-transition: .1s;
     -moz-transition: .1s;
-  }
+}
 
 
 
@@ -1601,13 +1711,13 @@ details[open] summary ~ * {
   
   * {
     box-sizing: border-box;
-  }
+}
   
   .responsive {
     padding: 0 6px;
     float: left;
     width: 24.99999%;
-  }
+}
 
   .image {
     opacity: 1;
@@ -1615,10 +1725,10 @@ details[open] summary ~ * {
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-  }
+}
   
 
-  .gallery-description {
+.gallery-description {
       position: absolute;
       opacity: 0;
       transition: 0.4s;
@@ -1627,12 +1737,12 @@ details[open] summary ~ * {
       padding-left: 5%;
       padding-right: 5%;
 
-  }
+}
 
   .gallery-description:hover {
       opacity: 1;
 
-  }
+}
 
   .gallery-text {
     color: black;
@@ -1646,11 +1756,11 @@ details[open] summary ~ * {
     width: 100%;
     padding: 0;
 
-  }
+}
 
   .responsive:hover .image {
     opacity: 0.3;
-  }
+}
   
 
   .videos a:hover + .gallery-description {
@@ -1670,14 +1780,14 @@ details[open] summary ~ * {
     }
   }
   
-  .clearfix:after {
+.clearfix:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
 
-  #videos a {
+#videos a {
     display: block;
     width: 100%;
     margin-bottom: 0px;
@@ -1687,7 +1797,7 @@ details[open] summary ~ * {
     cursor: pointer;
     text-decoration: none;
     outline: 0;
- }
+}
 
  
  
@@ -1710,7 +1820,7 @@ details[open] summary ~ * {
     vertical-align: middle;
  }
  
- #overlay {
+#overlay {
     background: rgba(31,77,122,0.8);
     position:fixed;
     top: 0;
@@ -1721,9 +1831,9 @@ details[open] summary ~ * {
     height: 100%;
     display: none;
     z-index: 2;
- }
+}
  
- #overlay .modal {
+#overlay .modal {
     background: rgba(255,255,255,0.7);
     border-radius: 5px;
     width: 90%;
@@ -1733,20 +1843,20 @@ details[open] summary ~ * {
     position: relative;
     padding: 30px 20px 15px;
     
- }
+}
  
- #overlay .modal #close {
+#overlay .modal #close {
     position: absolute;
     top: 5px;
     right: 5px;
     cursor: pointer;
 
- }
+}
  
  #overlay iframe {
     width: 100%;
     min-height: 500px;
- }
+}
 
  
 
@@ -1805,6 +1915,10 @@ details[open] summary ~ * {
         margin: 0 auto 0 auto;
         max-width: 800px;
     
+    }
+
+    .container-short h2 {
+        text-align: center;
     }
 
     .container-full {
