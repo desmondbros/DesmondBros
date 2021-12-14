@@ -1,8 +1,10 @@
 /*  1. Basic  ------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Outfit:400,200,900italic,900,700italic,700,600italic,600,400italic,300italic,300,200italic');
 
 
-
-
+body {
+   font-family: 'Outfit';
+}
 
 /*  5. Images  --------------------------------------------------------- */
 
@@ -219,7 +221,7 @@ img {
     padding-bottom: 0;
  }
  #portfolio h1 {
-    font: 5em 'Inter', sans-serif;
+    font: 5em 'Outfit', sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
     text-align: center;
@@ -309,11 +311,12 @@ img {
 
  .portfolio-item .portfolio-item-meta { padding: 18px }
  .portfolio-item .portfolio-item-meta h5 {
-    font: 18px 'opensans-bold', sans-serif;
+    font: 18px 'Outfit', sans-serif;
     color: #fff;
  }
  .portfolio-item .portfolio-item-meta p {
-    font: 15px 'opensans-light', sans-serif;
+    font: 15px 'Outfit', sans-serif;
+    font-weight: 200;
     color: #c6c7c7;
     margin-bottom: 0;
  }
@@ -341,17 +344,19 @@ img {
  }
  .popup-modal .description-box { padding: 12px 36px 18px 36px; }
  .popup-modal .description-box h4 {
-    font: 15px/24px 'opensans-bold', sans-serif;
+    font: 15px/24px 'Outfit', sans-serif;
+    font-weight: 600;
      margin-bottom: 12px;
     color: #111;
  }
  .popup-modal .description-box p {
-     font: 14px/24px 'opensans-regular', sans-serif;
+     font: 14px/24px 'Outfit', sans-serif;
     color: #A1A1A1;
     margin-bottom: 12px;
  }
  .popup-modal .description-box .categories {
-    font: 11px/21px 'opensans-light', sans-serif;
+    font: 11px/21px 'Outfit', sans-serif;
+    font-weight: 200;
     color: #A1A1A1;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -376,7 +381,8 @@ img {
  }
  .popup-modal .link-box a {
     color: #fff;
-     font: 11px/21px 'opensans-bold', sans-serif;
+     font: 11px/21px 'Outfit', sans-serif;
+     font-weight: 600;
      text-transform: uppercase;
     letter-spacing: 3px;
     cursor: pointer;

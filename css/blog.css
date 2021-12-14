@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Outfit:400,200,900italic,900,700italic,700,600italic,600,400italic,300italic,300,200italic');
+
+body {
+  font-family: 'Outfit';
+}
+
 .blog-row {
     margin-bottom: 80px;
   }
@@ -87,7 +93,7 @@
 
 
 .blog-button-list button {
-  font-family: inherit;
+  font-family: 'Outfit', sans-serif;
   font-size: 1.2em;
   width: 100px;
   padding: none;
@@ -393,6 +399,7 @@ a.blog-card-link:hover .card {
   border-radius: 10px;
   margin: 0;
   color: white;
+  font-family: inherit;
   font-size: 20px;
   font-weight: 200;
 }
