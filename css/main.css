@@ -26,10 +26,20 @@ h1 {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
 
+h1 span {
+    color: #fbbd15;
+}
+
 h2 {
     color: #1F4D7A;
     font-size: 2em;
 }
+
+h2 span {
+    color: #fbbd15;
+}
+
+
 
 h3 {
     text-align: center;
@@ -39,6 +49,17 @@ h3 {
 h4 {
     font-size: 1.7em;
     font-weight: 400;
+}
+
+.center {
+    text-align: center;
+}
+
+.subheading  {
+    color: #fbbd15;
+    font-weight: 300;
+    font-size: 1.5em;
+    line-height: 1px;
 }
 
 ul {
@@ -74,7 +95,7 @@ ul {
 
 .container.intro {
     max-width: 1000px;
-    margin: 0 auto 0 auto;
+    margin: 10px auto 0 auto;
 }
 
 #process-steps.container {
@@ -101,10 +122,16 @@ ul {
 
 .logo-box {
     z-index: 7;
+    max-width: 100%;
+    margin-right: 10px;
+}
+
+.logo-box:hover {
+    opacity: 80%;
 }
 
 .logo-box::before {
-     content: url(/images/desmondb-bros-logo.svg);
+    content: url(/images/desmond-bros-wordmark-black.svg);
     display: block;
     width: 180px;
     margin-top: 30px;
@@ -113,24 +140,10 @@ ul {
     cursor: pointer;
 }
 
-svg#logo-main {
-    fill: blue;
-    width: 200px;
-    margin-top: 30px;
-    margin-left: 5px;
-    padding-left: 20px;
-    cursor: pointer;
-}
-
-svg#logo-new {
-    z-index: 1000;
-    fill: red;
-    width: 400px;
-    margin-top: 30px;
-    margin-left: 5px;
-    padding-left: 20px;
-    cursor: pointer;
-    display: block;
+.logo-footer.logo-box::before {
+    width: 160px;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -225,10 +238,10 @@ header {
   {
     display: flex;
     width: 29px;
-    height: 2px;
+    height:3px;
     margin-bottom: 5px;
     position: relative;
-    background: black;
+    background: #fbbd15;
     border-radius: 3px;
     z-index: 50;
     transform-origin: 5px 0px;
@@ -412,7 +425,10 @@ a.button {
     display: inline-block;
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
-   
+}
+
+.button.yellow {
+    background-color: #fbbd15;
 }
 
 .button-menu {
@@ -447,38 +463,6 @@ a.button-large {
     margin: 0 auto auto auto;
 }
 
-a.button-showreel {
-    border: none;
-    display: inline-block;
-    text-align: right;
-    text-decoration: none;
-    color: #fafafa;
-    font-size: 1.2em;
-    border-radius: 10px;
-    transition-duration: 0.5s;
-    font-weight: 600;
-    margin-right: 5%;
-    padding-right: 0;
-    padding-left: 10px;
-    background-image: url(../images/play-button-white.svg);
-    background-repeat:no-repeat;
-    width: 220px;
-    height: 50px;
-    line-height: 2.5;
-    vertical-align: middle;
-}
-
-a.button-showreel:hover {
-    color: #fafafa;
-    text-shadow: 2px 2px 8px black;
-    background-image: url(../images/play-button-fill-white.svg);
-}
-
-
-.button-showreel:hover + play-btn{
-    background-image: url(../images/play-button-fill-white.svg);
-}
-
 .play-btn {
     width: 40px;
     height: 40px;
@@ -494,11 +478,32 @@ a.button-showreel:hover {
     background-image: url(../images/play-button-fill-white.svg);
 }
 
-.showreel-btn {
-    padding-top: 5em;
-    margin-bottom: 0;
-    padding-bottom: 0;
+.showreel-btn::before {
+    content: url(/images/play-button-yellow.svg);
+    display: inline-block;
+    width: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: none;
+    margin: 0 10px 0 0;
 }
+
+.button.showreel-btn {
+    background-color: white;
+    vertical-align: middle;
+    padding: 10px 20px 10px 20px;
+    color: black;
+    
+}
+
+.showreel-btn-place {
+    margin-top: 150px;
+    left: 20%;
+    text-align: right;
+
+}
+
+
 
 a.button-large-white {
     border: none;
@@ -520,7 +525,6 @@ a.button-large-white {
 
 
 .button:hover{
-    background-color: #3e80c2;
     transform: translateY(-5px);
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
@@ -621,7 +625,7 @@ li .img-right {
 
 
 .block-white .block-poster {
-    margin: 0 auto 0 auto;
+    margin: 10px auto 110px auto;
     max-width: 1200px;
 }
 
@@ -750,6 +754,7 @@ img#subhero-1 {
     height: 500px;
     color: #fafafa;
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4); /* this adds the "card" effect */  
 }
 
 .block-photo ul {
@@ -864,37 +869,20 @@ img#subhero-1 {
 
 .block-photo4 {
     background-size: cover;
-    background-image: url(../images/tree-01.jpg);
+    background-image: url(../images/simon-02-stretch.jpg);
     background-position: center;
-    margin: 8em auto 1em auto;
+    background-color: black;
     max-width: 1000px;
     height: 500px;
     color: #fafafa;
     border-radius: 10px;
 }
 
-.block-photo4 ul {
-
-    padding-top: 15%;
-   padding-left: 2em;
-}
-
-
-.block-photo4 ul li h2 {
-    color: #fafafa;
-
-    text-shadow: 2px 1px 1px rgba(0,0,0,0.5);
-}
-
-
-.block-photo4 ul li p {
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-}
 
 .block-photo5 {
     background-size: cover;
-    background-image: url(../images/looking-for-02.png);
-    background-position: center;
+    background-image: url(../images/looking-for-03.png);
+    background-position: left;
     margin: 0 auto;
     max-width: 1000px;
     height: 500px;
@@ -949,6 +937,38 @@ img#subhero-1 {
     margin-left: 20em;
 }
 
+.stripe1 {
+    background-color: #fbbd15;
+    clip-path: polygon(100% 0, 100% 0, 0 100%, 0 80%);
+    height: 500px;
+        left: 0%;
+        top: 105%;
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+        text-align: center;
+        display: block;
+        animation: 2s polygon;
+}
+
+
+.stripe2 {
+    background-color: #fbbd15;
+    clip-path: polygon(0 0, 0 0, 100% 84%, 100% 100%);
+    height: 500px;
+        left: 0%;
+        top: 5%;
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+        text-align: center;
+        display: block;
+        animation: 2s polygon;
+}
 
 .icon {
     max-width: 40px;
@@ -1126,7 +1146,19 @@ img#subhero-1 {
     z-index:1;
     padding-bottom: 0;
     margin-bottom: 0;
+    text-decoration: none;
 }
+
+.home-text-lower {
+    position: relative;
+    text-align: left;
+    top: 40%;
+    color: #fff;
+    z-index: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
 
 .home-text-long {
     top: 20%;
@@ -1166,12 +1198,12 @@ img#subhero-1 {
 .hero-image {
     display: block;
     background-size: cover;
-    background-image: url(../images/video-production-leaf.jpg);
+    background-image: url(../images/leevy-3.png);
     background-repeat: no-repeat;
-    height: 600px;
+    height: 100vh;
     background-position: center;
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 8%;
     padding-bottom: 0;
 }
 
@@ -1317,7 +1349,6 @@ img#subhero-1 {
 }
 
 .copyright p {
-    color: white;
     font-size: 14px;
     font-weight: 300;
     margin: 0;
@@ -1396,13 +1427,6 @@ a.card-link:hover .card {
     margin-bottom: 5em;
 }
 
-.testimonialSection h2 {
-    font-size: 1em;
-    text-align: center;
-    line-height: .75em;
-    margin-bottom: -30px;
-}
-
 .testimonial p {
     font-size: 1em;
     font-weight: 300;
@@ -1416,15 +1440,6 @@ a.card-link:hover .card {
 .testimonial h4 span {
     font-weight: 300;
 
-}
-
-.testimonial h3 {
-    color: #1F4D7A;
-    text-align: center;
-    font-size: 2em;
-    text-transform: uppercase;
-    font-weight: 400;
-    letter-spacing: .2em;
 }
   
   .carousel-cell {
@@ -1551,10 +1566,10 @@ details[open] summary ~ * {
     width: 100%;
     position: relative;
     height: auto;
-    background-color: #1C2F4b;
+    background-color: #fbbd15;
+    color: #1F4D7A;
     padding-bottom: 5em;
     padding-top: 1em;
-
     display: inline-block;
     justify-content: space-between;
     
@@ -1584,12 +1599,10 @@ details[open] summary ~ * {
     font-size: 20px;
     line-height: 18px;
     padding: 20px 0px 5px 0px;
-    color: white;
     font-weight: normal;
     text-transform: none;
   }
   .footer .col ul li h2 {
-    color: white;
     font-weight: normal;
     text-transform: none;
     font-size: 20px;
@@ -1597,7 +1610,6 @@ details[open] summary ~ * {
     padding: 20px 0px 0px 0px;
   }
   .footer .col p {
-    color: white;
     font-weight: 200;
     text-transform: none;
     font-size: .9em;
@@ -1611,7 +1623,6 @@ details[open] summary ~ * {
     padding: 0;
   }
   .footer .col ul li {
-    color: #999999;
     font-size: 14px;
     line-height: 20px;
     font-family: inherit;
@@ -1633,7 +1644,6 @@ details[open] summary ~ * {
       padding: 30px auto auto auto;
       display: block;
       margin: 50px auto 50px auto;
-      color: white;
   }
 
   .social ul {
@@ -1655,10 +1665,13 @@ details[open] summary ~ * {
 
 
 
-.col .logo-footer  {
-    margin-top: 2.5em;
-    width: 100%;
+.logo-footer  {
+    margin-top: 1.8em;
     padding-right: 1em;
+}
+
+.logo-footer:hover  {
+    opacity: 80%;
 }
   
 .footer .col ul li:hover {
@@ -1679,7 +1692,6 @@ details[open] summary ~ * {
   }
 
   .lang-select {
-      color: white;
       text-align: center;
       font-weight: 300;
   }
@@ -1868,13 +1880,15 @@ details[open] summary ~ * {
 @media only screen and (min-width: 650px) { 
     #video-loop {
         width: auto;
-        min-width: 100%;
-        height: 70%;
+        height: 100vh;
         text-align: center;
         display: block;
     }
     .home-text {
         top: 10%;
+    }
+    .home-text-lower {
+        top: 15%;
     }
 
     .hero-image {
@@ -1931,7 +1945,7 @@ details[open] summary ~ * {
         padding-bottom: 2em;
         padding-top: 2em;
         margin-top: 2em;
-        margin-bottom: 1em;
+        margin-bottom: 4em;
         position: relative;
     }
 
@@ -2325,7 +2339,7 @@ details[open] summary ~ * {
     #video-loop {
         width: 100%;
         height: auto;
-        min-height: 90%;
+        min-height: 100vh;
         text-align: center;
         display: block;
     }
@@ -2357,7 +2371,7 @@ details[open] summary ~ * {
     }
 
     .button-menu {
-        background-color: #1F4D7A;
+        background-color: #fbbd15;
         color: white;
         border-radius: 5px;
         padding: 10px 25px 10px 25px;
