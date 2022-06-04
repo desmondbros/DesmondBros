@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/fadein.css">
     <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
+    <link href="https://vjs.zencdn.net/7.19.2/video-js.css" rel="stylesheet" />
     <link rel="stylesheet" href="/css/flickity.min.css" />
     <link rel="alternate" hreflang="en" href="https://desmondbros.ie/" />
     <link rel="alternate" hreflang="de" href="https://desmondbros.ie/de" />
@@ -53,7 +54,7 @@
                 
 
                 <ul class="show-desktop hide-mobile" id="nav">
-                    <li><a href="/cork-video-production.html">commercial</a></li>
+                    <li><a href="#top" class="smoothscroll">commercial</a></li>
                     <li><a href="/film.html">film</a></li>
                     <li><a href="/work.html">gallery</a></li>
                     <li><a href="/#about">about</a></li>
@@ -71,12 +72,8 @@
     </div>
  
 
-    <div class="hero-image heroFade">
-            <div id="home-top-video">
-                <video  id="video-loop" poster="/images/leevy-3.png" autoplay loop muted playsInline>
-                    <source src="/assets/db_web_loop_01_40quality.webm" type="video/webm">
-                </video>
-            </div>
+    <div class="hero-image-Commercial heroFade" id="top">
+            
             <div class="container home-text">
                 <h1 style="color: #FAFAFA;">Creative agency with a twist<span>*</span></h1>
                 <div class="showreel-btn-place"><a href="#showreel" class="button showreel-btn smoothscroll">Play showreel</a></div>
@@ -87,29 +84,57 @@
 
     <div> 
         <div class="container-short intro heroFade">
-        <p> <span>Desmond Bros is an award-winning Irish creative agency. We work with you to bring your brand to life, with breathtaking, imaginative campaigns.</span></p>
+        <p> <span>Desmond Bros is an award-winning multi-disciplinary Irish creative agency. We work with you to bring your brand to life, with breathtaking, imaginative campaigns.</span></p>
         </div>
     </div>
+
+    <section class="logoClients container">
+        <div class="logoGridContainer" id="clients">
+            <div class="logoGrid">
+                <img class="logoGridlogo" src="images/client-ptsb-blue.svg" alt="Permanent TSB">
+                <img class="logoGridlogo" src="images/client-rte-blue.svg" alt="RTE">
+                <img class="logoGridlogo" src="images/client-journal-blue.svg" alt="The Journal.ie">
+                <img class="logoGridlogo"src="/images/client-repak-blue.png" alt="Repak Ireland">
+                <img class="logoGridlogo"src="images/client-pure-cork-blue.svg" alt="Pure Cork Visit Cork">
+                <img class="logoGridlogo" src="images/client-credit-union-blue.svg" alt="Credit Union Ireland">
+            </div>
+        </div>
+    </section>
         
 
     <div class="container">
         <div class="stripe1"></div>
         <section class="block-photo block-photo-agency1">
             <ul>
-                <li><h2>We tell stories with <span>meaning.</span></h2>
+                <li><h2>Cultivating <span>creativity.</span></h2>
                     <p>Whether documentary, fiction film or high-end TV commercial, our creative marketing agency tells stories that we're proud to stand behind.<br>Want help telling yours? </p>
-                    <a href="/cork-video-production.html" class="button yellow">Get in touch.</a></li>
+                    <a href="/contact.html" class="button yellow">Get in touch.</a></li>
             </ul>
         </section>
 
-        <section class="block-photo block-photo5">
+        <section class="block-photo block-photo-agency2">
             <ul>
-                <li><h2><span>Award-winning</span> creative agency.</h2>
+                <li><h2><span>Campaigns</span> to smile about.</h2>
                     <p>We're happy that our creative agency work has been recognised by festivals and organisations around the world.</p>
-                   <a href="/film.html" class="button">See our work.</a></li>
+                   <a href="/work.html" class="button">See our work.</a></li>
             </ul>
         </section>
         
+    </div>
+
+    <div class="carousel-full" data-flickity='{ "cellAlign": "center", "wrapAround": true, "autoPlay": 2600, "lazyLoad": true, "pauseAutoPlayOnHover": false }'>
+        <div class="carousel-full-cell"> 
+                <div class="carousel-full-text"><p>Campaign: Swappie Ireland</p></div>
+                <div class="carousel-full-image"><img alt="Repak" src="images/swappie-03.jpg"></div>
+        </div>
+        <div class="carousel-full-cell">
+            <div class="carousel-full-text"><p>Brand Film: Wildflour</p></div>
+                <div class="carousel-full-image"><img alt="short film" src="images/wildflour_02_1920w.png"></div>
+        </div>
+        <div class="carousel-full-cell">
+            <div class="carousel-full-text"><p>Commercial: Pure Cork</p></div>
+                <div class="carousel-full-image"><img alt="Repak" src="images/pure-cork-02-1920w.png"></div>
+        </div>
     </div>
 
     <section class="showreel" id="showreel">
@@ -142,8 +167,9 @@
                                     <div class="portfolio-item-meta">
                                         <h5>"Pure Cork - Perfect Background"</h5>
                                         <p>Online commercial. Creative agency: Desmond Bros.</p>
-                                        <div class="icon-plus"></div>
+                                       
                                     </div>
+                                    <div class="icon-plus"></div>
                                 </div>
                             </a>
         
@@ -154,13 +180,14 @@
                             <div class="item-wrap">
         
                             <a href="#modal-02" title="">
-                                <img alt="Desmond Bros Short Film" src="images/port-speak-to-her-500px.png">
+                                <img alt="Desmond Bros Short Film" src="images/swappie-05-500w.png">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
-                                            <h5>"Speak to Her"</h5>
-                                        <p>Award-winning short film.</p>
-                                        <div class="icon-plus"></div>
+                                            <h5>Swappie Ireland</h5>
+                                        <p>Advertising campaign - photo & video.</p>
+                                        
                                         </div>
+                                        <div class="icon-plus"></div>
                                 </div>
                             </a>
         
@@ -171,13 +198,14 @@
                             <div class="item-wrap">
         
                             <a href="#modal-03" title="">
-                                <img alt="Social Media Video" src="images/organico-1-500px.png">
+                                <img alt="Social Media Video" src="images/wildflour_01_500w.png">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
-                                            <h5>Organico | Brand Film</h5>
+                                            <h5>Wildflour | Brand Film</h5>
                                         <p>Documentary advertising. Brand film commercial. Creative agency: Desmond Bros.</p>
-                                        <div class="icon-plus"></div>
-                                        </div>
+                                        
+                                    </div>
+                                    <div class="icon-plus"></div>
                                 </div>
                             </a>
         
@@ -188,14 +216,16 @@
                             <div class="item-wrap">
         
                             <a href="#modal-04" title="">
-                                <img alt="Short film production" src="images/leevy-1-500px.png">
+                                <img alt="Short film production" src="images/swappie-04-500w.png">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
-                                            <h5>Leevy - "Find Your Own Way Back From Town"</h5>
-                                        <p>Music Video. Creative agency: Desmond Bros.</p>
-                                        <div class="icon-plus"></div>
+                                            <h5>Swappie Ireland</h5>
+                                        <p>Online ad campaign. Creative agency: Desmond Bros.</p>
+                                        
                                         </div>
+                                        <div class="icon-plus"></div>
                                 </div>
+                               
                             </a>
         
                             </div>
@@ -219,63 +249,37 @@
                             <h4>Pure Cork - "Perfect Background"</h4>
                             <p>Light-hearted narrative commercial. Commissioned by Pure Cork and Visit Cork. Creative agency: Desmond Bros.</p>
                         <span class="categories"><img src="images/tag-black.svg" alt="">Social Media, Narrative, Commercial, Motion Graphics</span>
-                        </div>
-        
-                    <div class="link-box">
-                        <a class="popup-modal-dismiss">Close</a>
-                    </div>
-        
+                        </div>        
                     </div><!-- modal-01 End -->
         
                 <div id="modal-02" class="popup-modal mfp-hide">
         
-                    <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="nrsNZPvBTBw"></div>
+                    <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="B2WAy_FRhJo"></div>
         
                         <div class="description-box">
-                            <h4>"Speak to Her" | Short Film</h4>
-                            <p>Winner Best Short Form, Best Writing, Royal Television Society awards 2020. Written & dir by Jack Desmond. Edited by Cian Desmond.</p>
-                        <span class="categories"><img src="images/tag-black.svg" alt="">Short film</span>
-                        </div>
-        
-                    <div class="link-box">
-                        <a href="https://iadt.ie/news/award-winning-iadt-short-film-speak-to-her-released-online/" target="_blank">Details</a>
-                        <a class="popup-modal-dismiss">Close</a>
-                    </div>
-        
+                            <h4>Swappie | Campaign</h4>
+                            <p>Commercial campaign spanning photo and video.</p>
+                        <span class="categories"><img src="images/tag-black.svg" alt="">Commercial, Brand, Campaign</span>
+                        </div>  
                     </div><!-- modal-02 End -->
         
                 <div id="modal-03" class="popup-modal mfp-hide">
-                        <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="a-efHhI6LQc"></div>
+                        <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="ReyNvtFn9m4"></div>
         
                         <div class="description-box">
-                            <h4>Organico | Brand Film</h4>
-                            <p>Documentary advertising. In collaboration with Notes to Cork, along with Frank+Marci. Creative agency: Desmond Bros.</p>
+                            <h4>Wildflour | Brand Film</h4>
+                            <p>Documentary advertising. In collaboration with Notes to Cork. Creative agency: Desmond Bros.</p>
                         <span class="categories"><img src="images/tag-black.svg" alt="">Brand Film, Commercial, Online, Social Media</span>
-                        </div>
-        
-                    <div class="link-box">
-                        <a class="popup-modal-dismiss">Close</a>
-                    </div>
-        
+                        </div>        
                     </div><!-- modal-03 End -->
         
                 <div id="modal-04" class="popup-modal mfp-hide">
+
+                    <video poster="/images/swappie-04-500w.png" class="js-player">
+                        <source src="/assets/2022-05-16 Swappie Hike - 1080 Insta.mp4"/>
+                    </video>
         
-                        <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="4lWYAynLllA"></div>
-        
-                        <div class="description-box">
-                            <h4>Leevy - "Find Your Own Way Back From Town"</h4>
-                            <p>Dir. & edited by Desmond Bros. Cinematography by Jack Desmond.</p>
-                        <span class="categories"><img src="images/tag-black.svg" alt="">Music Video</span>
-                        </div>
-        
-                    <div class="link-box">
-                        <a href="https://leevy.bandcamp.com/" target="_blank">leevy.bandcamp.com</a>
-                        <a class="popup-modal-dismiss">Close</a>
-                    </div>
-        
-                    </div><!-- modal-04 End -->
-        
+                    </div><!-- modal-04 End -->       
         
                 </div> <!-- row End -->
             </section>
@@ -285,33 +289,33 @@
     </section>
    </div>
 
-    <section class="testimonialSection" id="testimonials">
-        <h3 class="subheading">in their own words</h3>
-        <h2 class="center">testimonials</h2>
-        <div class="carousel-main" data-flickity='{ "cellAlign": "center", "wrapAround": true, "autoPlay": false }'>
-            <div class="carousel-cell testimonial"> 
-                    <div class="carousel-image"><img alt="Repak" src="images/pure-cork-01-500px.png"></div>
-                    <div class="carousel-text"><p>"I cannot recommend Desmond Bros enough.</p>
-                        <p>They captured and fulfilled the brief whilst adding their own creative flair.</p>
-                        <p>We were so thrilled with the final result and would be more than happy to work with them again. I loved their enthusiasm, creativity, professionalism, and the finished product speaks for itself."</p>
-                        <h4>Seamus Heaney <br> <span>Head of</span> Visit Cork</h4><img src="/images/client-pure-cork.svg" style="width: 50px;" alt="Pure Cork"></div>
-                        
-            </div>
-            <div class="carousel-cell testimonial">
-                    <div class="carousel-image"><img alt="Repak" src="images/whiddy-island-01-500h.png" style="object-position: right top;"></div>
-                    <div class="carousel-text"><p>"They were professional, prompt and full of creative ideas and instinctively knew what we needed.</p>
-                        <p>No need for lengthy discussions, or long explanations - they took on board the brief, ran with it and produced exactly what we were looking for.</p>
-                        <h4>Siobhán Cronin <br> <span>Editor,</span> Southern Star</h4><img src="/images/client-southern-star.svg" style="height: 30px;"  alt="Southern Star"></div>
-            </div>
-            <div class="carousel-cell testimonial">
-                    <div class="carousel-image"><img alt="Repak" src="images/port-repak-500px.png"></div>
-                    <div class="carousel-text"><p>"My team has worked with Desmond Bros for three client projects over the last six months.</p>
-                        <p>Their work is of an exceptionally high standard and at all times I've found them to be professional, approachable and easy to deal with."</p>
-                        <h4>Paula Lyne <br> <span>Commercial Creative Editor,</span> Journal Media</h4><img src="/images/client-journal.svg" style="height: 30px;"  alt="Southern Star"></div>
-            </div>
+   <section class="testimonialSection" id="testimonials">
+    <h3 class="subheading">in their own words</h3>
+    <h2 class="center">testimonials</h2>
+    <div class="carousel-main" data-flickity='{ "cellAlign": "center", "wrapAround": true, "autoPlay": true }'>
+        <div class="carousel-cell testimonial"> 
+                <div class="carousel-image"><img alt="Repak" src="images/pure-cork-01-500px.png"></div>
+                <div class="carousel-text"><p>"I cannot recommend Desmond Bros enough.</p>
+                    <p>They captured and fulfilled the brief whilst adding their own creative flair.</p>
+                    <p>We were so thrilled with the final result and would be more than happy to work with them again. I loved their enthusiasm, creativity, professionalism, and the finished product speaks for itself."</p>
+                    <h4>Seamus Heaney <br> <span>Head of</span> Visit Cork</h4><img src="/images/client-pure-cork.svg" style="width: 50px;" alt="Pure Cork"></div>
+                    
         </div>
-        
-    </section>
+        <div class="carousel-cell testimonial">
+                <div class="carousel-image"><img alt="Repak" src="images/whiddy-island-01-500h.png" style="object-position: right top;"></div>
+                <div class="carousel-text"><p>"They were professional, prompt and full of creative ideas and instinctively knew what we needed.</p>
+                    <p>No need for lengthy discussions, or long explanations - they took on board the brief, ran with it and produced exactly what we were looking for.</p>
+                    <h4>Siobhán Cronin <br> <span>Editor,</span> Southern Star</h4><img src="/images/client-southern-star.svg" style="height: 30px;"  alt="Southern Star"></div>
+        </div>
+        <div class="carousel-cell testimonial">
+                <div class="carousel-image"><img alt="Repak" src="images/port-repak-500px.png"></div>
+                <div class="carousel-text"><p>"My team has worked with Desmond Bros for three client projects over the last six months.</p>
+                    <p>Their work is of an exceptionally high standard and at all times I've found them to be professional, approachable and easy to deal with."</p>
+                    <h4>Paula Lyne <br> <span>Commercial Creative Editor,</span> Journal Media</h4><img src="/images/client-journal.svg" style="height: 30px;"  alt="Southern Star"></div>
+        </div>
+    </div>
+    
+</section>
 
 
     <div class="container">
@@ -336,9 +340,8 @@
            
             <div class="col">
                     <ul>
-                        <li><a href="/cork-video-production.html"><h2>Video</h2></a></li>
-                        <li><a href="/cork-video-production.html">Cork Videography</a></li>
-                        <li><a href="/agency.html">Agency</a></li>
+                        <li><a href="/agency.html"><h2>Commercial</h2></a></li>
+                        <li><a href="/cork-video-production.html">Cork Video Production</a></li>
                         <li><a href="/kerry-video-production.html">Kerry Video Production</a></li>
                         <li><a href="/work.html">Work Gallery</a></li>
                         <li><a href="/music-videos.html">Music Video</a></li>
@@ -408,6 +411,7 @@
     <script src="js/fadein.js"></script>
 
     <script src="https://cdn.plyr.io/3.5.6/plyr.js"></script>
+    <script src="https://vjs.zencdn.net/7.19.2/video.min.js"></script>
  <script>
       document.addEventListener('DOMContentLoaded', () => {
           const player = Plyr.setup('.js-player');
