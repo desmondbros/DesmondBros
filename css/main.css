@@ -425,6 +425,7 @@ a.button {
     display: inline-block;
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
+  text-shadow:  none;
 }
 
 .button.yellow {
@@ -433,7 +434,7 @@ a.button {
 
 .button-menu {
     border-style: none;
-    background-color: white;
+    background-color: #fbbd15;
     color: #1F4D7A;
     border-radius: 5px;
     max-width: 60%;
@@ -929,6 +930,21 @@ img#subhero-1 {
     background-position: center;
 }
 
+.block-photo-agency1 {
+    background-size: cover;
+    background-image: url(../images/wildflour_01_1920w.png);
+    background-position: center;
+
+}
+
+
+
+.block-photo-agency2 {
+    background-size: cover;
+    background-image: url(../images/swappie-02-1920w.jpg);
+    background-position: center;
+}
+
 .block-video {
     padding-bottom: 2em;
     padding-top: 1em;
@@ -1030,7 +1046,7 @@ img#subhero-1 {
     -webkit-box-flex: 1;
     flex-grow: 1;
     max-width: 64em;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
 }
 
 .logoGridlogo {
@@ -1136,6 +1152,11 @@ img#subhero-1 {
     z-index: -7;
     position: sticky;
     top: 500px;
+}
+
+.video-container {
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
 .home-text {
@@ -1334,6 +1355,16 @@ img#subhero-1 {
     text-align: center;
 }
 
+.hero-image-Commercial {
+    display: block;
+    background-size: cover;
+    background-image: url(../images/swappie-01.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    text-align: center;
+}
+
 .show-mobile {
     display: block;
     z-index: 9999;
@@ -1470,6 +1501,46 @@ a.card-link:hover .card {
     flex: 100%;
     padding: 3em 1em 1em 1em;
 }
+
+.carousel-full {
+    height: 100vh;
+    width: auto;
+    display: block;
+
+    overflow: hidden;
+}
+.carousel-full-cell { 
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+} 
+
+.carousel-full-image {
+    width: 100%;
+    height: 100%;
+
+    margin-top: 90px;
+}
+
+.carousel-full-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-full-left img {
+    object-position: -10.3em;
+}
+
+.carousel-full-text p {
+    font-style: italic;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    bottom: 5%;
+    right: 5%;
+}
+
 
 
 .heroFade {
@@ -2214,7 +2285,6 @@ details[open] summary ~ * {
 
     nav ul li {
         text-align: center;
-
         padding-right: 50px;
         padding-left: 50px;
         display: inline;
@@ -2399,6 +2469,18 @@ details[open] summary ~ * {
         height: 100%;
         object-fit: cover;
     }  
+
+    .block-photo-agency1 ul {
+        float: right;
+        margin-right: 40%;
+        
+    }
+
+    .block-photo-agency2 ul {
+        float: right;
+        margin-left: 40%;
+        
+    }
 
 
 }

@@ -292,12 +292,10 @@ img {
  }
 
  .icon-plus {
-    display: block;
     width: 30px;
-    padding-top: 20px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    bottom: 2%;
+    right: 4%;
    
 }
 
@@ -309,16 +307,26 @@ img {
     vertical-align: bottom;
  }
 
- .portfolio-item .portfolio-item-meta { padding: 18px }
+ .portfolio-item .portfolio-item-meta { 
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+
+}
+
  .portfolio-item .portfolio-item-meta h5 {
     font: 18px 'Outfit', sans-serif;
     color: #fff;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
  }
  .portfolio-item .portfolio-item-meta p {
     font: 15px 'Outfit', sans-serif;
     font-weight: 200;
     color: #c6c7c7;
     margin-bottom: 0;
+    margin-top: 0px;
+    padding-top: 0px;
  }
  
  /* on hover */
