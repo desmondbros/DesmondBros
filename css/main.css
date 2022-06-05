@@ -498,8 +498,9 @@ a.button-large {
 }
 
 .showreel-btn-place {
-    margin-top: 150px;
-    left: 20%;
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
     text-align: right;
 
 }
@@ -703,7 +704,6 @@ img#subhero-1 {
     padding-top: 2em;
     padding-left: 0.5em;
     padding-right: 0.5em;
-
 }
 
 .block-blue p a:visited {
@@ -719,16 +719,12 @@ img#subhero-1 {
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 100%;
-  
-
 }
 
 .block-blue#about {
     padding-bottom: 0;
     margin-bottom: 0;
 }
-
-
 
 .block-blue-inner {
     background: #1F4D7A;
@@ -744,10 +740,19 @@ img#subhero-1 {
 
 }
 
+.block-yellow {
+    background:  #fbbd15;
+    color: white;
+    padding-bottom: 15em;
+    padding-top: 4em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    line-height: 10px;
+}
+
 /* styling photo section text */
 .block-photo {
     padding-bottom: 2em;
-    padding-top: 125px;
     padding-left: 2em;
     margin: 2em auto 2em auto;
     max-width: 1000px;
@@ -759,6 +764,8 @@ img#subhero-1 {
 }
 
 .block-photo ul {
+    position: absolute;
+    bottom: 10%;
     padding-right: 2em;
     text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
 }
@@ -1046,15 +1053,16 @@ img#subhero-1 {
     -webkit-box-flex: 1;
     flex-grow: 1;
     max-width: 64em;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .logoGridlogo {
     width: 100%;
     max-width: 6.5em;
-    max-height: 4.5em;
+    max-height: 2.5em;
     margin: auto;
 }
+
 
 
 #clients .column img {
@@ -1171,9 +1179,9 @@ img#subhero-1 {
 }
 
 .home-text-lower {
-    position: relative;
+    position: absolute;
     text-align: left;
-    top: 40%;
+    bottom: 10%;
     color: #fff;
     z-index: 0;
     padding-bottom: 0;
@@ -1959,7 +1967,7 @@ details[open] summary ~ * {
         top: 10%;
     }
     .home-text-lower {
-        top: 15%;
+        bottom: 10%;
     }
 
     .hero-image {
@@ -2225,11 +2233,7 @@ details[open] summary ~ * {
         left: 40px;
         width: 95%;
         max-width: 500px;
-      }
-
-    
-
-    
+      } 
       
 
     
@@ -2403,6 +2407,11 @@ details[open] summary ~ * {
     .home-text {
         top: 30%;
     }
+
+    .home-text-lower {
+        bottom: 15%;
+    }
+
     .hide-mobile {
         display: flex;
     }
@@ -2480,6 +2489,15 @@ details[open] summary ~ * {
         float: right;
         margin-left: 40%;
         
+    }
+
+    .logoGrid {
+        display: grid;
+        gap: 50px;
+        -webkit-box-flex: 1;
+        flex-grow: 1;
+        max-width: 64em;
+        grid-template-columns: repeat(6, 1fr);
     }
 
 
