@@ -53,8 +53,9 @@
 
                 <ul class="show-desktop hide-mobile" id="nav">
                     <li>
-                        <div class="dropdown"><a href="/cork-video-production.html">video<img class="show-desktop" src="/images/down-caret-outline.svg" alt=""> </a>
+                        <div class="dropdown"><a href="/agency.html">commercial<img class="show-desktop" src="/images/down-caret-outline.svg" alt=""> </a>
                             <div class="dropdown-content">
+                                <a href="/agency.html">Agency</a>
                                 <a href="/cork-video-production.html">Corporate Video</a>
                                 <a href="/animated-explainers.html">Animated Explainers</a>
                                 <a href="/motion-graphics.html">Motion Graphics</a>
@@ -64,7 +65,7 @@
                         </div>
                     </li>
                     <li><a href="/film.html">film</a></li>
-                    <li><a href="/work.html">gallery</a></li>
+                    <li><a href="/work.html#top" class="smoothscroll">gallery</a></li>
                     <li><a href="/index.html#about">about</a></li>
                     <li><a href="/contact.html" class="button-menu">contact</a></li>
                 </ul>
@@ -72,14 +73,14 @@
         </nav>
     </header>
 
-    <div>
-        <section class="block-blue heroFade" style="margin-bottom: 5px; padding-bottom: 0;">
+    <div id="top">
+        <section class="block-yellow heroFade" style="margin-bottom: 5px; padding-bottom: 0;">
             <h1 style=" margin-top: 75px; margin-bottom: 0; padding-bottom: 0; text-shadow: none;">Gallery</h1>
-            <h3 style="color: #fafafa; margin-top: 0; padding-top: 0; font-weight: 100;">of selected work.</h3>
+            <h3>of selected work.</h3>
 
                 
 
-                <section id="portfolio">
+                <section class="block-white" id="portfolio">
                     <div class="portfolio-button-list" id="myBtnContainer">
                         <button class="blog-btn active" onclick="filterSelection('all')"> Show all</button>
                         <button class="blog-btn" onclick="filterSelection('commercial')">Commercial</button>
@@ -88,12 +89,67 @@
                         <button class="blog-btn" onclick="filterSelection('musicVideo')">Music Video</button>
                         <button class="blog-btn" onclick="filterSelection('film')">Film</button>
                     </div>
-                    <div class="row-port">
+                    <div class="row-port row-port-portfolio">
             
                         <div class="twelve columns collapsed">
                 
                             <!-- portfolio-wrapper -->
-                            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-quarters cf">
+                            <div id="portfolio-wrapper" class="bgrid-thirds s-bgrid-thirds cf">
+
+                                <div class="columns portfolio-item blog-column commercial">
+                                    <div class="item-wrap">
+                
+                                    <a href="#swappie1" title="">
+                                        <img alt="Desmond Bros Short Film" src="images/swappie-05-500w.png">
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta">
+                                                    <h5>Swappie Ireland</h5>
+                                                <p>Advertising campaign - photo & video.</p>
+                                                
+                                                </div>
+                                                <div class="icon-plus"></div>
+                                        </div>
+                                    </a>
+                
+                                    </div>
+                                    </div> <!-- item end -->
+                
+                                <div class="columns portfolio-item blog-column commercial">
+                                    <div class="item-wrap">
+                
+                                    <a href="#wildflour" title="">
+                                        <img alt="Social Media Video" src="images/wildflour_01_500w.png">
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta">
+                                                    <h5>Wildflour | Brand Film</h5>
+                                                <p>Documentary advertising. Brand film commercial. Creative agency: Desmond Bros.</p>
+                                                
+                                            </div>
+                                            <div class="icon-plus"></div>
+                                        </div>
+                                    </a>
+                
+                                    </div>
+                                    </div> <!-- item end -->
+                
+                                <div class="columns portfolio-item blog-column commercial">
+                                    <div class="item-wrap">
+                
+                                    <a href="#swappie2" title="">
+                                        <img alt="Short film production" src="images/swappie-04-500w.png">
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta">
+                                                    <h5>Swappie Ireland</h5>
+                                                <p>Online ad campaign. Creative agency: Desmond Bros.</p>
+                                                
+                                                </div>
+                                                <div class="icon-plus"></div>
+                                        </div>
+                                       
+                                    </a>
+                
+                                    </div>
+                                    </div> <!-- item end -->
                 
                                 <div class="columns portfolio-item blog-column commercial">
                                     <div class="item-wrap">
@@ -104,8 +160,8 @@
                                             <div class="portfolio-item-meta">
                                                 <h5>Pure Cork - "Perfect Background"</h5>
                                                 <p>Narrative advertising. We wrote, directed and produced this online commercial campaign for purecork.ie</p>
+                                                </div>
                                                 <div class="icon-plus"></div>
-                                            </div>
                                         </div>
                                     </a>
                                     </div>
@@ -119,9 +175,9 @@
                                             <div class="overlay">
                                                 <div class="portfolio-item-meta">
                                                     <h5>Organico - Brand Film</h5>
-                                                    <p>Documentary advertising.</p>
-                                                    <div class="icon-plus"></div>
+                                                    <p>Documentary advertising.</p>                                                   
                                                 </div>
+                                                <div class="icon-plus"></div>
                                             </div>
                                         </a>
                                         </div>
@@ -136,8 +192,9 @@
                                                 <div class="portfolio-item-meta">
                                                     <h5>Leevy - "Find Your Own Way Back From Town"</h5>
                                                     <p>Music video.</p>
-                                                    <div class="icon-plus"></div>
+                                                    
                                                 </div>
+                                                <div class="icon-plus"></div>
                                             </div>
                                         </a>
                                         </div>
@@ -147,13 +204,14 @@
                                         <div class="item-wrap">
                     
                                         <a href="#focus" title="">
-                                            <img alt="" src="images/animated-explainers-focus-charity-500px.png">
+                                            <img alt="" data-src="images/animated-explainers-focus-charity-500px.png" class="lazyload">
                                             <div class="overlay">
                                                 <div class="portfolio-item-meta">
                                                     <h5>Charity Animation | Focus Ireland</h5>
                                                     <p>Animated fundraiser explainer video for homelessness charity.</p>
-                                                    <div class="icon-plus"></div>
+                                                    
                                                 </div>
+                                                <div class="icon-plus"></div>
                                             </div>
                                         </a>
                     
@@ -164,13 +222,13 @@
                                         <div class="item-wrap">
                     
                                         <a href="#bathbomb" title="">
-                                            <img alt="" src="images/port-bathbomb-01.png">
+                                            <img data-src="images/port-bathbomb-01.png" class="lazyload" alt="event">
                                             <div class="overlay">
                                                 <div class="portfolio-item-meta">
                                                     <h5>FizzBomb BathBomb</h5>
                                                     <p>Product video, social media commercial.</p>
-                                                    <div class="icon-plus"></div>
                                                     </div>
+                                                    <div class="icon-plus"></div>
                                             </div>
                                         </a>
                     
@@ -181,47 +239,31 @@
                                     <div class="item-wrap">
                 
                                     <a href="#modal-02" title="">
-                                        <img alt="" src="images/port-speak-to-her-500px.png">
+                                        <img data-src="images/port-speak-to-her-500px.png" class="lazyload" alt="event">
                                         <div class="overlay">
                                             <div class="portfolio-item-meta">
                                                     <h5>"Speak to Her"</h5>
                                                 <p>Award-winning short film.</p>
-                                                <div class="icon-plus"></div>
+                                                
                                                 </div>
+                                                <div class="icon-plus"></div>
                                         </div>
                                     </a>
                 
                                     </div>
                                     </div> <!-- item end -->
-                
-                                    <div class="columns portfolio-item blog-column commercial">
-                                        <div class="item-wrap">
-                    
-                                        <a href="#modal-01" title="">
-                                            <img alt="" src="images/port-repak-500px.png">
-                                            <div class="overlay">
-                                                <div class="portfolio-item-meta">
-                                                    <h5>Repak Recycling Quiz</h5>
-                                                    <p>Educational social media video.</p>
-                                                    <div class="icon-plus"></div>
-                                                </div>
-                                            </div>
-                                        </a>
-                    
-                                        </div>
-                                        </div> <!-- item end -->
                                 
                                 <div class="columns portfolio-item blog-column musicVideo">
                                     <div class="item-wrap">
                 
                                     <a href="#modal-04" title="">
-                                        <img alt="" src="images/port-gemini-500px.png">
+                                        <img data-src="images/port-gemini-500px.png" class="lazyload" alt="event">
                                         <div class="overlay">
                                             <div class="portfolio-item-meta">
                                                     <h5>Lost Boys - "Gemini"</h5>
                                                 <p>Music Video.</p>
-                                                <div class="icon-plus"></div>
                                                 </div>
+                                                <div class="icon-plus"></div>
                                         </div>
                                     </a>
                 
@@ -232,30 +274,13 @@
                                         <div class="item-wrap">
                     
                                         <a href="#modal-05" title="">
-                                            <img alt="" src="images/port-looking-for-500px.png">
+                                            <img data-src="images/port-looking-for-500px.png" class="lazyload" alt="event">
                                             <div class="overlay">
                                                 <div class="portfolio-item-meta">
                                                     <h5>Looking For | Short Film</h5>
                                                     <p>Award-winning short film.</p>
-                                                    <div class="icon-plus"></div>
                                                 </div>
-                                            </div>
-                                        </a>
-                    
-                                        </div>
-                                        </div> <!-- item end -->
-                    
-                                    <div class="columns portfolio-item blog-column animation">
-                                        <div class="item-wrap">
-                    
-                                        <a href="#modal-06" title="">
-                                            <img alt="" src="images/motion-graphics-01-500px.png">
-                                            <div class="overlay">
-                                                <div class="portfolio-item-meta">
-                                                        <h5>Motion Graphics Reel</h5>
-                                                    <p>Animation and motion graphics for corporate videos.</p>
-                                                    <div class="icon-plus"></div>
-                                                    </div>
+                                                <div class="icon-plus"></div>
                                             </div>
                                         </a>
                     
@@ -266,47 +291,30 @@
                                         <div class="item-wrap">
                     
                                         <a href="#modal-07" title="">
-                                            <img alt="" src="images/heineken-02-500px.png">
+                                            <img data-src="images/heineken-02-500px.png" class="lazyload" alt="event">
                                             <div class="overlay">
                                                 <div class="portfolio-item-meta">
                                                         <h5>Heinenken - Earn It | Spec Ad</h5>
                                                     <p>Narrative spec commercial.</p>
-                                                    <div class="icon-plus"></div>
-                                                    </div>
+                                                </div>
+                                                <div class="icon-plus"></div>
                                             </div>
                                         </a>
                     
                                         </div>
                                         </div> <!-- item end -->
-
-                                    <div class="columns portfolio-item blog-column animation">
-                                            <div class="item-wrap">
-                        
-                                            <a href="#animation-02" title="">
-                                                <img alt="" src="images/animated-explainer-1.jpg">
-                                                <div class="overlay">
-                                                    <div class="portfolio-item-meta">
-                                                        <h5>Animated Explainer Reel</h5>
-                                                        <p>Selection of animated styles.</p>
-                                                        <div class="icon-plus"></div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                        
-                                            </div>
-                                    </div> <!-- item end -->
                     
                                     <div class="columns portfolio-item blog-column film">
                                         <div class="item-wrap">
                     
                                         <a href="#modal-08" title="">
-                                            <img alt="" src="images/simon-01-500px.jpg">
+                                            <img data-src="images/simon-01-500px.jpg" class="lazyload" alt="event">
                                             <div class="overlay">
                                                 <div class="portfolio-item-meta">
                                                         <h5>Simon Baker - Documentary</h5>
                                                     <p>Teaser for documentary project.</p>
-                                                    <div class="icon-plus"></div>
                                                     </div>
+                                                    <div class="icon-plus"></div>
                                             </div>
                                         </a>
                     
@@ -321,13 +329,13 @@
                                         <div class="item-wrap">
                     
                                         <a href="#event-01" title="">
-                                            <img alt="" src="images/event-wms-500px.png">
+                                            <img data-src="images/event-wms-500px.png" class="lazyload" alt="event">
                                             <div class="overlay">
                                                 <div class="portfolio-item-meta">
                                                     <h5>Conference Event Aftermovie</h5>
                                                     <p>Aftermovie for major industry conference, featuring interviews with attendees.</p>
-                                                    <div class="icon-plus"></div>
                                                 </div>
+                                                <div class="icon-plus"></div>
                                             </div>
                                         </a>
                     
@@ -338,35 +346,18 @@
                                         <div class="item-wrap">
                     
                                         <a href="#event-02" title="">
-                                            <img alt="" src="images/event-frankfurt-500px.jpg">
+                                            <img data-src="images/event-frankfurt-500px.jpg" class="lazyload" alt="event">
                                             <div class="overlay">
                                                 <div class="portfolio-item-meta">
                                                         <h5>Corporate Event Recap Video</h5>
                                                     <p>Recap video for conference event.</p>
-                                                    <div class="icon-plus"></div>
                                                     </div>
+                                                    <div class="icon-plus"></div>
                                             </div>
                                         </a>
                     
                                         </div>
                                         </div> <!-- item end -->
-
-                                        <div class="columns portfolio-item blog-column commercial animation">
-                                            <div class="item-wrap">
-                        
-                                            <a href="#modal-03" title="">
-                                                <img alt="" src="images/port-credit-union-500px.png">
-                                                <div class="overlay">
-                                                    <div class="portfolio-item-meta">
-                                                            <h5>Credit Union Car quiz</h5>
-                                                        <p>Social Media Quiz</p>
-                                                        <div class="icon-plus"></div>
-                                                        </div>
-                                                </div>
-                                            </a>
-                        
-                                            </div>
-                                            </div> <!-- item end -->
                                         
                             </div> <!-- portfolio-wrapper end -->
                         </div>
@@ -376,6 +367,32 @@
             
             
                     <!-- Modal Popup -->
+                    <div id="swappie1" class="popup-modal mfp-hide">
+        
+                        <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="B2WAy_FRhJo"></div>
+            
+                            <div class="description-box">
+                                <h4>Swappie | Campaign</h4>
+                                <p>Commercial campaign spanning photo and video.</p>
+                            <span class="categories"><img src="images/tag-black.svg" alt="">Commercial, Brand, Campaign</span>
+                            </div>  
+                        </div><!-- modal-02 End -->
+            
+                    <div id="wildflour" class="popup-modal mfp-hide">
+                            <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="ReyNvtFn9m4"></div>
+            
+                            <div class="description-box">
+                                <h4>Wildflour | Brand Film</h4>
+                                <p>Documentary advertising. In collaboration with Notes to Cork. Creative agency: Desmond Bros.</p>
+                            <span class="categories"><img src="images/tag-black.svg" alt="">Brand Film, Commercial, Online, Social Media</span>
+                            </div>        
+                        </div><!-- modal-03 End -->
+            
+                    <div id="swappie2" class="popup-modal mfp-hide">
+    
+                        <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="j9jJvvSOGeQ"></div>
+            
+                        </div><!-- modal-04 End --> 
                     
                     <div id="purecork1" class="popup-modal mfp-hide">
             
@@ -443,24 +460,6 @@
                     </div>
         
                 </div><!-- modal-focus End -->
-
-
-                    <div id="modal-01" class="popup-modal mfp-hide">
-            
-                            <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="GknRQeZxKJo"></div>
-            
-                            <div class="description-box">
-                                <h4>Repak Recycling  Quiz</h4>
-                                <p>Educational social media video. Commissioned by theJournal.ie for Repak Ireland.</p>
-                            <span class="categories"><img src="images/tag-black.svg" alt="">Social Media, Educational, Motion Graphics</span>
-                            </div>
-            
-                        <div class="link-box">
-                            <a href="https://www.thejournal.ie/which-bin-for-pizza-boxes-see-if-you-can-beat-this-recycling-video-quiz-5218549-Sep2020/" target="_blank">Journal.ie Article</a>
-                            <a class="popup-modal-dismiss">Close</a>
-                        </div>
-            
-                        </div><!-- modal-01 End -->
             
                     <div id="modal-02" class="popup-modal mfp-hide">
             
@@ -478,21 +477,7 @@
                         </div>
             
                         </div><!-- modal-02 End -->
-            
-                    <div id="modal-03" class="popup-modal mfp-hide">
-                        <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="42CMFzbXAZI"></div>
         
-                        <div class="description-box">
-                            <h4>Credit Union - Car Loan Quiz</h4>
-                            <p>Fun and informative quiz on the benefits of a car loan, for social media.</p>
-                        <span class="categories"><img src="images/tag-black.svg" alt="">App, Commercial, Online, Social Media</span>
-                        </div>
-            
-                        <div class="link-box">
-                            <a class="popup-modal-dismiss">Close</a>
-                        </div>
-            
-                        </div><!-- modal-03 End -->
             
                     <div id="modal-04" class="popup-modal mfp-hide">
             
@@ -528,23 +513,6 @@
             
                         </div><!-- modal-01 End -->
             
-                    <div id="modal-06" class="popup-modal mfp-hide">
-            
-                        <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="BRCUS37Y4Ho"></div>
-            
-                            <div class="description-box">
-                                <h4>Motion Graphics Reel</h4>
-                                <p>Animation, motion graphics, animated explainer videos. Highlights from videos we created for our clients.</p>
-                            <span class="categories"><img src="images/tag-black.svg" alt="">Motion graphics, animation, explainer videos, corporate</span>
-                            </div>
-                            <div class="link-box">
-                                <a class="popup-modal-dismiss">Close</a>
-                            </div>
-                
-            
-            
-                        </div><!-- modal-02 End -->
-            
                     <div id="modal-07" class="popup-modal mfp-hide">
                             <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="yanlPgJZHuQ"></div>
             
@@ -576,21 +544,6 @@
             
                         </div><!-- modal-04 End -->
                     
-                    <div id="animation-02" class="popup-modal mfp-hide">
-        
-                            <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="bHG4cITfoac"></div>
-            
-                            <div class="description-box">
-                                <h4>Animated Explainers Reel</h4>
-                                <p>Selection of animated styles.</p>
-                            <span class="categories"><img src="images/tag-black.svg" alt="">Animation, Social Media, Educational, Motion Graphics</span>
-                            </div>
-            
-                        <div class="link-box">
-                            <a class="popup-modal-dismiss">Close</a>
-                        </div>
-            
-                    </div><!-- animation-02 End -->
 
                     <div id="event-01" class="popup-modal mfp-hide">
         
@@ -651,11 +604,10 @@
     </div>
 
     <div class="container">
-        <section class="block-white" style="padding-bottom: 2.5em;">
+        <section class="block-yellow" style="margin-bottom: 1.5em; padding: 2em 1em 2em 1em;">
             <h3>Want to work with us?</h3>
             <p style="text-align: center;">Contact us today to get started on your next video project.</p>
             <div class="button-holder"><a href="/contact.html" class="button-large">Get in touch.</a></div>
-
 
         </section>
 
@@ -666,14 +618,15 @@
         <div class="contain">
             <div class="col">
                 <a class="logo-footer" href="/index.html">
-                    <img src="/images/desmondb-bros-logo-white.svg" class="logo-footer" alt="Logo">
+                        <div class="logo-box logo-footer"></div>
                 </a>
             </div>
            
             <div class="col">
                     <ul>
-                        <li><a href="/cork-video-production.html"><h2>Video</h2></a></li>
-                        <li><a href="/cork-video-production.html">Cork Videography</a></li>
+                        <li><a href="/agency.html"><h2>Commercial</h2></a></li>
+                        <li><a href="/agency.html">Creative Agency</a></li>
+                        <li><a href="/cork-video-production.html">Cork Video Production</a></li>
                         <li><a href="/kerry-video-production.html">Kerry Video Production</a></li>
                         <li><a href="/work.html">Work Gallery</a></li>
                         <li><a href="/music-videos.html">Music Video</a></li>
@@ -703,11 +656,11 @@
             <div class="col">
                     <ul>
                         <li><a href="/contact.html"><h2>Contact</h2></a></li>
-                        <li><a href="/index.html#about">About Us</a></li>
+                        <li><a href="/index.html#about" class="smoothscroll">About Us</a></li>
                     </ul>
             </div>
             <div class="col">
-                <p>Desmond Bros Media is a video production company based in Cork, Ireland. A video company with creative flair, it has extensive experience producing video content for companies and organisations, including commercial, product advertising, social media videos, music videos, animated explainer videos and more.</p>
+                <p>Desmond Bros Media is a film & TV production company based in Cork, Ireland. A production company with creative flair, it has extensive experience producing film, TV and video content for companies and organisations, including commercial, product advertising, social media videos, music videos, animated explainer videos and more.</p>
             </div>
                 
                 <div class="clearfix">
@@ -787,6 +740,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/magnific-popup.js"></script>
     <script src="js/init.js"></script>
+    <script src="js/lazysizes.min.js"></script>
 
     <script src="https://cdn.plyr.io/3.5.6/plyr.js"></script>
     <script>
