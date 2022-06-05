@@ -714,7 +714,7 @@ img#subhero-1 {
     color: white;
 }
 
-.block-blue#process {
+#process {
     background-image: url(../images/laptop-desk-overlay.png);
     background-position: bottom;
     background-repeat: no-repeat;
@@ -747,7 +747,6 @@ img#subhero-1 {
     padding-top: 4em;
     padding-left: 0.5em;
     padding-right: 0.5em;
-    line-height: 10px;
 }
 
 /* styling photo section text */
@@ -768,6 +767,7 @@ img#subhero-1 {
     bottom: 10%;
     padding-right: 2em;
     text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+    max-width: 600px;
 }
 
 .block-photo ul li h2 {
@@ -788,11 +788,11 @@ img#subhero-1 {
 }
 
 .block-photo-right ul {
-    margin-right: 2em;
+    position: absolute;
+    bottom: 10%;
     text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
     color: #fafafa;
     max-width: 500px;
-    float: right;
 }
 
 .block-photo-right ul li h2 {
@@ -801,78 +801,19 @@ img#subhero-1 {
 
 .block-photo1 {
     background-size: cover;
-    background-image: url(http://desmondbros.ie/images/heineken_fb_02.jpg);
-    padding-bottom: 2em;
-    padding-top: 1em;
-    padding-left: 2em;
-    margin: 2em auto 1em auto;
-    max-width: 1000px;
-    height: 500px;
-    color: #fafafa;
-    border-radius: 10px;
-    width: 90%;
-}
-
-.block-photo1 ul {
-    margin-top: 7em;
-    padding-right: 2em;
-    text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
-}
-
-.block-photo1 ul li h2 {
-    color: #fafafa;
+    background-image: url(/images/wildflour_02_1920w.png);
+   
 }
 
 .block-photo2 {
     background-size: cover;
-    background-image: url(../images/pure-cork-03-500h.png);
-    background-position: center;
-    padding-bottom: 2em;
-    padding-top: 2em;
-    padding-left: 2em;
-    margin: 2em auto 2em auto;
-    max-width: 1000px;
-    height: 500px;
-    color: #fafafa;
-    border-radius: 10px;
-    width: 90%;
+    background-image: url(../images/organico-1.png);
 }
 
-.block-photo2 ul {
-    margin-top: 7em;
-    padding-right: 2em;
-
-   
-    text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
-}
-
-.block-photo2 ul li h2 {
-    color: #fafafa;
-}
 
 .block-photo3 {
     background-size: cover;
     background-image: url(../images/whiddy-island-01-1920w.png);
-    background-position: center;
-    padding-bottom: 2em;
-    padding-top: 2em;
-    padding-left: 2em;
-    margin: 2em auto 2em auto;
-    max-width: 1000px;
-    width: 90%;
-    height: 500px;
-    color: #fafafa;
-    border-radius: 10px;
-}
-
-.block-photo3 ul {
-    margin-top: 7em;
-    padding-right: 2em;
-    text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
-}
-
-.block-photo3 ul li h2 {
-    color: #fafafa;
 }
 
 .block-photo4 {
@@ -890,7 +831,7 @@ img#subhero-1 {
 .block-photo5 {
     background-size: cover;
     background-image: url(../images/looking-for-03.png);
-    background-position: left;
+    background-position: 15%;
     margin: 0 auto;
     max-width: 1000px;
     height: 500px;
@@ -1168,9 +1109,9 @@ img#subhero-1 {
 }
 
 .home-text {
-    position: relative;
+    position: absolute;
     text-align: center;
-    top: 40%;
+    bottom: 40%;
     color: #fff;
     z-index:1;
     padding-bottom: 0;
@@ -1181,7 +1122,7 @@ img#subhero-1 {
 .home-text-lower {
     position: absolute;
     text-align: left;
-    bottom: 10%;
+    bottom: 5%;
     color: #fff;
     z-index: 0;
     padding-bottom: 0;
@@ -1237,11 +1178,12 @@ img#subhero-1 {
 }
 
 .hero-image2 {
+    
     display: block;
     background-size: cover;
-    background-image: url(../images/video-production-pizza.png);
+    background-image: url(../images/video-production-camera-swappie-1-1920w.png);
     background-repeat: no-repeat;
-    height: 600px;
+    height: 100vh;
     background-position: center;
     text-align: center;
 }
@@ -1965,6 +1907,7 @@ details[open] summary ~ * {
     }
     .home-text {
         top: 10%;
+        position: relative;
     }
     .home-text-lower {
         bottom: 10%;
@@ -2058,7 +2001,7 @@ details[open] summary ~ * {
         
     }
 
-    .block-blue#process {
+    #process {
         background-size: 50%;
         background-position: left bottom;
       
