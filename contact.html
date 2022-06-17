@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
     <title>Contact | Desmond Bros Creative Video Agency</title>
     <link rel="icon" type="image/svg+xml" href="/images/db-favicon.svg">
     <link rel="icon" sizes="72x72" href="/images/db-favicon.png">
@@ -27,7 +27,6 @@
 
         gtag('config', 'G-Z355ZJ9Z50');
     </script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
     <header class="sticky">
@@ -87,98 +86,15 @@
             <h2>Drop us a line.</h2>
             
             <div class="form-full" style="max-width:600px">
-                
-        
-                <script>var submitted=false;</script>
-                <script>var gotcha=false;</script>
-
-                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
-                onload="if(submitted) {window.location='http://desmondbros.ie/contact-success.html';}"></iframe>
             
                 <!-- Update the Google forms URL in action-->
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSczdBTt8MUvI-vvdR4gWp_rBH0gVbleAwChgtYyG8ofYgMAVg/viewform?embedded=true" width="100%" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 <div class="intro" style="padding-bottom: 5%">We use Google Forms for our contact form. Google's Privacy Policy is <a href="https://policies.google.com/privacy">here</a>. If you'd rather not use the form, just email us at info@desmondbros.ie. We love to hear from you from any method of communication, even carrier pigeon!</div>
             </div>
         </div>
-
-        <script>
-            function validateName() {
-                    var name = document.getElementById('name').value;
-                    if(name.length == 0) {
-                      alert("Name can't be blank") ;
-                      return false;
-        
-                    }
-                    if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
-                      alert("Please enter your correct name") ;//Validation Message
-                      return false;
-                    }
-                    return true;
-                  }
-        
-        
-                 function validateEmail () {
-        
-                  var email = document.getElementById('email').value;
-                  if(email.length == 0) {
-                    alert("Email can't be blank") ;//Validation Message
-                    return false;
-        
-                  }
-        
-                  if(!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
-                    alert("Please enter a correct email address") ;//Validation Message
-                    return false;
-        
-                  }
-        
-                  return true;
-        
-                }
-
-                function validateCaptcha(form) {
-                    var v = grecaptcha.getResponse();
-                    if(v.length == 0)
-                    {
-                        document.getElementById('captcha').innerHTML="You can't leave Captcha Code empty";
-                        return false;
-                     }
-                    else
-                    {
-                     document.getElementById('captcha').innerHTML="Captcha completed";
-                    return true; 
-                    }
-                }
-        
-                function validateForm() {
-                  if (!validateName() || !validateEmail() || !validateCaptcha()) {
-        
-                    alert("Form not submitted");//Validation Message
-                    return false;
-                  }
-                  
-                    else {
-                    submitted=true;
-                    return true;
-                  }
-
-
-                }
-
-                
-        </script>
-  
   <!-- End Contact Section -->
 
-
-      
-
-
     </div>
-
-    
-
-
 
 
     <div class="footer">
