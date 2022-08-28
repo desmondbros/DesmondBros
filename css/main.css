@@ -76,8 +76,6 @@ ul {
 }
 
 .container-short {
-    padding: 0.8em 1.2em;
-    margin: 0 0.2em 0 0.2em;
     max-width: 800px;
 
 }
@@ -95,7 +93,7 @@ ul {
 
 .container.intro {
     max-width: 1000px;
-    margin: 10px auto 0 auto;
+    margin: -5px auto 0 auto;
 }
 
 #process-steps.container {
@@ -174,6 +172,7 @@ header {
     width: 100%;
     background-color: white;
     z-index: 5;
+    box-shadow: 3px 4px 8px 3px rgba(0, 0, 0, 0.1);
 }
 .gluey {
     position: sticky;
@@ -303,8 +302,7 @@ nav ul {
     z-index: 7;
     text-align: left;
     padding-top: 100px;
-    height: 100%;
-    
+    height: 100%;   
 
 }
 
@@ -329,7 +327,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #3e80c2;
+    color: #fbbd15;
 
 }
 
@@ -432,18 +430,23 @@ a.button {
     background-color: #fbbd15;
 }
 
+.button.yellow:hover {
+ background-color: #1F4D7A;
+}
+
 .button-menu {
-    border-style: none;
     background-color: #fbbd15;
-    color: #1F4D7A;
+    color: white;
+    position: relative;
+    display: inline-block;
+    transition: color .5s;
+    overflow:hidden;
     border-radius: 5px;
-    max-width: 60%;
-    padding: 10px;
+    width: 100%;
 }
 
 .button-menu:hover {
-    background-color: #3e80c2;
-    color: white;
+    color: #1F4D7A;
 }
 
 a.button-large {
@@ -494,7 +497,11 @@ a.button-large {
     vertical-align: middle;
     padding: 10px 20px 10px 20px;
     color: black;
-    
+}
+
+.button.showreel-btn:hover {
+    background-color: #1F4D7A;
+    color: white;
 }
 
 .showreel-btn-place {
@@ -503,6 +510,16 @@ a.button-large {
     right: 10%;
     text-align: right;
 
+}
+
+.outside-link::after {
+    content: url(/images/outside-link-white.svg);
+    display: inline-block;
+    width: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: none;
+    margin: 0 0 0 10px;
 }
 
 
@@ -530,6 +547,7 @@ a.button-large-white {
     transform: translateY(-5px);
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
+  background-color: #fbbd15;
 }
 
 .button-large:hover{
@@ -580,6 +598,60 @@ a.button-white {
     margin-top: auto;
 }
 
+.film-cell-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.film-cell {
+    width: 95%;
+    max-width: 900px;
+    margin: 20px 10px 20px 20px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 0px;
+    box-shadow: 3px 4px 8px 3px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}  
+
+.film-image {
+    
+    flex: 100%;
+    width: 100%;
+}
+
+.film-image img {
+    max-height: 300px;
+    width: auto;
+}    
+
+.film-text {
+    flex: 100%;
+    padding: 3em 1em 1em 1em;
+}
+
+.film-text p {
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.3em;
+}
+
+.film-text h4 {
+    font-size: 2em;
+    line-height: 1.2em;
+    margin-bottom: 8px;
+}
+
+.film-text h4 span {
+    font-weight: 300;
+    font-size: .8em;
+    font-style: italic;
+
+}
+
 .img-right {
     display: block;
     width: 90%;
@@ -598,6 +670,10 @@ li .img-right {
     padding-bottom: 10em;
     text-align: left;
     padding-top:1em;
+}
+
+.block-white.block-transparent {
+    background: none;
 }
 
 .block-white h3{
@@ -631,7 +707,7 @@ li .img-right {
     max-width: 1200px;
 }
 
-.block-poster .laurel {
+.laurel {
     height: 50px;
     padding-left: 2em;
     vertical-align: middle;
@@ -917,13 +993,28 @@ img#subhero-1 {
         animation: 2s polygon;
 }
 
-
 .stripe2 {
     background-color: #fbbd15;
     clip-path: polygon(0 0, 0 0, 100% 84%, 100% 100%);
     height: 500px;
         left: 0%;
         top: 5%;
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+        text-align: center;
+        display: block;
+        animation: 2s polygon;
+}
+
+.stripe3 {
+    background-color: #fbbd15;
+    clip-path: polygon(0 40%, 0 20%, 100% 90%, 100% 100%);
+    height: 500px;
+        left: 0%;
+        top: 10%;
         height: 100vh;
         width: 100%;
         overflow: hidden;
@@ -995,6 +1086,8 @@ img#subhero-1 {
     flex-grow: 1;
     max-width: 64em;
     grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    place-items: center;
 }
 
 .logoGridlogo {
@@ -1002,6 +1095,22 @@ img#subhero-1 {
     max-width: 6.5em;
     max-height: 2.5em;
     margin: auto;
+}
+
+.logoGridlaurel {
+    width: 50px;
+    height: auto;
+    flex: 0 0 calc(33.33% - 20px);
+    padding: 4px;
+    margin: 8px;
+}
+
+
+.logoGridFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
 }
 
 
@@ -1113,11 +1222,13 @@ img#subhero-1 {
     text-align: center;
     bottom: 40%;
     color: #fff;
-    z-index:1;
+    z-index: 1;
     padding-bottom: 0;
     margin-bottom: 0;
     text-decoration: none;
+    width: 100%;
 }
+
 
 .home-text-lower {
     position: absolute;
@@ -1129,13 +1240,47 @@ img#subhero-1 {
     margin-bottom: 0;
 }
 
+.home-text-new {
+    position: absolute;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    z-index: 1;
+    top: 35%;
+   width: 100%;
+}
+
 
 .home-text-long {
     top: 20%;
 }
 
+.down-icon::before{
+    content: url(/images/down-arrow-white.svg);
+    width: 60px;
+    position: absolute;
+    bottom: 5%;
+    text-align: center;
+    cursor: pointer;
+    left: 47%;
+}
 
-#home-top-video {
+.down-icon {
+    transform: translateY(-40px);
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    
+}
+
+.down-icon:hover {
+    opacity: 80%;
+    transform: translateY(-10px);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+
+.home-top-video {
   left: 0%;
   top: 0%;
   padding-top: 4em;
@@ -1146,6 +1291,7 @@ img#subhero-1 {
   z-index: -1;
   text-align: center;
   display: block;
+  margin-bottom: 0;
 
 }
 
@@ -1173,7 +1319,7 @@ img#subhero-1 {
     height: 100vh;
     background-position: center;
     text-align: center;
-    margin-bottom: 8%;
+    margin-bottom: 0;
     padding-bottom: 0;
 }
 
@@ -1308,11 +1454,12 @@ img#subhero-1 {
 .hero-image-Commercial {
     display: block;
     background-size: cover;
-    background-image: url(../images/swappie-01.jpg);
+    background-image: url(../images/swappie_forest_2_1920w.jpg);
     background-repeat: no-repeat;
     height: 100vh;
     background-position: center;
     text-align: center;
+    top: 0;
 }
 
 .show-mobile {
@@ -1433,8 +1580,7 @@ a.card-link:hover .card {
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
-   
-  }  
+}  
 
 .carousel-image {
     
@@ -1456,9 +1602,9 @@ a.card-link:hover .card {
     height: 100vh;
     width: auto;
     display: block;
-
     overflow: hidden;
 }
+
 .carousel-full-cell { 
     height: 100%;
     width: 100%;
@@ -2177,6 +2323,14 @@ details[open] summary ~ * {
         width: 95%;
         max-width: 500px;
       } 
+
+      .film-image img {
+        max-height: 400px;
+        width: auto;
+
+        object-fit: cover;
+        overflow: hidden;
+    }  
       
 
     
@@ -2219,23 +2373,93 @@ details[open] summary ~ * {
         display: none;
     }
 
+    nav {
+        margin: 0;
+        display: block;
+    }
+
     nav ul {
         position: inherit;
         background: none;
         height: 0em;
-        display: flex;
+        display: block;
+        object-position: right;
         padding-top: 0;
-        padding-right: 2em;
-        margin-right:2em;
+        padding-right: 0;
+        margin: 0;
         width: 100%;
     }
 
     nav ul li {
         text-align: center;
-        padding-right: 50px;
-        padding-left: 50px;
-        display: inline;
+        display: inline-block;
+        padding-right: 25px;
+        padding-left: 25px;
+        margin: 0;
+        width: auto;
     }
+
+    .hover-fill {
+        position: relative;
+        display: inline-block;
+        transition: color .5s;
+        overflow:hidden;
+        border-radius: 5px;
+      }
+      .hover-fill:before {
+        content: '';
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        z-index: -1;
+        transform-origin:0 0 ;
+        transform:translateX(-110%);
+        transition: transform .5s;
+        border-radius: 5px;
+
+        background-color: #fbbd15;
+        color: white;
+      }
+      .hover-fill:hover {
+        color: #fff;
+      }
+      .hover-fill:hover:before {
+        transform: translateX(0);
+        border-radius: 5px;
+      }
+
+      .button-menu {
+        background-color: #fbbd15;
+        color: white;
+        position: relative;
+        display: inline-block;
+        transition: color .5s;
+        overflow:hidden;
+        border-radius: 5px;
+        width: 100%;
+    }
+
+    .button-menu:before {
+        content: '';
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        z-index: -1;
+        transform-origin:0 0 ;
+        transform:translateX(-100%);
+        transition: transform .5s;
+        border-radius: 5px;
+
+        background-color: #1F4D7A;
+        color: white;
+      }
+      .button-menu:hover {
+        color: #fff;
+      }
+      .button-menu:hover:before {
+        transform: translateX(0);
+        border-radius: 5px;
+      }
 
     
 
@@ -2243,7 +2467,6 @@ details[open] summary ~ * {
         color: black;
         background-color: inherit;
         text-align: center;
-        width: 1em;
         padding-bottom: 10px;
         margin-bottom: 0;
         text-transform: none;
@@ -2392,16 +2615,7 @@ details[open] summary ~ * {
         margin-right: 50%;
     }
 
-    .button-menu {
-        background-color: #fbbd15;
-        color: white;
-        border-radius: 5px;
-        padding: 10px 25px 10px 25px;
-        margin: 0 35px 0 20px;
-        text-align: center;
-        width: 100%;
-
-    }
+    
 
     .carousel-text {
         flex: 60%;
@@ -2420,7 +2634,26 @@ details[open] summary ~ * {
         width: 100%;
         height: 100%;
         object-fit: cover;
-    }  
+    }
+    .film-text {
+        flex: 60%;
+    }
+
+    .film-image {
+    
+        flex: 40%;
+        clip-path: polygon(0px 0px, 100% 0px, 60% 100%, 0px 100%);
+        min-height: 400px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    .film-image img {
+        max-height: none;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }    
 
     .block-photo-agency1 ul {
         float: right;
@@ -2441,6 +2674,15 @@ details[open] summary ~ * {
         flex-grow: 1;
         max-width: 64em;
         grid-template-columns: repeat(6, 1fr);
+    }
+
+    .logoGridlaurel {
+        display: inline-block;
+        width: 50px;
+        height: auto;
+        flex: 0 0 calc(16.66% - 20px);
+        padding: 5px;
+        margin: 16px;
     }
 
 
