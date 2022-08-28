@@ -8,6 +8,8 @@
         <link rel="icon" sizes="72x72" href="/images/db-favicon.png">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
+        <link rel="stylesheet" href="/css/flickity.min.css" />
+        <link rel="stylesheet" href="css/fadein.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <meta property="og:site_name" content="Desmond Bros">
         <meta property="og:title" content="Film | Desmond Bros - Creative Video Agency">
@@ -45,103 +47,115 @@
                 
 
                 <ul class="show-desktop hide-mobile" id="nav">
-                    <li>
-                        <div class="dropdown"><a href="/cork-video-production.html">video<img class="show-desktop" src="/images/down-caret-outline.svg" alt=""> </a>
-                            <div class="dropdown-content">
-                                <a href="/cork-video-production.html">Corporate Video</a>
-                                <a href="/animated-explainers.html">Animated Explainers</a>
-                                <a href="/motion-graphics.html">Motion Graphics</a>
-                                <a href="/music-videos.html">Music Videos</a>
-                                <a href="/event-videos.html">Event Videos</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li><a href="/film.html">film</a></li>
-                    <li><a href="/work.html">gallery</a></li>
-                    <li><a href="/index.html#about">about</a></li>
+                    <li><a href="/film.html" class="hover-fill">film</a></li>
+                    <li><a href="/agency.html" class="hover-fill">commercial</a></li>                    
+                    <li><a href="/work.html" class="hover-fill">work</a></li>
                     <li><a href="/contact.html" class="button-menu">contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
-    <div class="header-img heroFade">
-        <section class="hero-image-film">
-            <h1 class="home-text"> Films. </h1>
-         </section>
+
+    <div id="top" class="heroFade">
+       
+        <div class="carousel-full" data-flickity='{ "cellAlign": "center", "wrapAround": true, "autoPlay": 2600, "lazyLoad": true, "pauseAutoPlayOnHover": false, "pageDots": true }'>
+            
+            <div class="carousel-full-cell"> 
+                    <div class="carousel-full-text"><p>Speak To Her (2019)</p></div>
+                    <div class="carousel-full-image"><img alt="Repak" src="images/speak-to-her-01.jpg"></div>
+            </div>
+            <div class="carousel-full-cell">
+                <div class="carousel-full-text"><p>Looking For (2019)</p></div>
+                    <div class="carousel-full-image"><img alt="short film" src="images/looking-for-02.png"></div>
+            </div>
+            <div class="carousel-full-cell">
+                <div class="carousel-full-text"><p>Simon Baker (2020)</p></div>
+                    <div class="carousel-full-image"><img alt="Repak" src="images/simon-02.jpg"></div>
+            </div>
+        </div>
+        <div class="home-text-new"><h1>Our films.</h1></div>
+        <a href="#laurelId" class="smoothscroll"><div class="down-icon"></div></a>
+        
     </div>
 
-    <div class="block-blue heroFade"  style= "margin-bottom: -15em;">
+    <section class="block-blue" id="laurelId" style="margin-bottom: -200px;">
         <div class="container">
 
-            <div class="logoGridContainer" id="clients">
-                <div class="logoGrid">
-                    <img class="logoGridlogo" src="/images/laurel-indiecork-white.png" alt="Indie Cork">
-                    <img class="logoGridlogo" src="images/laurel-richardharris-editing.png" alt="Richard Harris Editing">
-                    <img class="logoGridlogo" src="/images/laurel-rts-cinematography.png" alt="RTS Cinematography">
-                    <img class="logoGridlogo"src="/images/laurel-wicked.png" alt="Wicked">
-                    <img class="logoGridlogo" src="images/laurel-fastnet-2019-shortlist.png" alt="Fastnet">
-                    <img class="logoGridlogo"src="/images/laurel-nuff.png" alt="NUFF">
-                    <img class="logoGridlogo" src="/images/laurel-disappear-here.png" alt="Disappear Here">
-                    <img class="logoGridlogo"src="/images/laurel-rts-editing.png" alt="RTS Editing">
-                    <img class="logoGridlogo"src="/images/laurel-cinemagic.png" alt="Cinemagic">
+            <div class="logoGridContainer">
+                <div class="logoGridFlex">
+                    <img class="logoGridlaurel" src="/images/laurel-indiecork-white.png" alt="Indie Cork">
+                    <img class="logoGridlaurel" src="images/laurel-richardharris-editing.png" alt="Richard Harris Editing">
+                    <img class="logoGridlaurel" src="/images/laurel-rts-cinematography.png" alt="RTS Cinematography">
+                    <img class="logoGridlaurel" src="/images/laurel-kerry-2021.png" alt="Kerry Film Festival">
+                    <img class="logoGridlaurel"src="/images/laurel-nuff.png" alt="NUFF">
+                    <img class="logoGridlaurel" src="/images/laurel-disappear-here.png" alt="Disappear Here">
+                    <img class="logoGridlaurel"src="/images/laurel-rts-editing.png" alt="RTS Editing">
+                    <img class="logoGridlaurel"src="/images/laurel-cinemagic.png" alt="Cinemagic">
                 </div>
             </div>
 
 
         </div>
-    </div>
+    </section>
 
     <div class="container block-white">
         <div class="container-short intro heroFade">
             <p> <span>Desmond Bros Media is an award-winning film production company in Cork, Ireland. Their films and documentaries have screened at film festivals around Europe and the world.</span></p>
         </div>
+
+        
         <div class="block-white">
             <h3 style="text-align: center; font-size: 1.5em; font-weight: 200; letter-spacing: 0.25em; margin-top: 0; padding-top: 1em; padding-bottom: 2em;">SELECTED FILMOGRAPHY</h3>
-            <section class="block-poster">
-                <ul>
-                    <li><img class="poster-left" src="images/simon-01.jpg" alt="In Need of Repair"></li>
-                    <li><h2 style="color: #1F4D7A;">Simon (2021)</h2>
+           
+            <div class="film-cell-holder">
+
+                <section class="film-cell">
+                    <div class="film-image"><img alt="Repak" src="images/simon-01.jpg" style="object-position: center top;"></div>
+                    <div class="film-text">
+                        <h4>Simon <span>2021</span></h4>
                         <p>Al Jazeera 50 minute TV documentary. Ireland unit provided by Desmond Bros.</p>
                         <p> Ireland Unit - Director/DOP: Jack Desmond. Sound: Cian Desmond.</p>
+                        <a href="https://www.youtube.com/watch?v=zX3x-ip61o8" target="_blank" class="button outside-link">Watch full documentary.</a>
                         <img src="/images/client-al-jazeera.svg" alt="Al Jazeera" class="laurel">
-                        <a href="https://www.youtube.com/watch?v=zX3x-ip61o8" target="_blank" class="button">Watch full documentary.</a></li>
-                    
-                </ul>
-            </section>
-            <section class="block-poster">
-                <ul>
-                    <li><img class="poster-left" src="images/poster-in-need-of-repair" alt="In Need of Repair"></li>
-                    <li><h2 style="color: #1F4D7A;">In Need of Repair (2020)</h2>
-                        <p>An isolated elderly man and a lonely repairman form an unlikely friendship.</p>
-                        <p> Written & dir. by Jack Desmond. Produced by Philip Emo. Edited by Cian Desmond.</p>
-                        <img src="/images/laurel-indiecork-2020.png" alt="IndieCork" class="laurel"></li>
-                    
-                </ul>
-            </section>
+                    </div>
+                </section>
 
-            <section class="block-poster"  id="looking-for">
-                    <ul>
-                        <li><img class="poster-left" src="images/poster-looking-for.png" alt="Looking For"></li>
-                        <li><h2 style="color: #1F4D7A;">Looking For (2019)</h2>
-                            <p>In a world where love is revealed by rings, a lonely young woman struggles to fill what's missing in her life, before discovering things are not as simple as she had thought.</p> 
+                <section class="film-cell">
+                    <div class="film-image"><img class="poster-left" alt="Repak" src="images/poster-in-need-of-repair" style="object-position: center;"></div>
+                    <div class="film-text">
+                        <h4>In Need of Repair <span>2020</span></h4>
+                        <p>An isolated elderly man and a lonely repairman form an unlikely friendship.</p>
+                            <p> Written & dir. by Jack Desmond. Produced by Philip Emo. Edited by Cian Desmond.</p>
+                            
+                    </div>
+                </section>
+                
+                <section class="film-cell">
+                    <div class="film-image"><img class="poster-left" alt="Repak" src="images/poster-looking-for.png" style="object-position: center;"></div>
+                    <div class="film-text">
+                        <h4>Looking For <span>2019</span></h4>
+                        <p>In a world where love is revealed by rings, a lonely young woman struggles to fill what's missing in her life, before discovering things are not as simple as she had thought.</p> 
                             <p>Winner, Best Short Form - Royal Television Society awards ROI 2020. Winner, Best Cinematography, RTS awards ROI 2020.</p> 
                             <p>National TV Premiere - Virgin Media One</p> 
                             <p> Written & dir. by Cian Desmond. Produced by Caoilinn Handley. Cinematography by Jack Desmond.</p>
-                            <a href="https://www.youtube.com/watch?v=Oodm57M45Nc" target="_blank" class="button">Watch the trailer.</a> <a href="https://www.imdb.com/title/tt12355890/" target="_blank"><img src="/images/imdb.svg" alt="" class="laurel"></a> </li>
-                    </ul>
-            </section>
-
-            <div id="speak-to-her">
-                <section class="block-poster">
-                    <ul>
-                        <li><img class="poster-left" src="images/poster-speak-to-her.png" alt="Speak to Her"></li>
-                        <li><h2 style="color: #1F4D7A;">Speak to Her (2019)</h2>
-                            <p>Obafemi is an Eritrean bouncer in a Dublin nightclub. He tries to work up the courage to speak to Natka, a bathroom attendant, and decides to learn Polish to reach across the language divide.</p>
+                            <a href="https://www.youtube.com/watch?v=Oodm57M45Nc" target="_blank" class="button outside-link">Watch the trailer.</a> 
+                            <a href="https://www.imdb.com/title/tt12355890/" target="_blank"><img src="/images/imdb.svg" alt="" class="laurel"></a>
+                            <img src="/images/client-virgin-media.svg" alt="Virgin Media broadcaster" class="laurel" style="width: 100px;">
+                    </div>
+                </section>
+                
+                <section class="film-cell">
+                    <div class="film-image"><img class="poster-left" alt="Repak" src="images/poster-speak-to-her.png" style="object-position: center;"></div>
+                    <div class="film-text">
+                        <h4>Speak to Her <span>2019</span></h4>
+                        <p>Obafemi is an Eritrean bouncer in a Dublin nightclub. He tries to work up the courage to speak to Natka, a bathroom attendant, and decides to learn Polish to reach across the language divide.</p>
                             <p>Winner, Best Short Form - Royal Television Society awards ROI 2019. Winner, Best Writing, RTS awards UK & ROI 2019.</p>
                             <p> Dir. by Jack Desmond. Produced by Philip Emo. Edited by Cian Desmond.</p>
-                            <a href="https://www.youtube.com/watch?v=nrsNZPvBTBw" target="_blank" class="button"> Watch the film.</a> <a href="https://www.imdb.com/title/tt12359004" target="_blank"><img src="/images/imdb.svg" alt="" class="laurel"></a> </li>
-                    </ul>
+                            <a href="https://www.youtube.com/watch?v=nrsNZPvBTBw" target="_blank" class="button outside-link"> Watch the film.</a> 
+                            <a href="https://www.imdb.com/title/tt12359004" target="_blank"><img src="/images/imdb.svg" alt="" class="laurel"></a>
+                            <img src="/images/client-rts.png" alt="Royal Television Society" class="laurel"> 
+                    </div>
                 </section>
             </div>
 
@@ -153,14 +167,15 @@
         <div class="contain">
             <div class="col">
                 <a class="logo-footer" href="/index.html">
-                    <img src="/images/desmondb-bros-logo-white.svg" class="logo-footer" alt="Logo">
+                        <div class="logo-box logo-footer"></div>
                 </a>
             </div>
            
             <div class="col">
                     <ul>
-                        <li><a href="/cork-video-production.html"><h2>Video</h2></a></li>
-                        <li><a href="/cork-video-production.html">Cork Videography</a></li>
+                        <li><a href="/agency.html"><h2>Commercial</h2></a></li>
+                        <li><a href="/agency.html">Creative Agency</a></li>
+                        <li><a href="/cork-video-production.html">Cork Video Production</a></li>
                         <li><a href="/kerry-video-production.html">Kerry Video Production</a></li>
                         <li><a href="/work.html">Work Gallery</a></li>
                         <li><a href="/music-videos.html">Music Video</a></li>
@@ -176,8 +191,8 @@
                     <ul>
                         <li><a href="/film.html"><h2>Film</h2></a></li>
                         <li><a href="/film.html">Filmography</a></li>
-                        <li><a href="/film.html#speak-to-her" class="smoothscroll" style="font-style: italic;">Speak to Her</a></li>
-                        <li><a href="/film.html#looking-for" class="smoothscroll" style="font-style: italic;">Looking For</a></li>
+                        <li><a href="/film.html#speak-to-her" style="font-style: italic;">Speak to Her</a></li>
+                        <li><a href="/film.html#looking-for" style="font-style: italic;">Looking For</a></li>
                     </ul>
             </div>
             <div class="col">
@@ -190,11 +205,14 @@
             <div class="col">
                     <ul>
                         <li><a href="/contact.html"><h2>Contact</h2></a></li>
-                        <li><a href="/index.html#about">About Us</a></li>
+                        <li><a href="/index.html#about" class="smoothscroll">About Us</a></li>
                     </ul>
             </div>
             <div class="col">
-                <p>Desmond Bros Media is a video production company based in Cork, Ireland. A video company with creative flair, it has extensive experience producing video content for companies and organisations, including commercial, product advertising, social media videos, music videos, animated explainer videos and more.</p>
+                <ul>
+                <li><h2>About Us</h2></li>
+                <p>Desmond Bros Media is a film & TV production company based in Cork, Ireland. A production company with creative flair, it has extensive experience producing film, TV and commercial video content for broadcasters, companies and organisations.</p>
+                </ul>
             </div>
                 
                 <div class="clearfix">
@@ -221,12 +239,12 @@
         </div>
     </div>
 
-    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/magnific-popup.js"></script>
     <script src="js/init.js"></script>
     <script src="js/fadein.js"></script>
+    <script src="/js/flickity.pkgd.min.js"></script>
 
 
 </body>
