@@ -77,6 +77,9 @@ ul {
 
 .container-short {
     max-width: 800px;
+    padding: 0 1.2em;
+    margin-right: 0.2em;
+    margin-left: 0.2em;
 
 }
 
@@ -147,13 +150,18 @@ ul {
 
 .hide-mobile {
     transition: 400ms ease-in-out;
-    transform: translate(110%);
+    transform: translate(-110%);
     height: 100%;
+    box-shadow: 3px 4px 8px 3px rgba(0, 0, 0, 0.1);
+
 }
 
-/* .hide-mobile li {
-    display: none;
-} */
+.hide-mobile li {
+    opacity: 0;
+    transition: 0.2s;
+    transform: translateY(50px);
+    
+} 
 
 .show-desktop .dropdown img {
     display: none;
@@ -162,7 +170,7 @@ ul {
 header {
     display: flex;
     justify-content: space-between;
-    min-height: 90px;
+    min-height: px;
 }
 
 .sticky {
@@ -237,11 +245,11 @@ header {
   {
     display: flex;
     width: 29px;
-    height:3px;
+    height: 2.5px;
     margin-bottom: 5px;
     position: relative;
     background: #fbbd15;
-    border-radius: 3px;
+    border-radius: 4px;
     z-index: 50;
     transform-origin: 5px 0px;
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
@@ -262,7 +270,7 @@ header {
   {
     opacity: 1;
     transform: rotate(45deg) translate(-3px, -1px);
-    background: white;
+    background: #fbbd15;
   }
   #menuToggle input:checked ~ span:nth-last-child(3)
   {
@@ -278,15 +286,32 @@ header {
   #menuToggle input:checked ~ .hide-mobile
   {
     opacity: 1;
-    transition: 600ms ease-in-out;
+    transition: all 1s cubic-bezier(0.23, 1, 0.32, 1); 
     transform: translate(0);
     height: 100%;
   }
 
- /* #menuToggle input:checked ~ .hide-mobile li
+ #menuToggle input:checked ~ .hide-mobile li
   {
-    display: contents;
-  } */
+    opacity: 1;
+    transition: 1s cubic-bezier(0.23, 1, 0.32, 1); 
+    transform: translateY(0);
+    transition-delay: 0.6s;
+  }
+
+  #menuToggle input:checked ~ .hide-mobile li:nth-child(1) {
+    transition-delay: 0.2s;
+  }
+  #menuToggle input:checked ~ .hide-mobile li:nth-child(2) {
+    transition-delay: 0.4s;
+  }
+  #menuToggle input:checked ~ .hide-mobile li:nth-child(3) {
+    transition-delay: 0.6s;
+  }
+  #menuToggle input:checked ~ .hide-mobile li:nth-child(4) {
+    transition-delay: 0.8s;
+  }
+
 
   
   
@@ -294,11 +319,11 @@ header {
 
 nav ul {
     position: fixed;
-    width: 60%;
+    width: 100%;
     right: 0;
     top: 0;
     bottom: 0;
-    background: #1F4D7A;
+    background: white;
     z-index: 7;
     text-align: left;
     padding-top: 100px;
@@ -314,15 +339,15 @@ nav ul li {
     margin-left: 20px;
 }
 nav ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     display: block;
     width: 100%;
-    padding: 1em 10px;
+    padding: .8em 10px;
     text-align: left;
     text-transform: lowercase;
     font-weight: 600;
-    font-size: 1.2em; 
+    font-size: 1.8em; 
 
 }
 
@@ -424,6 +449,8 @@ a.button {
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
   text-shadow:  none;
+  font-size: 1.2em;
+  font-weight: 600;
 }
 
 .button.yellow {
@@ -710,6 +737,7 @@ li .img-right {
 .laurel {
     height: 50px;
     padding-left: 2em;
+    padding-top: 8px;
     vertical-align: middle;
 }
 
@@ -780,6 +808,10 @@ img#subhero-1 {
     padding-top: 2em;
     padding-left: 0.5em;
     padding-right: 0.5em;
+}
+
+.block-blue#laurelId {
+    padding-bottom: 0;
 }
 
 .block-blue p a:visited {
@@ -2554,10 +2586,11 @@ details[open] summary ~ * {
         display: none;
     }
 
-   /* #menuToggle input ~ .hide-mobile li
+   #menuToggle input ~ .hide-mobile li
     {
-      display: contents;
-    } */
+      opacity: 1;
+      transform: translateY(0);
+    } 
 
     .showreel {
         background: #fff;
@@ -2580,6 +2613,7 @@ details[open] summary ~ * {
 
     .hide-mobile {
         display: flex;
+        box-shadow: none;
     }
     #video-loop {
         width: 100%;
@@ -2673,7 +2707,7 @@ details[open] summary ~ * {
         -webkit-box-flex: 1;
         flex-grow: 1;
         max-width: 64em;
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(5, 1fr);
     }
 
     .logoGridlaurel {
