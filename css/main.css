@@ -122,10 +122,12 @@ ul {
 }
 
 .logo-box {
-    z-index: 7;
+    position: relative;
+    
     max-width: 100%;
     margin-right: 10px;
 }
+
 
 .logo-box:hover {
     opacity: 80%;
@@ -139,9 +141,11 @@ ul {
     margin-left: 5px;
     padding-left: 20px;
     cursor: pointer;
+    z-index: 10;
 }
 
 .logo-footer.logo-box::before {
+    content: url(/images/desmond-bros-wordmark-black-with-white-dot.svg);
     width: 160px;
     padding: 0;
     margin: 0;
@@ -312,6 +316,10 @@ header {
     transition-delay: 0.8s;
   }
 
+  #menuToggle input:checked ~ .hide-mobile li:nth-child(5) {
+    transition-delay: 1s;
+  }
+
 
   
   
@@ -332,12 +340,30 @@ nav ul {
 }
 
 nav ul img {
-    margin-bottom: 40px;
+    width: 30px;
 }
+
+.menu-icon:hover {
+    opacity: 50%;
+}
+
+nav ul li.menu-icon{
+    margin-top: 20%;
+}
+
+.menu-icon::before {
+    content: url(/images/instagram.svg);
+    display: block;
+    width: 30px;
+    margin-top: 30%;
+    cursor: pointer;
+}
+
 nav ul li {
     width: 100%;
     margin-left: 20px;
 }
+
 nav ul li a {
     color: black;
     text-decoration: none;
@@ -469,7 +495,7 @@ a.button {
     transition: color .5s;
     overflow:hidden;
     border-radius: 5px;
-    width: 100%;
+    width: auto;
 }
 
 .button-menu:hover {
@@ -823,7 +849,7 @@ img#subhero-1 {
 }
 
 #process {
-    background-image: url(../images/laptop-desk-overlay.png);
+    background-image: url(../images/laptop-desk-overlay.webp);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -909,24 +935,24 @@ img#subhero-1 {
 
 .block-photo1 {
     background-size: cover;
-    background-image: url(/images/wildflour_02_1920w.png);
+    background-image: url(/images/wildflour_02_1920w.webp);
    
 }
 
 .block-photo2 {
     background-size: cover;
-    background-image: url(../images/organico-1.png);
+    background-image: url(../images/organico-1.webp);
 }
 
 
 .block-photo3 {
     background-size: cover;
-    background-image: url(../images/whiddy-island-01-1920w.png);
+    background-image: url(../images/whiddy-island-01-1920w.webp);
 }
 
 .block-photo4 {
     background-size: cover;
-    background-image: url(../images/simon-02-stretch.jpg);
+    background-image: url(../images/simon-02-stretch.webp);
     background-position: center;
     background-color: black;
     max-width: 1000px;
@@ -938,7 +964,7 @@ img#subhero-1 {
 
 .block-photo5 {
     background-size: cover;
-    background-image: url(../images/looking-for-03.png);
+    background-image: url(../images/looking-for-03.webp);
     background-position: 15%;
     margin: 0 auto;
     max-width: 1000px;
@@ -970,25 +996,25 @@ img#subhero-1 {
 
 .block-photo-kerry1 {
     background-size: cover;
-    background-image: url(../images/video-production-set-02.jpg);
+    background-image: url(../images/video-production-set-02.webp);
     background-position: center;
 }
 
 .block-photo-kerry2 {
     background-size: cover;
-    background-image: url(../images/pure-cork-02-1920w.png);
+    background-image: url(../images/pure-cork-02-1920w.webp);
     background-position: center;
 }
 
 .block-photo-kerry3 {
     background-size: cover;
-    background-image: url(../images/organico-1.png);
+    background-image: url(../images/organico-1.webp);
     background-position: center;
 }
 
 .block-photo-agency1 {
     background-size: cover;
-    background-image: url(../images/wildflour_01_1920w.png);
+    background-image: url(../images/wildflour_01_1920w.webp);
     background-position: center;
 
 }
@@ -997,7 +1023,7 @@ img#subhero-1 {
 
 .block-photo-agency2 {
     background-size: cover;
-    background-image: url(../images/swappie-02-1920w.jpg);
+    background-image: url(../images/swappie-02-1920w.webp);
     background-position: center;
 }
 
@@ -1346,7 +1372,7 @@ img#subhero-1 {
 .hero-image {
     display: block;
     background-size: cover;
-    background-image: url(../images/leevy-3.png);
+    background-image: url(../images/leevy-3.webp);
     background-repeat: no-repeat;
     height: 100vh;
     background-position: center;
@@ -1359,7 +1385,7 @@ img#subhero-1 {
     
     display: block;
     background-size: cover;
-    background-image: url(../images/video-production-camera-swappie-1-1920w.png);
+    background-image: url(../images/video-production-camera-swappie-1-1920w.webp);
     background-repeat: no-repeat;
     height: 100vh;
     background-position: center;
@@ -1369,7 +1395,7 @@ img#subhero-1 {
 .hero-image3 {
     display: block;
     background-size: cover;
-    background-image: url(../images/animated-explainer-2.png);
+    background-image: url(../images/animated-explainer-2.webp);
     background-repeat: no-repeat;
     height: 600px;
     background-position: center;
@@ -1379,7 +1405,7 @@ img#subhero-1 {
 .hero-image4 {
     display: block;
     background-size: cover;
-    background-image: url(../images/port-work-life.png);
+    background-image: url(../images/port-work-life.webp);
     background-repeat: no-repeat;
     height: 600px;
     background-position: center;
@@ -1395,7 +1421,7 @@ img#subhero-1 {
 .hero-image5 {
     display: block;
     background-size: cover;
-    background-image: url(../images/gemini-still-02.png);
+    background-image: url(../images/gemini-still-02.webp);
     background-repeat: no-repeat;
     height: 600px;
     background-position: center;
@@ -1405,7 +1431,7 @@ img#subhero-1 {
 .hero-image-social {
     display: block;
     background-size: cover;
-    background-image: url(../images/bathbomb-01.png);
+    background-image: url(../images/bathbomb-01.webp);
     background-repeat: no-repeat;
     height: 600px;
     background-position: center;
@@ -1415,7 +1441,7 @@ img#subhero-1 {
 .hero-image-event {
     display: block;
     background-size: cover;
-    background-image: url(../images/event-video-2.png);
+    background-image: url(../images/event-video-2.webp);
     background-repeat: no-repeat;
     height: 600px;
     background-position: center;
@@ -1425,7 +1451,7 @@ img#subhero-1 {
 .hero-image-film {
     display: block;
     background-size: cover;
-    background-image: url(../images/speak-to-her-01.jpg);
+    background-image: url(../images/speak-to-her-01.webp);
     background-repeat: no-repeat;
     height: 600px;
     background-position: center;
@@ -1435,7 +1461,7 @@ img#subhero-1 {
 .hero-image-contact {
     display: block;
     background-size: cover;
-    background-image: url(../images/tree-01.jpg);
+    background-image: url(../images/tree-01.webp);
     background-repeat: no-repeat;
     height: 600px;
     background-position: center;
@@ -1445,7 +1471,7 @@ img#subhero-1 {
 .hero-image-csr {
     display: block;
     background-size: cover;
-    background-image: url(../images/csr-video-Ireland-02.png);
+    background-image: url(../images/csr-video-Ireland-02.webp);
     background-repeat: no-repeat;
     height: 700px;
     background-position: center;
@@ -1456,7 +1482,7 @@ img#subhero-1 {
 .hero-image-live-stream {
     display: block;
     background-size: cover;
-    background-image: url(../images/live-stream-Cork-1-blur.jpg);
+    background-image: url(../images/live-stream-Cork-1-blur.webp);
     background-repeat: no-repeat;
     height: 600px;
     background-position: center;
@@ -1466,7 +1492,7 @@ img#subhero-1 {
 .hero-image-charity {
     display: block;
     background-size: cover;
-    background-image: url(../images/focus-ireland-charity-non-profit-video-01-500px.png);
+    background-image: url(../images/focus-ireland-charity-non-profit-video-01-500px.webp);
     background-repeat: no-repeat;
     height: 600px;
     background-position: center;
@@ -1476,7 +1502,7 @@ img#subhero-1 {
 .hero-image-Kerry {
     display: block;
     background-size: cover;
-    background-image: url(../images/video-production-leaf.jpg);
+    background-image: url(../images/video-production-leaf.webp);
     background-repeat: no-repeat;
     height: 600px;
     background-position: center;
@@ -1486,7 +1512,7 @@ img#subhero-1 {
 .hero-image-Commercial {
     display: block;
     background-size: cover;
-    background-image: url(../images/swappie_forest_2_1920w.jpg);
+    background-image: url(../images/swappie_forest_2_1920w.webp);
     background-repeat: no-repeat;
     height: 100vh;
     background-position: center;
@@ -2431,6 +2457,7 @@ details[open] summary ~ * {
         width: auto;
     }
 
+
     .hover-fill {
         position: relative;
         display: inline-block;
@@ -2487,6 +2514,7 @@ details[open] summary ~ * {
       }
       .button-menu:hover {
         color: #fff;
+        
       }
       .button-menu:hover:before {
         transform: translateX(0);
