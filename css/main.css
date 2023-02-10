@@ -698,10 +698,55 @@ a.button-white {
     margin-bottom: 8px;
 }
 
+
+
 .film-text h4 span {
     font-weight: 300;
     font-size: .8em;
     font-style: italic;
+
+}
+
+.link-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+a.link {
+    width: 95%;
+    max-width: 600px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 3px 4px 8px 3px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    text-decoration: none;
+}  
+.link h4 {
+    text-align: center;
+    font-size: 1.2em;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link h4 span {
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.link-holder:hover {
+    transform: scale(105%);
+    transition: transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
 
 }
 
@@ -1421,7 +1466,7 @@ img#subhero-1 {
 .hero-image5 {
     display: block;
     background-size: cover;
-    background-image: url(../images/gemini-still-02.webp);
+    background-image: url(../images/leevy-top-road-1.webp);
     background-repeat: no-repeat;
     height: 600px;
     background-position: center;
