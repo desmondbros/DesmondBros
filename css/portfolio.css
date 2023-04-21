@@ -236,10 +236,8 @@ img {
  #portfolio-wrapper .columns { margin-bottom: 36px; }
  .portfolio-item .item-wrap {
     overflow: hidden;
-    position: relative;
-   
- 
-     border-radius: 10px;
+    position: relative; 
+   border-radius: 10px;
  }
  .portfolio-item .item-wrap a {
     display: block;
@@ -333,7 +331,7 @@ img {
  .portfolio-item .portfolio-item-meta p {
     font: 15px 'Outfit', sans-serif;
     font-weight: 200;
-    color: #c6c7c7;
+    color: #fafafa;
     margin-bottom: 0;
     margin-top: 0px;
     padding-top: 0px;
@@ -364,7 +362,7 @@ img {
  
  /* popup modal */
  .popup-modal {
-     max-width: 550px;
+     max-width: 800px;
      background: #fff;
      position: relative;
      margin: 0 auto;

@@ -938,19 +938,25 @@ img#subhero-1 {
     height: 500px;
     color: #fafafa;
     border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4); /* this adds the "card" effect */  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4); /* this adds the "card" effect */ 
+    background-size: cover;
+    background-position: center; 
 }
 
 .block-photo ul {
     position: absolute;
     bottom: 10%;
     padding-right: 2em;
-    text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
     max-width: 600px;
 }
 
 .block-photo ul li h2 {
     color: #fafafa;
+}
+
+.block-photo ul li h2 span {
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
 }
 
 /* right-indented photo block text */
@@ -997,7 +1003,6 @@ img#subhero-1 {
 
 .block-photo4 {
     background-size: cover;
-    background-image: url(../images/simon-02-stretch.webp);
     background-position: center;
     background-color: black;
     max-width: 1000px;
@@ -1563,6 +1568,15 @@ img#subhero-1 {
     background-position: center;
     text-align: center;
     top: 0;
+}
+
+.hero-image-template {
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    text-align: center;
 }
 
 .show-mobile {
