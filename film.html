@@ -56,11 +56,13 @@
         </nav>
     </header>
 
-
-    <div id="top" class="heroFade">
-       
-        <div class="carousel-full" data-flickity='{ "cellAlign": "center", "wrapAround": true, "autoPlay": 2600, "lazyLoad": true, "pauseAutoPlayOnHover": false, "pageDots": true }'>
+    <div class="hero-image-template heroFade" id="top">
             
+        <div class="carousel-full" data-flickity='{ "cellAlign": "center", "wrapAround": true, "autoPlay": 2600, "lazyLoad": true, "pauseAutoPlayOnHover": false, "pageDots": true }'>
+            <div class="carousel-full-cell"> 
+                <div class="carousel-full-text"><p>Cluiche As Baile (2023)</p></div>
+                <div class="carousel-full-image"><img alt="Repak" src="images/Cluiche_As_Baile_Still_Cologne.png"></div>
+        </div>
             <div class="carousel-full-cell"> 
                     <div class="carousel-full-text"><p>Speak To Her (2019)</p></div>
                     <div class="carousel-full-image"><img alt="Repak" src="images/speak-to-her-01.webp"></div>
@@ -74,8 +76,7 @@
                     <div class="carousel-full-image"><img alt="Repak" src="images/simon-02.webp"></div>
             </div>
         </div>
-        <div class="home-text-new"><h1>Our films.</h1></div>
-        
+        <div class="home-text"><h1>Films.</h1></div>
     </div>
 
     <section class="block-blue" id="laurelId">
@@ -104,18 +105,21 @@
         <div class="block-white">
             <h3 style="text-align: center; font-size: 1.5em; font-weight: 200; letter-spacing: 0.25em; margin-top: 0; padding-top: 1em; padding-bottom: 2em;">SELECTED FILMOGRAPHY</h3>
            
-            <div class="film-cell-holder">
+            <div class="film-cell-holder fadeUp">
 
-                <section class="film-cell">
-                    <div class="film-image"><img alt="Cluiche As Baile Irish TV production company" src="images/Cluiche_As_Baile_P1023283.jpg" style="object-position: right top;"></div>
+                <div href="/cluiche-as-baile.html" class="film-cell">
+                    
+                    <a href="/cluiche-as-baile.html" class="film-image"><img alt="Cluiche As Baile Irish TV production company" src="images/Cluiche_As_Baile_Camogie.jpg" style="object-position: right top;"></a>
                     <div class="film-text">
                         <h4>The Away Game / Cluiche As Baile <span>2023</span></h4>
-                        <p>In post-production. Upcoming 50-minute TV documentary commissioned for broadcast by TG4. </p>
+                        <p>50-minute TV documentary commissioned for broadcast by TG4. Broadcast June 2023</p>
+                        <p>Meet the small but mighty GAA clubs in cities across Europe, as they make friends, learn a new sport, and battle for the trophy. Narrated by Síle Seoige.</p>
                         <p> Directed and produced by Cian Desmond and Jack Desmond. Cinematography by Jack Desmond.</p>
                         <p> Production company: Desmond Bros.</p>
-                        <img src="/images/client-TG4.svg" alt="TG4" class="laurel">
+                        <a href="/cluiche-as-baile.html" class="button">View project</a><img src="/images/client-TG4.svg" alt="TG4" class="laurel">
+                        
                     </div>
-                </section>
+                </div>
 
                 <section class="film-cell">
                     <div class="film-image"><img alt="Irish film production company" src="images/simon-01.webp" style="object-position: center top;"></div>
@@ -189,6 +193,7 @@
                     <ul>
                         <li><a href="/film.html"><h2>Film</h2></a></li>
                         <li><a href="/film.html">Filmography</a></li>
+                        <li><a href="/cluiche-as-baile.html" style="font-style: italic;">Cluiche As Baile</a></li>
                         <li><a href="/film.html#speak-to-her" style="font-style: italic;">Speak to Her</a></li>
                         <li><a href="/film.html#looking-for" style="font-style: italic;">Looking For</a></li>
                     </ul>
