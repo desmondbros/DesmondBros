@@ -9,17 +9,37 @@
 
 <url>
   <loc>https://desmondbros.ie/</loc>
-  <lastmod>2023-02-10T18:35:38+00:00</lastmod>
+  <lastmod>2023-06-03T10:35:38+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://desmondbros.ie/index.html</loc>
-  <lastmod>2023-02-10T18:35:38+00:00</lastmod>
-  <priority>0.80</priority>
+   <lastmod>2023-06-03T10:35:38+00:00</lastmod>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>https://desmondbros.ie/film.html</loc>
+   <lastmod>2023-06-03T10:35:38+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://desmondbros.ie/work.html</loc>
+   <lastmod>2023-06-03T10:35:38+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://desmondbros.ie/agency.html</loc>
+   <lastmod>2023-06-03T10:35:38+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://desmondbros.ie/cluiche-as-baile.html</loc>
+   <lastmod>2023-06-03T10:35:38+00:00</lastmod>
+  <priority>0.85</priority>
 </url>
 <url>
   <loc>https://desmondbros.ie/cork-video-production.html</loc>
-  <lastmod>2023-02-10T18:35:38+00:00</lastmod>
+   <lastmod>2023-06-03T10:35:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -45,21 +65,6 @@
 <url>
   <loc>https://desmondbros.ie/event-videos.html</loc>
   <lastmod>2021-06-24T10:38:38+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://desmondbros.ie/film.html</loc>
-  <lastmod>2023-02-10T18:35:38+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://desmondbros.ie/work.html</loc>
-  <lastmod>2023-02-10T18:35:38+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://desmondbros.ie/agency.html</loc>
-  <lastmod>2023-02-10T18:35:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
