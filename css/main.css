@@ -10,8 +10,8 @@ body  {
 }
 
 p, blockquote {
-    font-size: 1.2em;
-    line-height: 1.6em;
+    font-size: 1em;
+    line-height: 1.2em;
 }
 
 p2 {
@@ -56,11 +56,11 @@ h4 {
 }
 
 .subheading  {
-    color: #fbbd15;
+    color: #1F4D7A;
     font-weight: 300;
     font-size: 1.5em;
     line-height: 1px;
-    text-shadow: 0px 0px 1px rgba(0,0,0,1);
+    margin-top: 0;
 }
 
 ul {
@@ -469,7 +469,7 @@ a.button {
     text-decoration: none;
     color: #fafafa;
     background-color: #1F4D7A;
-    padding: 10px 30px;
+    padding: 10px 30px 10px 30px;
     border-radius: 10px;
     margin: 0 auto auto auto;
     display: inline-block;
@@ -482,10 +482,62 @@ a.button {
 
 .button.yellow {
     background-color: #fbbd15;
+    color: #1F4D7A;
 }
 
 .button.yellow:hover {
  background-color: #1F4D7A;
+ color: #FAFAFA;
+}
+
+.button-arrow {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.button-arrow::after{
+    content: url(/images/arrow-small-light-white.svg);
+    display: inline-block;
+    width: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: none;
+    margin: 0 0 0 8px;
+    align-items: center;
+
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.yellow.button-arrow::after {
+    content: url(/images/arrow-small-light-blue.svg);
+}
+
+.yellow.button-arrow:hover:after {
+    content: url(/images/arrow-small-light-white.svg);
+
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.button-arrow:hover:after {
+    content: url(/images/arrow-small-light-blue.svg);
+
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.button.button-arrow {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 600;
+    align-items: center;
+}
+
+.button p {
+    align-self: center;
+    padding: none;
+    margin: none;
 }
 
 .button-menu {
@@ -609,6 +661,7 @@ a.button-large-white {
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
   background-color: #fbbd15;
+  color: #1F4D7A;
 }
 
 .button-large:hover{
@@ -950,8 +1003,6 @@ img#subhero-1 {
 
 /* styling photo section text */
 .block-photo {
-    padding-bottom: 2em;
-    padding-left: 2em;
     margin: 2em auto 2em auto;
     max-width: 1000px;
     width: 90%;
@@ -961,14 +1012,24 @@ img#subhero-1 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4); /* this adds the "card" effect */ 
     background-size: cover;
     background-position: center; 
+    overflow: hidden;
+}
+
+.block-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .block-photo ul {
     position: absolute;
-    bottom: 10%;
-    padding-right: 2em;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
-    max-width: 600px;
+    bottom: 0%;
+    padding: 0 2em 1em 2em;
+    max-width: 400px;
+    background-color: rgba(1,1,1,0.3);
+    color: #fafafa;
+    border-radius: 8px;
 }
 
 .block-photo ul li h2 {
@@ -1005,7 +1066,8 @@ img#subhero-1 {
 
 .block-photo-right ul {
     position: absolute;
-    bottom: 10%;
+    bottom: 0;
+    right: 0;
     text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
     color: #fafafa;
     max-width: 500px;
@@ -1115,6 +1177,56 @@ img#subhero-1 {
     margin-right: 20em;
     margin-left: 20em;
 }
+
+
+.project-display-parent {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: 2fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #FAFAFA;
+    margin: 2em auto 2em auto;
+    max-width: 1000px;
+    width: 90%;
+    min-height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4); /* this adds the "card" effect */ 
+    background-size: cover;
+    background-position: center; 
+    overflow: hidden;
+
+}
+    
+.project-display-BG { 
+    grid-area: 1 / 1 / 2 / 3;
+}
+.project-display-text {
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 0;
+    padding: 0 2em 1em 2em;
+    max-width: 500px;
+    min-width: 50%;
+    color: #fafafa;
+    border-radius: 8px;
+    text-shadow: 0px 0px 6px rgba(0,0,0,.8);
+} 
+
+.project-display-text-right {
+    right: 0;
+}
+
+.project-display-text h2 {
+    color: #fafafa;
+    line-height: 1.1em;
+    margin-bottom: 12px;
+}
+
+.project-display-text p {
+    margin-top: 0;
+}
+
 
 .stripe1 {
     background-color: #fbbd15;
@@ -1371,10 +1483,20 @@ a.logoGridlogo:hover {
     bottom: 40%;
     color: #fff;
     z-index: 1;
-    padding-bottom: 0;
+    padding: 0 1em 0 1em;
     margin-bottom: 0;
     text-decoration: none;
     width: 100%;
+    overflow: hidden;
+}
+
+.home-text.home-text-films {
+    width: auto;
+    left: 35%;
+}
+
+.home-text h1 {
+    text-shadow: 0px 0px 8px rgba(0,0,0,.6);
 }
 
 
@@ -1386,6 +1508,11 @@ a.logoGridlogo:hover {
     z-index: 0;
     padding-bottom: 0;
     margin-bottom: 0;
+    text-shadow: 0px 0px 6px rgba(0,0,0,.8);
+}
+
+.home-text-lower span {
+    color: #fbbd15;
 }
 
 .home-text-new {
@@ -1824,6 +1951,15 @@ a.card-link:hover .card {
     to   { opacity: 1}
 }
 
+.heroFadeDelayed {
+    animation: fadeinDelayed 2s;
+    transition-delay: 1s;
+  }
+  @keyframes fadeinDelayed {
+    from { opacity: 0; transform: translate(0, 40px); }
+    to   { opacity: 1; transform: translate(0,0);}
+}
+
 .cookie-banner {
     position: fixed;
     bottom: 40px;
@@ -1911,11 +2047,11 @@ details[open] summary ~ * {
     position: relative;
     height: auto;
     background-color: #fbbd15;
-    color: #1F4D7A;
+    color: black;
     padding-bottom: 5em;
     padding-top: 1em;
     display: inline-block;
-    justify-content: space-between;
+    justify-content: center;
     
 }
 
@@ -1923,6 +2059,7 @@ details[open] summary ~ * {
     margin: 0 5px 0 5px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
   .contain .col {
@@ -1952,6 +2089,7 @@ details[open] summary ~ * {
     font-size: 20px;
     line-height: 1px;
     padding: 20px 0px 0px 0px;
+    color: black;
   }
   .footer .col p {
     font-weight: 200;
@@ -2508,6 +2646,24 @@ details[open] summary ~ * {
         object-fit: cover;
         overflow: hidden;
     }  
+
+    .project-display-parent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        max-height: 500px;
+
+    }
+        
+    .project-display-BG { 
+        grid-area: 1 / 1 / 2 / 2; 
+    }
+
+    .project-display-BG img {
+        object-fit: fill;
+    }
       
 
     
@@ -2529,6 +2685,7 @@ details[open] summary ~ * {
 
     p {
         font-size: 1.2em;
+        line-height: 1.4;
     }
 
     .show-desktop {
@@ -2599,7 +2756,7 @@ details[open] summary ~ * {
         color: white;
       }
       .hover-fill:hover {
-        color: #fff;
+        color: #1F4D7A;
       }
       .hover-fill:hover:before {
         transform: translateX(0);
@@ -2608,7 +2765,7 @@ details[open] summary ~ * {
 
       .button-menu {
         background-color: #fbbd15;
-        color: white;
+        color: #1F4D7A;
         position: relative;
         display: inline-block;
         transition: color .5s;
@@ -2616,28 +2773,10 @@ details[open] summary ~ * {
         border-radius: 5px;
         width: 100%;
     }
-
-    .button-menu:before {
-        content: '';
-        position: absolute;
-        top: 0; left: 0;
-        width: 100%; height: 100%;
-        z-index: -1;
-        transform-origin:0 0 ;
-        transform:translateX(-100%);
-        transition: transform .5s;
-        border-radius: 5px;
-
-        background-color: #1F4D7A;
-        color: white;
-      }
       .button-menu:hover {
         color: #fff;
+        background-color: #1F4D7A
         
-      }
-      .button-menu:hover:before {
-        transform: translateX(0);
-        border-radius: 5px;
       }
 
     
