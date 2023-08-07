@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/fadein.css">
-    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
+    <link rel="stylesheet" href="css/lite-yt-embed.css">
     <link rel="stylesheet" href="/css/flickity.min.css" />
     <link rel="alternate" hreflang="en" href="https://desmondbros.ie/" />
     <link rel="alternate" hreflang="de" href="https://desmondbros.ie/de" />
@@ -54,8 +54,9 @@
 
                 <ul class="show-desktop hide-mobile" id="nav">
                     <li><a href="/film.html" class="hover-fill">film</a></li>
+                    <li><a href="/tv.html" class="hover-fill">TV</a></li>
                     <li><a href="/agency.html" class="hover-fill">commercial</a></li>                    
-                    <li><a href="/work.html" class="hover-fill">work</a></li>
+                    <li><a href="/work.html" class="hover-fill">portfolio</a></li>
                     <li><a href="/contact.html" class="button-menu">contact</a></li>
                 </ul>
             </div>
@@ -77,7 +78,7 @@
                 
             </div>
             <div class="showreel-btn-place"><a href="#showreel" class="button showreel-btn smoothscroll">Play showreel</a></div>
-            <div class="container home-text-lower"><p>*(the twist is that we're sound)</p></div>
+            <div class="container home-text-lower"><p> <span>*</span>(the twist is that we're sound)</p></div>
         </div>
         
     
@@ -149,11 +150,10 @@
         <h2>our showreel</h2>
         <h3 class="subheading">(some of our most creative bits)</h3>
 
-        <script src="https://fast.wistia.com/embed/medias/yhy4bswz9x.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_yhy4bswz9x videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/yhy4bswz9x/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+        <lite-youtube videoid="4qddht-Ae4Y" playlabel="Desmond Bros Media showreel" style="background-image: url('images/showreel-crawford.webp');"></lite-youtube>
 
     </section>
 
-    <div class="container">
     <section>
             <h2 class="center">Let the work do the talking.</h2>
             <section id="portfolio">
@@ -168,7 +168,7 @@
                             <div class="item-wrap">
         
                             <a href="#modal-01" title="">
-                                <img alt="Pure Cork narrative advertising Ireland" src="images/pure-cork-02-500px.webp">
+                                <img alt="Pure Cork narrative advertising Ireland" src="images/pure-cork-02-1920w.webp" loading="lazy">
                                 <div class="portfolio-item-meta overlay-lower"><h5>Visit Cork</h5></div>
                                 <div class="icon-plus"></div>
                                 <div class="overlay">
@@ -188,7 +188,7 @@
                             <div class="item-wrap">
         
                             <a href="#modal-02" title="">
-                                <img alt="Irish film production company" src="images/swappie-05-500w.webp">
+                                <img alt="Irish film production company" src="images/swappie-05-1920w.webp" loading="lazy">
                                 <div class="portfolio-item-meta overlay-lower"><h5>Swappie Ireland</h5></div>
                                 <div class="icon-plus"></div>
                                 <div class="overlay">
@@ -207,7 +207,7 @@
                             <div class="item-wrap">
         
                             <a href="#modal-03" title="">
-                                <img alt="Social Media Video Ireland film production company" src="images/wildflour_01_500w.webp">
+                                <img alt="Social Media Video Ireland film production company" src="images/wildflour_01_1920w.webp" loading="lazy">
                                 <div class="portfolio-item-meta overlay-lower"><h5>Wildflour | Brand Film</h5></div>
                                 <div class="icon-plus"></div>
                                 <div class="overlay">
@@ -226,7 +226,7 @@
                                 <div class="item-wrap">
             
                                 <a href="#soundsgood1" title="">
-                                    <img alt="Commerical TVC Pure Cork Irish production company" src="images/visit-cork-sounds-good-01-500w.jpg">
+                                    <img alt="Commerical TVC Pure Cork Irish production company" src="images/visit-cork-sounds-good-01-1920w.webp" loading="lazy" style="object-position: 10%;">
                                     <div class="portfolio-item-meta overlay-lower"><h5 style="text-shadow: 2px 3px 5px rgba(0,0,0,0.5);">Visit Cork</h5></div>
                                     <div class="icon-plus"></div>
                                     <div class="overlay">
@@ -252,7 +252,7 @@
         
                 <div id="modal-01" class="popup-modal mfp-hide">
         
-                        <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="plLcLjLy6W4"></div>
+                    <lite-youtube videoid="plLcLjLy6W4" playlabel="Pure Cork tourism video"></lite-youtube> 
         
                         <div class="description-box">
                             <h4>Pure Cork - "Perfect Background"</h4>
@@ -263,7 +263,7 @@
         
                 <div id="modal-02" class="popup-modal mfp-hide">
         
-                    <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="B2WAy_FRhJo"></div>
+                    <lite-youtube videoid="B2WAy_FRhJo" playlabel="Swappie video production"></lite-youtube> 
         
                         <div class="description-box">
                             <h4>Swappie | Campaign</h4>
@@ -273,8 +273,7 @@
                     </div><!-- modal-02 End -->
         
                 <div id="modal-03" class="popup-modal mfp-hide">
-                    <script src="https://fast.wistia.com/embed/medias/kmnbqheahz.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_kmnbqheahz videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/kmnbqheahz/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
-        
+                    <lite-youtube videoid="ReyNvtFn9m4" playlabel="Wildflour brand film"></lite-youtube>         
                         <div class="description-box">
                             <h4>Wildflour | Brand Film</h4>
                             <p>Documentary advertising. In collaboration with Notes to Cork. Creative agency: Desmond Bros.</p>
@@ -283,8 +282,7 @@
                     </div><!-- modal-03 End -->
         
                     <div id="soundsgood1" class="popup-modal mfp-hide">
-        
-                        <script src="https://fast.wistia.com/embed/medias/nfecppk6v8.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_nfecppk6v8 videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/nfecppk6v8/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+                        <lite-youtube videoid="jZ_Lda8XRNE" playlabel="Visit Cork"></lite-youtube>
             
                             <div class="description-box">
                                 <h4>Visit Cork | "Cork. Sounds Good."</h4>
@@ -297,14 +295,14 @@
             <p style="text-align: center; font-size: small; padding-top: 7em;">CREATIVE AGENCY | VIDEO PRODUCTION | MUSIC VIDEO PRODUCTION | CORPORATE | COMMERCIAL | FILM | PHOTOGRAPHY | CORK | MUNSTER</p>
 
     </section>
-   </div>
+
 
    <section class="testimonialSection" id="testimonials">
     <h3 class="subheading">in their own words</h3>
     <h2 class="center">testimonials</h2>
     <div class="carousel-main" data-flickity='{ "cellAlign": "center", "wrapAround": true, "autoPlay": true }'>
         <div class="carousel-cell testimonial"> 
-                <div class="carousel-image"><img alt="Repak" src="images/pure-cork-02-500px.webp"></div>
+                <div class="carousel-image"><img alt="Repak" src="images/pure-cork-02-500px.webp" loading="lazy"></div>
                 <div class="carousel-text"><p>"I cannot recommend Desmond Bros enough.</p>
                     <p>They captured and fulfilled the brief whilst adding their own creative flair.</p>
                     <p>We were so thrilled with the final result and would be more than happy to work with them again. I loved their enthusiasm, creativity, professionalism, and the finished product speaks for itself."</p>
@@ -312,19 +310,19 @@
                     
         </div>
         <div class="carousel-cell testimonial"> 
-            <div class="carousel-image"><img alt="Swappie" src="images/swappie-05-500w.webp"></div>
+            <div class="carousel-image"><img alt="Swappie" src="images/swappie-05-500w.webp" loading="lazy"></div>
             <div class="carousel-text">
                 <p>"It has been a pleasure to work with the Desmond Bros. They developed creative concepts, produced high quality imagery/video, and delivered an amazing outcome. We look forward to working with them again for future projects."</p>
                 <h4>Thomas Duggan<br> <span>Project Lead</span> Swappie</h4><img src="/images/client-swappie.svg" style="height: 40px;" alt="Swappie"></div>
         </div>
         <div class="carousel-cell testimonial">
-                <div class="carousel-image"><img alt="Repak" src="images/whiddy-island-01-500h.webp" style="object-position: right top;"></div>
+                <div class="carousel-image"><img alt="Repak" src="images/whiddy-island-01-500h.webp" loading="lazy" style="object-position: right top;"></div>
                 <div class="carousel-text"><p>"They were professional, prompt and full of creative ideas and instinctively knew what we needed.</p>
                     <p>No need for lengthy discussions, or long explanations - they took on board the brief, ran with it and produced exactly what we were looking for.</p>
                     <h4>Siobhán Cronin <br> <span>Editor,</span> Southern Star</h4><img src="/images/client-southern-star.svg" style="height: 30px;"  alt="Southern Star"></div>
         </div>
         <div class="carousel-cell testimonial">
-                <div class="carousel-image"><img alt="Repak" src="images/port-repak-500px.webp"></div>
+                <div class="carousel-image"><img alt="Repak" src="images/port-repak-500px.webp" loading="lazy"></div>
                 <div class="carousel-text"><p>"My team has worked with Desmond Bros for three client projects over the last six months.</p>
                     <p>Their work is of an exceptionally high standard and at all times I've found them to be professional, approachable and easy to deal with."</p>
                     <h4>Paula Lyne <br> <span>Commercial Creative Editor,</span> Journal Media</h4><img src="/images/client-journal.svg" style="height: 30px;"  alt="Southern Star"></div>
@@ -346,12 +344,26 @@
 
     </div>
 
-    <div class="footer">
+    <div class="footer fadeUp">
         <div class="contain">
             <div class="col">
                 <a class="logo-footer" href="/index.html">
                         <div class="logo-box logo-footer"></div>
                 </a>
+            </div>
+            <div class="col">
+                <ul>
+                    <li><a href="/film.html"><h2>Film</h2></a></li>
+                    <li><a href="/film.html">Filmography</a></li>
+                    <li><a href="/film.html#speak-to-her" style="font-style: italic;">Speak to Her</a></li>
+                    <li><a href="/film.html#looking-for" style="font-style: italic;">Looking For</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+                    <li><a href="/tv.html"><h2>TV</h2></a></li>
+                    <li><a href="/cluiche-as-baile.html" style="font-style: italic;">Cluiche As Baile</a></li>
+                </ul>
             </div>
            
             <div class="col">
@@ -360,24 +372,16 @@
                         <li><a href="/agency.html">Creative Agency</a></li>
                         <li><a href="/cork-video-production.html">Video Production</a></li>
                     </ul>
-            </div>
-            <div class="col">
-                    <ul>
-                        <li><a href="/film.html"><h2>Film</h2></a></li>
-                        <li><a href="/film.html">Filmography</a></li>
-                        <li><a href="/film.html#speak-to-her" style="font-style: italic;">Speak to Her</a></li>
-                        <li><a href="/film.html#looking-for" style="font-style: italic;">Looking For</a></li>
-                    </ul>
-            </div>
+            </div>            
             <div class="col">
                     <ul>
                         <li><a href="/contact.html"><h2>Contact</h2></a></li>
-                        <li><a href="/about.html">About Us</a></li>
+                        <li><a href="/about" class="smoothscroll">About Us</a></li>
                     </ul>
             </div>
             <div class="col">
                 <ul>
-                <li><a href="/about.html"><h2>About Us</h2></a></li>
+                    <li><a href="/about.html"><h2>About Us</h2></a></li>
                 <p>Desmond Bros Media is a film & TV production company based in Cork, Ireland. A production company with creative flair, it has extensive experience producing film, TV and commercial video content for broadcasters, companies and organisations.</p>
                 </ul>
             </div>
@@ -413,14 +417,8 @@
     <script src="js/magnific-popup.js"></script>
     <script src="js/init.js"></script>
     <script src="js/fadein.js"></script>
+    <script src="js/lite-yt-embed.js"></script>
 
-    <script src="https://cdn.plyr.io/3.5.6/plyr.js"></script>
-    <script src="https://vjs.zencdn.net/7.19.2/video.min.js"></script>
- <script>
-      document.addEventListener('DOMContentLoaded', () => {
-          const player = Plyr.setup('.js-player');
-      });
-  </script>
 
     <script>
         if (localStorage.getItem("cookieSeen") != "shown") {
