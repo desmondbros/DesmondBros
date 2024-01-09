@@ -8,6 +8,7 @@
         <link rel="icon" sizes="72x72" href="/images/db-favicon.png">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/blog.css">
+        <link rel="stylesheet" href="css/fadein.css">
         <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
         <link rel="stylesheet" href="css/lite-yt-embed.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -65,12 +66,12 @@
 
     <div class="stripe3"></div> 
     <div id="top">
-        <section class="block-white block-transparent heroFade" style="margin-top: 48px; padding-bottom: 0;">
+        <div class="block-white block-transparent" style="margin-top: 48px; padding-bottom: 0;">
            
-            <h1 style="text-shadow: none;">Our work.</h1>
+            <h1 style="text-shadow: none;" class="heroFade">Our work.</h1>
                           
 
-            <section style="max-width: 1000px; margin-left: auto; margin-right: auto;" id="portfolio">
+            <div style="max-width: 1000px; margin-left: auto; margin-right: auto;" id="portfolio" class="heroFade">
                     <div class="portfolio-button-list" id="myBtnContainer">
                         <button class="blog-btn active" onclick="filterSelection('all')"> Show all</button>
                         <button class="blog-btn" onclick="filterSelection('TV')">TV</button>
@@ -85,30 +86,50 @@
                             <!-- portfolio-wrapper -->
                             <div id="portfolio-wrapper" class="bgrid-halfs s-bgrid-halfs cf">
 
-                                <div class="columns portfolio-item">
-                            <div class="item-wrap"> 
-                                                              
-        
-                            <a href="#CAB" title="Cluiche As Baile documentary">
-                                <img alt="Visit Cork commercial TVC production" src="images/Cluiche_As_Baile_Camogie.jpg" loading="lazy">
-                                <div class="portfolio-item-meta overlay-lower"><h5>Cluiche As Baile - the Away Game</h5></div>
-                                <div class="icon-plus"></div>
-                                <div class="overlay">
-                                    <div class="portfolio-item-meta">
-                                        <h5>Cluiche As Baile - the Away Game</h5>
-                                        <p>Feature documentary programme commissioned for broadcast by TG4.</p>
+                                <div class="columns portfolio-item blog-column commercial heroFadeUp">
+                                    <div class="item-wrap"> 
+                                        <a href="#PaircUiChaoimh" title="Pairc Ui Chaoimh Brand Film">
+                                        <img alt="Visit Cork commercial TVC production Cork Ireland" src="images/pairc-ui-chaoimh-brand-commercial-video-production-Cork-01.webp" loading="lazy">
+                                        <div class="overlay-lower">
+                                            <div class="portfolio-item-meta"><h5>Páirc Uí Chaoimh</h5></div>
                                         </div>
-                                </div>
-                            </a>
-                            </div>
-                            </div> <!-- item end -->
+                                        <div class="icon-plus"></div>
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta">
+                                                <h5>Páirc Uí Chaoimh</h5>
+                                                <p>Brand film commissioned by Visit Cork / Pure Cork.</p>
+                                                </div>
+                                        </div>
+                                    </a>
+                                    </div>
+                                </div> <!-- item end -->
 
-                                <div class="columns portfolio-item blog-column commercial">
+                                <div class="columns portfolio-item blog-column film TV heroFadeUp">
+                                    <div class="item-wrap"> 
+                                        <a href="#CAB" title="Cluiche As Baile documentary">
+                                        <img alt="Visit Cork commercial TVC production" src="images/Cluiche_As_Baile_Camogie.jpg" loading="lazy">
+                                        <div class="overlay-lower">
+                                            <div class="portfolio-item-meta"><h5>Cluiche As Baile - the Away Game</h5></div>
+                                        </div>
+                                        <div class="icon-plus"></div>
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta">
+                                                <h5>Cluiche As Baile - the Away Game</h5>
+                                                <p>Feature documentary programme commissioned for broadcast by TG4.</p>
+                                                </div>
+                                        </div>
+                                    </a>
+                                    </div>
+                                </div> <!-- item end -->
+
+                                <div class="columns portfolio-item blog-column commercial heroFadeUp">
                                     <div class="item-wrap">
                 
                                     <a href="#organicoVeg" title="">
                                         <img alt="Documentary advertising commercial Ireland TVC Film" src="images/Organico_Suppliers_3_500w.png">
-                                        <div class="portfolio-item-meta overlay-lower"><h5>Organico - 007 of Organic Veg</h5></div>
+                                        <div class="overlay-lower">
+                                            <div class="portfolio-item-meta"><h5>Organico - 007 of Organic Veg</h5></div>
+                                        </div>
                                         <div class="icon-plus"></div>
                                         <div class="overlay">
                                             <div class="portfolio-item-meta">
@@ -122,12 +143,14 @@
                                     </div>
                                     </div>
 
-                                <div class="columns portfolio-item blog-column film ">
+                                <div class="columns portfolio-item blog-column film heroFadeUp">
                                     <div class="item-wrap">
                 
                                     <a href="#leevyToproad" title="">
                                         <img alt="Music video TVC Film Irish Ireland Leevy" src="images/leevy-top-road-1-500px.png">
-                                        <div class="portfolio-item-meta overlay-lower"><h5 style="text-shadow: 2px 3px 5px rgba(0,0,0,0.5);">Leevy - Top Road Band</h5></div>
+                                        <div class="overlay-lower">
+                                            <div class="portfolio-item-meta"><h5>Leevy - Top Road Band</h5></div>
+                                        </div>
                                         <div class="icon-plus"></div>
                                         <div class="overlay">
                                             <div class="portfolio-item-meta">
@@ -141,12 +164,14 @@
                                     </div>
                                     </div> <!-- item end -->
 
-                                <div class="columns portfolio-item blog-column commercial TV ">
+                                <div class="columns portfolio-item blog-column commercial TV heroFadeUp">
                                     <div class="item-wrap">
                 
                                     <a href="#soundsgood1" title="">
                                         <img alt="Commercial TVC Pure Cork" src="images/visit-cork-sounds-good-01-500w.webp">
-                                        <div class="portfolio-item-meta overlay-lower"><h5 style="text-shadow: 2px 3px 5px rgba(0,0,0,0.5);">Visit Cork</h5></div>
+                                        <div class="overlay-lower">
+                                            <div class="portfolio-item-meta"><h5>Visit Cork | "Cork. Sounds Good."</h5></div>
+                                        </div>
                                         <div class="icon-plus"></div>
                                         <div class="overlay">
                                             <div class="portfolio-item-meta">
@@ -160,12 +185,14 @@
                                     </div>
                                     </div> <!-- item end -->
 
-                                <div class="columns portfolio-item blog-column commercial ">
+                                <div class="columns portfolio-item blog-column commercial heroFadeUp">
                                     <div class="item-wrap">
                 
                                     <a href="#swappie1" title="">
                                         <img alt="Desmond Bros Short Film" src="images/swappie-05-1920w.webp">
-                                        <div class="portfolio-item-meta overlay-lower"><h5>Swappie Ireland</h5></div>
+                                        <div class="overlay-lower">
+                                            <div class="portfolio-item-meta"><h5>Swappie Ireland</h5></div>
+                                        </div>
                                         <div class="icon-plus"></div>
                                         <div class="overlay">
                                             <div class="portfolio-item-meta">
@@ -179,12 +206,14 @@
                                     </div>
                                     </div> <!-- item end -->
                 
-                                <div class="columns portfolio-item blog-column commercial ">
+                                <div class="columns portfolio-item blog-column commercial heroFadeUp">
                                     <div class="item-wrap">
                 
                                     <a href="#wildflour" title="">
                                         <img alt="Social Media Video" src="images/wildflour_01_500w.webp" loading="lazy">
-                                        <div class="portfolio-item-meta overlay-lower"><h5>Wildflour</h5></div>
+                                        <div class="overlay-lower">
+                                            <div class="portfolio-item-meta"><h5>Wildflour</h5></div>
+                                        </div>
                                         <div class="icon-plus"></div>
                                         <div class="overlay">
                                             <div class="portfolio-item-meta">
@@ -198,12 +227,14 @@
                                     </div>
                                     </div> <!-- item end -->
                 
-                                <div class="columns portfolio-item blog-column commercial ">
+                                <div class="columns portfolio-item blog-column commercial heroFadeUp">
                                     <div class="item-wrap">
                 
                                     <a href="#swappie2" title="">
                                         <img alt="Short film production" src="images/swappie_forest_3.webp" loading="lazy">
-                                        <div class="portfolio-item-meta overlay-lower"><h5>Swappie Ireland</h5></div>
+                                        <div class="overlay-lower">
+                                            <div class="portfolio-item-meta"><h5>Swappie Ireland</h5></div>
+                                        </div>
                                         <div class="icon-plus"></div>
                                         <div class="overlay">
                                             <div class="portfolio-item-meta">
@@ -218,12 +249,14 @@
                                     </div>
                                     </div> <!-- item end -->
                 
-                                <div class="columns portfolio-item blog-column commercial ">
+                                <div class="columns portfolio-item blog-column commercial heroFadeUp">
                                     <div class="item-wrap">
                 
                                     <a href="#purecork1" title="">
                                         <img alt="Visit Cork commercial TVC production" src="images/pure-cork-02-500px.webp" loading="lazy">
-                                        <div class="portfolio-item-meta overlay-lower"><h5>Visit Cork</h5></div>
+                                        <div class="overlay-lower">
+                                            <div class="portfolio-item-meta"><h5>Visit Cork</h5></div>
+                                        </div>
                                         <div class="icon-plus"></div>
                                         <div class="overlay">
                                             <div class="portfolio-item-meta">
@@ -235,16 +268,18 @@
                                     </div>
                                     </div> <!-- item end -->
 
-                                <div class="columns portfolio-item blog-column musicVideo film ">
+                                <div class="columns portfolio-item blog-column musicVideo film heroFadeUp">
                                         <div class="item-wrap">
                     
                                         <a href="#leevy" title="">
                                             <img alt="Music video Ireland production company" src="images/leevy-1-500px.webp" loading="lazy">
-                                            <div class="portfolio-item-meta overlay-lower"><h5>Leevy</h5></div>
+                                            <div class="overlay-lower">
+                                                <div class="portfolio-item-meta"><h5>Leevy - Find Your Own Way Back From Town</h5></div>
+                                            </div>
                                              <div class="icon-plus"></div>
                                             <div class="overlay">
                                                 <div class="portfolio-item-meta">
-                                                    <h5>Leevy - "Find Your Own Way Back From Town"</h5>
+                                                    <h5>Leevy - Find Your Own Way Back From Town</h5>
                                                     <p>Music video.</p>
                                                 </div>
                                             </div>
@@ -252,12 +287,14 @@
                                         </div>
                                     </div> <!-- item end -->
             
-                                <div class="columns portfolio-item blog-column film ">
+                                <div class="columns portfolio-item blog-column film heroFadeUp">
                                     <div class="item-wrap">
                 
                                     <a href="#modal-02" title="">
                                         <img src="images/port-speak-to-her-500px.webp" loading="lazy" alt="event">
-                                        <div class="portfolio-item-meta overlay-lower"><h5>Speak to Her</h5></div>
+                                        <div class="overlay-lower">
+                                            <div class="portfolio-item-meta"><h5>Speak to Her</h5></div>
+                                        </div>
                                         <div class="icon-plus"></div>
                                         <div class="overlay">
                                             <div class="portfolio-item-meta">
@@ -271,11 +308,13 @@
                                     </div>
                                     </div> <!-- item end -->
                                              
-                                    <div class="columns portfolio-item blog-column film ">
+                                    <div class="columns portfolio-item blog-column film heroFadeUp">
                                         <div class="item-wrap">                    
                                         <a href="#modal-05" title="">
                                             <img src="images/port-looking-for-500px.webp" loading="lazy" alt="short film">
-                                            <div class="portfolio-item-meta overlay-lower"><h5>Looking For</h5></div>
+                                            <div class="overlay-lower">
+                                                <div class="portfolio-item-meta"><h5>Looking For</h5></div>
+                                            </div>
                                             <div class="icon-plus"></div>
                                             <div class="overlay">
                                                 <div class="portfolio-item-meta">
@@ -288,12 +327,14 @@
                                         </div>
                                         </div> <!-- item end -->
                     
-                                    <div class="columns portfolio-item blog-column film TV ">
+                                    <div class="columns portfolio-item blog-column film TV heroFadeUp">
                                         <div class="item-wrap">
                     
                                         <a href="#modal-08" title="">
                                             <img src="images/simon-01-500px.webp" loading="lazy" alt="event">
-                                            <div class="portfolio-item-meta overlay-lower"><h5>Simon Baker - Documentary</h5></div>
+                                            <div class="overlay-lower">
+                                                <div class="portfolio-item-meta"><h5>Simon Baker - Documentary</h5></div>
+                                            </div>
                                             <div class="icon-plus"></div>
                                             <div class="overlay">
                                                 <div class="portfolio-item-meta">
@@ -314,6 +355,14 @@
             
             
                     <!-- Modal Popup -->
+                    <div id="PaircUiChaoimh" class="popup-modal mfp-hide">
+                        <lite-youtube videoid="TBiog8cDqC0" playlabel="Páirc Uí Chaoimh - Brand Film" style="background-image: url('images/pairc-ui-chaoimh-brand-commercial-video-production-Cork-01.webp');"></lite-youtube>   
+                            <div class="description-box">
+                                <h4>Páirc Uí Chaoimh</h4>
+                                <p>Brand film commissioned by Visit Cork / Pure Cork.</p>
+                            <span class="categories"><img src="images/tag-black.svg" alt="">Commercial, Brand Film, Sports, Tourism</span>
+                            </div>        
+                        </div><!-- modal-01 End -->
                     <div id="CAB" class="popup-modal mfp-hide">
                         <lite-youtube videoid="XERrJxgWt88" playlabel="Speak to Her - Short Film"></lite-youtube>   
                             <div class="description-box">
@@ -462,15 +511,15 @@
             
                     
     
-            </section>
+                    </div>
 
-            </section>
+                </div>
                 
            
 
     </div>
 
-    <div class="container">
+    <div class="container fadeUp">
         <section class="block-yellow" style="max-width: 1000px; margin-left: auto; margin-right: auto; margin-bottom: 1.5em; padding: 2em 1em 2em 1em; border-radius: 10px;">
             <h3>Want to work with us?</h3>
             <p style="text-align: center;">Contact us today, we'd love to hear from you!</p>
@@ -541,7 +590,7 @@
         <div class="lang-select"><p>EN | <a href="/de.html" title="Auf Deutsch">DE</a></p></div>
 
         <div class="copyright">
-            <p>&copy;2023 Desmond Bros Media Limited.</p>
+            <p>&copy;2024 Desmond Bros Media Limited.</p>
             <p>Desmond Bros Media Limited is a company registered in Ireland. CRO No: 678205</p>
             <p>Website design by Desmond Bros.</p>
         </div>
@@ -601,6 +650,7 @@
     <script src="js/magnific-popup.js"></script>
     <script src="js/init.js"></script>
     <script src="js/lite-yt-embed.js"></script>
+    <script src="js/fadein.js"></script>
 
     <script src="https://cdn.plyr.io/3.5.6/plyr.js"></script>
     <script>
