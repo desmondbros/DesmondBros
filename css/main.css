@@ -1023,6 +1023,8 @@ img#subhero-1 {
     background-size: cover;
     background-position: center; 
     overflow: hidden;
+
+    
 }
 
 .block-photo img {
@@ -1059,6 +1061,14 @@ img#subhero-1 {
     border-radius: 10px;
     left: 0;
     background: -moz-linear-gradient(left, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 56%); 
+}
+
+.bg-gradient {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.0) 40%);
 }
 
 /* right-indented photo block text */
@@ -1240,7 +1250,7 @@ img#subhero-1 {
 
 .stripe1 {
     background-color: #fbbd15;
-    clip-path: polygon(100% 0, 100% 0, 0 100%, 0 80%);
+    clip-path: polygon(100% 0, 100% 30px, 0 100%, 0 80%);
     height: 500px;
         left: 0%;
         top: 105%;
@@ -1256,7 +1266,7 @@ img#subhero-1 {
 
 .stripe2 {
     background-color: #fbbd15;
-    clip-path: polygon(0 0, 0 0, 100% 84%, 100% 100%);
+    clip-path: polygon(0 0, 0 10%, 100% 84%, 100% 100%);
     height: 500px;
         left: 0%;
         top: 5%;
@@ -1520,9 +1530,9 @@ a.logoGridlogo:hover {
 .home-text-lower {
     position: absolute;
     text-align: left;
-    bottom: 5%;
+    bottom: 10%;
     color: #fff;
-    z-index: 0;
+    z-index: 2;
     padding-bottom: 0;
     margin-bottom: 0;
     text-shadow: 0px 0px 6px rgba(0,0,0,.8);
@@ -2356,14 +2366,11 @@ details[open] summary ~ * {
 }
 
 .divider-clipped {
-    height: 100px;
+    height: 600px;
     width: 100%;
-    -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 100%);
-    clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 100%);
-    bottom: 0;
-    z-index: 20;
-    margin-top: -1px;
-    margin-bottom: -1px;
+    clip-path: polygon(0 90%, 100% 80%, 100% 90%, 0 100%);
+    bottom: -60px;
+    position: absolute;
 
   }
 
