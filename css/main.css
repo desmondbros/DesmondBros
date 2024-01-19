@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Outfit:400,200,900italic,900,700italic,700,600italic,600,400italic,300italic,300,200italic');
 
 :root {
-    --primary-colour: #0A2342;
-    --secondary-colour: #FFC52B;
+    --primary-colour: #1F4D7A;
+    --secondary-colour: #fbbd15;
     --highlight-colour: #D62828;
     --white-colour: white;
   }
@@ -27,6 +27,7 @@ p2 {
 }
 
 h1 {
+    font-weight: 800;
     text-align: center;
     font-size: 3em;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
@@ -260,7 +261,7 @@ header {
     margin-bottom: 5px;
     position: relative;
     background: #fbbd15;
-    border-radius: 4px;
+    border-radius: 0px;
     z-index: 50;
     transform-origin: 5px 0px;
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
@@ -470,7 +471,9 @@ a img {
 }
 
 a.button {
-    border: none;
+    border: var(--primary-colour);
+    border-style: solid;
+    border-width: 0.4px;
     text-align: center;
     text-decoration: none;
     color: #fafafa;
@@ -488,11 +491,11 @@ a.button {
 
 .button.yellow {
     background-color: #fbbd15;
-    color: #1F4D7A;
+    color: var(--primary-colour);
 }
 
 .button.yellow:hover {
- background-color: #1F4D7A;
+ background-color: var(--primary-colour);
  color: #FAFAFA;
 }
 
@@ -1000,12 +1003,17 @@ img#subhero-1 {
 
 .block-yellow {
     background:  #fbbd15;
-    color: white;
+    color: black;
     padding-bottom: 15em;
     padding-top: 4em;
     padding-left: 0.5em;
     padding-right: 0.5em;
 }
+
+.block-yellow h3 {
+    color: var(--primary-colour);
+}
+
 
 .yellow {
     background-color: var(--secondary-colour);
@@ -1499,14 +1507,13 @@ a.logoGridlogo:hover {
 
 .home-text {
     position: absolute;
-    text-align: center;
+    text-align: left;
     bottom: 40%;
     color: #fff;
     z-index: 1;
     padding: 0 1em 0 1em;
     margin-bottom: 0;
     text-decoration: none;
-    width: 100%;
     overflow: hidden;
 }
 
@@ -1524,13 +1531,18 @@ a.logoGridlogo:hover {
 
 .home-text h1 {
     text-shadow: 0px 0px 8px rgba(0,0,0,.6);
+    text-align: left;
+}
+
+.text-left {
+    text-align: left;
 }
 
 
 .home-text-lower {
     position: absolute;
     text-align: left;
-    bottom: 10%;
+    bottom: 36%;
     color: #fff;
     z-index: 2;
     padding-bottom: 0;
@@ -1594,16 +1606,21 @@ a.logoGridlogo:hover {
   text-align: center;
   display: block;
   margin-bottom: 0;
-  
+  align-items: center;
+}
 
+.overlay-video {
+    background-color:  rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
 }
 
 #video-loop {
     height: 100vh;
-    width: auto;
+    width: 100vw;
     text-align: center;
-  display: none;
   object-fit: cover;
+  object-position: center;
 }
 
 .hero-text {
@@ -1618,7 +1635,6 @@ a.logoGridlogo:hover {
 .hero-image {
     display: block;
     background-size: cover;
-    background-image: url(../images/leevy-3.webp);
     background-repeat: no-repeat;
     height: 100vh;
     background-position: center;
@@ -2059,7 +2075,7 @@ details[open] summary ~ * {
     width: 100%;
     position: relative;
     height: auto;
-    background-color: #fbbd15;
+    background-color: var(--secondary-colour);
     color: black;
     padding-bottom: 5em;
     padding-top: 1em;
@@ -2365,7 +2381,7 @@ details[open] summary ~ * {
     min-height: 500px;
 }
 
-.divider-clipped {
+.divider-clipped-ribbon {
     height: 600px;
     width: 100%;
     clip-path: polygon(0 90%, 100% 80%, 100% 90%, 0 100%);
@@ -2373,6 +2389,20 @@ details[open] summary ~ * {
     position: absolute;
 
   }
+
+
+.divider-clipped {
+    height: 100px;
+    width: 100%;
+    -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 100%);
+    clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 100%);
+    bottom: 0;
+    z-index: 2;
+    margin-top: -1px;
+    margin-bottom: -1px;
+
+  }
+
 
   .divider-white {
     background-color: var(--white-colour);
@@ -2927,6 +2957,7 @@ details[open] summary ~ * {
     }
     .home-text {
         top: 30%;
+        margin-left: 5em;
     }
 
     .home-text.home-text-films {
