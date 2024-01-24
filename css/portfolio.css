@@ -238,7 +238,7 @@ img {
  .item-wrap {
     overflow: hidden;
     position: relative; 
-   border-radius: 10px;
+   border-radius: 4px;
    height: 300px;
    width: 100%;
  }
@@ -389,6 +389,12 @@ img {
      margin: 0 auto;
      border-radius: 5px;
  }
+
+ .popup-modal iframe {
+   width: 100%;
+
+ }
+
  .popup-modal .description-box { padding: 12px 36px 18px 36px; }
  .popup-modal .description-box h4 {
     font: 15px/24px 'Outfit', sans-serif;
