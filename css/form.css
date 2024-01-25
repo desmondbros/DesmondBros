@@ -8,7 +8,6 @@ body  {
 }
 
 
-
 .form-container {
   width: 100%;
   max-width: 700px;
@@ -23,6 +22,7 @@ body  {
   font-family: 'Outfit','Source Sans Pro', sans-serif;
   z-index: 500;
   border-radius: 10px;
+  background-color: white;
 
 }
 

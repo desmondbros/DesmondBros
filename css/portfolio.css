@@ -1,6 +1,13 @@
 /*  1. Basic  ------------------------------------------------------- */
 @import url('https://fonts.googleapis.com/css?family=Outfit:400,200,900italic,900,700italic,700,600italic,600,400italic,300italic,300,200italic');
 
+:root {
+   --primary-colour: #1F4D7A;
+   --secondary-colour: #fbbd15;
+   --highlight-colour: #D62828;
+   --white-colour: white;
+   --black-colour: black;
+ }
 
 body {
    font-family: 'Outfit';
@@ -404,7 +411,7 @@ img {
  }
  .popup-modal .description-box p {
      font: 14px/24px 'Outfit', sans-serif;
-    color: #A1A1A1;
+    color: var(--black-colour);
     margin-bottom: 12px;
  }
  .popup-modal .description-box .categories {

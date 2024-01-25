@@ -2090,7 +2090,8 @@ a.card-link:hover .card {
   }
   
   .carousel-cell {
-    width: 50%;
+    width: 80%;
+    max-width: 800px;
     margin: 20px 10px 20px 20px;
     border-radius: 20px;
     background-color: white;
