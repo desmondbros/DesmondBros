@@ -509,8 +509,8 @@ a.button {
     text-decoration: none;
     color: #fafafa;
     background-color: #1F4D7A;
-    padding: 10px 30px 10px 30px;
-    border-radius: 10px;
+    padding: 12px 20px 12px 20px;
+    border-radius: 4px;
     margin: 0 auto auto auto;
     display: inline-block;
   -webkit-transition: 0.4s ease;
@@ -545,11 +545,22 @@ a.button.button-simple {
     text-align: left;
     margin-left: 0;
     padding-left: 0;
+    text-decoration: underline;
+    text-decoration-color: var(--secondary-colour);
+    text-decoration-thickness: 20%;
 }
 
 .button-arrow.button-simple::after {
     content: url(../images/arrow-small-light.svg);
 }
+
+a.button.button-simple.white {
+   color: var(--white-colour);
+}
+
+a.button.button-simple.white::after {
+    content: url(../images/arrow-small-light-white.svg);
+ }
 
 .button-arrow {
     -webkit-transition: 0.4s ease;
@@ -608,7 +619,7 @@ a.button.button-simple {
     display: inline-block;
     transition: color .5s;
     overflow:hidden;
-    border-radius: 5px;
+    border-radius: 4px;
     width: auto;
 }
 
@@ -1501,9 +1512,17 @@ img#subhero-1 {
     object-fit: contain;
 }
 
+#press a.logoGridlogo {
+    height: 2em;
+    transition: transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
 .logoGridlogo img {
     vertical-align: middle;
-    height: 10px;
+    height: 100%;
+    width: auto;
 }
 
 a.logoGridlogo:hover {
@@ -1661,7 +1680,7 @@ a.logoGridlogo:hover {
   align-items: center;
 }
 
-.home-text-films {
+.home-text.home-text-films {
     position: relative;
     padding: 0;
     display: inline-block;
@@ -1959,6 +1978,14 @@ a.logoGridlogo:hover {
     text-align: center;
     top: 0;
 }
+
+.heroFade {
+    animation: fadein 2s;
+  }
+  @keyframes fadein {
+    from { opacity: 0}
+    to   { opacity: 1}
+  }
 
 .show-mobile {
     display: block;
