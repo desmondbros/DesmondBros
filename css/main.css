@@ -22,7 +22,7 @@ body  {
 
 p, blockquote {
     font-size: 1em;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.2em;
 }
 
@@ -955,8 +955,8 @@ li .img-right {
 }
 
 .laurel {
-    height: 50px;
-    padding-left: 2em;
+    height: 100px;
+    padding-left: 1em;
     padding-top: 8px;
     vertical-align: middle;
 }
@@ -1381,7 +1381,11 @@ img#subhero-1 {
 } 
 
 .project-display-text-right {
-    left: 0;
+    right: 0;
+}
+.project-display-text img {
+    width: 100px;
+    right: 0;
 }
 
 .project-display-text h2 {
