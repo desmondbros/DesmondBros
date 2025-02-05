@@ -37,7 +37,6 @@ h1 {
     text-align: center;
     font-size: 3em;
     line-height: 1em;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     padding-top: 2em;
 }
 
@@ -646,6 +645,7 @@ a.button-large {
     font-weight: 600;
     margin: 0 auto auto auto;
 }
+.underline {text-decoration: underline !important;}
 
 .play-btn {
     width: 40px;
@@ -687,7 +687,7 @@ a.button-large {
 .showreel-btn-place {
     position: absolute;
     bottom: 20%;
-    right: 10%;
+    right: 30%;
     text-align: right;
 }
 
@@ -867,6 +867,14 @@ a.film-image:hover{
     margin-bottom: 20px;
     margin-top: 20px;
 
+}
+
+.link-image {
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0;
 }
 
 .link {
@@ -1700,7 +1708,7 @@ a.logoGridlogo:hover {
 }
 
 .home-text p {
-    text-shadow: 0px 0px 1em rgba(0,0,0,.6);
+    text-shadow: 0px 0px .2em rgba(0,0,0,.6);
 }
 
 .text-left {
@@ -2848,9 +2856,7 @@ details[open] summary ~ * {
         vertical-align: right;
         margin-top: -7em;
     
-    }
-
-    
+    }    
 
     .banner-column h2 {
         margin-top: 0;
@@ -2874,10 +2880,6 @@ details[open] summary ~ * {
     .show-mobile {
         display: block;
     }
-
-
-
-
 
     .copyright {
         text-align: right;
@@ -2937,7 +2939,12 @@ details[open] summary ~ * {
         flex: 40%;
     }
 
-    
+    .showreel-btn-place {
+        position: absolute;
+        bottom: 20%;
+        right: 10%;
+        text-align: right;
+    }   
 
     
 }
@@ -3274,7 +3281,7 @@ details[open] summary ~ * {
     }
 
     .logoGrid.TV {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .logoGridlaurel {
