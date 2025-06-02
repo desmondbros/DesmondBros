@@ -1509,6 +1509,8 @@ img#subhero-1 {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.logoGrid.TV {grid-template-columns: repeat(2, 1fr)}
+
 .logoGridlogo {
     height: 2em;
     margin: auto;
