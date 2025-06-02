@@ -400,7 +400,7 @@ a.blog-card-link:hover .card {
   cursor: pointer;
   border-radius: 10px;
   margin: 0;
-  color: black;
+  color: inherit;
   font-family: inherit;
   font-size: 20px;
   font-weight: 200;

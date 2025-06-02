@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Outfit:500,400,200,900italic,900,700italic,700,600italic,600,400italic,300italic,300,200italic');
 
 :root {
-    --primary-colour: #1F4D7A;
+    --primary-colour: var(--black-colour);
     --secondary-colour: #fbbd15;
     --highlight-colour: #D62828;
     --white-colour: white;
-    --black-colour: black;
+    --black-colour: #0B1215;
+    --blue-colour: #1F4D7A;
   }
 
   ::selection {
@@ -17,7 +18,8 @@
 body  {
     margin: 0;
     font-family: 'Outfit', sans-serif;
-    background: white;
+    background: var(--black-colour);
+    color: var(--white-colour);
 }
 
 p, blockquote {
@@ -41,7 +43,6 @@ h1 {
 }
 
 h2 {
-    color: #1F4D7A;
     font-size: 2em;
     line-height: 1em;
     margin-top: .4em;
@@ -56,7 +57,7 @@ h2 span {
 }
 
 h3 span {
-    color: var(--secondary-colour);
+    color: var(--primary-colour);
 }
 
 
@@ -82,7 +83,7 @@ a {
 }
 
 .subheading  {
-    color: var(--primary-colour);
+    color: inherit;
     font-weight: 300;
     font-size: 1.4em;
     line-height: 1px;
@@ -131,9 +132,11 @@ ul {
 }
 
 .container-short.intro {
-    max-width: 700px;
-    margin: -5px auto 0 auto;
+    max-width: 800px;
+    margin: 2em auto 0 auto;
 }
+
+.section-space {margin-bottom: 4em !important}
 
 #process-steps.container {
     max-width: 800px;
@@ -159,7 +162,6 @@ ul {
 
 .logo-box {
     position: relative;
-    
     max-width: 100%;
     margin-right: 10px;
 }
@@ -170,7 +172,7 @@ ul {
 }
 
 .logo-box::before {
-    content: url(/images/desmond-bros-wordmark-black.svg);
+    content: url(/images/desmond-bros-wordmark-white.svg);
     display: block;
     width: 180px;
     margin-top: 30px;
@@ -181,7 +183,7 @@ ul {
 }
 
 .logo-footer.logo-box::before {
-    content: url(/images/desmond-bros-wordmark-black-with-white-dot.svg);
+    content: url(/images/desmond-bros-wordmark-white.svg);
     width: 160px;
     padding: 0;
     margin: 0;
@@ -214,13 +216,14 @@ header {
 }
 
 .sticky {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: white;
+    height: 120px;
+    background-color: transparent;
     z-index: 5;
-    box-shadow: 3px 4px 8px 3px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(180deg,rgba(0,0,0,.8) 0%,rgba(0,0,0,0) 100%);
 }
 .gluey {
     position: sticky;
@@ -288,7 +291,7 @@ header {
     height: 2.5px;
     margin-bottom: 5px;
     position: relative;
-    background: #fbbd15;
+    background: var(--secondary-colour);
     border-radius: 0px;
     z-index: 50;
     transform-origin: 5px 0px;
@@ -310,7 +313,7 @@ header {
   {
     opacity: 1;
     transform: rotate(45deg) translate(-3px, -1px);
-    background: #fbbd15;
+    background: var(--white-colour);
   }
   #menuToggle input:checked ~ span:nth-last-child(3)
   {
@@ -367,7 +370,7 @@ nav ul {
     right: 0;
     top: 0;
     bottom: 0;
-    background: white;
+    background: var(--secondary-colour);
     z-index: 7;
     text-align: left;
     padding-top: 100px;
@@ -401,20 +404,20 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
+    color: var(--black-colour);
     text-decoration: none;
     display: block;
     width: 100%;
     padding: .8em 10px;
     text-align: left;
-    text-transform: lowercase;
+    text-transform: capitalize;
     font-weight: 600;
     font-size: 1.8em; 
 
 }
 
 nav ul li a:hover {
-    color: #fbbd15;
+    text-decoration: underline;
 
 }
 
@@ -460,26 +463,13 @@ nav ul li a:hover {
 }
 
 .intro p span {
-    font-weight: 200;
-    text-align: center;
+    font-weight: 400;
+    text-align: left;
     color: inherit;
 }
 
 .intro p {
-    text-align: center;
-}
-
-
-
-
-.mountain {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: -3;
-    padding-top: 4em;
-
+    text-align: left;
 }
 
 input,
@@ -501,13 +491,13 @@ a img {
 }
 
 a.button {
-    border: var(--primary-colour);
+    border: var(--white-colour);
     border-style: solid;
-    border-width: 0.4px;
+    border-width: 0px;
     text-align: center;
     text-decoration: none;
     color: #fafafa;
-    background-color: #1F4D7A;
+    background-color: var(--primary-colour);
     padding: 12px 20px 12px 20px;
     border-radius: 4px;
     margin: 0 auto auto auto;
@@ -524,7 +514,7 @@ a.button {
 }
 
 .button.yellow {
-    background-color: #fbbd15;
+    background-color: var(--secondary-colour);
     color: var(--primary-colour);
 }
 
@@ -533,13 +523,12 @@ a.button {
 }
 
 .button.yellow:hover {
- background-color: var(--primary-colour);
- color: #FAFAFA;
+ color: var(--blue-colour);
 }
 
 a.button.button-simple {
     background-color: transparent;
-    color: var(--black-colour);
+    color: inherit;
     border: none;
     text-align: left;
     margin-left: 0;
@@ -550,7 +539,7 @@ a.button.button-simple {
 }
 
 .button-arrow.button-simple::after {
-    content: url(../images/arrow-small-light.svg);
+    content: url(../images/arrow-small-light-white.svg);
 }
 
 a.button.button-simple.white {
@@ -581,7 +570,7 @@ a.button.button-simple.white::after {
     transition: 0.4s ease;
   }
   .button-arrow:hover:after {
-    content: url(../images/arrow-small-light-blue.svg);
+    content: url(../images/arrow-small-light-white.svg);
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
   transform: translateX(6px);
@@ -590,7 +579,7 @@ a.button.button-simple.white::after {
 
 
 .yellow.button-arrow::after {
-    content: url(/images/arrow-small-light-blue.svg);
+    content: url(/images/arrow-small-light.svg);
 }
 
 .yellow.button-arrow:hover:after {
@@ -625,7 +614,7 @@ a.button.button-simple.white::after {
 }
 
 .button-menu:hover {
-    color: #1F4D7A;
+    color: var(--primary-colour);
 }
 
 a.button-large {
@@ -635,7 +624,7 @@ a.button-large {
     text-align: center;
     text-decoration: none;
     color: #fafafa;
-    background-color: #1F4D7A;
+    background-color: var(--primary-colour);
     padding: 20px 50px;
     border-radius: 10px;
 
@@ -906,8 +895,9 @@ a.film-image:hover{
 .link-holder:hover {
     transform: scale(105%);
     transition: transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
-
 }
+
+.link-holder .link img {width: 100%;}
 
 .img-right {
     display: block;
@@ -930,7 +920,8 @@ li .img-right {
 }
 
 .block-white.block-transparent {
-    background: none;
+    background: none !important;
+    color: inherit;
 }
 
 .block-white h3{
@@ -970,13 +961,13 @@ li .img-right {
 }
 
 .showreel {
-    background: #fff;
-    color: black;
+    background: inherit;
+    color: inherit;
+    padding: 0;
     padding-bottom: 10em;
     text-align: center;
     padding-top:7em;
-    
-
+    width: 100%;
 }
 
 
@@ -1077,8 +1068,8 @@ img#subhero-1 {
 }
 
 .block-yellow {
-    background:  #fbbd15;
-    color: black;
+    background:  var(--secondary-colour);
+    color: var(--black-colour);
     padding-bottom: 2em;
     padding-top: 2em;
     padding-left: 0.5em;
@@ -1383,8 +1374,8 @@ img#subhero-1 {
     padding: 0 2em 1em 2em;
     max-width: 500px;
     min-width: 50%;
-    color: #fafafa;
-    border-radius: 8px;
+    color: var(--white-colour);
+    border-radius: var(--border-radius);
     text-shadow: 0px 0px 6px rgba(0,0,0,.8);
 } 
 
@@ -1570,7 +1561,33 @@ a.logoGridlogo:hover {
     padding-top: 10px;
 }
 
+.film-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: auto;
+    overflow: hidden;
+    row-gap: 4px;
+    column-gap: 20px;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
 
+.film-item {
+    flex: 100%;
+    width: 100%;
+    transition: 1s;
+}
+
+.film-item a img { -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;}
+
+.film-item:hover a img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
 
 .icon-row .column {
     flex: 100%;
@@ -1695,13 +1712,18 @@ a.logoGridlogo:hover {
   align-items: center;
 }
 
+.flexIt-normal {
+    display: flex;
+  align-items: center;
+}
+
 .home-text.home-text-films h1 {
     color: var(--black-colour);
     text-shadow: none;
 }
 
 .home-text h1 {
-    text-align: center;
+    text-align: left;
     text-shadow: 0px 0px 3em rgba(0,0,0,.6);
     font-size: 4em;
     padding: 0;
@@ -1709,6 +1731,15 @@ a.logoGridlogo:hover {
 
 .home-text p {
     text-shadow: 0px 0px .2em rgba(0,0,0,.6);
+}
+
+.home-text.home {
+    position: absolute;
+    bottom: 30vh;
+    left: 0;
+    text-align: left !important;
+    max-width: 1000px;
+    width: 98%;
 }
 
 .text-left {
@@ -1792,9 +1823,8 @@ a.logoGridlogo:hover {
 .home-top-video {
   left: 0%;
   top: 0%;
-  padding-top: 4em;
-  height: 100vh;
-  width: 100%;
+  height: 80vh;
+  width: 100vw;
   overflow: hidden;
   position: absolute;
   z-index: -1;
@@ -1811,11 +1841,12 @@ a.logoGridlogo:hover {
 }
 
 #video-loop {
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
     text-align: center;
   object-fit: cover;
   object-position: center;
+  overflow: hidden;
 }
 
 .hero-text {
@@ -1831,11 +1862,13 @@ a.logoGridlogo:hover {
     display: block;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 80vh;
+    width: 100%;
     background-position: center;
     text-align: center;
     margin-bottom: 0;
     padding-bottom: 0;
+    overflow: hidden;
 }
 
 .hero-image2 {
@@ -1981,10 +2014,12 @@ a.logoGridlogo:hover {
     display: block;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 80vh;
+    width: 100%;
     background-position: center;
     text-align: center;
     top: 0;
+    margin: 0;
 }
 
 .heroFade {
@@ -2092,6 +2127,7 @@ a.card-link:hover .card {
     font-size: 1em;
     font-weight: 300;
     line-height: 1.3em;
+    color: var(--black-colour);
 }
 
 .testimonial h4 {
@@ -2101,6 +2137,17 @@ a.card-link:hover .card {
 .testimonial h4 span {
     font-weight: 300;
 
+}
+.hero-carousel {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    z-index: 0;
+    right: 1em;
+    left: auto;
+    bottom: auto;
+    top: auto;
+    border-radius: var(--border-radius);
 }
 
 .photo-carousel-holder {
@@ -2149,6 +2196,7 @@ a.card-link:hover .card {
 .carousel-text {
     flex: 100%;
     padding: 3em 1em 1em 1em;
+    color: var(--primary-colour);
 }
 
 .carousel-full {
@@ -2285,8 +2333,8 @@ details[open] summary ~ * {
     width: 100%;
     position: relative;
     height: auto;
-    background-color: var(--secondary-colour);
-    color: black;
+    background-color: var(--black-colour);
+    color: var(--white-colour);
     padding-bottom: 5em;
     padding-top: 1em;
     display: inline-block;
@@ -2328,7 +2376,6 @@ details[open] summary ~ * {
     font-size: 20px;
     line-height: 1px;
     padding: 20px 0px 0px 0px;
-    color: black;
   }
   .footer .col p {
     font-weight: 200;
@@ -2627,10 +2674,12 @@ details[open] summary ~ * {
     #video-loop {
         width: 100%;
         height: auto;
-        min-height: 100vh;
+        min-height: 80vh;
         text-align: center;
         display: block;
     }
+    .home-top-video {height: 80vh;}
+    .home-text.home {bottom: 10vh; left: -50px;}
 
     .home-text.home-text-films {
         position: relative;
@@ -2651,6 +2700,7 @@ details[open] summary ~ * {
         background-size: cover;
         background-image: none;
         background-repeat: no-repeat;
+        height: 70vh;
     }
 
     .hide-desktop {
@@ -2810,8 +2860,11 @@ details[open] summary ~ * {
         width: 100%;
     }
 
-   
-
+    .film-row .film-item {
+        flex: 30%;
+        width: 100%;
+        padding:0;
+    }
     
 
     .icon-row .column {
@@ -3065,7 +3118,7 @@ details[open] summary ~ * {
     
 
     nav ul li a {
-        color: black;
+        color: var(--white-colour);
         background-color: inherit;
         text-align: center;
         padding-bottom: 10px;
@@ -3074,11 +3127,13 @@ details[open] summary ~ * {
         font-weight: 300;
         font-size: 1em; 
         padding-top: 1em;
+        text-transform: uppercase;
     }
 
     nav ul li a:hover {
         background-color: inherit;
-        color: #1F4D7A;
+        color: var(--black-colour)!important;
+        text-decoration: none;
     
     }
 
@@ -3162,15 +3217,11 @@ details[open] summary ~ * {
     } 
 
     .showreel {
-        background: #fff;
-        color: black;
         padding-bottom: 10em;
         text-align: center;
         padding-top: 6em;
         padding-left: 20%;
-        padding-right: 20%;
-        
-    
+        padding-right: 20%;      
     }
 
     .home-text.home-text-films {
