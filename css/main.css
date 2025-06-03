@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Outfit:500,400,200,900italic,900,700italic,700,600italic,600,400italic,300italic,300,200italic');
+@font-face {
+    font-family: 'Outfit';
+    src: url('/fonts/Outfit-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-display: swap;
+}
 
 :root {
     --primary-colour: var(--black-colour);
@@ -7,17 +12,17 @@
     --white-colour: white;
     --black-colour: #0B1215;
     --blue-colour: #1F4D7A;
-  }
+    --primary-font: 'Outfit';
+    --secondary-font: 'Outfit';
+}
 
-  ::selection {
+::selection {
     background: var(--secondary-colour);
-  }
-
-  
+}
 
 body  {
     margin: 0;
-    font-family: 'Outfit', sans-serif;
+    font-family: var(--primary-font), sans-serif;
     background: var(--black-colour);
     color: var(--white-colour);
 }
@@ -313,7 +318,7 @@ header {
   {
     opacity: 1;
     transform: rotate(45deg) translate(-3px, -1px);
-    background: var(--white-colour);
+    background: var(--black-colour);
   }
   #menuToggle input:checked ~ span:nth-last-child(3)
   {
@@ -1737,11 +1742,11 @@ a.logoGridlogo:hover {
 
 .home-text.home {
     position: absolute;
-    bottom: 30vh;
-    left: 0;
+    bottom: 20vh;
+    left: 25px;
     text-align: left !important;
     max-width: 1000px;
-    width: 98%;
+    width: calc(100% - 80px);
 }
 
 .text-left {
@@ -1826,7 +1831,7 @@ a.logoGridlogo:hover {
   left: 0%;
   top: 0%;
   height: 80vh;
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
   position: absolute;
   z-index: -1;
@@ -1844,7 +1849,7 @@ a.logoGridlogo:hover {
 
 #video-loop {
     height: 80vh;
-    width: 100vw;
+    width: 100%;
     text-align: center;
   object-fit: cover;
   object-position: center;
@@ -2681,7 +2686,7 @@ details[open] summary ~ * {
         display: block;
     }
     .home-top-video {height: 80vh;}
-    .home-text.home {bottom: 10vh; left: -50px;}
+    .home-text.home {bottom: 12vh;}
 
     .home-text.home-text-films {
         position: relative;
@@ -3048,6 +3053,7 @@ details[open] summary ~ * {
     nav {
         margin: 0;
         display: block;
+        overflow: hidden;
     }
 
     nav ul {
