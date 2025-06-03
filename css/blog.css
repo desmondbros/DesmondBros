@@ -152,7 +152,7 @@
 
 a.blog-card-link {
   text-decoration: none;
-  color: inherit;
+  color: black;
 }
 
 a.blog-card-link:hover .card {
@@ -265,7 +265,6 @@ a.blog-card-link:hover .card {
 .blog-container-text h2 {
   font-size: 32px;
   text-align: center;
-  color: black;
   padding-top: 40px;
 }
 
