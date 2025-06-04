@@ -1856,6 +1856,15 @@ a.logoGridlogo:hover {
   overflow: hidden;
 }
 
+video#videoloop::-webkit-media-controls-start-playback-button {
+    display: none !important;
+}
+
+*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
 .hero-text {
     position: sticky;
     left: 50%;
