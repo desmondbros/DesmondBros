@@ -8,6 +8,8 @@
     <link rel="icon" sizes="72x72" href="/images/db-favicon.png">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/fadein.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
     <meta property="og:site_name" content="TV Production Company | Desmond Bros | Cork, Ireland">
     <meta property="og:title" content="TV Production Company | Desmond Bros | Cork, Ireland">
     <meta property="og:description" content="TV Production Company in Cork, Dublin, Ireland">
@@ -97,15 +99,35 @@
                 <div class="project-display-text project-display-text-right fadeUpDelayed"><img src="/images/client-TG4.svg" alt="TG4 TV Ireland"></div>
             </a>
         </div>
-        <div class="block-photo fadeUp">
-            <div class="bg-gradient"></div>
-            <div class="project-display-text project-display-text-left fadeUpDelayed"><h2>Simon Baker</h2>
-                <p>Feature documentary produced by Continu Films for Al Jazeera. Irish unit directed and produced by Desmond Bros.</p>
-            </div>
-            
-            <img src="/images/simon-01.webp" loading="lazy" alt="Factual TV production company documentary Cork Ireland">         
-        </div>        
+        <div class="block-photo fadeUp film-item item-click">
+            <a href="#modal-simon">
+                <img src="/images/simon-01.webp" loading="lazy" alt="Factual TV production company documentary Cork Ireland">  
+                <div class="bg-gradient"></div>
+                <div class="project-display-text project-display-text-left fadeUpDelayed">
+                    <h2>Simon Baker</h2>
+                    <p>Feature documentary produced by Continu Films for Al Jazeera. Irish unit directed and produced by Desmond Bros.</p>
+                    <a href="#modal-simon" class="button button-arrow button-simple white">View project</a>
+                </div>
+                <div class="project-display-text project-display-text-right fadeUpDelayed"><img src="/images/client-al-jazeera.svg" alt="Al Jazeera TV Ireland"></div>
+            </a>
+        </div>  
     </div>
+
+                        <div id="modal-simon" class="popup-modal mfp-hide">
+                        <div class="iframe-container">
+                            <iframe class="responsive-iframe" loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/mNvyrQLM3mM?rel=0" title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
+                        </div>    
+                            <div class="description-box">
+                                <h4>Simon Baker - Documentary Project</h4>
+                                <p>Teaser for documentary project. Shot for Continue Films, Palestine.</p>
+                            <span class="categories"><img src="images/tag-black.svg" alt="">Documentary, Television</span>
+                            </div>
+            
+                        <div class="link-box">
+                            <a class="popup-modal-dismiss">Close</a>
+                        </div>
+            
+                        </div><!-- modal-04 Simon Baker End -->
 
     <div class="container section-space">
         <p style="text-align: center; font-size: small; padding-top: 7em;">TELEVISION | TV PRODUCTION | FACTUAL PROGRAMMES | FICTION | ENTERTAINMENT | FILM | CORK | MUNSTER</p>
@@ -188,6 +210,7 @@
     <script src="js/jquery-1.10.2.min.js"></script>
     <script src="js/init.js"></script>
     <script src="js/fadein.js"></script>
+    <script src="js/magnific-popup.js"></script>
 
     
    
