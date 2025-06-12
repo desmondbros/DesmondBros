@@ -2463,6 +2463,7 @@ details[open] summary ~ * {
     transition: .1s;
     -webkit-transition: .1s;
     -moz-transition: .1s;
+    text-decoration: underline;
 }
 
 
