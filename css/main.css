@@ -965,6 +965,8 @@ li .img-right {
     vertical-align: middle;
 }
 
+.laurelHolder {margin: 4em 0;}
+
 .showreel {
     background: inherit;
     color: inherit;
@@ -1507,6 +1509,8 @@ img#subhero-1 {
     margin: auto;
 }
 
+.logoGridContainer#logoGridLaurels {max-width: 80%; width: 2200px;}
+
 .logoGrid {
     display: grid;
     gap: 50px;
@@ -1543,7 +1547,7 @@ a.logoGridlogo:hover {
 }
 
 .logoGridlaurel {
-    width: 50px;
+    width: 60px;
     height: auto;
     flex: 0 0 calc(33.33% - 20px);
     padding: 4px;
