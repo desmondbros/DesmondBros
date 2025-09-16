@@ -152,7 +152,7 @@ img {
         float: none;
         margin-left: 0;
         margin-right: 0;
-       padding: 0 30px;
+       padding: 0 10px;
     }
     .row-port .row-port { width: auto; max-width: none; margin: 0 -30px; }
  
