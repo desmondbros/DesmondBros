@@ -1559,6 +1559,7 @@ a.logoGridlogo:hover {
     padding: 4px;
     margin: 8px;
     vertical-align: middle;
+    min-width: 0;
 }
 
 .logoGridlaurel img {
