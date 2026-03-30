@@ -20,7 +20,9 @@
     background: var(--secondary-colour);
 }
 
-body  {
+html {overflow-x: hidden;}
+
+html, body  {
     margin: 0;
     font-family: var(--primary-font), sans-serif;
     background: var(--black-colour);
@@ -973,6 +975,7 @@ li .img-right {
     flex-wrap: wrap;
     gap: 1em;
     justify-content:space-around;
+    overflow: hidden;
 }
 
 .showreel {
