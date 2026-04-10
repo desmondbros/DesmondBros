@@ -22,7 +22,7 @@
 
 html {overflow-x: hidden;}
 
-html, body  {
+html  {
     margin: 0;
     font-family: var(--primary-font), sans-serif;
     background: var(--black-colour);
@@ -86,7 +86,7 @@ a {
 
 
 .center {
-    text-align: center;
+    text-align: center !important;
 }
 
 .subheading  {
@@ -1887,6 +1887,13 @@ video#videoloop::-webkit-media-controls-start-playback-button {
 *::-webkit-media-controls-start-playback-button {
   display: none!important;
   -webkit-appearance: none;
+}
+
+.home-top-video img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .hero-text {
