@@ -20,9 +20,15 @@
     background: var(--secondary-colour);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {overflow-x: hidden;}
 
-html, body  {
+html  {
     margin: 0;
     font-family: var(--primary-font), sans-serif;
     background: var(--black-colour);
@@ -1765,12 +1771,12 @@ a.logoGridlogo:hover {
     text-shadow: 0px 0px .2em rgba(0,0,0,.6);
 }
 
-.home-text.home {
+.home {
     position: absolute;
     bottom: 20vh;
     left: 25px;
     text-align: left !important;
-    max-width: 1000px;
+    max-width: 900px;
     width: calc(100% - 80px);
 }
 
@@ -1872,16 +1878,13 @@ a.logoGridlogo:hover {
     height: 100%;
 }
 
-#video-loop {
-    height: 80vh;
+video#video-loop {
     width: 100%;
-    text-align: center;
-  object-fit: cover;
-  object-position: center;
-  overflow: hidden;
+    height: 150px;
+    object-fit: cover;
 }
 
-video#videoloop::-webkit-media-controls-start-playback-button {
+video#video-loop::-webkit-media-controls-start-playback-button {
     display: none !important;
 }
 
@@ -2538,10 +2541,6 @@ details[open] summary ~ * {
     text-align: center;
   }
   
-  * {
-    box-sizing: border-box;
-}
-  
   .responsive {
     padding: 0 6px;
     float: left;
@@ -2741,7 +2740,7 @@ details[open] summary ~ * {
 
 
 @media only screen and (min-width: 650px) { 
-    #video-loop {
+    video#video-loop {
         width: 100%;
         height: auto;
         min-height: 80vh;
@@ -2749,7 +2748,7 @@ details[open] summary ~ * {
         display: block;
     }
     .home-top-video {height: 80vh;}
-    .home-text.home {bottom: 12vh;}
+    .home {bottom: 22vh;}
 
     .home-text.home-text-films {
         position: relative;
@@ -3302,7 +3301,7 @@ details[open] summary ~ * {
         display: flex;
         box-shadow: none;
     }
-    #video-loop {
+    video#video-loop {
         width: 100%;
         height: auto;
         min-height: 100vh;
