@@ -20,11 +20,7 @@
     background: var(--secondary-colour);
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+body {margin: 0;}
 
 html {overflow-x: hidden;}
 
@@ -2748,7 +2744,7 @@ details[open] summary ~ * {
         display: block;
     }
     .home-top-video {height: 80vh;}
-    .home {bottom: 22vh;}
+    .home {bottom: 12vh;}
 
     .home-text.home-text-films {
         position: relative;
