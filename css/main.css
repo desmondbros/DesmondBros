@@ -9,7 +9,7 @@
     --primary-colour: var(--black-colour);
     --secondary-colour: #fbbd15;
     --highlight-colour: #D62828;
-    --white-colour: white;
+    --white-colour: #fafafa;
     --black-colour: #0B1215;
     --blue-colour: #1F4D7A;
     --primary-font: 'Outfit';
@@ -22,7 +22,7 @@
 
 html {overflow-x: hidden;}
 
-html  {
+html, body  {
     margin: 0;
     font-family: var(--primary-font), sans-serif;
     background: var(--black-colour);
@@ -922,7 +922,7 @@ li .img-right {
 } 
 
 .block-white {
-    background: #fff;
+    background: var(--white-colour);
     color: black;
     padding-bottom: 10em;
     text-align: left;
@@ -1138,7 +1138,8 @@ img#subhero-1 {
     background-size: cover;
     background-position: center; 
     overflow: hidden;
-
+    display: block;
+    position: relative;
     
 }
 
@@ -2070,9 +2071,9 @@ video#videoloop::-webkit-media-controls-start-playback-button {
 }
 
 .heroFade {
-    animation: fadein 2s;
+    animation: heroFade 2s;
   }
-  @keyframes fadein {
+  @keyframes heroFade {
     from { opacity: 0}
     to   { opacity: 1}
   }
